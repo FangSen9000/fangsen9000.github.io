@@ -2,11 +2,9 @@
 
 [[Google Scholar(Temporarily no)]](https://scholar.google.com/citations?user=JmO9Tn0AAAAJ&hl=zh-CN&oi=sra) [[Github]](https://github.com/fangsen9000/) 
 
-🏢 Zhengzhou, Henan, China
+🏢 Zhengzhou, Henan, China ☎️ +86 15836057829
 
 📧 [Main-Email](mailto:wirth.fang@foxmail.com) | 👨‍🎓 [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | [Sina Weibo][0] | [Zhihu][1] | 💬 [Issue](https://github.com/FangSen9000/FangSen9000/issues) Me about everything!
-
-☎️ +86 15836057829
 
 ---
 ## About me
