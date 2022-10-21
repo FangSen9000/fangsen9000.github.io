@@ -46,6 +46,7 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 #### Peer Reviewed Conference Papers
 - 3D Change Localization and Captioning from Dynamic Scans of Indoor Scenes, <u>Yue Qiu</u>, Shintaro Yamamoto, Ryosuke Yamada, Ryota Suzuki, Hirokatsu Kataoka, Kenji Iwata, Yutaka Satoh, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023, (accepted).
 
+---
 ## 📫 Contact Me on Social Media
 
 🏢 Zhengzhou, Henan, China ☎️ +86 15836057829
