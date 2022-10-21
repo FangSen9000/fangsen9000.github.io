@@ -1,6 +1,6 @@
 # Welcome to My Page
 
-[[Google Scholar(Temporarily no)]](https://scholar.google.com/citations?user=JmO9Tn0AAAAJ&hl=zh-CN&oi=sra) [[Github]](https://github.com/fangsen9000/) 
+[[Google Scholar]](https://) [[Github]](https://github.com/fangsen9000/) 
 
 🏢 Zhengzhou, Henan, China ☎️ +86 15836057829
 
