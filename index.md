@@ -1,10 +1,10 @@
-[[Google Scholar]](https://scholar.google.com/citations?user=JmO9Tn0AAAAJ&hl=zh-CN&oi=sra) [[Github]](https://github.com/qiuyue1993/) 
+[[Google Scholar(Temporarily no)]](https://scholar.google.com/citations?user=JmO9Tn0AAAAJ&hl=zh-CN&oi=sra) [[Github]](https://github.com/fangsen9000/) 
 
-🏢 Central 1, 1-1-1 Umezono, Tsukuba, Ibaraki 305-8560, JAPAN
+🏢 Zhengzhou, Henan, China
 
-📧 qiu.yue [at] aist.go.jp
+📧 wirth.fang [at] foxmail.com
 
-☎️ 029-861-6442 
+☎️ +86 15836057829
 
 ---
 ## About me
@@ -13,19 +13,18 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 
 ---
 ### Work Experience
-- **Oct, 2021 -- present** Researcher, Computer Vision Research Team, National Institute of Advanced Industrial Science and Technology
+- **Jun, 2022 -- present** Researcher, Computer Vision Research Team, National Institute of Advanced Industrial Science and Technology
 
-- **Apr, 2021 -- Sep, 2021** Postdoctoral Researcher, Computer Vision Research Team, National Institute of Advanced Industrial Science and Technology
+- **Sep, 2020 -- Jun, 2024** Postdoctoral Researcher, Computer Vision Research Team, National Institute of Advanced Industrial Science and Technology
 
-- **May, 2017 -- Mar, 2021** Research Assistant, Computer Vision Research Team, National Institute of Advanced Industrial Science and Technology
+- **Sep, 2020 -- Jun, 2024** Research Assistant, Computer Vision Research Team, National Institute of Advanced Industrial Science and Technology
 
 ---
 ### Education
-- **Apr, 2018 -- Mar, 2021** Ph.D., Department of Computer Science, University of Tsukuba (Japan)
 
-- **Apr, 2016 -- Mar, 2018** MS, Department of Computer Science, University of Tsukuba (Japan)
+- **Sep, 2020 -- Jun, 2024** B.S., Department of information technology , Victoria University, Melbourne (Australia)
 
-- **Sep, 2009 -- Jun, 2014** B.S., Department of Software Engineering, HeFei University of Technology (China)      
+- **Sep, 2020 -- Jun, 2024** B.S., Department of computer science , Henan University, Zhengzhou (China)      
 
 ---
 ### Ph.D. Thesis
