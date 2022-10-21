@@ -1,21 +1,21 @@
-# Welcome to My Page
+# **Welcome to My Page**
 
 [[Google Scholar]](https://) [[Github]](https://github.com/fangsen9000/) 
 
 ---
-## About me
+## **About me**
 
 I am a researcher at Computer Vision Research Team, National Institute of Advanced Industrial Science and Technology (AIST) [[site]](https://www.airc.aist.go.jp/cvrt/). My research interests are Computer Vision, Vision and Language, and 3D Vision. 
 
 ---
-### Selected Experience
+### **Selected Experience**
 
 - **Jun, 2022 -- present** Developer, APISIX, Top Level Project, Apache software foundaiton/api7.ai
 
 - **Jul, 2022 -- Nov, 2022** Speech DL Researcher, multi-modal, Nanyang Technological University
 
 ---
-### Education
+### **Education**
 
 - **Sep, 2020 -- Jun, 2024** B.S., Department of information technology , Victoria University, Melbourne (Australia)
 
@@ -33,21 +33,20 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 + **2021.6** I joined the virtual reality lab with the help of Professor yan, and quit after 3 months due to the change of campus.
 
 ------  
-### Bachelor Thesis
+### **Bachelor Thesis**
 - Research on Evaluation and Improvement of Image Recognition Performance Focusing on Observation Viewpoint, Department of Computer Science, University of Tsukuba, Doctor of Engineering, 2021.04 (Advisor: Yutaka Satoh). [[Thesis Paper]](https://irdb.nii.ac.jp/00843/0005034213)
 
 ---
-### Reviewer for Conferences
+### **Reviewer for Conferences**
 - WACV2023, NeurIPS2022, ECCV2022, CVPR2022, IROS2022, ICPR2022, BMVC2021
 
 ---
-### Publications & Manuscripts
+### **Publications & Manuscripts**
 
-#### Peer Reviewed Conference Papers
 - 3D Change Localization and Captioning from Dynamic Scans of Indoor Scenes, <u>Yue Qiu</u>, Shintaro Yamamoto, Ryosuke Yamada, Ryota Suzuki, Hirokatsu Kataoka, Kenji Iwata, Yutaka Satoh, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023, (accepted).
 
 ---
-### 📫 Contact Me on Social Media
+### 📫 **Contact Me on Social Media**
 
 🏢 Zhengzhou, Henan, China ☎️ +86 15836057829
 
