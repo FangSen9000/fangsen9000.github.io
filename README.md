@@ -30,8 +30,8 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 ---
 ### **What's New:**   
 
-+ **2023.1** I started my four-month winter break at MIT.
-+ **2022.12** I started my long-term research as a collaborator of Dr. Zhou at the National University of Singapore.
++ **2023.1** I started four months of research at MIT.
++ **2022.12** I started my long-term research as a collaborator of Dr. Zhou at the NUS.
 + **2022.7** As a study researcher of Zhang, join NTU in Summer research.
 + **2022.6** As a student of Tutor Yang, join APISIX in OSPP2022.
 + **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
