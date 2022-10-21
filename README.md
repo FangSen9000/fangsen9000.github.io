@@ -18,7 +18,7 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 
 - **Jun, 2022 -- present** Developer, APISIX, Top Level Project, Apache software foundaiton/api7.ai
 
-- **Jul, 2022 -- Nov, 2024** Speech DL Researcher, multi-modal, Nanyang Technological University
+- **Jul, 2022 -- Nov, 2022** Speech DL Researcher, multi-modal, Nanyang Technological University
 
 ---
 ### Education
