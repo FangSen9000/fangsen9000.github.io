@@ -4,7 +4,7 @@
 
 🏢 Zhengzhou, Henan, China
 
-📧 wirth.fang [at] foxmail.com
+📧 [Main-Email](mailto:wirth.fang@foxmail.com)
 
 ☎️ +86 15836057829
 
