@@ -26,8 +26,8 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 
 + **2023.1** I started four months of research at MIT.
 + **2022.12** I started my long-term research as a collaborator of Dr. Zhou at the NUS.
-+ **2022.7** As a study researcher of Zhang, join NTU in Summer research.
-+ **2022.6** As a student of Tutor Yang, join APISIX in OSPP2022.
++ **2022.7** As a study researcher of professor [**@张德道(Teoh TeikToe)**](https://github.com/teohteiktoe), join NTU in Summer research.
++ **2022.6** As a student of mentor [**@杨陶(SkyeYoung)**](https://github.com/SkyeYoung), join APISIX in OSPP2022.
 + **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Professor yan, and quit after 3 months due to the change of campus.
