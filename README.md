@@ -38,7 +38,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 ------  
 ### **Bachelor Thesis**
-- Research on Evaluation and Improvement of Image Recognition Performance Focusing on Observation Viewpoint, Department of Computer Science, University of Tsukuba, Doctor of Engineering, 2021.04 (Advisor: Yutaka Satoh). [[Thesis Paper]](https://irdb.nii.ac.jp/00843/0005034213)
+
+- coming soon
 
 ---
 ### **Reviewer for Conferences**
