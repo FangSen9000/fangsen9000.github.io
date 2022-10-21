@@ -28,13 +28,15 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 - **Sep, 2020 -- Jun, 2024** B.S., Department of computer science , Henan University, Zhengzhou (China)      
 
 ---
-### **News:**   
+### **News**   
 
 + **2023.1** I started four months of research at MIT.
 + **2022.12** I started my long-term research as a collaborator of Dr. Zhou at the NUS.
 + **2022.7** As a study researcher of Zhang, join NTU in Summer research.
 + **2022.6** As a student of Tutor Yang, join APISIX in OSPP2022.
 + **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
++ **2021.9** Completed 2 months of ACM training.
++ **2020.12** I signed up in December and joined the virtual reality lab in the following June with the help of Professor yan, and then completed the 3 lab experience.
 
 ------  
 ### Bachelor Thesis
