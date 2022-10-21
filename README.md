@@ -5,7 +5,11 @@
 ---
 ## **About me**
 
-I am a researcher at Computer Vision Research Team, National Institute of Advanced Industrial Science and Technology (AIST) [[site]](https://www.airc.aist.go.jp/cvrt/). My research interests are Computer Vision, Vision and Language, and 3D Vision. 
+I'm FangSen, a bachelor of computer science with double degree.
+
+My main research field is Speech,
+
+I am open to academic collaborations and please drop me an email if you are interested in collaborating with me.
 
 ---
 ### **Selected Experience**
