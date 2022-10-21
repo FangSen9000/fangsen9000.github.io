@@ -28,6 +28,15 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 - **Sep, 2020 -- Jun, 2024** B.S., Department of computer science , Henan University, Zhengzhou (China)      
 
 ---
+### **What's New:**   
+
++ **2023.1** I started my four-month winter break at MIT.
++ **2022.12** I started my long-term research as a collaborator of Dr. Zhou at the National University of Singapore.
++ **2022.7** As a study researcher of Zhang, join NTU in Summer research.
++ **2022.6** As a student of Tutor Yang, join APISIX in OSPP2022.
++ **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
+
+------  
 ### Bachelor Thesis
 - Research on Evaluation and Improvement of Image Recognition Performance Focusing on Observation Viewpoint, Department of Computer Science, University of Tsukuba, Doctor of Engineering, 2021.04 (Advisor: Yutaka Satoh). [[Thesis Paper]](https://irdb.nii.ac.jp/00843/0005034213)
 
