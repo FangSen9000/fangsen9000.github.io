@@ -4,7 +4,7 @@
 
 🏢 Zhengzhou, Henan, China
 
-📧 [Main-Email](mailto:wirth.fang@foxmail.com)
+📧 [Main-Email](mailto:wirth.fang@foxmail.com) | 👨‍🎓 [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | [Sina Weibo][0] | [Zhihu][1] | 💬 [Issue](https://github.com/FangSen9000/FangSen9000/issues) Me about everything!
 
 ☎️ +86 15836057829
 
