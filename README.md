@@ -51,3 +51,7 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 🏢 Zhengzhou, Henan, China ☎️ +86 15836057829
 
 📧 [Main-Email](mailto:wirth.fang@foxmail.com) | 👨‍🎓 [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | [Sina Weibo][0] | [Zhihu][1] | 💬 [Issue](https://github.com/FangSen9000/FangSen9000/issues) Me about everything!
+
+[0]: https://weibo.com/u/7529631649
+[1]: https://www.zhihu.com/people/ao-gu-si-du-1-15
+[2]: https://blog.csdn.net/m0_50854494?type=blog
