@@ -28,7 +28,7 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 - **Sep, 2020 -- Jun, 2024** B.S., Department of computer science , Henan University, Zhengzhou (China)      
 
 ---
-### **What's New:**   
+### **News:**   
 
 + **2023.1** I started four months of research at MIT.
 + **2022.12** I started my long-term research as a collaborator of Dr. Zhou at the NUS.
