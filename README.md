@@ -47,11 +47,17 @@ I am a researcher at Computer Vision Research Team, National Institute of Advanc
 - 3D Change Localization and Captioning from Dynamic Scans of Indoor Scenes, <u>Yue Qiu</u>, Shintaro Yamamoto, Ryosuke Yamada, Ryota Suzuki, Hirokatsu Kataoka, Kenji Iwata, Yutaka Satoh, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023, (accepted).
 
 ---
-## 📫 Contact Me on Social Media
+### 📫 Contact Me on Social Media
 
 🏢 Zhengzhou, Henan, China ☎️ +86 15836057829
 
 📧 [Main-Email](mailto:wirth.fang@foxmail.com) | 👨‍🎓 [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | [Sina Weibo][0] | [Zhihu][1] | 💬 [Issue](https://github.com/FangSen9000/FangSen9000/issues) Me about everything!
+
+------
+### **Friends:**   
++ [Chenda Duan](https://chendaduan.com/)    
++ [Yanchen Liu](https://liuyanchen1015.github.io/)   
++ [Peixin You](https://hyleindex.github.io/) 
 
 [0]: https://weibo.com/u/7529631649
 [1]: https://www.zhihu.com/people/ao-gu-si-du-1-15
