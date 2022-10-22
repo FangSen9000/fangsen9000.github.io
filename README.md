@@ -28,7 +28,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **News**   
 
-+ **2023.1** I will start four months of research at MIT.
 + **2022.12** I will start my long-term research as a collaborator of NUS Dr. Zhou.
 + **2022.7** As a study researcher of professor [**@张德道(Teoh TeikToe)**](https://github.com/teohteiktoe), join NTU in Summer research.
 + **2022.6** As a student of mentor [**@杨陶(SkyeYoung)**](https://github.com/SkyeYoung), join APISIX in OSPP2022.
