@@ -2,6 +2,8 @@
 
 [[Google Scholar]](https://) [[Github]](https://github.com/fangsen9000/) 
 
+🏢 Zhengzhou, Henan, China  ☎️ +86 15836057829  📧 [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1)
+
 ---
 ## **About me**
 
@@ -48,13 +50,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 ### **Publications & Manuscripts**
 
 - 3D Change Localization and Captioning from Dynamic Scans of Indoor Scenes, <u>Yue Qiu</u>, Shintaro Yamamoto, Ryosuke Yamada, Ryota Suzuki, Hirokatsu Kataoka, Kenji Iwata, Yutaka Satoh, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023, (accepted).
-
----
-### **Contact Me on Social Media**
-
-🏢 Zhengzhou, Henan, China ☎️ +86 15836057829
-
-<tr> [Main-Email](mailto:wirth.fang@foxmail.com) | [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | [Sina Weibo][0] | [Zhihu][1] | [Issue](https://github.com/FangSen9000/FangSen9000/issues) Me about everything! </tr>
 
 ---
 ### **Friends:**   
