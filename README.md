@@ -37,6 +37,10 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Professor yan, and quit after 3 months due to the change of campus.
 
+[\[CV\]](assets/Academic_CV_chong.pdf) [\[E-MAIL: see my CV\]](mailto:chozhang@ethz.ch) [\[Google Scholar\]](https://scholar.google.com/citations?user=lmMS2aoAAAAJ&hl=en)  
+
+<img src="/assets/henu校徽.jfif" alt="henu" height="120"/>
+
 ---
 ### **Bachelor Thesis**
 
