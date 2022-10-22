@@ -52,9 +52,9 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Contact Me on Social Media**
 
-> 🏢 Zhengzhou, Henan, China ☎️ +86 15836057829
+🏢 Zhengzhou, Henan, China ☎️ +86 15836057829
 
-> [Main-Email](mailto:wirth.fang@foxmail.com) | [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | [Sina Weibo][0] | [Zhihu][1] | [Issue](https://github.com/FangSen9000/FangSen9000/issues) Me about everything!
+<tr> [Main-Email](mailto:wirth.fang@foxmail.com) | [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | [Sina Weibo][0] | [Zhihu][1] | [Issue](https://github.com/FangSen9000/FangSen9000/issues) Me about everything! </tr>
 
 ---
 ### **Friends:**   
