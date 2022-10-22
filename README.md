@@ -13,7 +13,6 @@ My main research field is Speech,
 
 I am open to academic collaborations and please drop me an email if you are interested in collaborating with me.
 
-<img src="/assets/henu.png" alt="henu" height="120"/>
 ---
 ### **Selected Experience**
 
@@ -37,6 +36,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Professor yan, and quit after 3 months due to the change of campus.
+
+<img src="/assets/henu.svg" alt="henu" height="120"/>
 
 ---
 ### **Bachelor Thesis**
