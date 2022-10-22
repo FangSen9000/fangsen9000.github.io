@@ -37,7 +37,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Professor yan, and quit after 3 months due to the change of campus.
 
-<img src="/assets/henu.png" alt="henu" height="240"/>
+<img src="/assets/henu.png" alt="henu" height="120"/>
 
 ---
 ### **Bachelor Thesis**
