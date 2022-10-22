@@ -55,7 +55,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 ---
 ### **Friends:**   
-+ [C](https://chendaduan.c/)    
++ [Xichen Pan](https://xichenpan.cn/))
 
 [0]: https://weibo.com/u/7529631649
 [1]: https://www.zhihu.com/people/ao-gu-si-du-1-15
