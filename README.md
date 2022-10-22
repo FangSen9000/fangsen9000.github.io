@@ -1,6 +1,6 @@
 # **Welcome to My Page**
 
-[[Google Scholar]](https://) [[Github]](https://github.com/fangsen9000/) 
+[[Google Scholar]](https://) [[Github]](https://github.com/fangsen9000/) [\[CV\]](assets/Academic_CV_chong.pdf) 
 
 🏢 Zhengzhou, Henan, China  ☎️ +86 15836057829  📧 [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1)
 
@@ -12,8 +12,6 @@ I'm FangSen, a bachelor of computer science with double degree.
 My main research field is Speech,
 
 I am open to academic collaborations and please drop me an email if you are interested in collaborating with me.
-
-[\[CV\]](assets/Academic_CV_chong.pdf) [\[E-MAIL: see my CV\]](mailto:chozhang@ethz.ch) [\[Google Scholar\]](https://scholar.google.com/citations?user=lmMS2aoAAAAJ&hl=en)  
 
 ---
 ### **Selected Experience**
@@ -57,9 +55,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 ---
 ### **Friends:**   
-+ [Chenda Duan](https://chendaduan.com/)    
-+ [Yanchen Liu](https://liuyanchen1015.github.io/)   
-+ [Peixin You](https://hyleindex.github.io/) 
++ [C](https://chendaduan.c/)    
 
 [0]: https://weibo.com/u/7529631649
 [1]: https://www.zhihu.com/people/ao-gu-si-du-1-15
