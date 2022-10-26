@@ -53,7 +53,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Publications & Manuscripts**
 
-+ [WavBriVL: Learning Robust Audio Representations from BriVL](https://arxiv.org/).   
++ [WavBriVL: Learning Robust Audio Representations from BriVL](https://arxiv.org/).
+<u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh.
 The 37th International Conference on Information Networking (ICOIN) Submission.
 
 ---
