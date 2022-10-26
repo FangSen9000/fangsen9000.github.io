@@ -52,7 +52,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Publications & Manuscripts**
 
-- 3D Change Localization and Captioning from Dynamic Scans of Indoor Scenes, <u>Yue Qiu</u>, Shintaro Yamamoto, Ryosuke Yamada, Ryota Suzuki, Hirokatsu Kataoka, Kenji Iwata, Yutaka Satoh, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023, (accepted).
++ [WavBriVL: Learning Robust Audio Representations from BriVL](https://arxiv.org/).   
+The 37th International Conference on Information Networking (ICOIN).
 
 ---
 ### **Friends:**   
