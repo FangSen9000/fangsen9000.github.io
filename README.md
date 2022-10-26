@@ -16,16 +16,16 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Selected Experience**
 
-- **Jun, 2022 -- present** Developer, APISIX, Top Level Project, Apache software foundaiton/api7.ai
++ **Jun, 2022 -- present** Developer, APISIX, Top Level Project, Apache software foundaiton/api7.ai
 
-- **Jul, 2022 -- Nov, 2022** Speech DL Researcher, multi-modal, Nanyang Technological University
++ **Jul, 2022 -- Nov, 2022** Speech DL Researcher, multi-modal, Nanyang Technological University
 
 ---
 ### **Education**
 
-- **Sep, 2020 -- Jun, 2024** B.S., Department of information technology , Victoria University, Melbourne (Australia)
++ **Sep, 2020 -- Jun, 2024** B.S., Department of information technology , Victoria University, Melbourne (Australia)
 
-- **Sep, 2020 -- Jun, 2024** B.S., Department of computer science , Henan University, Zhengzhou (China)      
++ **Sep, 2020 -- Jun, 2024** B.S., Department of computer science , Henan University, Zhengzhou (China)      
 
 ---
 ### **News**   
@@ -43,17 +43,18 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Bachelor Thesis**
 
-- coming soon
++ coming soon
 
 ---
 ### **Professional Activities**
-- 
+
++
 
 ---
 ### **Publications & Manuscripts**
 
 + [WavBriVL: Learning Robust Audio Representations from BriVL](https://arxiv.org/).   
-The 37th International Conference on Information Networking (ICOIN).
+The 37th International Conference on Information Networking (ICOIN) Submission.
 
 ---
 ### **Friends:**   
