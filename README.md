@@ -58,7 +58,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>The 37th International Conference on Information Networking (ICOIN) Submission.
 
 ---
-### **Friends:**   
+### **Friends**   
 + [Xichen Pan](https://xichenpan.cn/)
 
 [0]: https://weibo.com/u/7529631649
