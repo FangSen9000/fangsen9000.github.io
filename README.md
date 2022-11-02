@@ -7,9 +7,9 @@
 ---
 ## **About me**
 
-I'm FangSen, a bachelor of computer science with double degree.
+I'm Sen Fang, a bachelor of computer science with double degree.
 
-My main research field is Speech, My research interest covers Multimodal Deep Learning, Knowledge Representation, audio-visual(talking-face), and Self-Supervised Learning.
+My main research field is Speech, My research interest covers Multimodal Deep Learning, Audio-Visual (talking-face), and Self-Supervised Learning.
 
 I am open to academic collaborations and please drop me an email if you are interested in collaborating with me.
 
