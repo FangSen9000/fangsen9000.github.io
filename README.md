@@ -40,7 +40,8 @@ I am open to academic collaborations and please drop me an email if you are inte
   <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/></a><a href="https://www.vu.edu.au/" target="_blank">
   <img src="assets/vu.png" alt="University of Victoria, Australia" height="120"/></a><a href="https://www.ntu.edu.sg/index" target="_blank">
   <img src="assets/NTU.png" alt="Nanyang Technological University" height="120"/></a><a href="https://apisix.apache.org/" target="_blank">
-  <img src="assets/asfapisix.png" alt="Top Apache project" height="120"/></a><a href="https://www.nus.edu.sg/" target="_blank">
+  <img src="assets/asfapisix.png" alt="Top Apache project" height="120"/>
+</a><a href="https://www.nus.edu.sg/" target="_blank">
   <img src="assets/NUS.png" alt="National University of Singapore" height="120"/></a>
 
 ---
