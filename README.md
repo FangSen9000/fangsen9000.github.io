@@ -37,8 +37,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Professor yan, and quit after 3 months due to the change of campus.
 <a href="https://www.vu.edu.au/" target="_blank">
-  <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/>
-</a>
+  <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/></a><a href="https://www.vu.edu.au/" target="_blank">
+  <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/></a>
 <img src="assets/vu.png" alt="University of Victoria, Australia" height="120"/>
 <img src="assets/NTU.png" alt="Nanyang Technological University" height="120"/>
 <img src="assets/asfapisix.png" alt="Top Apache project" height="120"/>
