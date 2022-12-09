@@ -68,7 +68,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Friends (alphabetic index)**   
 + [Xichen Pan](https://xichenpan.cn/)
-+ [Yangyang Wu]()
++ [Yangyang Wu](https://github.com/Wu177777/yangyangwu.github.io)
 
 [0]: https://weibo.com/u/7529631649
 [1]: https://www.zhihu.com/people/ao-gu-si-du-1-15
