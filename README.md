@@ -63,7 +63,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [WavBriVL: Learning Robust Audio Representations from BriVL](https://arxiv.org/).
 <br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh.
-<br>The 2023 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL) Submission.
+<br>The 17th Conference of the European Chapter of the Association for Computational Linguistics Workshop (EACL) Submission.
 
 ---
 ### **Friends**   
