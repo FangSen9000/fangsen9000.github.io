@@ -9,16 +9,16 @@
 
 I'm Sen Fang, a bachelor of computer science with double degree.
 
-My main research field is Speech, My research interest covers Multimodal Deep Learning, Audio-Visual (talking-face), and Self-Supervised Learning.
+My main research field is Speech, My research interest covers Multimodal Deep Learning(Audio Generated Image), Audio-Visual (talking-face), and Self-Supervised Learning.
 
 I am open to academic collaborations and please drop me an email if you are interested in collaborating with me.
 
 ---
 ### **Selected Experience**
 
-+ **Jun, 2022 -- present** Developer, APISIX, Top Level Project, Apache software foundaiton/api7.ai
++ **Jun, 2022 -- Nov, 2022** Developer, APISIX, Top Level Project, Apache software foundaiton/api7.ai
 
-+ **Jul, 2022 -- Nov, 2022** Speech DL Researcher, multi-modal, Nanyang Technological University
++ **Jul, 2022 -- Dec, 2022** Speech DL Researcher, multi-modal, Nanyang Technological University
 
 ---
 ### **Education**
