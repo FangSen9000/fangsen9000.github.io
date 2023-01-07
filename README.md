@@ -9,7 +9,7 @@
 
 I'm Sen Fang, a bachelor of computer science with double degree.
 
-My main research field is Speech, My research interest covers Multimodal Deep Learning(Audio Generated Image), Audio-Visual (talking-face), and Self-Supervised Learning.
+My main research field is Speech, My research interest covers Multimodal Deep Learning (Audio Generated Image), Audio-Visual (talking-face and sign language representation of text/audio ), and Self-Supervised Learning.
 
 I am open to academic collaborations and please drop me an email if you are interested in collaborating with me.
 
