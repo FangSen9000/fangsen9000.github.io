@@ -47,8 +47,6 @@ I am open to academic collaborations and please drop me an email if you are inte
     <img src="assets/asfapisix.png" alt="Top Apache project" height="120"/>
 </a><a href="https://www.nus.edu.sg/" target="_blank">
     <img src="assets/NUS.png" alt="National University of Singapore" height="120"/>
-</a><a href="https://www.cuhk.edu.hk/" target="_blank">
-    <img src="assets/CUHK.png" alt="Chinese University of Hong Kong" height="120"/>
 </a>
 
 ---
