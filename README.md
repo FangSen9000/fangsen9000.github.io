@@ -74,7 +74,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>International Joint Conference on Neural Networks (IJCNN 2023) Submission.
 
 + [Text2SignTalkingface: Text drives the generation of sign language digital people](https://arxiv.org/).
-<br><u>Yanghao Zhou, Sen Fang*</u>.
 <br>In preparation.
 
 ---
