@@ -67,7 +67,15 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [WavBriVL: Learning Robust Audio Representations from BriVL](https://arxiv.org/).
 <br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh.
-<br>The 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL) Workshop Submission.
+<br>The 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023) Workshop Submission.
+
++ [WavBriVL: New Audio Representations from BriVL and Performance Test](https://arxiv.org/).
+<br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh.
+<br>International Joint Conference on Neural Networks (IJCNN 2023) Submission.
+
++ [Text2SignTalkingface: Text drives the generation of sign language digital people](https://arxiv.org/).
+<br><u>Yanghao Zhou, Sen Fang*</u>.
+<br>In preparation.
 
 ---
 ### **Friends (alphabetic index)**   
