@@ -25,7 +25,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + **Sep, 2020 -- Jun, 2024** B.S., Department of information technology , [Victoria University](https://www.vu.edu.au/), Melbourne (Australia)
 
-+ **Sep, 2020 -- Jun, 2024** B.S., Department of computer science , [Henan University](http://www.henu.edu.cn/), Zhengzhou (China)      
++ **Sep, 2020 -- Jun, 2024** B.S., Department of computer science and technology , [*Henan University*](http://www.henu.edu.cn/), Zhengzhou (China)      
 
 ---
 ### **News**   
