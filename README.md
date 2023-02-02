@@ -64,7 +64,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 ---
 ### **Publications & Manuscripts**
-*\* Equivalent contribution, † Corresponding author
 
 + [Anonymous period, no publicity](https://arxiv.org/).
 <br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh.
@@ -76,6 +75,9 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Text2SignTalkingface: Text drives the generation of sign language digital person](https://arxiv.org/).
 <br>In preparation.
+
+
+\* Equivalent contribution, † Corresponding author
 
 ---
 ### **Friends (alphabetic index)**   
