@@ -70,7 +70,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>The 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023) SRW/Workshop Submission.
 
 + [Anonymous period, no publicity](https://arxiv.org/).
-<br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh.
+<br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh.
 <br>International Joint Conference on Neural Networks (IJCNN 2023) Submission.
 
 + [Text2SignTalkingface: Text drives the generation of sign language digital people](https://arxiv.org/).
