@@ -44,11 +44,11 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + **2023.3** I expect to start my long-term research as CUHK RA.
 + **2022.12** I start my long-term research as a collaborator of NUS Dr. Zhou.
-+ **2022.7** As a study researcher of professor [**@张德道(Teoh TeikToe)**](https://github.com/teohteiktoe), joined NTU in Summer research.
++ **2022.7** As a study researcher of professor [**@张德道(TeikToe Teoh)**](https://github.com/teohteiktoe), joined NTU in Summer research.
 + **2022.6** As a student of mentor [**@杨陶(SkyeYoung)**](https://github.com/SkyeYoung), joined APISIX in OSPP2022.
 + **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
 + **2021.9** Completed 2 months of ACM training.
-+ **2021.6** I joined the virtual reality lab with the help of Professor yan, and quit after 3 months due to the change of campus.
++ **2021.6** I joined the virtual reality lab with the help of Professor [**阎朝坤(Chaokun Yan)**](https://www.scopus.com/authid/detail.uri?authorId=37098476600), and quit after 3 months due to the change of campus.
 
 ---
 ### **Bachelor Thesis**
