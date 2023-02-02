@@ -16,9 +16,21 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Selected Experience**
 
-+ **Jun, 2022 -- Nov, 2022** Developer, APISIX, Top Level Project, Apache software foundaiton/api7.ai
++ **Dec, 2022 -- Pre, 2023** Talking-Face Assignment, multi-modal, National University of Singapore
 
 + **Jul, 2022 -- Dec, 2022** Speech DL Researcher, multi-modal, Nanyang Technological University
+
++ **Jun, 2022 -- Nov, 2022** Developer, APISIX, Top Level Project, Apache software foundaiton/api7.ai
+
+<a href="https://www.ntu.edu.sg/index" target="_blank">
+    <img src="assets/NTU.png" alt="Nanyang Technological University" height="120"/>
+</a><a href="https://apisix.apache.org/" target="_blank">
+    <img src="assets/asfapisix.png" alt="Top Apache project" height="120"/>
+</a><a href="https://www.nus.edu.sg/" target="_blank">
+    <img src="assets/NUS.png" alt="National University of Singapore" height="120"/>
+</a><a href="https://www.cuhk.edu.hk/" target="_blank">
+    <img src="assets/CUHK.png" alt="Chinese University of Hong Kong" height="120"/>
+</a>
 
 ---
 ### **Education**
@@ -37,20 +49,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Professor yan, and quit after 3 months due to the change of campus.
-
-<a href="http://www.henu.edu.cn/" target="_blank">
-    <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/>
-</a><a href="https://www.vu.edu.au/" target="_blank">
-    <img src="assets/vu.png" alt="University of Victoria, Australia" height="120"/>
-</a><a href="https://www.ntu.edu.sg/index" target="_blank">
-    <img src="assets/NTU.png" alt="Nanyang Technological University" height="120"/>
-</a><a href="https://apisix.apache.org/" target="_blank">
-    <img src="assets/asfapisix.png" alt="Top Apache project" height="120"/>
-</a><a href="https://www.nus.edu.sg/" target="_blank">
-    <img src="assets/NUS.png" alt="National University of Singapore" height="120"/>
-</a><a href="https://www.cuhk.edu.hk/" target="_blank">
-    <img src="assets/CUHK.png" alt="Chinese University of Hong Kong" height="120"/>
-</a>
 
 ---
 ### **Bachelor Thesis**
@@ -87,3 +85,15 @@ I am open to academic collaborations and please drop me an email if you are inte
 [0]: https://weibo.com/u/7529631649
 [1]: https://www.zhihu.com/people/ao-gu-si-du-1-15
 [2]: https://blog.csdn.net/m0_50854494?type=blog
+
+
+
+<!--
+
+<a href="http://www.henu.edu.cn/" target="_blank">
+    <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/>
+</a><a href="https://www.vu.edu.au/" target="_blank">
+    <img src="assets/vu.png" alt="University of Victoria, Australia" height="120"/>
+</a>
+
+-->
