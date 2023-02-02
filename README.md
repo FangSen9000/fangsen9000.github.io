@@ -64,7 +64,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 ---
 ### **Publications & Manuscripts**
-\* Equivalent contribution, † Corresponding author
+*\* Equivalent contribution, † Corresponding author
 
 + [Anonymous period, no publicity](https://arxiv.org/).
 <br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh.
