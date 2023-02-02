@@ -73,7 +73,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh.
 <br>International Joint Conference on Neural Networks (IJCNN 2023) Submission.
 
-+ [Text2SignTalkingface: Text drives the generation of sign language digital people](https://arxiv.org/).
++ [Text2SignTalkingface: Text drives the generation of sign language digital person](https://arxiv.org/).
 <br>In preparation.
 
 ---
