@@ -16,11 +16,11 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Selected Experience**
 
-+ **Dec, 2022 -- Pre, 2023** Talking-Face Assignment, multi-modal, National University of Singapore
++ **Dec, 2022 -- Pre, 2023** Talking-Face Assignment, multi-modal, [National University of Singapore](https://www.nus.edu.sg/)
 
-+ **Jul, 2022 -- Dec, 2022** Speech DL Researcher, multi-modal, Nanyang Technological University
++ **Jul, 2022 -- Dec, 2022** Speech DL Researcher, multi-modal, [Nanyang Technological University](https://www.ntu.edu.sg/index)
 
-+ **Jun, 2022 -- Nov, 2022** Developer, APISIX, Top Level Project, Apache software foundaiton/api7.ai
++ **Jun, 2022 -- Nov, 2022** Developer, APISIX, Top Level Project, [Apache software foundaiton](https://github.com/apache)/[api7.ai](https://api7.ai/)
 
 <a href="https://www.ntu.edu.sg/index" target="_blank">
     <img src="assets/NTU.png" alt="Nanyang Technological University" height="120"/>
