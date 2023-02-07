@@ -9,9 +9,9 @@
 
 I'm **Sen Fang**, a bachelor of computer science with double degree.
 
-My main research field is **Speech**, My research interest covers **Multimodal** Deep Learning (Audio Generated Image), **Audio-Visual** (talking-face and sign language representation of text/audio ), **Self-Supervised** Learning and Knowledge **distillation**/Model compression.
+My main research field is **Speech**, My research interest covers **Multimodal** Deep Learning (Audio Generated Image), **Audio-Visual** (talking-face and sign language representation of text/audio ), **Self-Supervised** Learning and Knowledge **Distillation**/Model Compression.
 
-I am open to academic collaborations and please drop me an email if you are interested in collaborating with me.
+I am open to academic collaborations and please drop me an email if you are interested in collaborating with me. I am looking for a Research **intern** or **assistant** position for more than 6 months.
 
 ---
 ### **Selected Experience**
