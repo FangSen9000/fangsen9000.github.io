@@ -1,6 +1,6 @@
 # **Welcome to My Page**
 
-[[Google Scholar]](https://) [[Github]](https://github.com/fangsen9000/) [\[CV-short\]](assets/Academic_CV_chong.pdf) [\[CV-long\]] [\[CV-work\]]
+[[Google Scholar]](https://) [[Github]](https://github.com/fangsen9000/) [\[CV-short\]](assets/Academic_CV_chong.pdf) [\[CV-long\]]() [\[CV-work\]]()
 
 🏢 Zhengzhou, Henan, China  ☎️ +86 15836057829  📧 [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1)
 
