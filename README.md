@@ -83,13 +83,13 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 ---
 ### **Friends (alphabetic index)**   
++ [Hongbin Zhong](https://github.com/rjzhb)
 + [Xichen Pan](https://xichenpan.cn/)
 + [Yangyang Wu](https://github.com/Wu177777/yangyangwu.github.io)
 
 [0]: https://weibo.com/u/7529631649
 [1]: https://www.zhihu.com/people/ao-gu-si-du-1-15
 [2]: https://blog.csdn.net/m0_50854494?type=blog
-
 
 
 <!--
