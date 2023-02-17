@@ -69,7 +69,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Anonymous period, no publicity](https://arxiv.org/).
 <br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh<sup>†</sup>. 
-<br>The 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023) SRW/Workshop Submission. [[Paper]]() [[Code]]()
+<br>The 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023) SRW/Workshop Submission. [[Paper]]() [[Code]]() [\[PPT-theory-part\]](assets/WavBriVL_conceptual_part.pptx)
 
 + [Anonymous period, no publicity](https://arxiv.org/).
 <br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
