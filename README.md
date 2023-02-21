@@ -87,6 +87,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 + [Xichen Pan](https://xichenpan.cn/)
 + [Yangyang Wu](https://github.com/Wu177777/yangyangwu.github.io)
 
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5gilyx79ipr&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async="async"></script>
+
 [0]: https://weibo.com/u/7529631649
 [1]: https://www.zhihu.com/people/ao-gu-si-du-1-15
 [2]: https://blog.csdn.net/m0_50854494?type=blog
