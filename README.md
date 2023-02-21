@@ -87,7 +87,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 + [Xichen Pan](https://xichenpan.cn/)
 + [Yangyang Wu](https://github.com/Wu177777/yangyangwu.github.io)
 
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/4.js?i=5tam016wgig&amp;m=0&amp;h=128&amp;c=ff0000&amp;r=0" async="async"></script>
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5gilyx79ipr&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async="async"></script>
 
 [0]: https://weibo.com/u/7529631649
