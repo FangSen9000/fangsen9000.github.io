@@ -69,11 +69,11 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Anonymous period, no publicity](https://arxiv.org/).
 <br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh<sup>†</sup>. 
-<br>The 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023) SRW/Workshop Submission. [[Paper]]() [[Code]]() [\[PPT-theory-part\]](assets/WavBriVL_conceptual_part.pptx)
+<br>The 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023) SRW/Workshop In Submission. [[Paper]]() [[Code]]() [\[PPT-theory-part\]](assets/WavBriVL_conceptual_part.pptx)
 
 + [Anonymous period, no publicity](https://arxiv.org/).
 <br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
-<br>International Joint Conference on Neural Networks (IJCNN 2023) Submission. [[Paper]]() [[Code]]()
+<br>International Joint Conference on Neural Networks (IJCNN 2023) In Submission. [[Paper]]() [[Code]]()
 
 + [Text2SignTalkingface: Text drives the generation of sign language digital person](https://arxiv.org/).
 <br>In preparation. [[Paper]]() [[Code]]()
