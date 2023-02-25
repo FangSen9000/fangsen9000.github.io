@@ -16,6 +16,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Selected Experience**
 
++ **Feb, 2023 -- Pre, 2023** Sign-NLP generation Assignment, multi-modal, [University of Texas at Dallas](https://www.utdallas.edu/)
+
 + **Dec, 2022 -- Pre, 2023** Talking-Face Assignment, multi-modal, [National University of Singapore](https://www.nus.edu.sg/)
 
 + **Jul, 2022 -- Dec, 2022** Speech DL Researcher, multi-modal, [Nanyang Technological University](https://www.ntu.edu.sg/index)
@@ -32,6 +34,8 @@ I am open to academic collaborations and please drop me an email if you are inte
     <img src="assets/asfapisix.png" alt="Top Apache project" height="120"/>
 </a><a href="https://www.nus.edu.sg/" target="_blank">
     <img src="assets/NUS.png" alt="National University of Singapore" height="120"/>
+</a><a href="https://www.utdallas.edu/" target="_blank">
+    <img src="assets/utd.png" alt="University of Texas at Dallas" height="120"/>
 </a><a href="https://www.cuhk.edu.hk/" target="_blank">
     <img src="assets/CUHK.png" alt="Chinese University of Hong Kong" height="120"/>
 </a>
@@ -46,7 +50,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **News**   
 
-+ **2023.4** I hope to start my long-term research as CUHK RA.
++ **2023.4** I hope to start my long-term research as CUHK RA on campus.
++ **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD.
 + **2022.12** I started my long-term research as a collaborator Dr Student. [**@周杨浩(Yanghao Zhou)**](https://mortyzaigc.netlify.app/) from NUS/BIT.
 + **2022.7** As a study researcher of Prof [**@张德道(TeikToe Teoh)**](https://github.com/teohteiktoe), joined NTU in Summer research.
 + **2022.6** As a student of mentor [**@杨陶(SkyeYoung)**](https://github.com/SkyeYoung), joined APISIX in OSPP2022.
