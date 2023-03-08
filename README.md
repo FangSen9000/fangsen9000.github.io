@@ -52,7 +52,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + **2023.4** I hope to start my long-term research as CUHK RA on campus.
 + **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD.
-+ **2022.12** I started my long-term research as a collaborator Dr Student. [**@周杨浩(Yanghao Zhou)**](https://mortyzaigc.netlify.app/) from NUS/BIT. AI Fellow/Prof [**@王文武(Wenwu Wang)**](http://personal.ee.surrey.ac.uk/Personal/W.Wang/) from the University of Surrey is our advisor.
++ **2022.12** I started my long-term research as a collaborator Dr Student. [**@周杨浩(Yanghao Zhou)**](https://mortyzaigc.netlify.app/) from NUS/BIT. 
+<br>AI Fellow/Prof [**@王文武(Wenwu Wang)**](http://personal.ee.surrey.ac.uk/Personal/W.Wang/) from the University of Surrey is our advisor.
 + **2022.7** As a study researcher of Prof [**@张德道(TeikToe Teoh)**](https://github.com/teohteiktoe), joined NTU in Summer research.
 + **2022.6** As a student of mentor [**@杨陶(SkyeYoung)**](https://github.com/SkyeYoung), joined APISIX in OSPP2022.
 + **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
