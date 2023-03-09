@@ -84,10 +84,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 + [Text2SignTalkingface: Text drives the generation of sign language digital person](https://arxiv.org/).
 <br>In preparation. [Paper] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface)
 
-+ [SignFormer: End-to-End sign language digital person generation based on Text2SignTalkingface](https://arxiv.org/).
-<br>In preparation. [Paper] [Code]
-
-
 \* Equivalent contribution, † Corresponding author
 
 ---
