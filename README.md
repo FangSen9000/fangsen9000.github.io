@@ -1,6 +1,6 @@
 # **Welcome to My Page**
 
-[[Google Scholar]](https://) [[Github]](https://github.com/fangsen9000/) [\[CV-short\]](assets/) [\[CV-long\]]() [\[CV-work\]]()
+[[Google Scholar]](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F5YFgJvvMrNbhBwSnHHSsfFkfvY_aKV3YD5cXFsCfrmYKdaXvmSfnhnqUEhBu6zTSoqlIwIDFuj2C9FB3jIYjSSHrBBeQ&user=BJb9MsgAAAAJ) [[Github]](https://github.com/fangsen9000/) [\[CV-short\]](assets/) [\[CV-long\]]() [\[CV-work\]]()
 
 🏢 Zhengzhou, Henan, China  ☎️ +86 15836057829  📧 [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1)
 
