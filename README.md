@@ -1,3 +1,9 @@
+<style>
+pre {
+  overflow-y: auto;
+  max-height: 300px;
+}
+</style>
 # **Welcome to My Page**
 
 [[Google Scholar]](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ) [[Github]](https://github.com/fangsen9000/) [\[CV-short\]](assets/) [\[CV-long\]]() [\[CV-work\]]()
@@ -50,6 +56,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **News**   
 
+```css
 + **2023.4** I hope to start my long-term research as CUHK RA on campus.
 + **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD.
 + **2022.12** I started my long-term research as a collaborator Dr Student. [**@周杨浩(Yanghao Zhou)**](https://mortyzaigc.netlify.app/) from NUS/BIT. 
@@ -59,6 +66,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Prof [**@阎朝坤(Chaokun Yan)**](https://www.scopus.com/authid/detail.uri?authorId=37098476600), and quit lab after 3 months due to the change of campus.
+```
 
 ---
 ### **Bachelor Thesis**
