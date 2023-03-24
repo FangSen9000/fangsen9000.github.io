@@ -75,14 +75,14 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [New Audio Representations Image Gan Generation from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh<sup>†</sup>. 
-<br>The 2023 IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP 2023) Workshop In Submission. [[arXiv]](https://arxiv.org/abs/2303.04585) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/icassp.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
+<br>The 2023 IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP 2023) Workshop Under Review. [[arXiv]](https://arxiv.org/abs/2303.04585) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/icassp.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
 
 + [Anonymous period, no publicity](https://arxiv.org/).
 <br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
-<br>International Joint Conference on Neural Networks (IJCNN 2023) In Submission. [Paper] [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/ijcnn.pdf)
+<br>International Joint Conference on Neural Networks (IJCNN 2023) Under Review. [Paper] [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/ijcnn.pdf)
 
 + [Text2SignTalkingface: Text drives the generation of sign language digital person](https://arxiv.org/).
-<br>In preparation. [Paper] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface) [Local-PDF] [[Project-page]](https://fangsen9000.github.io/signGPT)
+<br>Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023) In Preparation. [Paper] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface) [Local-PDF] [[Project-page]](https://fangsen9000.github.io/signGPT)
 
 \* Equivalent contribution, † Corresponding author
 
