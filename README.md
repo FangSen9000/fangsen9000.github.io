@@ -51,7 +51,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ### **News**   
 
 + **2023.4** I hope to start my long-term research as CUHK RA on campus.
-+ **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD, who is the author of 'Residual Dense Network for Image Super-Resolution' and the AAAI Chair in the Field of Multimodes.
++ **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD, who is the AAAI 2023 Chair in the Field of MultiModes and the author of [*'Residual Dense Network for Image Super-Resolution'*](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Residual_Dense_Network_CVPR_2018_paper.html).
 + **2022.12** I started my long-term research as a collaborator Dr Student. [**@周杨浩(Yanghao Zhou)**](https://mortyzaigc.netlify.app/) from NUS/BIT. 
 <br>AI Fellow/Prof [**@王文武(Wenwu Wang)**](http://personal.ee.surrey.ac.uk/Personal/W.Wang/) from the University of Surrey is our advisor.
 + **2022.7** As a study researcher of Prof [**@张德道(TeikToe Teoh)**](https://github.com/teohteiktoe), joined NTU in Summer research.
