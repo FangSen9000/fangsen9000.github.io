@@ -22,7 +22,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + **Jul, 2022 -- Dec, 2022** Speech DL Intern, multi-modal, [Nanyang Technological University](https://www.ntu.edu.sg/index)
 
-+ **Jun, 2022 -- Nov, 2022** Developer, APISIX, Top Level Project, [Apache software foundaiton](https://github.com/apache)/[api7.ai](https://api7.ai/)
++ **Jun, 2022 -- Nov, 2022** Developer Intern, APISIX, Top Level Project, [Apache software foundaiton](https://github.com/apache)/[api7.ai](https://api7.ai/)
 
 <a href="http://www.henu.edu.cn/" target="_blank">
     <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/>
