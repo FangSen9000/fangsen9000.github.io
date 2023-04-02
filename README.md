@@ -7,7 +7,7 @@
 ---
 ## **About me**
 
-I'm <font color='red'>**Sen Fang**</font>, a bachelor of computer science with double degree.
+I'm **<font color='red'>Sen Fang</font>**, a bachelor of computer science with double degree.
 
 My main research field is **Speech**, My research interest covers **Multimodal** Deep Learning (Audio Generated Image), **Audio-Visual** (talking-face and sign language representation of text/audio ), **AIGC** (AI-generated content), **Self-Supervised** Learning and Knowledge **Distillation**/Model Compression.
 
