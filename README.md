@@ -49,7 +49,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 ---
 ### **News**   
-<div style="height:300px;width:70px;overflow:auto;background:#EEEEEE;">
+<div style="height:300px;width:400px;overflow:auto;background:#EEEEEE;">
 
 + **2023.4** I hope to start my long-term research as CUHK RA on campus.
 + **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD, who is a senior committee member and audiovisual region chairman of multiple top-level conferences, such as [<font color='red'>AAAI 2023</font>](https://aaai-23.aaai.org/) and the author of [*'Residual Dense Network for Image Super-Resolution'*](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Residual_Dense_Network_CVPR_2018_paper.html).
