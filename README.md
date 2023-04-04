@@ -60,6 +60,29 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Prof [**@阎朝坤(Chaokun Yan)**](https://www.scopus.com/authid/detail.uri?authorId=37098476600), and quit lab after 3 months due to the change of campus.
 
+<details>
+<summary><b>Industrial world</b></summary>
+
+- [**Apache APISIX** *(11k+ Stars!)*](https://github.com/apache/apisix): Apache Top-Level-Project, a cloud native API gateway.
+- [**Apache APISIX Dashboard**](https://github.com/apache/apisix-dashboard): Visual control dashboard of APISIX.
+- [**火山引擎后台管理系统**](https://github.com/FangSen9000/team1730): A backend management system that mimics bytedance volcano Engine cloud service. https://fangsen9000.github.io/team1730/, You can visit our page.
+- [**Php服务端+客户端系统**](https://github.com/FangSen9000/Php-system): An XAMPP-based front and back end systems using PHP and NetBeans.
+- [**河南大学校友会**](https://github.com/FangSen9000/Reunion-henu): A program created by students of Henan University alumni Association.
+- [**Assembly-lab**](https://github.com/FangSen9000/Assembly): Assembly language and technology course experiment code and report.
+- [**SE-system**](https://github.com/FangSen9000/SE-system): System design of software engineering.
+- [**C#-bankmanager**](https://github.com/FangSen9000/Csharp-bankmanager): A bank management system written in C # language.
+- [**Server-management**](https://github.com/FangSen9000/Server-management): Windows 16 server management experiment and report.
+- [**Networks**](https://github.com/FangSen9000/Network): Experiments in computer networks.
+- [**Project-Management**](https://github.com/FangSen9000/Project-Management): Project Management and Practice.
+- [**Communication**](https://github.com/FangSen9000/Communication): Communication and information management.
+- [**Wordpress-edu**](https://github.com/FangSen9000/Wordpress-edu): Use Wordpress to create a mysql-based educational website.
+- [**Cloud-app**](https://github.com/FangSen9000/Cloud-app): Salesforce-based business cloud applications.
+- [**Bootstrap-art**](https://github.com/FangSen9000/Bootstrap-art): Use Bootstrap to create a static introduction to classical art and music.
+- [**校易云校园平台小程序**](https://github.com/FangSen9000/xiaoyiyun): A campus service platform：房森（Wirth） modified the release important pages.
+- [**概率论与统计**](https://github.com/FangSen9000/Probability): Information on probability theory and statistics.
+ 
+</details>
+
 ---
 ### **Bachelor Thesis**
 
