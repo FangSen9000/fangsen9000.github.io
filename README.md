@@ -49,7 +49,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 ---
 ### **News**   
-<pre style="overflow:scroll;">
 
 + **2023.4** I hope to start my long-term research as CUHK RA on campus.
 + **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD, who is a senior committee member and audiovisual region chairman of multiple top-level conferences, such as [<font color='red'>AAAI 2023</font>](https://aaai-23.aaai.org/) and the author of [*'Residual Dense Network for Image Super-Resolution'*](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Residual_Dense_Network_CVPR_2018_paper.html).
@@ -61,7 +60,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Prof [**@阎朝坤(Chaokun Yan)**](https://www.scopus.com/authid/detail.uri?authorId=37098476600), and quit lab after 3 months due to the change of campus.
 
-</pre>
 ---
 ### **Bachelor Thesis**
 
