@@ -51,7 +51,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ### **News**   
 
 + **2023.4** I hope to start my long-term research as CUHK RA on campus.
-+ **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD, who is a senior committee member and audiovisual region chairman of multiple top-level conferences, such as [<font color='red'>AAAI 2023</font>](https://aaai-23.aaai.org/) and the author of [*'Residual Dense Network for Image Super-Resolution'*](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Residual_Dense_Network_CVPR_2018_paper.html).
++ **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD, senior committee member and audiovisual region chairman of multiple top-level conferences, such as [<font color='red'>AAAI 2023</font>](https://aaai-23.aaai.org/) and the author of [*'Residual Dense Network for Image Super-Resolution'*](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Residual_Dense_Network_CVPR_2018_paper.html).
 + **2022.12** I started my long-term research as a collaborator Dr Student. [**@周杨浩(Yanghao Zhou)**](https://mortyzaigc.netlify.app/) from NUS/BIT. 
 <br>Our advisor is Prof [**@王文武(Wenwu Wang)**](http://personal.ee.surrey.ac.uk/Personal/W.Wang/) from the University of Surrey, who is AI Fellow/Chair of numerous the speech signal laboratories/committees, also the editor and chairman of some journals/conferences, such as [<font color='red'>Nature•SR</font>](https://www.nature.com/srep/), [<font color='red'>TSP</font>](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=78), [<font color='red'>TASLP</font>](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655), [<font color='red'>SPL</font>](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [<font color='red'>ICASSP</font>](http://www.wikicfp.com/cfp/program?id=1289), [<font color='red'>Interspeech</font>](http://www.wikicfp.com/cfp/program?id=1624), etc.
 + **2022.7** As a study researcher of Prof [**@张德道(TeikToe Teoh)**](https://github.com/teohteiktoe), joined NTU in Summer research.
@@ -59,29 +59,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2022.2** Completed 2 months of <font color='red'></font>Bytedance youth-camp as a team captain.
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Prof [**@阎朝坤(Chaokun Yan)**](https://www.scopus.com/authid/detail.uri?authorId=37098476600), and quit lab after 3 months due to the change of campus.
-
-<details>
-<summary><b>Industrial world</b></summary>
-
-- [**Apache APISIX** *(11k+ Stars!)*](https://github.com/apache/apisix): Apache Top-Level-Project, a cloud native API gateway.
-- [**Apache APISIX Dashboard**](https://github.com/apache/apisix-dashboard): Visual control dashboard of APISIX.
-- [**火山引擎后台管理系统**](https://github.com/FangSen9000/team1730): A backend management system that mimics bytedance volcano Engine cloud service. https://fangsen9000.github.io/team1730/, You can visit our page.
-- [**Php服务端+客户端系统**](https://github.com/FangSen9000/Php-system): An XAMPP-based front and back end systems using PHP and NetBeans.
-- [**河南大学校友会**](https://github.com/FangSen9000/Reunion-henu): A program created by students of Henan University alumni Association.
-- [**Assembly-lab**](https://github.com/FangSen9000/Assembly): Assembly language and technology course experiment code and report.
-- [**SE-system**](https://github.com/FangSen9000/SE-system): System design of software engineering.
-- [**C#-bankmanager**](https://github.com/FangSen9000/Csharp-bankmanager): A bank management system written in C # language.
-- [**Server-management**](https://github.com/FangSen9000/Server-management): Windows 16 server management experiment and report.
-- [**Networks**](https://github.com/FangSen9000/Network): Experiments in computer networks.
-- [**Project-Management**](https://github.com/FangSen9000/Project-Management): Project Management and Practice.
-- [**Communication**](https://github.com/FangSen9000/Communication): Communication and information management.
-- [**Wordpress-edu**](https://github.com/FangSen9000/Wordpress-edu): Use Wordpress to create a mysql-based educational website.
-- [**Cloud-app**](https://github.com/FangSen9000/Cloud-app): Salesforce-based business cloud applications.
-- [**Bootstrap-art**](https://github.com/FangSen9000/Bootstrap-art): Use Bootstrap to create a static introduction to classical art and music.
-- [**校易云校园平台小程序**](https://github.com/FangSen9000/xiaoyiyun): A campus service platform：房森（Wirth） modified the release important pages.
-- [**概率论与统计**](https://github.com/FangSen9000/Probability): Information on probability theory and statistics.
- 
-</details>
 
 ---
 ### **Bachelor Thesis**
