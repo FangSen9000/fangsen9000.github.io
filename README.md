@@ -89,7 +89,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Friends (alphabetic index)**   
 + [Hongbin Zhong](https://github.com/rjzhb)
-+ [Xichen Pan](https://xichenpan.com/)
 + [Yangyang Wu](https://github.com/Wu177777/yangyangwu.github.io)
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5gilyx79ipr&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async="async"></script>
