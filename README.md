@@ -75,7 +75,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [New Audio Representations Image Gan Generation from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u>Sen Fang</u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh<sup>†</sup>. 
-<br>The 2023 IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP 2023) Workshop Under Review. [[arXiv]](https://arxiv.org/abs/2303.04585) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/icassp.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
+<br>The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023) Workshop Under Review. [[arXiv]](https://arxiv.org/abs/2303.04585) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/icassp.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
+*There is no anonymity period and the existence of preprints is legal*
 
 + [Anonymous period, no publicity](https://arxiv.org/).
 <br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
