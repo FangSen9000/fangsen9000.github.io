@@ -80,7 +80,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Anonymous period, no publicity](https://arxiv.org/).
 <br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
-<br>The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) Under ARR Review. [Paper] [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/ijcnn.pdf)
+<br>The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) Under ARR Review. [Paper] [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/EMNLP_2023.pdf)
 
 + [Text2SignTalkingface: Text drives the generation of sign language digital person](https://arxiv.org/).
 <br>Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023) In Preparation. [Paper] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface) [Local-PDF] [[Project-page]](https://fangsen9000.github.io/signGPT)
