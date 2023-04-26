@@ -78,9 +78,9 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023) Workshop Under Review. [Paper] [[arXiv]](https://arxiv.org/abs/2303.04585) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/icassp.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
 <br>*There is no anonymity period and the existence of preprints is legal*
 
-+ [Anonymous period, no publicity](assets/EMNLP_2023.pdf).
++ [Anonymous period, no publicity](https://openreview.net/forum?id=eG2xjT7-ZOO).
 <br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
-<br>The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) Under ARR Review. [Paper] [[Preprint]](https://openreview.net/forum?id=eG2xjT7-ZOO) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/EMNLP_2023.pdf)
+<br>The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) Under ARR Review. [Paper] [[Preprint]](https://openreview.net/forum?id=eG2xjT7-ZOO) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [Local-PDF]
 
 + [Text2SignTalkingface: Text drives the generation of sign language digital person](https://arxiv.org/).
 <br>Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS 2023) In Preparation. [Paper] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface) [Local-PDF] [[Project-page]](https://fangsen9000.github.io/signGPT)
