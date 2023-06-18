@@ -68,7 +68,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Professional Activities**
 
-+ ACL ARR Reviewer
++ [<font color='red'>ACL ARR</font>](https://aclrollingreview.org/) Reviewer
 
 ---
 ### **Publications & Manuscripts**
