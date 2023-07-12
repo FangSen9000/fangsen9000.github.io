@@ -11,6 +11,8 @@ I'm **<font color='red'>Sen Fang</font>**, a bachelor of computer science with d
 
 My main research field is **Speech**, My research interest covers **Multimodal** Deep Learning (Audio Generated Image), **Audio-Visual** (talking-face and sign language representation of text/audio ), **AIGC** (AI-generated content), **Self-Supervised** Learning and Knowledge **Distillation**/Model Compression.
 
+The subject of recent work is **Sign Language Generation**. It has *high entry threshold*, *small competition*, *low admission difficulty*, *annual technology hot spots can be continuously applied*, and it is easy to get **funding** (or medical). I think it's a worthwhile direction for new assistant professors(AP) to add to almost any lab.
+
 I am open to academic collaborations and please drop me an email if you are interested in collaborating with me. I am looking for a Research **intern** or **assistant** position for more than 6 months.
 
 ---
