@@ -70,7 +70,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Professional Activities**
 
-+ [<font color='red'>ACL ARR</font>](https://aclrollingreview.org/) Reviewer
++ **Reviewer** for [<font color='red'>ACL ARR</font>](https://aclrollingreview.org/), [<font color='red'>ICONIP</font>](http://www.iconip2023.org/)
 
 ---
 ### **Publications & Manuscripts**
