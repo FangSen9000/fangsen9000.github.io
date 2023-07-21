@@ -81,7 +81,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Does sign language generation really need DensePose?](https://arxiv.org/)
 <br><u>Sen Fang</u>.
-<br>ICCV 2023 Workshop In Preparation. [Paper] [Code] [Local-PDF]
+<br>NIPS 2023 Workshop In Preparation. [Paper] [Code] [Local-PDF]
 
 + [Anonymous period, no publicity](https://openreview.net/forum?id=eG2xjT7-ZOO).
 <br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
