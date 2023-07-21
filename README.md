@@ -62,25 +62,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2021.9** Completed 2 months of ACM training.
 + **2021.6** I joined the virtual reality lab with the help of Prof [**@阎朝坤(Chaokun Yan)**](https://www.scopus.com/authid/detail.uri?authorId=37098476600), and quit lab after 3 months due to the change of campus.
 
-<a data-toggle="modal" href="#morenews">[...] More</a> <br>
-    <div class="modal fade" id="morenews" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" style="text-align: center"><strong>More Previous News</strong></h4>
-        </div>
-        <div class="modal-body">
-            <div style="padding: 0 30px 0">
-              [2019.08] Our paper is accepted by Expert Systems With Applications (IF: 4.292).<br>
-              [2019.02] Our paper is accepted by IEEE Journal of Translational Engineering in Healthand Medicine (JTEHM).<br>
-              [2018.10] Our paper is accepted by IEEE Journal of Translational Engineering in Healthand Medicine (JTEHM).<br>
-              [2018.06] Our paper is accepted by IJCAI Workshop 2018.<br>
-              [2017.10] Our paper is accepted by IEEE-NIH Special Topics Conference on Healthcare Innovations and Point-of-Care Technologies (HI-POCT'17).<br>
-            </div>
-        </div>
-      </div>
-  </div>
-
 ---
 ### **Bachelor Thesis**
 
