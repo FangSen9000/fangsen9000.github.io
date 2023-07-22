@@ -11,9 +11,14 @@ I'm **<font color='red'>Sen Fang</font>**, a bachelor of computer science with d
 
 My main research field is **Speech**, My research interest covers **Multimodal** Deep Learning (Audio Generated Image), **Audio-Visual** (talking-face and sign language representation of text/audio ), **AIGC** (AI-generated content), **Self-Supervised** Learning and Knowledge **Distillation**/Model Compression.
 
-The subject of recent work is **Sign Language Generation**. It has <font color='green'>high entry threshold</font>, <font color='green'>small competition</font>, <font color='green'>low difficulty in receiving papers</font>, <font color='green'>annual tech hot-spots can be continuously applied</font>, and it is easy to get **funding** (or medical funding). I think it's a worthwhile direction for **new assistant professors**(AP) to add to almost any lab.
+The subject of recent work is **Sign Language Generation**. It has <font color='green'>high entry threshold</font>, <font color='green'>small competition</font>, <font color='green'>low difficulty in receiving papers</font>, <font color='green'>annual tech hot-spots can be continuously applied</font>, and it is easy to get **funding** (or medical funding). I think .
 
 I am open to academic collaborations and please drop me an email if you are interested in collaborating with me. I am looking for a Research **intern** or **assistant** position for more than 6 months.
+
+Recently I have been interested in the following topic: 
++ <font color='green'>AIGC</font>, generating a new world is fun.
++ <font color='green'>Embodied Intelligence/Large model</font>, it's exhilarating to see the power of AI firsthand.
++ <font color='green'>Sign Language Generation</font>, it's a worthwhile direction for **AP** to add to your almost any lab, I can introduce you to this field.
 
 ---
 ### **Selected Experience**
