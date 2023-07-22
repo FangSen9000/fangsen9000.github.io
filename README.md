@@ -78,21 +78,21 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Publications & Manuscripts**
 
-+ **SignGPT: Multi-modal Input Drives Generative Pre-training Transformer for Sign Language Digital Person**.
++ [SignGPT: Multi-modal Input Drives Generative Pre-training Transformer for Sign Language Digital Person](https://arxiv.org/).
 <br><u>Sen Fang</u>, , Yanghao Zhou, Xuedong Zhang, Jingwen Cai, Yapeng Tian.
 <br>WACV 2023 In Working. [Paper] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface) [Local-PDF] [[Project-page]](https://fangsen9000.github.io/signGPT)
 
-+ **Does sign language generation really need DensePose?**
++ [Does sign language generation really need DensePose?](https://arxiv.org/).
 <br><u>Sen Fang</u>.
 <br>NIPS 2023 Workshop In Preparation. [Paper] [Code] [Local-PDF]
 
-+ **Anonymous period, no publicity**.
++ [Anonymous period, no publicity](https://openreview.net/forum?id=eG2xjT7-ZOO).
 <br><u>Sen Fang</u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
 <br>EMNLP 2023 Under ARR Review. [Paper] [[Preprint]](https://openreview.net/forum?id=eG2xjT7-ZOO) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [Local-PDF]
 <br>*In the second round of review, the preprint was not up to date*
 
-+ **New Audio Representations Image Gan Generation from BriVL**.
-<br><b>Sen Fang</b>, Yangjian Wu, Bowen Gao, Teik Toe Teoh<sup>†</sup>. 
++ [New Audio Representations Image Gan Generation from BriVL](https://arxiv.org/abs/2303.04585).
+<br><b><u>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh<sup>†</sup>. 
 <br>ACL 2023 Workshop Under Review. [Paper] [[arXiv]](https://arxiv.org/abs/2303.04585) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/icassp.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
 <br>*The preprint was not up to date*
 
