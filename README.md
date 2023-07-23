@@ -79,7 +79,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ### **Publications & Manuscripts**
 
 + [SignGPT: Multi-modal Input Drives Generative Pre-training Transformer for Sign Language Digital Person](https://arxiv.org/).
-<br><u><b>Sen Fang</b></u>, , Yanghao Zhou, Xuedong Zhang, Jingwen Cai, Yapeng Tian.
+<br><u><b>Sen Fang</b></u>, Yanghao Zhou, Xuedong Zhang, Jingwen Cai, Yapeng Tian.
 <br>WACV 2023 In Working. [Paper] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface) [Local-PDF] [[Project-page]](https://fangsen9000.github.io/signGPT)
 
 + [Does sign language generation really need DensePose?](https://arxiv.org/).
