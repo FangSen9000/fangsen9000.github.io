@@ -23,7 +23,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + **Feb, 2023 -- Pre, 2023** Sign-NLP generation Intern, multi-modal, [University of Texas at Dallas](https://www.utdallas.edu/)
 
-+ **Dec, 2022 -- Pre, 2023** Talking-Face Assignment, multi-modal, [National University of Singapore](https://www.nus.edu.sg/)
++ **Dec, 2022 -- Aug, 2023** Talking-Face Assignment, multi-modal, [National University of Singapore](https://www.nus.edu.sg/)
 
 + **Jul, 2022 -- Dec, 2022** Speech DL Intern, multi-modal, [Nanyang Technological University](https://www.ntu.edu.sg/index)
 
