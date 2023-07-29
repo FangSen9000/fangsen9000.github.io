@@ -87,10 +87,9 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br><u><b>Sen Fang</b></u>.
 <br>NIPS 2023 Workshop In Preparation. [Paper] [Code] [Local-PDF]
 
-+ [Anonymous period, no publicity](https://openreview.net/forum?id=eG2xjT7-ZOO).
++ [UniBriVL: Robust Audio Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
-<br>EMNLP 2023 Under ARR Review. [Paper] [[Preprint]](https://openreview.net/forum?id=eG2xjT7-ZOO) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [Local-PDF]
-<br>*In the second round of review, the preprint was not up to date*
+<br>Under Review. [arXiv] [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [Local-PDF]
 
 + [New Audio Representations Image Gan Generation from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh<sup>†</sup>. 
