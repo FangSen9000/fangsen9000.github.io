@@ -91,7 +91,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
 <br>Under Review. [arXiv] [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [Local-PDF]
 
-+ [New Audio Representations Image Gan Generation from BriVL](https://arxiv.org/abs/2303.04585).
++ [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Teik Toe Teoh<sup>†</sup>. 
 <br>ACL 2023 Workshop Under Review. [Paper] [[arXiv]](https://arxiv.org/abs/2303.04585) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/icassp.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
 <br>*The preprint was not up to date*
