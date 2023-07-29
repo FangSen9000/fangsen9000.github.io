@@ -87,7 +87,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br><u><b>Sen Fang</b></u>.
 <br>NIPS 2023 Workshop In Preparation. [Paper] [Code] [Local-PDF]
 
-+ [UniBriVL: Robust Audio Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
++ [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
 <br>Under Review. [arXiv] [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [Local-PDF]
 
