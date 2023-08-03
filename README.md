@@ -56,7 +56,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ### **News**   
 
 + **2024.x** I received the invitation and expect to work as an RA in CUHK in 24 Spring.
-+ **2023.8** One of my articles was accepted by ICONIP, the flagship conference of APNNS!
++ **2023.8** One of my articles was accepted by [<font color='red'>ICONIP</font>](http://www.iconip2023.org/), the flagship conference of [<font color='red'>APNNS</font>](https://www.apnns.org/)!
 + **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD, SPC/AC of Top-level conferences, such as [<font color='red'>CVPR</font>](https://cvpr.thecvf.com/)/[<font color='red'>AAAI</font>](https://aaai-23.aaai.org/) and the author of [*'Residual Dense Network for Image Super-Resolution'*](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Residual_Dense_Network_CVPR_2018_paper.html).
 + **2022.12** I started my long-term research as a collaborator Dr Student. [**@周杨浩(Yanghao Zhou)**](https://mortyzaigc.netlify.app/) from NUS/BIT. 
 <br>Our advisor is Prof [**@王文武(Wenwu Wang)**](http://personal.ee.surrey.ac.uk/Personal/W.Wang/) from the University of Surrey, who is AI Fellow/Chair of numerous the speech signal laboratories/committees, also the editor and chairman of some journals/conferences, such as [<font color='red'>Nature•SR</font>](https://www.nature.com/srep/), [<font color='red'>TSP</font>](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=78), [<font color='red'>TASLP</font>](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655), [<font color='red'>SPL</font>](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), [<font color='red'>ICASSP</font>](http://www.wikicfp.com/cfp/program?id=1289), [<font color='red'>Interspeech</font>](http://www.wikicfp.com/cfp/program?id=1624), etc.
@@ -86,11 +86,11 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Does sign language generation really need DensePose?](https://arxiv.org/)
 <br><u><b>Sen Fang</b></u>.
-<br>NIPS 2023 Workshop In Preparation. [Paper] [Code] [Local-PDF]
+<br>NIPS 2023 Workshop In Preparation. [Paper] [Code]
 
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Jingwen Cai, Teik Toe Teoh<sup>†</sup>.
-<br>Under Review. [arXiv] [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [Local-PDF]
+<br>Under Review. [arXiv] [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
 
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Jingwen Cai, Teik Toe Teoh<sup>†</sup>. 
