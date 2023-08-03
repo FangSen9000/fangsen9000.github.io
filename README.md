@@ -55,7 +55,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **News**   
 
-+ **2023.x** I hope to start my long-term research as XX RA on campus.
++ **2024.x** I received the invitation and expect to work as an RA in CUHK in 24 Spring.
 + **2023.8** One of my articles was accepted by ICONIP, the flagship conference of APNNS!
 + **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD, SPC/AC of Top-level conferences, such as [<font color='red'>CVPR</font>](https://cvpr.thecvf.com/)/[<font color='red'>AAAI</font>](https://aaai-23.aaai.org/) and the author of [*'Residual Dense Network for Image Super-Resolution'*](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Residual_Dense_Network_CVPR_2018_paper.html).
 + **2022.12** I started my long-term research as a collaborator Dr Student. [**@周杨浩(Yanghao Zhou)**](https://mortyzaigc.netlify.app/) from NUS/BIT. 
