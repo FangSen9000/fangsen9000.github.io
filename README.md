@@ -94,8 +94,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Jingwen Cai, Teik Toe Teoh<sup>†</sup>. 
-<br>Under Review. [[arXiv]](https://arxiv.org/abs/2303.04585) [[Code]](https://github.com/FangSen9000/BriVL-Generation/) [\[Local-PDF\]](assets/icassp.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
-<br>*The preprint was not up to date*
+<br>ICONIP'23 Oral, . [[arXiv]](https://arxiv.org/abs/2303.04585) [\[Local-PDF\]](assets/iconip.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
+<br><font color='red'>Acceptance rate is 20%, Core A, Qualis B1, CCF C</font>
 
 \* Equivalent contribution, † Corresponding author
 
