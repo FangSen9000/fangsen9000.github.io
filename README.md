@@ -90,7 +90,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Jingwen Cai, Teik Toe Teoh<sup>†</sup>.
-<br>Under Review. [arXiv] [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
+<br>Under Review. [arXiv](https://arxiv.org/abs/2307.15898) [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
 
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Jingwen Cai, Teik Toe Teoh<sup>†</sup>. 
