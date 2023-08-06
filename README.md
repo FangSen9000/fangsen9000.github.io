@@ -80,7 +80,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 ### **Publications & Manuscripts**
 
 + [SignGPT: Multi-modal Input Drives Generative Pre-training Transformer for Sign Language Digital Person](https://arxiv.org/).
-<br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Yanghao Zhou, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
+<br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Yanghao Zhou, Xuedong Zhang,
+<br>Jingwen Cai, Yapeng Tian<sup>†</sup>.
 <br>WACV 2023 In Submission. [arXiv] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface) [[Project-page]](https://fangsen9000.github.io/signGPT)
 <br>*I didn't submit AAAI because I thought its template was ugly*
 
