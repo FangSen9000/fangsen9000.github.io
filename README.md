@@ -80,7 +80,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Publications & Manuscripts**
 
-+ [The First Large-Scale American Sign Language Generation Model and \\Sign-Diffusion of Pose-Conditioned Human Synthesis](https://arxiv.org/).
++ [The First Large-Scale American Sign Language Generation Model and Sign-Diffusion of Pose-Conditioned Human Synthesis](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Yanghao Zhou, Xuedong Zhang,
 <br>Jingwen Cai, Yapeng Tian<sup>†</sup>.
 <br>WACV 2023 In Submission. [arXiv] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface) [[Project-page]](https://fangsen9000.github.io/signGPT)
