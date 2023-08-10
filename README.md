@@ -15,7 +15,7 @@ My main research field is **Speech**, My research interest covers **Multimodal**
 Recently I have been interested in the following topic: 
 + **<font color='green'>HCI/Embodied Intelligence</font>**, I will bring agents that can interact with scenes or people to reality, whatever it takes.
 + **<font color='green'>AIGC/Large model</font>**, generating a new world is fun, it's exhilarating to see the power of AI firsthand.
-+ **<font color='green'>Sign Language Generation</font>**, it's a worthwhile direction for **AP** to add to your almost any lab, I can introduce you to this field. (It has <font color='green'>high entry threshold</font>, <font color='green'>small competition</font>, <font color='green'>low difficulty in receiving papers</font>, <font color='green'>annual tech hot-spots can be continuously applied</font>, and it is easy to get **funding** or medical funding.)
++ **<font color='green'>Sign Language</font>**, it's a worthwhile direction for **AP** to add to your almost any lab, I can introduce you to this field. (It has <font color='green'>high entry threshold</font>, <font color='green'>small competition</font>, <font color='green'>low difficulty in receiving papers</font>, <font color='green'>annual tech hot-spots/Your past technology can be continuously applied</font>, and it is easy to get **funding** or medical funding.)
 
 I am open to academic collaborations and please drop me an email if you are interested in collaborating with me. I am looking for a Research **intern** or **assistant** position for more than 6 months.
 
