@@ -86,11 +86,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>WACV 2023 In Submission. [arXiv] [[Code]](https://github.com/FangSen9000/Text2SignTalkingface) [[Project-page]](https://fangsen9000.github.io/signGPT)
 <br>*I didn't submit AAAI because I thought its template was ugly*
 
-+ [Does sign language generation really need DensePose?](https://arxiv.org/)
-<br><u><b>Sen Fang</b></u>.
-<br>NIPS 2023 Workshop In Preparation. [Paper] [Code]
-
-+ [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/)
++ [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>.
 <br>SIGGRAPH ASIA 2023 Poster Under Review. [Paper] [Code]
 
@@ -119,6 +115,10 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 
 <!--
+
++ [Does sign language generation really need DensePose?](https://arxiv.org/)
+<br><u><b>Sen Fang</b></u>.
+<br>NIPS 2023 Workshop In Preparation. [Paper] [Code]
 
 <a href="http://www.henu.edu.cn/" target="_blank">
     <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/>
