@@ -9,8 +9,7 @@
 
 I'm **<font color='red'>Sen Fang</font>**, a bachelor of computer science with double degree.
 
-My main research field is **Speech**, My research interest covers **Multimodal** Deep Learning (Audio Generated Image), **Audio-Visual** (talking-face and sign language representation of text/audio ), **AIGC** (AI-generated content), **Self-Supervised** Learning and **VR/AR** and **Visual Perception**!
-.
+My main research field is **Multimodal**, My research interest covers **Speech** Deep Learning (Audio Generated Image), **Audio-Visual** (talking-face and representation of text/audio), **AIGC** (AI-generated content), **Self-Supervised** Learning (Pose recognition and modeling) and **VR/AR/DCG** and **Visual Perception**!
 
 Recently I have been interested in the following topic: 
 + **<font color='green'>HCI/Embodied Intelligence</font>**, I will bring agents that can interact with scenes or people to reality, whatever it takes.
@@ -28,7 +27,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + **Jul, 2022 -- Dec, 2022** Speech DL Intern, multi-modal, [Nanyang Technological University](https://www.ntu.edu.sg/index)
 
-+ **Jun, 2022 -- Nov, 2022** Developer Intern, APISIX, Top Level Project, [Apache software foundaiton](https://github.com/apache)/[api7.ai](https://api7.ai/)
++ **Jun, 2022 -- Nov, 2022** Developer Intern, APISIX, Top Level Project, [Apache Software Foundaiton](https://github.com/apache)/[api7.ai](https://api7.ai/)
 
 <a href="http://www.henu.edu.cn/" target="_blank">
     <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/>
