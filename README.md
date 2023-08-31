@@ -85,7 +85,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
-<br>WACV 2023 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [Project-page]
+<br>WACV 2024 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [Project-page]
 <br>*I didn't submit AAAI because I thought its template was ugly*
 
 + [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
