@@ -79,9 +79,13 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Publications & Manuscripts**
 
++ [SignLLM: Sign Languages Production Large Language Models](https://arxiv.org/).
+<br><u><b>Sen Fang</b></u>, Yapeng Tian<sup>†</sup>.
+<br>CVPR 2024 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
+
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
-<br>WACV 2023 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [[Project-page]](https://fangsen9000.github.io/signGPT)
+<br>WACV 2023 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [Project-page]
 <br>*I didn't submit AAAI because I thought its template was ugly*
 
 + [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
