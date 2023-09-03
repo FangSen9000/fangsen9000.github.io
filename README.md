@@ -79,6 +79,9 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Publications & Manuscripts**
 
+\* Equivalent contribution, † Corresponding author
+## **Major Refereed Conference Papers**
+
 + [SignLLM: Sign Languages Production Large Language Models](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yapeng Tian<sup>†</sup>.
 <br>CVPR 2024 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
@@ -92,20 +95,21 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>WACV 2024 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [Project-page]
 <br>*I didn't submit AAAI because I thought its template was ugly*
 
-+ [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
-<br><u><b>Sen Fang</b></u>, Chunyu Sui.
-<br>SIGGRAPH ASIA 2023 Poster Under Review. [Paper] [arXiv]
-
-+ [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
-<br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
-<br>Under Review. [[arXiv]](https://arxiv.org/abs/2307.15898) [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
-
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Jingwen Cai, Teik Toe Teoh<sup>†</sup>. 
 <br>ICONIP'23 Oral. [[arXiv]](https://arxiv.org/abs/2303.04585) [\[Local-PDF\]](assets/iconip.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
 <br><font color='red'>Acceptance rate is 18%, Core A, Qualis B1, CCF C</font>
 
-\* Equivalent contribution, † Corresponding author
+## **Workshop Papers and Extended Abstracts**
+
++ [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
+<br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
+<br>EMNLP WorkShop Under Review. [[arXiv]](https://arxiv.org/abs/2307.15898) [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
+<br>*The review was that it would require minor revisions to get published, perhaps to arouse some community interest.*
+
++ [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
+<br><u><b>Sen Fang</b></u>, Chunyu Sui.
+<br>SIGGRAPH ASIA 2023 Poster Under Review. [Paper] [arXiv]
 
 ---
 ### **Friends (time index)**   
