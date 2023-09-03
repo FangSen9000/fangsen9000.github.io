@@ -80,7 +80,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ### **Publications & Manuscripts**
 
 \* Equivalent contribution, † Corresponding author
-#### **Major Conference Papers**
+#### Major Conference Papers
 
 + [SignLLM: Sign Languages Production Large Language Models](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yapeng Tian<sup>†</sup>.
@@ -93,7 +93,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
 <br>WACV 2024 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [Project-page]
-<br>*I didn't submit AAAI because I thought its template was ugly*
+<br>*I didn't submit AAAI because I thought its template was ugly. First ASLP Baseline and First dual-condition diffusion for Sign Language.*
 
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Jingwen Cai, Teik Toe Teoh<sup>†</sup>. 
