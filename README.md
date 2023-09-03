@@ -85,7 +85,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Bridging the Gap between Text, Audio, and Images: A Novel Approach using Gloss-based Annotation](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Teik Toe Teoh<sup>†</sup>.
-<br>ICASSP 2024 Under Review. [arXiv] [Code]
+<br>ICASSP 2024 Under Review. [Paper] [arXiv]
 
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
@@ -94,7 +94,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui.
-<br>SIGGRAPH ASIA 2023 Poster Under Review. [Paper] [Code]
+<br>SIGGRAPH ASIA 2023 Poster Under Review. [Paper] [arXiv]
 
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
