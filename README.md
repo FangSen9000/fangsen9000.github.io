@@ -83,6 +83,10 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br><u><b>Sen Fang</b></u>, Yapeng Tian<sup>†</sup>.
 <br>CVPR 2024 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
 
++ [Bridging the Gap between Text, Audio, and Images: A Novel Approach using Gloss-based Annotation](https://arxiv.org/).
+<br><u><b>Sen Fang</b></u>, Teik Toe Teoh<sup>†</sup>.
+<br>ICASSP 2024 Under Review. [arXiv] [Code]
+
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
 <br>WACV 2024 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [Project-page]
