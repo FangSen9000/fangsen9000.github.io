@@ -102,6 +102,11 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 #### Workshop and Extended Abstracts
 
++ [Does sign language generation really need DensePose?](https://arxiv.org/)
+<br><u><b>Sen Fang</b></u>.
+<br>NIPSw'23 In Working. [Paper] [Code]
+<br>*DensePose does not make sign language rendering better, I will point it out.*
+
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
 <br>EMNLPw'23 Under Review. [[arXiv]](https://arxiv.org/abs/2307.15898) [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
@@ -125,10 +130,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 
 <!--
-
-+ [Does sign language generation really need DensePose?](https://arxiv.org/)
-<br><u><b>Sen Fang</b></u>.
-<br>NIPS 2023 Workshop In Preparation. [Paper] [Code]
 
 <a href="http://www.henu.edu.cn/" target="_blank">
     <img src="assets/lighthenu.png" alt="Henan University, China" height="120"/>
