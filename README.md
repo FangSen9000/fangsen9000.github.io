@@ -80,7 +80,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ### **Publications & Manuscripts**
 
 \* Equivalent contribution, † Corresponding author
-## **Major Refereed Conference Papers**
+#### **Major Refereed Conference Papers**
 
 + [SignLLM: Sign Languages Production Large Language Models](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yapeng Tian<sup>†</sup>.
@@ -100,7 +100,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>ICONIP'23 Oral. [[arXiv]](https://arxiv.org/abs/2303.04585) [\[Local-PDF\]](assets/iconip.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
 <br><font color='red'>Acceptance rate is 18%, Core A, Qualis B1, CCF C</font>
 
-## **Workshop Papers and Extended Abstracts**
+#### **Workshop Papers and Extended Abstracts**
 
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
