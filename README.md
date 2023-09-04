@@ -86,8 +86,12 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br><u><b>Sen Fang</b></u>, Yapeng Tian<sup>†</sup>.
 <br>CVPR 2024 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
 
-+ [Bridging the Gap between Text, Audio, and Images: A Novel Approach using Gloss-based Annotation](https://arxiv.org/).
-<br><u><b>Sen Fang</b></u>, Teik Toe Teoh<sup>†</sup>.
++ [A Novel Audio Recognition Method using Cascade Diffusion](https://arxiv.org/).
+Sizhou Chen, xxx, <br><u><b>Sen Fang</b></u>, xxx.
+<br>ICASSP 2024 Under Review. [Paper] [arXiv]
+
++ [Bridging the Gap between Text, Audio, Image, and Any Sequence: A Novel Approach using Gloss-based Annotation](https://arxiv.org/).
+<br><u><b>Sen Fang</b></u>, Yalin Feng, Sizhou Chen, Xiaofeng Zhang, Teik Toe Teoh<sup>†</sup>.
 <br>ICASSP 2024 Under Review. [Paper] [arXiv]
 
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
