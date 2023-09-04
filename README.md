@@ -84,19 +84,19 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [SignLLM: Sign Languages Production Large Language Models](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yapeng Tian<sup>†</sup>.
-<br>CVPR 2024 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
+<br>CVPR'24 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
 
 + [A Novel Audio Recognition Method using Cascade Diffusion](https://arxiv.org/).
-Sizhou Chen, xxx, <br><u><b>Sen Fang</b></u>, xxx.
-<br>ICASSP 2024 Under Review. [Paper] [arXiv]
+<br>Sizhou Chen, xxx, <br><u><b>Sen Fang</b></u>, xxx.
+<br>ICASSP'24 Under Review. [Paper] [arXiv]
 
 + [Bridging the Gap between Text, Audio, Image, and Any Sequence: A Novel Approach using Gloss-based Annotation](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yalin Feng, Sizhou Chen, Xiaofeng Zhang, Teik Toe Teoh<sup>†</sup>.
-<br>ICASSP 2024 Under Review. [Paper] [arXiv]
+<br>ICASSP'24 Under Review. [Paper] [arXiv]
 
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
-<br>WACV 2024 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [Project-page]
+<br>WACV'24 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [Project-page]
 <br>*First ASLP Baseline and First dual-condition diffusion for Sign Language. I didn't submit AAAI because I thought its template was ugly.*
 
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
