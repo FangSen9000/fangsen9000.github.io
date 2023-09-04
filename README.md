@@ -87,7 +87,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>CVPR'24 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
 
 + [A Novel Audio Recognition Method using Cascade Diffusion](https://arxiv.org/).
-<br>Sizhou Chen, xxx, <br><u><b>Sen Fang</b></u>, xxx.
+<br>Sizhou Chen, xxx, <u><b>Sen Fang</b></u>, xxx.
 <br>ICASSP'24 Under Review. [Paper] [arXiv]
 
 + [Bridging the Gap between Text, Audio, Image, and Any Sequence: A Novel Approach using Gloss-based Annotation](https://arxiv.org/).
