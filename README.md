@@ -86,7 +86,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br><u><b>Sen Fang</b></u>, Yapeng Tian<sup>†</sup>.
 <br>CVPR'24 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
 
-+ [Echotune: A Modular Attention Mechanism with Voice Feature Enhancement for ASR Systems](https://arxiv.org/).
++ [Echotune: A Modular Extractor Leveraging the Variable-Length Nature of Speech in ASR Tasks](https://arxiv.org/).
 <br>Sizhou Chen, Songyang Gao, <u><b>Sen Fang</b></u>.
 <br>ICASSP'24 Under Review. [Paper] [arXiv]
 
