@@ -43,6 +43,8 @@ I am open to academic collaborations and please drop me an email if you are inte
     <img src="assets/NUS.png" alt="National University of Singapore" height="120"/>
 </a><a href="https://www.utdallas.edu/" target="_blank">
     <img src="assets/utd.png" alt="University of Texas at Dallas" height="120"/>
+</a><a href="https://www.ucf.edu" target="_blank">
+    <img src="assets/UCF.png" alt="University of Central Florida" height="120"/>
 </a><a href="https://www.cuhk.edu.hk/" target="_blank">
     <img src="assets/CUHK.png" alt="Chinese University of Hong Kong" height="120"/>
 </a>
