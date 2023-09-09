@@ -21,6 +21,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Selected Experience**
 
++ **Sep, 2023 -- Pre, 2023** AIGC-LLM Intern, multi-modal, [University of Central Florida](https://www.ucf.edu/)
+
 + **Feb, 2023 -- Pre, 2023** Sign-NLP generation Intern, multi-modal, [University of Texas at Dallas](https://www.utdallas.edu/)
 
 + **Dec, 2022 -- Aug, 2023** Talking-Face Assignment, multi-modal, [National University of Singapore](https://www.nus.edu.sg/)
@@ -56,6 +58,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ### **News**   
 
 + **2024.x** I received the invitation and expect to work as an RA in CUHK in 24 Spring.
++ + **2023.9** Under the guidance of Prof [**@陈宸(Chen Chen)**](https://www.crcv.ucf.edu/chenchen/), I began to explore the large-scale model of sign language. He is cited by more than 14,000 UCF professors.
 + **2023.8** One of my articles was accepted by [<font color='red'>ICONIP</font>](http://www.iconip2023.org/), the flagship conference of [<font color='red'>APNNS</font>](https://www.apnns.org/)!
 + **2023.2** Started sign language generation work under the guidance of Prof [**@田亚鹏(Yapeng Tian)**](http://www.yapengtian.com/) from UTD, SPC/AC of Top-level conferences, such as [<font color='red'>CVPR</font>](https://cvpr.thecvf.com/)/[<font color='red'>AAAI</font>](https://aaai-23.aaai.org/) and the author of [*'Residual Dense Network for Image Super-Resolution'*](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Residual_Dense_Network_CVPR_2018_paper.html).
 + **2022.12** I started my long-term research as a collaborator Dr Student. [**@周杨浩(Yanghao Zhou)**](https://mortyzaigc.netlify.app/) from NUS. 
