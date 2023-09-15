@@ -93,7 +93,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Echotune: A Modular Extractor Leveraging the Variable-Length Nature of Speech in ASR Tasks](https://arxiv.org/).
 <br>Sizhou Chen, Songyang Gao, <u><b>Sen Fang</b></u>.
-<br>ICASSP'24 Under Review. [Paper] [arXiv]
+<br>ICASSP'24 Under Review. [[arXiv]](https://arxiv.org/abs/2309.07765)
 
 + [Bridging the Gap between Text, Audio, Image, and Any Sequence: A Novel Approach using Gloss-based Annotation](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yalin Feng, Sizhou Chen, Xiaofeng Zhang, Teik Toe Teoh<sup>†</sup>.
