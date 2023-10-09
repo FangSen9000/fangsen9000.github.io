@@ -116,14 +116,14 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>NIPSw'23 In Working. [Paper] [Code]
 <br>*DensePose does not make sign language rendering better, I will point it out.*
 
-+ [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
-<br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
-<br>EMNLPw'23 Under Review. [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
-<br>*The EMNLP Reject. There was no suitable Top Conference before the application, so I had to hand it over to the seminar.*
-
 + [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui.
 <br>SIGGRAPH ASIA'23 Poster Under Review. [Paper] [arXiv]
+
++ [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
+<br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
+<br>EMNLPw'23 Accepted. [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
+<br>*The EMNLP Reject. There was no suitable Top Conference before the application, so I had to hand it over to the seminar.*
 
 ---
 ### **Friends (time index)**   
