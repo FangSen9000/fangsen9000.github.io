@@ -107,7 +107,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Jingwen Cai, Teik Toe Teoh<sup>†</sup>. 
 <br>ICONIP'23 Oral. [[arXiv]](https://arxiv.org/abs/2303.04585) [\[Local-PDF\]](assets/iconip.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
-<br><font color='red'>Acceptance rate is 18%, Core A, Qualis B1, CCF C</font>
+<br><font color='red'>Past Acceptance rate is 18%, Core A, Qualis B1, CCF C</font>
 
 #### Workshop and Extended Abstracts
 
@@ -123,7 +123,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
 <br>EMNLPw'23 Accepted. [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
-<br><font color='red'>Core A, Qualis B1, CCF B</font>
+<br><font color='red'>NLP Top Conference, Core A, Qualis B1, CCF B</font>
 <br>*There was no suitable Top Conference before the application, so I had to hand it over to the seminar.*
 
 ---
