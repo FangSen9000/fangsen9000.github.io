@@ -21,9 +21,9 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Selected Experience**
 
-+ **Sep, 2023 -- Pre, 2023** AIGC-LLM Intern, multi-modal, [University of Central Florida](https://www.ucf.edu/)
++ **Sep, 2023 -- Now, 2023** AIGC-LLM Intern, multi-modal, [University of Central Florida](https://www.ucf.edu/)
 
-+ **Feb, 2023 -- Pre, 2023** Sign-NLP generation Intern, multi-modal, [University of Texas at Dallas](https://www.utdallas.edu/)
++ **Feb, 2023 -- Now, 2023** Sign-NLP generation Intern, multi-modal, [University of Texas at Dallas](https://www.utdallas.edu/)
 
 + **Dec, 2022 -- Aug, 2023** Talking-Face Assignment, multi-modal, [National University of Singapore](https://www.nus.edu.sg/)
 
