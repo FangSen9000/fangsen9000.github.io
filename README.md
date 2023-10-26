@@ -90,6 +90,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 + [SignLLM: Sign Languages Production Large Language Models](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yapeng Tian, Chen Chen<sup>†</sup>.
 <br>CVPR'24 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
+<br>*First multilingual SLP Large Model; Prompt2Sign dataset*
 
 + [Echotune: A Modular Extractor Leveraging the Variable-Length Nature of Speech in ASR Tasks](https://arxiv.org/).
 <br>Sizhou Chen, Songyang Gao, <u><b>Sen Fang</b></u>.
