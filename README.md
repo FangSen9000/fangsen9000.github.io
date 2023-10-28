@@ -89,41 +89,41 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [SignLLM: Sign Languages Production Large Language Models](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yapeng Tian, Chen Chen<sup>†</sup>.
-<br>CVPR'24 In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
+<br>**CVPR'24** In Working. [arXiv] [Code] [[Project-page]](https://fangsen9000.github.io/signGPT)
 <br>*Prompt2Sign dataset; First multilingual SLP Large Language Model*
 
 + [Echotune: A Modular Extractor Leveraging the Variable-Length Nature of Speech in ASR Tasks](https://arxiv.org/).
 <br>Sizhou Chen, Songyang Gao, <u><b>Sen Fang</b></u>.
-<br>ICASSP'24 Under Review. [[arXiv]](https://arxiv.org/abs/2309.07765)
+<br>**ICASSP'24** Under Review. [[arXiv]](https://arxiv.org/abs/2309.07765)
 
 + [Bridging the Gap between Text, Audio, Image, and Any Sequence: A Novel Approach using Gloss-based Annotation](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yalin Feng, Sizhou Chen, Xiaofeng Zhang, Teik Toe Teoh<sup>†</sup>.
-<br>ICASSP'24 Under Review. [arXiv] [[Local-PDF]](assets/fang.pdf)
+<br>**ICASSP'24** Under Review. [arXiv] [[Local-PDF]](assets/fang.pdf)
 
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
-<br>CVPR'24 Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [Preprocessed Data](https://github.com/SignDiff/Processed-Data)
+<br>**CVPR'24** Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [[Preprocessed Data]](https://github.com/SignDiff/Processed-Data)
 <br>*First ASLP Baseline; First dual-condition diffusion for Sign Language.*
 
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Jingwen Cai, Teik Toe Teoh<sup>†</sup>. 
-<br>ICONIP'23 Oral. [[arXiv]](https://arxiv.org/abs/2303.04585) [\[Local-PDF\]](assets/iconip.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
+<br>**ICONIP'23** Oral. [[arXiv]](https://arxiv.org/abs/2303.04585) [\[Local-PDF\]](assets/iconip.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
 <br><font color='red'>Past Acceptance rate is 18%, Core A, Qualis B1, CCF C</font>
 
 #### Workshop and Extended Abstracts
 
 + [Does sign language generation really need DensePose?](https://arxiv.org/)
 <br><u><b>Sen Fang</b></u>.
-<br>NIPSw'23 In Working. [Paper] [Code]
+<br>**NIPSw'23** In Working. [Paper] [Code]
 <br>*DensePose does not make sign language rendering better, I will point it out.*
 
 + [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui.
-<br>SIGGRAPH ASIA'23 Poster Under Review. [Paper] [arXiv]
+<br>**SIGGRAPH ASIA'23** Poster Under Review. [Paper] [arXiv]
 
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
-<br>EMNLPw'23 Accepted. [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [\[Local-PDF\]](assets/EMNLPw_2023__Final.pdf) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
+<br>**EMNLPw'23** Accepted. [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [\[Local-PDF\]](assets/EMNLPw_2023__Final.pdf) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
 <br><font color='red'>NLP Top Conference, Core A, Qualis B1, CCF B</font>
 <br>*There was no suitable Top Conference before the application, so I had to hand it over to the seminar.*
 
