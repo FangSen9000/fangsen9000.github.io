@@ -16,7 +16,7 @@
 
 I'm **<font color='red'>Sen Fang</font>**, a bachelor of computer science with double degree.
 
-My main research field is **Multimodal**, My research interest covers **Audio-Visual** (talking-face and representation of text/audio, Audio Generated Image), **AIGC** (AI-generated content), **Self-Supervised** Learning (Pose recognition and modeling, object & action detection/recognition in videos) and **VR/AR/DCG** and **Visual Recognition** (Enables the agent to make plan and navigate)!
+My main research field is **Multimodal**, My research interest covers **Audio-Visual** (talking-face and representation of text/audio, Audio Generated Image), **AIGC** (AI-generated content), **Self-Supervised** Learning (Pose recognition and modeling, object & action detection/recognition in videos) and **VR/AR/DCG** and **Visual Perception** (Enables the agent to make plan and navigate)!
 
 Recently I have been interested in the following topic: 
 + **<font color='green'>HCI/Embodied Intelligence</font>**, I will bring agents that can interact with scenes or people to reality, whatever it takes.
