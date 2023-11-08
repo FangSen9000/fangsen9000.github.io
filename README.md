@@ -20,7 +20,7 @@ My main research field is **Multimodal**, My research interest covers **Audio-Vi
 
 Recently I have been interested in the following topic: 
 + **<font color='green'>HCI/Embodied Intelligence</font>**, I will bring agents that can interact with scenes or people to reality, whatever it takes.
-+ **<font color='green'>NeRF/Large Model</font>**, generating a new world is fun, it's exhilarating to see the power of AI firsthand.
++ **<font color='green'>AIGC/Large Model</font>**, particularly in synthesizing and perceiving dynamic humans, objects, and scenes.
 + **<font color='green'>Sign Language</font>**, it's a worthwhile direction for **AP** to add to your almost any lab, I can introduce you to this field. (It has <font color='green'>high entry threshold</font>, <font color='green'>small competition</font>, <font color='green'>low difficulty in receiving papers</font>, <font color='green'>annual tech hot-spots/Your past technology can be continuously applied</font>, and it is easy to get **funding** or medical funding.)
 
 I am open to academic collaborations and please drop me an email if you are interested in collaborating with me. I am seeking an opportunity for **discussion** with the **24Fall** PhD admissions professor. (If I contact you it means I can meet your school's minimum requirements).
