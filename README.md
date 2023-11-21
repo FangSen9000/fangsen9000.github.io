@@ -121,7 +121,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Does sign language generation really need DensePose?](https://arxiv.org/)
 <br><u><b>Sen Fang</b></u>.
-<br>**NIPSw'23** In Working. [Paper] [Code]
+<br>In Working. [Paper] [Code]
 <br>*DensePose does not make sign language rendering better, I will point it out.*
 
 + [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
