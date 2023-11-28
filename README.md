@@ -103,7 +103,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 <br>**ICASSP'24** Under Review. [arXiv] [[Local-PDF]](assets/fang.pdf)
 
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
-<br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Chen Chen, Yapeng Tian<sup>†</sup>.
+<br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
 <br>**CVPR'24** Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [[Preprocessed Data]](https://github.com/SignDiff/Processed-Data)
 <br>*First ASLP Baseline; First dual-condition diffusion for Sign Language.*
 
