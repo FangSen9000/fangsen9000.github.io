@@ -32,8 +32,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + **Feb, 2023 -- Now, 2023** Sign-NLP generation Intern, multi-modal, [University of Texas at Dallas](https://www.utdallas.edu/)
 
-+ **Dec, 2022 -- Aug, 2023** Talking-Face Assignment, multi-modal, [National University of Singapore](https://www.nus.edu.sg/)
-
 + **Jul, 2022 -- Dec, 2022** Speech DL Intern, multi-modal, [Nanyang Technological University](https://www.ntu.edu.sg/index)
 
 + **Jun, 2022 -- Nov, 2022** Developer Intern, APISIX, Top Level Project, [Apache Software Foundaiton](https://github.com/apache)/[api7.ai](https://api7.ai/)
@@ -151,6 +149,8 @@ I am open to academic collaborations and please drop me an email if you are inte
 </a><a href="https://www.vu.edu.au/" target="_blank">
     <img src="assets/vu.png" alt="University of Victoria, Australia" height="120"/>
 </a>
+
++ **Dec, 2022 -- Aug, 2023** Talking-Face Assignment, multi-modal, [National University of Singapore](https://www.nus.edu.sg/)
 
 <a href="https://www.nus.edu.sg/" target="_blank">
     <img src="assets/NUS.png" alt="National University of Singapore" height="120"/>
