@@ -126,7 +126,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui.
-<br>**SIGGRAPH ASIA'23** Poster Under Review. [Paper] [arXiv]
+<br>**SIGGRAPH ASIA'23** Poster Under Review. [arXiv] [\[Local-PDF\]](assets/acm.pdf)
 
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
