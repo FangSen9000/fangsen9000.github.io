@@ -114,7 +114,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
 <br><u><b>Sen Fang</b></u>, Yangjian Wu, Bowen Gao, Jingwen Cai, Teik Toe Teoh<sup>†</sup>. 
-<br>**ICONIP'23** Oral. [Book](https://link.springer.com/book/10.1007/978-981-99-8184-7?sap-outbound-id=13F709A785B55969399AD901BEF5F5CFBC21C016&utm_source=standard&utm_medium=email&utm_campaign=000_LAN36_0000019083_Book%20author%20congrats%20NEW&utm_content=EN_34155_20231130&mkt-key=EBB2BDBC1B651EEEA3AC79C79B5B4B6D) [[arXiv]](https://arxiv.org/abs/2303.04585) [\[Local-PDF\]](assets/iconip.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
+<br>**ICONIP'23** Oral. [[Book]](https://link.springer.com/book/10.1007/978-981-99-8184-7?sap-outbound-id=13F709A785B55969399AD901BEF5F5CFBC21C016&utm_source=standard&utm_medium=email&utm_campaign=000_LAN36_0000019083_Book%20author%20congrats%20NEW&utm_content=EN_34155_20231130&mkt-key=EBB2BDBC1B651EEEA3AC79C79B5B4B6D) [[arXiv]](https://arxiv.org/abs/2303.04585) [\[Local-PDF\]](assets/iconip.pdf) [\[PPT\]](assets/WavBriVL_conceptual_part.pptx)
 <br><font color='red'>Past Acceptance rate is 18%, Core A, Qualis B1, CCF C</font>
 
 #### Workshop and Extended Abstracts
