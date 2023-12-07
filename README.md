@@ -130,7 +130,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
-<br>**EMNLPw'23** Oral. [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [\[Local-PDF\]](assets/EMNLPw_2023__Final.pdf) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
+<br>**EMNLPw'23** Accepted. [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [\[Local-PDF\]](assets/EMNLPw_2023__Final.pdf) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
 <br><font color='red'>NLP Top Conference, Core A, Qualis B1, CCF B</font>
 <br>*There was no suitable Top Conference before the application, so I had to hand it over to the seminar.*
 
