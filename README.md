@@ -19,7 +19,7 @@ I'm **<font color='red'>Sen Fang</font>**, a bachelor of computer science with d
 My main research field is **Multimodal**, My research interest covers **Audio-Visual** (talking-face and representation of text/audio, Audio Generated Image), **AIGC** (AI-generated content, Multi-view learning, NeRF/3D), **Self-Supervised** Learning (Pose recognition and modeling, object & action detection/recognition in videos, Medical Image Analysis) and **VR/AR/DCG** and **Visual Perception** (Enables the agent to make plan and navigate)!
 
 Recently I have been interested in the following topic: 
-+ **<font color='green'>HCI/Embodied Intelligence</font>**, I will bring agents that can interact with scenes or people to reality, whatever it takes.
++ **<font color='green'>LLM/HCI/Embodied Intelligence</font>**, I will bring agents that can interact with scenes or people to reality, whatever it takes.
 + **<font color='green'>Identify and Model Behavior</font>**, particularly in perceiving and synthesizing dynamic humans, objects, and scenes, I think controling robots by self-supervised training through real-world data and Computer Vision related technologies is the right path.
 + **<font color='green'>Sign Language</font>**, it's a worthwhile direction for **AP** to add to your almost any lab, I can introduce you to this field. (It has <font color='green'>high entry threshold</font>, <font color='green'>small competition</font>, <font color='green'>low difficulty in receiving papers</font>, <font color='green'>annual tech hot-spots/Your past technology can be continuously applied</font>, and it is easy to get **funding** or medical funding.), which is a robotics topic based on Computer Vision.
 
