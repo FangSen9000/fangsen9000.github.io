@@ -96,7 +96,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [SignLLM: Sign Languages Production Large Language Models](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yapeng Tian, Chen Chen<sup>†</sup>.
-<br>**CVPR'24** Under Review. [arXiv]  [\[Local-PDF\]](assets/paper/SignLLM.pdf) [[Code]](https://github.com/SignLLM) [[Project-page]](https://signllm.github.io/)
+<br>**ECCV'24** Under Review. [arXiv]  [\[Local-PDF\]](assets/paper/SignLLM.pdf) [[Code]](https://github.com/SignLLM) [[Project-page]](https://signllm.github.io/)
 <br>*Prompt2Sign dataset; First multilingual SLP Large Language Model*
 
 + [Echotune: A Modular Extractor Leveraging the Variable-Length Nature of Speech in ASR Tasks](https://arxiv.org/).
@@ -110,7 +110,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
 <br><u><b>Sen Fang</b></u>, Chunyu Sui<sup>\*</sup>, Xuedong Zhang, Yapeng Tian<sup>†</sup>.
-<br>**CVPR'24** Under Review. [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [[Preprocessed Data]](https://github.com/SignDiff/Processed-Data)
+<br>**PrePrint'24** [[arXiv]](https://arxiv.org/abs/2308.16082) [[Code]](https://github.com/SignDiff) [[Preprocessed Data]](https://github.com/SignDiff/Processed-Data)
 <br>*First ASLP Baseline; First dual-condition diffusion for Sign Language.*
 
 + [Exploring Efficient-Tuned Learning Audio Representation Method from BriVL](https://arxiv.org/abs/2303.04585).
