@@ -22,7 +22,7 @@ Recently I have been interested in the following topic:
 + **<font color='green'>Identify and Model Behavior</font>**, particularly in perceiving and synthesizing dynamic humans, objects, and scenes, I think controling robots by self-supervised training through real-world data and Computer Vision related technologies is the right path.
 + **<font color='green'>Sign Language</font>**, it's a worthwhile direction for **AP** to add to your almost any lab, I can introduce you to this field. (It has <font color='green'>high entry threshold</font>, <font color='green'>small competition</font>, <font color='green'>low difficulty in receiving papers</font>, <font color='green'>annual tech hot-spots/Your past technology can be continuously applied</font>, and it is easy to get **funding** or medical funding.), which is a robotics topic based on Computer Vision.
 
-I am open to academic collaborations and please drop me an email if you are interested in collaborating with me. I am seeking an opportunity for **discussion** with the **24Fall** PhD admissions professor. (If I contact you it means I can meet your school's minimum requirements).
+I am open to academic collaborations and please drop me an email if you are interested in collaborating with me.
 
 ---
 ### **Selected Experience**
