@@ -14,7 +14,7 @@
 ---
 ## **About me**
 
-I'm **<font color='red'>Sen Fang</font>**, a bachelor of computer science with double degree, I will be a Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/).
+I'm **<font color='red'>Sen Fang</font>**, a bachelor of computer science with double degree, I will be a Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [**Prof. Dimitris Metaxas**](https://people.cs.rutgers.edu/~dnm/).
 
 My main research field is **Multimodal**, My research interest covers **Audio-Visual** (talking-face and representation of text/audio, Audio Generated Image), **AIGC** (AI-generated content, Multi-view learning, NeRF/3D), **Self-Supervised** Learning (Pose recognition and modeling, object & action detection/recognition in videos, Medical Image Analysis) and **VR/AR/DCG** and **Visual Perception** (Enables the agent to make plan and navigate)!
 
