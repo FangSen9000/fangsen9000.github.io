@@ -144,7 +144,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 
 <!--
-
 + [Does sign language generation really need DensePose?](https://arxiv.org/)
 <br><u><b>Sen Fang</b></u>.
 <br>In Working. [Paper] [Code]
