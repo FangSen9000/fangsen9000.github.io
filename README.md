@@ -104,7 +104,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 + [Bridging the Gap between Text, Audio, Image, and Any Sequence: A Novel Approach using Gloss-based Annotation](https://arxiv.org/).
 <br><u><b>Sen Fang</b></u>, Yalin Feng, Sizhou Chen, Xiaofeng Zhang, Teik Toe Teoh<sup>†</sup>.
-<br>**IJCAI'24** Under Review. [arXiv] [[Local-PDF]](assets/fang.pdf)
+<br>**PrePrint'24** Under Review. [arXiv] [[Local-PDF]](assets/fang.pdf)
 <br>*Submission of ICASSP received two strong acceptances and one reject.*
 
 + [SignDiff: Learning Diffusion Models for American Sign Language Production](https://arxiv.org/abs/2308.16082).
