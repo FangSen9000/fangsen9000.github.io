@@ -75,7 +75,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 + **2022.6** As a student of mentor [**@杨陶(SkyeYoung)**](https://github.com/SkyeYoung), joined APISIX in <font color='red'></font>OSPP 2022, who is an Apache member of the top project with over 10,000 stars.
 + **2022.2** Completed 2 months of <font color='red'></font>Bytedance youth-camp as a team captain.
 + **2021.9** Completed 2 months of ACM training.
-+ **2021.6** I joined the virtual reality lab with the help of Prof [**@阎朝坤(Chaokun Yan)**](https://www.scopus.com/authid/detail.uri?authorId=37098476600), and quit lab after 3 months due to the change of campus.
 
 ---
 ### **Bachelor Thesis**
@@ -143,6 +142,9 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 
 <!--
+
++ **2021.6** I joined the virtual reality lab with the help of Prof [**@阎朝坤(Chaokun Yan)**](https://www.scopus.com/authid/detail.uri?authorId=37098476600), and quit lab after 3 months due to the change of campus.
+
 + [Does sign language generation really need DensePose?](https://arxiv.org/)
 <br><u><b>Sen Fang</b></u>.
 <br>In Working. [Paper] [Code]
