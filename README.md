@@ -84,7 +84,7 @@ I am open to academic collaborations and please drop me an email if you are inte
 ---
 ### **Professional Activities**
 
-+ **Reviewer** for [<font color='red'>ACL ARR</font>](https://aclrollingreview.org/), [<font color='red'>EMNLP</font>](https://2023.emnlp.org/), [<font color='red'>WACV</font>](http://www.wacv2024.thecvf.com), [<font color='red'>ICONIP</font>](http://www.iconip2023.org/)
++ **Reviewer** for [<font color='red'>ACL ARR</font>](https://aclrollingreview.org/), [<font color='red'>EMNLP</font>](https://2023.emnlp.org/), [<font color='red'>NAACL</font>](https://2024.naacl.org/), [<font color='red'>ICONIP</font>](http://www.iconip2023.org/)
 
 ---
 ### **Publications & Manuscripts**
