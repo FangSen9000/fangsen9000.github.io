@@ -113,10 +113,6 @@ I am open to academic collaborations and please drop me an email if you are inte
 
 #### Workshop and Extended Abstracts
 
-+ [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
-<br><u><b>Sen Fang</b></u>, Chunyu Sui.
-<br>**SIGGRAPH ASIA'23** Poster Under Review. [arXiv] [\[Local-PDF\]](assets/acm.pdf)
-
 + [UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models](https://openreview.net/forum?id=KfpiljkORA).
 <br><u><b>Sen Fang</b></u>, Bowen Gao, Yangjian Wu, Teik Toe Teoh<sup>†</sup>.
 <br>**EMNLPw'23** Accepted. [[Preprint]](https://openreview.net/forum?id=KfpiljkORA) [\[Local-PDF\]](assets/EMNLPw_2023__Final.pdf) [[Code]](https://github.com/FangSen9000/BriVL-Generation/)
@@ -158,5 +154,9 @@ I am open to academic collaborations and please drop me an email if you are inte
 </a><a href="https://www.vu.edu.au/" target="_blank">
     <img src="assets/vu.png" alt="University of Victoria, Australia" height="120"/>
 </a>
+
++ [Exploring Zero-Shot Fine-Tuning Diffusion Methods through Generalization Phenomena](https://arxiv.org/).
+<br><u><b>Sen Fang</b></u>, Chunyu Sui.
+<br>**SIGGRAPH ASIA'23** Poster Under Review. [arXiv] [\[Local-PDF\]](assets/acm.pdf)
 
 -->
