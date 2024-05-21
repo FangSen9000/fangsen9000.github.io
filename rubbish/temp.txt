@@ -6,3 +6,5 @@
 
 
   <a href="https://openreview.net/profile?id=~Sen_Fang2">Open Review</a> | <a href="https://www.linkedin.com/in/fangsen/">Linkedin</a> | <a href="https://www.linkedin.com/in/fangsen/">All-Emails/Connections</a><br>
+
+  <font color='green'>low difficulty in receiving papers</font>,
