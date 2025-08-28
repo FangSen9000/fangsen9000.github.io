@@ -12,25 +12,25 @@ body {
 }
 
 .sidebar {
-    position: fixed;
-    top: 50px;
+    position: absolute;
+    top: 0px;
     left: -260px;
-    width: 260px;
-    height: calc(100vh - 50px);
+    width: 220px;
+    min-height: auto;
     background: #f8f9fa;
     border-right: 1px solid #a2a9b1;
+    border-bottom: 1px solid #a2a9b1;
     padding: 20px;
     transition: left 0.6s ease;
-    overflow-y: auto;
     z-index: 99;
 }
 
 .sidebar-trigger {
-    position: fixed;
-    top: 50px;
+    position: absolute;
+    top: 0px;
     left: 0;
     width: 30px;
-    height: calc(100vh - 50px);
+    min-height: 600px;
     z-index: 98;
 }
 
@@ -142,7 +142,7 @@ body {
 
 .container {
     max-width: 1000px;
-    margin: 50px auto 0;
+    margin: 0px auto 0;
     padding: 40px 20px;
     transition: margin-left 0.6s ease;
 }
