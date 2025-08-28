@@ -143,7 +143,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 0px auto 0;
-    padding: 40px 20px;
+    padding: 00px 20px;
     transition: margin-left 0.6s ease;
 }
 
@@ -439,4 +439,95 @@ footer a:hover {
     border-right: 5px solid transparent;
     border-top: 5px solid #333;
     z-index: 1001;
+}
+
+/* Text Wall Logo Styles */
+.text-wall-logo {
+    width: 100%;
+    max-width: 840px;  /* 1200px * 0.7 */
+    margin: 42px auto;  /* 60px * 0.7 */
+    padding: 0;
+}
+
+.text-wall-container {
+    position: relative;
+    min-height: 175px;  /* 250px * 0.7 */
+    background: #ffffff;  /* Pure white background */
+    border-radius: 8px;  /* 12px * 0.7 */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Text Wall Background */
+.text-wall-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 14px;  /* 20px * 0.7 */
+    font-family: 'Lucida Calligraphy', 'Lucida Handwriting', 'Apple Chancery', 'URW Chancery L', 'Monotype Corsiva', 'Georgia', cursive;
+    font-size: 0.62em;
+    line-height: 1.6;
+    color: #333333;  /* Dark gray/black text */
+    opacity: 0.4;
+    text-align: justify;
+    overflow: hidden;
+    font-weight: 500;  /* Slightly bolder for readability */
+}
+
+/* Name Outline - creates semi-transparent gray text */
+.name-outline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.name-outline span {
+    font-family: 'Playfair Display', 'Didot', 'Georgia', serif;
+    font-size: 4.34em;  /* 6.2em * 0.7 */
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #333333;  /* Same gray as background text */
+    opacity: 0.15;  /* 30% opacity */
+    white-space: nowrap;
+    display: inline-block;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .text-wall-logo {
+        margin: 21px auto;  /* 30px * 0.7 */
+        padding: 0;
+    }
+    
+    .text-wall-container {
+        min-height: 122px;  /* 175px * 0.7 */
+    }
+    
+    .name-outline span {
+        font-size: 3.5em;  /* 5em * 0.7 */
+        letter-spacing: 0.06em;
+    }
+    
+    .text-wall-background {
+        font-size: 0.56em;  /* 0.8em * 0.7 */
+        padding: 10px;  /* Scale padding too */
+    }
+}
+
+@media (max-width: 480px) {
+    .name-outline span {
+        font-size: 2.52em;  /* 3.6em * 0.7 */
+        letter-spacing: 0.05em;
+    }
+    
+    .text-wall-background {
+        font-size: 0.49em;  /* 0.7em * 0.7 */
+    }
 }
