@@ -11,6 +11,22 @@ body {
     background: #fff;
 }
 
+/* Global rule: make link underlines follow text color */
+a {
+    text-decoration: underline;
+    text-decoration-color: inherit;
+}
+
+/* When links contain styled spans, remove link underline and let span handle it */
+a span[style*="color"] {
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+
+a:has(span[style*="color"]) {
+    text-decoration: none;
+}
+
 .sidebar {
     position: absolute;
     top: 0px;
@@ -308,11 +324,17 @@ body {
 /* Markdown section links - use standard link blue */
 .markdown-section a, .html-section a {
     color: #0000EE;  /* Standard link blue */
+    text-decoration-color: currentColor;  /* Underline follows text color */
 }
 
 /* Ensure markdown links don't change color when visited */
 .markdown-section a:visited, .html-section a:visited {
     color: #0000EE;  /* Keep same blue after visit */
+}
+
+/* For links with colored spans inside, ensure underline matches text color */
+.markdown-section a span, .html-section a span {
+    text-decoration-color: inherit;
 }
 
 .markdown-section pre, .html-section pre {
