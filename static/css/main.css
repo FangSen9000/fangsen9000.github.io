@@ -89,6 +89,10 @@ body {
     font-size: 14px;
 }
 
+.nav-link:visited {
+    color: #3366cc;
+}
+
 .nav-link:hover {
     text-decoration: underline;
 }
@@ -127,6 +131,10 @@ body {
     font-size: 14px;
 }
 
+.header-link:visited {
+    color: #3366cc;
+}
+
 .header-link:hover {
     text-decoration: underline;
 }
@@ -153,6 +161,10 @@ body {
 .author-link {
     color: #3366cc;
     text-decoration: none;
+}
+
+.author-link:visited {
+    color: #3366cc;
 }
 
 .author-link:hover {
@@ -293,6 +305,16 @@ body {
     line-height: 1.6;
 }
 
+/* Markdown section links - use standard link blue */
+.markdown-section a, .html-section a {
+    color: #0000EE;  /* Standard link blue */
+}
+
+/* Ensure markdown links don't change color when visited */
+.markdown-section a:visited, .html-section a:visited {
+    color: #0000EE;  /* Keep same blue after visit */
+}
+
 .markdown-section pre, .html-section pre {
     margin: 1em 0;
     padding: 16px;
@@ -382,6 +404,10 @@ footer {
 footer a {
     color: #3366cc;
     text-decoration: none;
+}
+
+footer a:visited {
+    color: #3366cc;
 }
 
 footer a:hover {
