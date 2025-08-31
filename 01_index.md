@@ -54,32 +54,69 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 </div>
 
-## Representative Works
+## Selected Publications & Manuscripts
 
 *\* Equivalent contribution, † Corresponding author*
 
-**SignLLM: Sign Language Production Large Language Models**
-![SignLLM](cover/SignLLM.png)
+<style>
+.pub-container .pub-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.pub-container .pub-item img {
+  width: 180px;
+  height: 100px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.pub-container .pub-item .pub-content {
+  flex: 1;
+  text-align: left !important;
+}
+</style>
 
-**Sen Fang**, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian, Chen Chen†  
+<div class="pub-container">
+
+<div class="pub-item">
+<img src="cover/SignLLM.png">
+<div class="pub-content">
+
+**SignLLM: Sign Language Production Large Language Models**  
+**Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian  
 *arXiv:2405.10718*  
 [[Paper]](https://arxiv.org/abs/2405.10718) [[Project Website]](https://signllm.github.io/) [[Prompt2Sign Dataset]](https://signllm.github.io/Prompt2Sign)
 
-**Bridging the Gap between Text, Audio, Image, and Any Sequence**
-![BGTAI](cover/BGTAI.png)
+</div>
+</div>
 
+<div class="pub-item">
+<img src="cover/BGTAI.png">
+<div class="pub-content">
+
+**Bridging the Gap between Text, Audio, Image, and Any Sequence**  
 **Sen Fang**, Sizhou Chen\*, Yalin Feng, Xiaofeng Zhang, Teik Toe Teoh†  
 *Preprint'24*  
 [Paper] [[Local-PDF]](paper/ICASSP_24_BGTAI.pdf)
 
-**SignDiff: Diffusion Models for American Sign Language Production**
-![SignDiff](cover/SignDiff.png)
+</div>
+</div>
 
+<div class="pub-item">
+<img src="cover/SignDiff.png">
+<div class="pub-content">
+
+**SignDiff: Diffusion Models for American Sign Language Production**  
 **Sen Fang**, Chunyu Sui\*, Yanghao Zhou, Xuedong Zhang, Hongbin Zhong, Yapeng Tian†, Chen Chen†  
 *arXiv:2308.16082*  
 [[Paper]](https://arxiv.org/abs/2308.16082) [[Project Page]](https://signdiff.github.io) [[Preprocessed Data]](https://github.com/SignDiff/Processed-Data)
 
-→ [List of Selected Publications](publication.html)
+</div>
+</div>
+
+</div>
+
+→ [Google Scholar](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ)
 
 ## Talks
 
