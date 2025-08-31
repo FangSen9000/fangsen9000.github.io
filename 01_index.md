@@ -14,11 +14,11 @@ My main research field is **Computer Vison**. My research interest covers **Mult
 -->
 
 Recently I have been interested in the following topics:
-- <strong><font color='green'>LLM/HCI/Embodied Intelligence</font></strong> - I will bring agents that can interact with scenes or people to reality, whatever it takes.
-- <strong><font color='green'>Identify and Model Behavior</font></strong> - particularly in perceiving and synthesizing dynamic humans, objects, and scenes. I think controlling robots by self-supervised training through real-world data and Computer Vision related technologies is the right path.
+- <strong><font color='green'>World Snapshot</font></strong> - This is the research field I have pioneered (including full CV + the parts of NLP/Audio), which has expanded the boundaries of computer vision. The main focus/goal is on integrating thousands of generation/understanding/reconstruction/estimation CV tasks into a single model, just like how LLMs have contributed to NLP. It involves the definition of the model, training, and processing of new data formats. It is a long-term project dedicated to realizing the ideal world model.
+- <strong><font color='green'>Wave Generative Method</font></strong> - This is a conceptual project, an improvement on the existing generation method. It aims to use mathematical functions to losslessly record dynamic 3D shapes, fundamentally reducing the generated string/values while maintaining the same expression ability. It is dedicated to achieving variable FPS, variable resolution, causality, physics, consistency, training the world itself, and pixel-level control of the world distribution, etc.
 - <strong><font color='green'>Sign Language</font></strong> - It involves many fields, such as the conversion between text/audio and movement/gestures, human body reconstruction and recognition, human pose synchronization, Pose-guided image generation, avatar reconstruction, and style transfer, etc. This topic has high technical requirements, and you must achieve a high level in all the above fields before it can be applied to sign language datasets.
 
-I am open to academic collaborations, and please drop me an email if you are interested in collaborating with me. I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
+I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me. I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ) | [Github](https://github.com/fangsen9000/) | [X/Twitter](https://twitter.com/SenFang01) | [OpenReview](https://openreview.net/profile?id=~Sen_Fang2) | [LinkedIn](https://www.linkedin.com/in/fangsen/) | [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | Email: fangsen2024 [at] gmail [dot] com
 
@@ -89,17 +89,17 @@ I am open to academic collaborations, and please drop me an email if you are int
 
 ## Service
 
-- **PC Member**: ICONIP 2024, FM&LLM&GM 2025
-- **Conference Reviewer**: NeurIPS, ICML, ICLR, ICCV, ACM MM, IEEE FG, ICONIP, EMNLP, NAACL, ACL ARR  
+- **PC Member:** ICONIP 2024, FM&LLM&GM 2025
+- **Conference Reviewer:** NeurIPS, ICML, ICLR, ICCV, ACM MM, IEEE FG, ICONIP, EMNLP, NAACL, ACL ARR  
 
 ## Teaching
-- **Fall 2024**: [01-198-352: Internet Technology](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-352-internet-technology)
-- **Spring 2025**: [01-198-210: Data Management for Data Science](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-210-data-management-for-data-science)
+- **Fall 2024:** [01-198-352: Internet Technology](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-352-internet-technology)
+- **Spring 2025:** [01-198-210: Data Management for Data Science](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-210-data-management-for-data-science)
 
 ## Awards
 
 - **Best Bachelor's Thesis** in Henan University (Tied for 1st/700, roughly) [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
-- **School Grant**: 2020-2021, 2023-2024
+- **School Grant:** 2020-2021, 2023-2024
 
 ## Other
 
