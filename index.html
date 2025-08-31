@@ -30,13 +30,12 @@
     </header>
     -->
 
+    <!-- 注释掉左侧目录栏
     <div class="sidebar-trigger"></div>
     <nav class="sidebar">
-        <!--
         <button class="lock-button">
             <i class="fas fa-lock-open"></i>
         </button>
-        -->
 
         <h1 class="header-title">Sen Fang 房森</h1>
 
@@ -44,7 +43,7 @@
 
         <div class="nav-section">
             <div class="nav-items">
-                <a href="#title" class="nav-link">Title</a>
+                <a href="#home" class="nav-link">Home</a>
             </div>
         </div>
 
@@ -87,18 +86,21 @@
             </div>
         </div>
     </nav>
+    -->
 
-    <div class="container" id="title">
+    <div class="container" id="home">
 
 
 
             <!-- Teaser Section with Text Wall -->
-            <section id="teaser" class="html-section">
-                <div class="text-wall-logo">
-                    <div class="text-wall-container">
-                        <div class="text-wall-background">
+            <section id="teaser" class="teaser-section">
+                <div class="photo-container">
+                    <img src="file/senfang_photo_2025-8-short.jpg" alt="photo_senfang" />
+                </div>
+                <div class="text-wall-container">
+                    <div class="text-wall-background">
                             Requirements for implementing an ideal world model: 1. Encode all information to the boundary. 2. Conform to conformal symmetry. Follow this rule, video (2D+time) generation models and world (3D+time) generation models will be equivalent. 
-                            WaveGen similar like a single-step noiseless diffusion model, a flow-based spatially conditioned generative model, a 3DGS model that separates attributes from spatial information, a model that fuses NeRF and point clouds, an AI optical engine for rendering 3D white model to 2D animation video (Cel shading/toon shading). 
+                            <!--WaveGen similar like a single-step noiseless diffusion model, a flow-based spatially conditioned generative model, a 3DGS model that separates attributes from spatial information, a model that fuses NeRF and point clouds, an AI optical engine for rendering 3D white model to 2D animation video (Cel shading/toon shading). -->
                             Definition of an ideal world model: 1. Spatial sequence 2. Time sequence 3. Dense representation 4. Semantic instances 5. World core 6. Physical constraint 7. RIVE, Reasonable, Interpretable, Visualizable, and Editable. 8. Bidirectional training and inference 9. All living animals have posture information. 
                             The method to make vision models understand physics is to create a core space and implement constraints within it. 
                             ControlNet represents parameter-based controllable generation, while ControlWave represents data-based controllable generation, the second type of GenAI controllable generation mastered by humans. 
@@ -112,10 +114,9 @@
                             All the pixels of our work exhibit wave-particle duality. In the field of world snapshots, waves represent reconstruction, time-space, order and existence, while particles represent generation, rendering, understanding and cognition. 
                             In Computer Vision before 2025, all estimation tasks can be regarded as deriving WSG from images, all conditional generation tasks can be seen as generating WSG with fixed partial results, and all reconstruction tasks can be considered as obtaining WSG sets through known images. 
                             The latent space of WaveGen has the characteristics of being Reasonable, Interpretable, Visualizable, and Editable. Unlike all the previous works: the parameter latent space of previous models only has the simplest I/O interface.
-                        </div>
-                        <div class="name-outline">
-                            <span>Sen Fang</span>
-                        </div>
+                    </div>
+                    <div class="name-outline">
+                        <span>Sen Fang</span>
                     </div>
                 </div>
             </section>
@@ -126,45 +127,13 @@
             <!-- Abstract Section (Markdown) -->
             <section id="abstract" class="markdown-section"></section>
 
-            <!-- Demos Section (HTML) -->
-            <section id="demos" class="html-section">
-                <h2>Demos</h2>
-                <div class="demo-grid">
-                    <!-- Demo items can be added here -->
-                    <div class="demo-item">
-                        <img src="/api/placeholder/400/200" alt="Demo 1" class="demo-image">
-                        <div class="demo-content">
-                            <h3 class="demo-title">Demo 1 Title</h3>
-                            <p class="demo-description">Description of demo 1 and its features.</p>
-                        </div>
-                    </div>
-                    <div class="demo-item">
-                        <img src="/api/placeholder/400/200" alt="Demo 2" class="demo-image">
-                        <div class="demo-content">
-                            <h3 class="demo-title">Demo 2 Title</h3>
-                            <p class="demo-description">Description of demo 2 and its features.</p>
-                        </div>
-                    </div>
-                    <!-- Add more demo items as needed -->
-                </div>
-            </section>
-
-            <!-- Experiment Section (Markdown) -->
-            <section id="experiment" class="markdown-section"></section>
-
-            <!-- Summary Section (Markdown) -->
-            <section id="summary" class="markdown-section"></section>
-
-            <!-- Acknowledgments Section (Markdown) -->
-            <section id="acknowledgments" class="markdown-section"></section>
-
-            <!-- Contributions Section (Markdown) -->
-            <section id="contributions" class="markdown-section"></section>
-
-            <!-- BibTeX Section (Markdown) -->
-            <section id="bibtex" class="markdown-section"></section>
+            <div style="width: 420px; height: 220px; overflow: hidden; margin: 0 auto;">
+            <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=DVOirx5xZoatWTrQvYVH2Jzv9fHuoX_NoHOytFe_XOo&cl=ffffff&w=a"></script>
+            </div><br>
 
     </div>
+
+
 
     <footer>
         <p>This website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</p>
@@ -195,32 +164,7 @@
             {
                 id: 'abstract',
                 type: 'markdown',
-                file: '01_abstract.md'
-            },
-            {
-                id: 'experiment',
-                type: 'markdown',
-                file: '02_experiment.md'
-            },
-            {
-                id: 'summary',
-                type: 'markdown',
-                file: '03_summary.md'
-            },
-            {
-                id: 'acknowledgments',
-                type: 'markdown',
-                file: '04_acknowledgments.md'
-            },
-            {
-                id: 'contributions',
-                type: 'markdown',
-                file: '05_contributions.md'
-            },
-            {
-                id: 'bibtex',
-                type: 'markdown',
-                file: '06_bibtex.md'
+                file: '01_index.md'
             }
         ];
 
