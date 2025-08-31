@@ -600,4 +600,28 @@ footer a:hover {
 .teaser-section .text-wall-container {
     flex: 1;
     height: 175px;  /* Fixed height to match photo */
+    position: relative;
+}
+
+/* Triangle link - hidden by default, shown on hover */
+.text-wall-triangle {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 0.62em;  /* Same size as background text */
+    color: #333333;
+    opacity: 0;  /* Hidden by default */
+    text-decoration: none;
+    z-index: 10;  /* Above other elements */
+    transition: opacity 0.3s ease;
+}
+
+/* Show triangle when hovering over text wall container */
+.text-wall-container:hover .text-wall-triangle {
+    opacity: 0.4;  /* Same opacity as background text */
+}
+
+/* Make triangle slightly more visible when hovering over it directly */
+.text-wall-triangle:hover {
+    opacity: 0.6 !important;
 }

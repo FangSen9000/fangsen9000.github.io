@@ -22,7 +22,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ) | [Github](https://github.com/fangsen9000/) | [X/Twitter](https://twitter.com/SenFang01) | [OpenReview](https://openreview.net/profile?id=~Sen_Fang2) | [LinkedIn](https://www.linkedin.com/in/fangsen/) | [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | Email: fangsen2024 [at] gmail [dot] com
 
-*last updated: 2025-08-28*
+*last updated: 2025-08-31*
 
 ## News
 
@@ -84,7 +84,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **SignLLM: Sign Language Production Large Language Models**  
 **Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian  
-*arXiv:2405.10718*  
+*ICCV 2025 Workshop*  
 [[Paper]](https://arxiv.org/abs/2405.10718) [[Project Website]](https://signllm.github.io/) [[Prompt2Sign Dataset]](https://signllm.github.io/Prompt2Sign)
 
 </div>
@@ -108,7 +108,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **SignDiff: Diffusion Models for American Sign Language Production**  
 **Sen Fang**, Chunyu Sui\*, Yanghao Zhou, Xuedong Zhang, Hongbin Zhong, Yapeng Tian†, Chen Chen†  
-*arXiv:2308.16082*  
+*IEEE FG 2025 Workshop*  
 [[Paper]](https://arxiv.org/abs/2308.16082) [[Project Page]](https://signdiff.github.io) [[Preprocessed Data]](https://github.com/SignDiff/Processed-Data)
 
 </div>
