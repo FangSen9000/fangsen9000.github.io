@@ -39,6 +39,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div id="all-news" style="display:none;height:200px;overflow:auto;background:#FFFFFF;margin-top:5px;">
 
+- **2025.9** One app was accepted by [<span style="color:rgb(204,0,0);">ICCV Demo Track</span>](https://iccv.thecvf.com/Conferences/2025/CallForDemos).
 - **2025.7** One paper was accepted by [<span style="color:rgb(204,0,0);">ICCV CV4A11y</span>](https://cv4a11y.github.io/ICCV2025/index.html).
 - **2025.4** One paper was accepted by [<span style="color:rgb(204,0,0);">IEEE FG FM&LLM&GM</span>](https://sites.google.com/view/fmllmgm-fg25).
 - **2025.3** According to the plan from a year ago, I will join [Hedra Inc.](https://www.hedra.com/) to research foundational video generation models.
