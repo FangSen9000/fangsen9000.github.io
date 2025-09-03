@@ -20,7 +20,7 @@ Recently I have been interested in the following topics:
 
 I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me. I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
 
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ) | [Github](https://github.com/fangsen9000/) | [X/Twitter](https://twitter.com/SenFang01) | [OpenReview](https://openreview.net/profile?id=~Sen_Fang2) | [LinkedIn](https://www.linkedin.com/in/fangsen/) | [All-Emails](https://github.com/FangSen9000/FangSen9000/issues/1) | Email: fangsen2024 [at] gmail [dot] com
+[Threads](https://www.threads.com/@senfang01)<sup class="footnote" data-note="Academic thinking">o</sup> | [X/Twitter](https://twitter.com/SenFang01)<sup class="footnote" data-note="Paper promotion">o</sup> | [Google Scholar](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ) | [Github](https://github.com/fangsen9000/) | [LinkedIn](https://www.linkedin.com/in/fangsen/) | Email: fangsen2024 [at] gmail [dot] com
 
 *last updated: 2025-09-01*
 
@@ -123,7 +123,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Talks
 
-- **Make an Appointment:** The quickest way for me to get the information/ be reminded is to send an email. Then make a reservation on Google Calendar.
+- **Make an Appointment:** The quickest way to find me is to send me an email or remind me on X/Github/LinkedIn.
 
 - **Summary:** Amazon, Swiss Television, New Scientist, Waterloo, Dicpta Inc, Mo-Sys Inc.
 
