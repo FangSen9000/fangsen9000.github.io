@@ -123,14 +123,17 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Talks
 
+- **Make an Appointment:** The quickest way for me to get the information/ be reminded is to send an email. Then make a reservation on Google Calendar.
+
 - **Summary:** Amazon, Swiss Television, New Scientist, Waterloo, Dicpta Inc, Mo-Sys Inc.
 
 *Including invitations I couldn't accept due to my busy schedule.*
 
+
 ## Service
 
 - **PC Member:** ICONIP 2024, FM&LLM&GM 2025
-- **Conference Reviewer:** NeurIPS, ICML, ICLR, ICCV, ACM MM, IEEE FG, ICONIP, EMNLP, NAACL, ACL ARR  
+- **Conference Reviewer:** NeurIPS 2024, ICML 2024, ICLR 2025, ICCV 2025, ACM MM 2025, IEEE FG 2025, ICONIP 2023-2024, EMNLP 2023, NAACL 2024, ACL ARR 2023-2024  
 
 ## Teaching
 - **Fall 2024:** [01-198-352: Internet Technology](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-352-internet-technology)
