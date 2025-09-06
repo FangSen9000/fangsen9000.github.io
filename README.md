@@ -1,3 +1,6 @@
+**I transformed this project template into my academic homepage. It is my proudest project:**
+
+
 # world-snapshot.github.io
 
 Project page of the World Snapshot, I developed a super clean and lightweight website template just for it.
