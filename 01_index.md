@@ -24,13 +24,13 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 *last updated: 2025-09-01*
 
+
 ## News
 
-<!--
-<p style="background: #fffde7; border: 1px solid #fbc02d; padding: 15px; border-radius:     
-  6px; margin: 20px 0;">I no longer engage in purely NLP research without visual elements - don't discuss LLM with me. The emperor model in the computer vision field has already been developed. CVer has its own research.
+<p style="background: #f0f4f8; border: 1px solid #cbd5e0; padding: 15px; border-radius: 6px; margin: 20px 0; color: #4a5568;">I no longer engage in purely NLP research without visual elements - don't discuss LLM with me. The emperor model in the computer vision field has already been developed. Computer Vision Researchers have their own more important research.
 </p>
--->
+
+<!--
 
 <div style="margin:0;padding:0;"><span onclick="document.getElementById('selected-news').style.display='block';document.getElementById('all-news').style.display='none';this.style.fontWeight='bold';this.nextElementSibling.style.fontWeight='normal';" style="cursor:pointer;font-weight:bold;margin-right:10px;">Selected</span><span onclick="document.getElementById('all-news').style.display='block';document.getElementById('selected-news').style.display='none';this.style.fontWeight='bold';this.previousElementSibling.style.fontWeight='normal';" style="cursor:pointer;margin-right:10px;">All</span></div>
 
@@ -167,3 +167,4 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 </details>
 
+-->
