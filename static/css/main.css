@@ -584,6 +584,10 @@ footer a:hover {
 /* Teaser section photo container */
 .teaser-section .photo-container {
     flex-shrink: 0;
+    width: fit-content;  /* Container width fits the image */
+    height: fit-content; /* Container height fits the image */
+    line-height: 0;  /* Remove line-height spacing */
+    font-size: 0;  /* Remove any font-size related spacing */
 }
 
 .teaser-section .photo-container img {
@@ -591,6 +595,8 @@ footer a:hover {
     width: auto;
     display: block;
     border-radius: 8px;
+    margin: 0;  /* Remove any default margins */
+    padding: 0;  /* Remove any default padding */
 }
 
 /* Teaser section text wall container */
