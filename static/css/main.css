@@ -9,6 +9,9 @@ body {
     line-height: 1.6;
     color: #202122;
     background: #fff;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 40px; /* 为 footer 预留更小的空间 */
 }
 
 /* Global rule: make link underlines follow text color */
@@ -156,6 +159,7 @@ a:has(span[style*="color"]) {
     max-width: 1200px;
     margin: 5px auto 0 auto;  /* Add 5px top margin */
     padding: 0px 20px;
+    min-height: calc(100vh - 200px); /* 确保内容区域至少占满屏幕 */
 }
 
 .title {
@@ -412,12 +416,17 @@ a:has(span[style*="color"]) {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     padding: 0px;
     margin-top: 0px;
     border-top: 1px solid #a2a9b1;
     font-size: 14px;
     color: #666;
+    background: #fff;
 }
 
 footer a {
