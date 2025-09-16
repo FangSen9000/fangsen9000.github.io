@@ -1,7 +1,8 @@
-## Series: Latest Ideas
+I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don't really like mathematics, but I don't mind using or modifying existing formulas. I enjoy thinking about how to solve a problem using simple ideas. I spend 80% of my time thinking. 
 
-This is the research page content. You can add your research information here.
+<!--I tend to deliberate thoroughly first, but once I decide to start, I prioritize moving fast. I enjoy sharing knowledge and creating things. I don't like being given a set plan.-->
 
+## Series: Latest Posts
 
 
 ## Series: World Snapshot
