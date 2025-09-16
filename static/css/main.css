@@ -114,16 +114,15 @@ a:has(span[style*="color"]) {
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
     height: 50px;
     background: #fff;
-    border-bottom: 1px solid #a2a9b1;
+    border-bottom: 3px double #a2a9b1;
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: 0 20px;
     z-index: 100;
     justify-content: space-between;
 }
@@ -131,14 +130,12 @@ a:has(span[style*="color"]) {
 .header-title {
     font-size: 1.5em;
     font-weight: 500;
-    margin-left: 20px;
 }
 
 .header-links {
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-right: 20px;
 }
 
 .header-link {
@@ -157,7 +154,7 @@ a:has(span[style*="color"]) {
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;  /* Center the container */
+    margin: 5px auto 0 auto;  /* Add 5px top margin */
     padding: 0px 20px;
 }
 
