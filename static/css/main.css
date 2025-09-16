@@ -234,7 +234,7 @@ a:has(span[style*="color"]) {
 
 /* Markdown and HTML section styles */
 .markdown-section, .html-section {
-    margin: 40px 0;
+    margin: 0 0 40px 0;
     scroll-margin-top: 70px;
 }
 
