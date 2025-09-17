@@ -53,14 +53,6 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 *last updated: 2025-09-01*
 
-## Talks
-
-- **Make an Appointment:** The quickest way to find me is to send me an email or remind me on X/Github/LinkedIn. Then we create a Google Calendar event.
-
-- **Summary:** Amazon, Swiss Television, New Scientist, Waterloo, Dicpta Inc, Mo-Sys Inc.
-
-*Including invitations I couldn't accept due to my busy schedule.*
-
 ## News
 
 <p style="background: #f0f4f8; border: 1px solid #cbd5e0; padding: 15px; border-radius: 6px; margin: 20px 0; color: #4a5568;">Don't send me emails to discuss LLM-only cooperation - I no longer engage in purely NLP research without visual elements. The emperor model in the computer vision field has already been developed. Computer Vision Researchers have their own more important / stronger research.
@@ -167,7 +159,13 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 -->
 
+## Talks
 
+- **Make an Appointment:** The quickest way to find me is to send me an email or remind me on X/Github/LinkedIn. Then we create a Google Calendar event.
+
+- **Summary:** Amazon, Swiss Television, New Scientist, Waterloo, Dicpta Inc, Mo-Sys Inc.
+
+*Including invitations I couldn't accept due to my busy schedule.*
 
 <br>
 <div style="width: 420px; height: 220px; overflow: hidden; margin: 20px auto;">
