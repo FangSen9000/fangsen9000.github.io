@@ -7,6 +7,12 @@ I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don
 
 ## Series: World Snapshot
 
-- Publication 1
-- Publication 2
-- Publication 3
+
+- "Tensors are Basis of Light"
+- "Pixel Grandfather Paradox"
+- "Time Flowing in Graphics"
+- "Relative be in All Things"
+- "Create Laplace's Demon"
+- "Rethink Best Papers"
+- "Computer Vision's Rebirth"
+- "Discuss Real World Models"
