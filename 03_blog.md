@@ -2,11 +2,11 @@ I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don
 
 <!--I tend to deliberate thoroughly first, but once I decide to start, I prioritize moving fast. I enjoy sharing knowledge and creating things. I don't like being given a set plan.-->
 
+## Series: General
+
+- Open Discussion: ["Answer questions from Computer Vision researchers"](https://github.com/orgs/World-Snapshot/discussions/1)
+
 ## Series: Latest Posts
-
-
-## Series: World Snapshot
-
 
 - "Tensors are Basis of Light"
 - "Pixel Grandfather Paradox"

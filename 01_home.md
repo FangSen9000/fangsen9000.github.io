@@ -49,7 +49,7 @@ Recently I have been interested in the following topics:
 
 I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me. I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
 
-[Threads](https://www.threads.com/@senfang01)<sup class="footnote" data-note="Academic thinking">o</sup> | [X/Twitter](https://twitter.com/SenFang01)<sup class="footnote" data-note="Paper promotion">o</sup> | [Google Scholar](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ) | [Github](https://github.com/fangsen9000/) | [LinkedIn](https://www.linkedin.com/in/fangsen/) | Email: fangsen2024 [at] gmail [dot] com
+[Github](https://github.com/fangsen9000/) | [X/Twitter](https://twitter.com/SenFang01)<sup class="footnote" data-note="Paper promotion">o</sup> | [Threads](https://www.threads.com/@senfang01)<sup class="footnote" data-note="Academic thinking">o</sup> | [LinkedIn](https://www.linkedin.com/in/fangsen/) | Email: fangsen2024 [at] gmail [dot] com
 
 *last updated: 2025-09-01*
 
@@ -59,6 +59,9 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 </p>
 
 <!--
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ) | 
+
 
 <div style="margin:0;padding:0;"><span onclick="document.getElementById('selected-news').style.display='block';document.getElementById('all-news').style.display='none';this.style.fontWeight='bold';this.nextElementSibling.style.fontWeight='normal';" style="cursor:pointer;font-weight:bold;margin-right:10px;">Selected</span><span onclick="document.getElementById('all-news').style.display='block';document.getElementById('selected-news').style.display='none';this.style.fontWeight='bold';this.previousElementSibling.style.fontWeight='normal';" style="cursor:pointer;margin-right:10px;">All</span></div>
 
@@ -161,9 +164,9 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Talks
 
-- **Make an Appointment:** The quickest way to find me is to send me an email or remind me on X/Github/LinkedIn. Then we create a Google Calendar event.
-
 - **Summary:** Amazon, Swiss Television, New Scientist, Waterloo, Dicpta Inc, Mo-Sys Inc.
+
+- **Make an Appointment:** The quickest way to find me is to send me an email or remind me on X/Github/LinkedIn. Then we create a Google Calendar event.
 
 *Including invitations I couldn't accept due to my busy schedule.*
 
