@@ -164,9 +164,8 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Talks
 
-- **Summary:** Amazon, Swiss Television, New Scientist, Waterloo, Dicpta Inc, Mo-Sys Inc.
-
 - **Make an Appointment:** The quickest way to find me is to send me an email or remind me on X/Github/LinkedIn. Then we create a Google Calendar event.
+- **Summary:** Amazon, Swiss Television, New Scientist, Waterloo, Dicpta Inc, Mo-Sys Inc.
 
 *Including invitations I couldn't accept due to my busy schedule.*
 
