@@ -8,7 +8,7 @@
                 Requirements for implementing an ideal world model: 1. Encode all information to the boundary. 2. Conform to conformal symmetry. Follow this rule, video (2D+time) generation models and world (3D+time) generation models will be equivalent.
                 Definition of an ideal world model: 1. Spatial sequence 2. Time sequence 3. Dense representation 4. Semantic instances 5. World core 6. Physical constraint 7. RIVE, Reasonable, Interpretable, Visualizable, and Editable. 8. Bidirectional training and inference 9. All living animals have posture information.
                 The method to make vision models understand physics is to create a core space and implement constraints within it.
-                ControlNet represents parameter-based controllable generation, while ControlWave represents data-based controllable generation, the second type of GenAI controllable generation mastered by humans.
+                Flattens the world into a two-dimensional space, and visual generation is almost lossless world generation.
                 Ideal world models possess conformal symmetry, e.g., representing data positions as "relative positions", allowing the core space to have tremendous freedom and robustness. Eg, this can solve the fixed resolution problem in ViT and aligns with human intuition.
                 Adding high-dimensional features/the complexity of the latent space manifold itself (using WSG), and reducing the actual distribution of the latent space (based on flow models or physically consistent data) all contribute to semantic consistency.
                 The key to the wave-based model is using waves to record spatial information to create multi-perspective consistency, human id consistency and behavior consistency.
@@ -55,7 +55,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## News
 
-<p style="background: #f0f4f8; border: 1px solid #cbd5e0; padding: 15px; border-radius: 6px; margin: 20px 0; color: #4a5568;">Don't send me emails to discuss LLM-only cooperation - I no longer engage in purely NLP research without visual elements. The emperor model in the computer vision field has already been developed. Computer Vision Researchers have their own more important / stronger research.
+<p style="background: #f0f4f8; border: 1px solid #cbd5e0; padding: 15px; border-radius: 6px; margin: 20px 0; color: #4a5568;">I no longer engage in purely NLP research without visual elements. The emperor model in the computer vision field has already been developed. Computer Vision Researchers have their own more important / stronger research.
 </p>
 
 <!--
