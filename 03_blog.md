@@ -4,7 +4,7 @@ I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don
 
 ## Series: General Posts
 
-- [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks): The Four Laws of Computer Vision.
+- [《Unified Law for Visual Tasks》](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks): The Four Laws of Computer Vision.
 - Open Discussion: [《Answer questions from Computer Vision researchers》](https://github.com/orgs/World-Snapshot/discussions/1)
 
 ## Series: Latest Posts
