@@ -2,7 +2,7 @@ I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don
 
 <!--I tend to deliberate thoroughly first, but once I decide to start, I prioritize moving fast. I enjoy sharing knowledge and creating things. I don't like being given a set plan.-->
 
-## Series: General
+## Series: General Posts
 
 - Open Discussion: ["Answer questions from Computer Vision researchers"](https://github.com/orgs/World-Snapshot/discussions/1)
 
@@ -16,3 +16,7 @@ I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don
 - "Rethink Best Papers"
 - "Computer Vision's Rebirth"
 - "Discuss Real World Models"
+
+## Tech Articles and Ideas
+
+You can get all my post articles in my blog 📝 [Sen's CSDN blog](https://blog.csdn.net/m0_50854494?type=blog). 

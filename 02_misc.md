@@ -1,3 +1,14 @@
+## Community
+
+- [My Slack Channel](https://join.slack.com/t/senfanglab/shared_invite/zt-3e9y3e85d-jQu5Jt7UDYyEDfkuGCdJWA): I hope to work more closely with contributors or academic developers, perhaps this is necessary.
+- [World Snapshot Discord/QQ/WeChat](https://github.com/World-Snapshot/ControlWave/issues/2): The chat and communication community group of World Snapshot Org, mainly for users.
+- [CS MS/PhD Lab](https://github.com/CSPhDApp): 26-30 Fall PhD Application Group
+- [HENU-CS](https://github.com/HENU-CS): Organization I initiated: Survival Handbook/Study Abroad Handbook (生存/飞跃手册) of HENU.
+
+## Projects
+
+I maintain these projects: [Apache APISIX](https://github.com/apache/apisix) (15k Stars + Top-Level-Project) | [Apache APISIX Dashboard](https://github.com/apache/apisix-dashboard) | [SignDiff](https://signdiff.github.io/) | [SignLLM](https://signllm.github.io/)
+
 ## Service
 
 - **PC Member:** ICONIP 2024 2026, FM&LLM&GM 2025
