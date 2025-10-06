@@ -2,7 +2,7 @@
 
 - [My Slack Channel](https://join.slack.com/t/senfanglab/shared_invite/zt-3e9y3e85d-jQu5Jt7UDYyEDfkuGCdJWA): I hope to work more closely with contributors or academic developers, perhaps this is necessary.
 - [World Snapshot Discord/QQ/WeChat](https://github.com/World-Snapshot/ControlWave/issues/2): The chat and communication community group of World Snapshot Org, mainly for users.
-- [CS MS/PhD Lab](https://github.com/CSPhDApp): 26-30 Fall PhD Application Group
+- [CS MS/PhD Lab](https://github.com/CSPhDApp): 26-30 Fall PhD Application Discussion Group.
 - [HENU-CS](https://github.com/HENU-CS): Organization I initiated: Survival Handbook/Study Abroad Handbook (生存/飞跃手册) of HENU.
 
 ## Projects
