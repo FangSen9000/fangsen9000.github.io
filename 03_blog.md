@@ -5,7 +5,7 @@ I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don
 ## Research Vision 
 
 For me, the most important thing at present is:
-1. Unify and expand the research fields of CV, NLP, and Speech, which will benefit a wide range of AI research, companies, and related researchers and lead to a faster growth for the world economy. (Optimistically speaking, this growth will be more significant than LLM. This is because the Vison task is twice as extensive as NLP, and it is more directly related to the world. Moreover, the effect of one LLM + one WSM may be greater than 2.)
+1. Unify and expand the all research fields of CV, NLP, and Speech, which will benefit a wide range of AI research, companies, and related researchers and lead to a faster growth for the world economy. (Optimistically speaking, this growth will be more significant than LLM. This is because the Vison task is twice as extensive as NLP, and it is more directly related to the world. Moreover, the effect of one LLM + one WSM may be greater than 2.)
 2. Apply the concepts and ideas related to WSM and WaveGen to specific topics to bring them on the right track.
 
 ## Series: General Posts
