@@ -7,7 +7,10 @@
 
 ## Projects
 
-I maintain these projects: [Apache APISIX](https://github.com/apache/apisix) (15k Stars + Top-Level-Project) | [Apache APISIX Dashboard](https://github.com/apache/apisix-dashboard) | [SignDiff](https://signdiff.github.io/) | [SignLLM](https://signllm.github.io/)
+I maintain these projects: 
+- [World Snapshot Org](https://github.com/World-Snapshot)
+- Apache Top-Level-Project: [Apache APISIX](https://github.com/apache/apisix) (15k Stars + ) | [Apache APISIX Dashboard](https://github.com/apache/apisix-dashboard)
+- Signer-X: [SignDiff](https://signdiff.github.io/) | [SignLLM](https://signllm.github.io/)
 
 ## Service
 
@@ -15,9 +18,10 @@ I maintain these projects: [Apache APISIX](https://github.com/apache/apisix) (15
 - **Conference Reviewer:** NeurIPS 2024, ICML 2024, ICLR 2025, ICCV 2025, ACM MM 2025, IEEE FG 2025, ICONIP 2023-2024, EMNLP 2023, NAACL 2024, ACL ARR 2023-2024  
 
 ## Teaching
-- **Fall 2024:** [01-198-352: Internet Technology](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-352-internet-technology)
-- **Spring 2025:** [01-198-210: Data Management for Data Science](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-210-data-management-for-data-science)
+
 - **Fall 2025:** [01-198-336: Principles of Information and Data Management](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-336-principles-of-information-and-data-management)
+- **Spring 2025:** [01-198-210: Data Management for Data Science](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-210-data-management-for-data-science)
+- **Fall 2024:** [01-198-352: Internet Technology](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-352-internet-technology)
 
 ## Awards
 
