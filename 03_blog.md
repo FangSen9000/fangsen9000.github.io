@@ -10,7 +10,9 @@ For me, the most important thing at present is:
 
 ## Series: General Posts
 
-- [《Unified Law for Visual Tasks》](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks): The Four Laws of Computer Vision.
+- [《Unified Law for Visual Tasks》](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks): The Four Laws of Computer Vision. 
+
+*Note: I really like many concepts in my WSM & WaveGen, but what I like the most is this one. It makes me feel the beauty of computer vision. Because it make me know that all the tasks are actually the same.*
 - Open Discussion: [《Answer questions from Computer Vision researchers》](https://github.com/orgs/World-Snapshot/discussions/1)
 
 ## Series: Latest Posts
