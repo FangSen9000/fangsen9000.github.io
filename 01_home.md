@@ -48,7 +48,7 @@ Recently I have been interested in the following topics:
 
 I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me. I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
 
-[Github](https://github.com/fangsen9000/) | [X/Twitter](https://twitter.com/SenFang01)<sup class="footnote" data-note="Paper promotion">o</sup> | [Threads](https://www.threads.com/@senfang01)<sup class="footnote" data-note="Academic thinking">o</sup> | [LinkedIn](https://www.linkedin.com/in/fangsen/) | Email: fangsen2024 [at] gmail [dot] com
+[Github](https://github.com/fangsen9000/) | [X/Twitter](https://twitter.com/SenFang01)<sup class="footnote" data-note="Paper Promotion">o</sup> | [Threads](https://www.threads.com/@senfang01)<sup class="footnote" data-note="Academic Thinking">o</sup> | [LinkedIn](https://www.linkedin.com/in/fangsen/)<sup class="footnote" data-note="General Contact Information">o</sup> | Email: fangsen2024 [at] gmail [dot] com
 
 *last updated: 2025-09-01*
 

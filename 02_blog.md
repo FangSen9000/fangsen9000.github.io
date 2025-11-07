@@ -5,13 +5,13 @@ I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don
 ## Research Vision 
 
 For me, the most important thing at present is:
-1. Unify and expand the all research fields of CV, NLP, and Speech, which will benefit a wide range of AI research, companies, and related researchers and lead to a faster growth for the world economy. (Optimistically speaking, this growth will be more significant than LLM. This is because the Vison task is twice as extensive as NLP, and it is more directly related to the world. Moreover, the effect of one LLM + one WSM may be greater than 2.)
-2. Apply the concepts and ideas related to WSM and WaveGen to specific topics to bring them on the right track.
+1. In terms of breadth: Unify and expand the all research fields of CV, NLP, and Speech, which will benefit a wide range of AI research, companies, and related researchers and lead to a faster growth for the world economy. (Optimistically speaking, this growth will be more significant than LLM. This is because the Vison task is twice as extensive as NLP, and it is more directly related to the world. Moreover, the effect of one LLM + one WSM may be greater than 2.)
+2. In terms of depth/concept: Apply the concepts and ideas related to WSM and WaveGen to specific topics to bring them on the right track. Guarantee that my WSM will dominate thousands of tasks in the field of Computer Vision (CV is World) for the next 5 to 10 years, like an emperor.
 3. Due to resource constraints, WSG VAE and WaveGen have made some compromises on the Augustus (WSM v1 Preview). I hope to have the time and resources to improve these aspects.
 
 ## Series: General Posts
 
-- [《Unified Law for Visual Tasks》](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks): The Four Laws of Computer Vision. 
+- [《Unified Law for Visual Tasks》](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks): The Four Laws of Computer Vision, proposed by me. 
 
 *Note: I really like many concepts in my WSM & WaveGen, but what I like the most is this one. It makes me feel the beauty of computer vision. Because it make me know that all the tasks are actually the same task form.*
 - Open Discussion: [《Answer questions from Computer Vision researchers》](https://github.com/orgs/World-Snapshot/discussions/1)
