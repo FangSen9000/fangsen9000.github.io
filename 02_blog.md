@@ -11,14 +11,16 @@ For me, the most important thing at present is:
 2. In terms of depth/concept: Apply the concepts and ideas related to WSM and WaveGen to specific topics to bring them on the right track. Guarantee that my WSM will dominate thousands of tasks in the field of Computer Vision (CV is World) for the next 5 to 10 years, like an emperor.
 3. Due to resource constraints, WSG VAE and WaveGen have made some compromises on the Augustus (WSM v1 Preview). I hope to have the time and resources to improve these aspects.
 
-## Series: General Posts
+## My: General Posts
 
 - [《Unified Law for Visual Tasks》](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks): The Four Laws of Computer Vision. 
 
 *Note: I really like many concepts in my WSM & WaveGen, but what I like the most is this one. It makes me feel the beauty of computer vision. Because it make me know that all the tasks are actually the same task form.*
 - Open Discussion: [《Answer questions from Computer Vision researchers》](https://github.com/orgs/World-Snapshot/discussions/1)
 
-## Series: Latest Posts
+- [《The Song of Computer Vision (2026)》](): This is the content that emerged during my first epiphany. I roughly realized that we should train the world itself and redefine the definitions of all tasks. Then came a continuous 7-day or more headache and months of insomnia.
+
+## My: Latest Posts
 
 - [《Tensors are Basis of Light》](): RGB represents a kind of information that humans can comprehend, but it is not the most important. Apart from being directly understandable by humans, RGB is not particularly special in any other way.
 - [《Pixel Grandfather Paradox》](): If our world is virtual, then it must exist within an ideal world model. We should start from the characteristics of the world and design a world snapshot model. For example, how light and Planck time exist within the WSM. This method has helped me a lot in designing the WSM.
@@ -29,6 +31,6 @@ For me, the most important thing at present is:
 - [《Computer Vision's Rebirth》](): The truly serious issue in computer vision is how to train the world itself. Once this problem is solved, unifying, expanding and surpassing the field of computer vision will be a piece of cake.
 - 《Discuss Real World Models》: (1) [9-point definitions](https://world-snapshot.github.io/doc/index.html?page=S5_blogs/00_world_model.md#definition); (2) [Wave Generative method](https://world-snapshot.github.io/doc/index.html?page=S3_get_start/01_wave_gen.md) (abbreviated as [WaveGen](https://github.com/World-Snapshot/WaveGen), 12 advanced features); (3) [World Snapshot methodology](https://world-snapshot.github.io/doc/index.html?page=S2_standard/01_overview.md): ["Encoding all information onto boundaries + Conformal symmetry"](https://world-snapshot.github.io/doc/index.html?page=S2_standard/01_overview.md#supplement); (4) [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks)
 
-## Tech Articles and Ideas
+## My: Tech Articles
 
-You can get my tech post articles in my blog 📝 [Sen's CSDN blog](https://blog.csdn.net/m0_50854494?type=blog). 
+You can get my SWE tech post articles in my blog 📝 [Sen's CSDN blog](https://blog.csdn.net/m0_50854494?type=blog). 

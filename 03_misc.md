@@ -25,7 +25,7 @@ I maintain these projects:
 
 ## Awards
 
-- **Best Bachelor's Thesis** in Henan University (Tied for 1st/700, roughly) [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
+- **Best Bachelor's Thesis** in Henan University [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
 - **School Grant:** 2020-2021, 2023-2024
 
 <!--
