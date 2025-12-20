@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffmpeg:*)",
+      "Bash(python convert_to_gif.py:*)"
+    ]
+  }
+}

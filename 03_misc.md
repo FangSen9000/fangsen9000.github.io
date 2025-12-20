@@ -14,7 +14,7 @@ I maintain these projects:
 
 ## Service
 
-- **PC Member:** ICONIP 2024 2026, FM&LLM&GM 2025
+- **PC Member:** IEEE FG 2026, ICONIP 2024 2026, FM&LLM&GM 2025
 - **Conference Reviewer:** NeurIPS 2024, ICML 2024, ICLR 2025, ICCV 2025, WACV 2026, ACM MM 2025, IEEE FG 2025, ICONIP 2023-2024, EMNLP 2023, NAACL 2024, ACL ARR 2023-2024  
 
 ## Teaching

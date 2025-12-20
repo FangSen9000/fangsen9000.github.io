@@ -1,0 +1,33 @@
+/* Publication container styles */
+.pub-container .pub-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.pub-container .pub-item img {
+  width: 240px;
+  height: 150px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.pub-container .pub-item .pub-content {
+  flex: 1;
+  text-align: left !important;
+}
+
+/* Prevent paper title from breaking during browser translation */
+.pub-container .pub-item .pub-content strong:first-child,
+.pub-container .pub-item .pub-content b:first-child {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* Allow wrapping on mobile devices if title is too long */
+@media (max-width: 768px) {
+  .pub-container .pub-item .pub-content strong:first-child,
+  .pub-container .pub-item .pub-content b:first-child {
+    white-space: normal;
+  }
+}
