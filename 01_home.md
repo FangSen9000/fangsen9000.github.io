@@ -173,5 +173,3 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <div style="width: 420px; height: 220px; overflow: hidden; margin: 20px auto;">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=DVOirx5xZoatWTrQvYVH2Jzv9fHuoX_NoHOytFe_XOo&cl=ffffff&w=a"></script>
 </div>
-
-<br>
