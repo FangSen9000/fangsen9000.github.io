@@ -26,21 +26,23 @@
     </div>
 </section>
 
-I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/). I proposed the [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision). Recently, I also have been renowned for proposing [World Snapshot Model](https://world-snapshot.github.io) and [Wave Generative Method](https://github.com/World-Snapshot/WaveGen), which have further advanced the progress of Machine Learning, mainly in terms of computer vision concepts. Before this, I had an internship or collaboration at [Apache](https://github.com/apache), [NTU](https://www.ntu.edu.sg/), [NUS](https://www.nus.edu.sg/), [UTD](https://www.utdallas.edu/), [UCF](https://www.ucf.edu), [Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
+I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/). I am the author of [World Snapshot Model](https://world-snapshot.github.io) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which have further advanced the progress of Machine Learning, mainly in terms of computer vision concepts. Before this, I had an internship or collaboration at [Apache](https://github.com/apache), [NTU](https://www.ntu.edu.sg/), [NUS](https://www.nus.edu.sg/), [UTD](https://www.utdallas.edu/), [UCF](https://www.ucf.edu), [Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
 
 My main research field is **Computer Vision**. My research interest covers **Multimodal** ([100+% multimodal fusion](https://github.com/World-Snapshot/100-percent-multimodal-fusion)<sup class="footnote" data-note="I think: If we label a 123to321 type modal transformation model that has fully utilized all its neurons as having a 100% multi-modal fusion degree, then the method of recovering multiple modalities from a single modality (1to123) is what we need to consider next. Ensuring that the temporal and spatial correspondences are consistent when reading the dataset can further enhance the potential. Therefore, WSG theoretically has the potential to surpass the upper limit of existing models (if we define the upper limit of existing models as 100%).">1</sup>, Audio-Visual, Study the Essence of different Modal Representations), **AIGC** (AI-generated content, Multi-view learning, NeRF/3D), **Self-Supervised** Learning (Pose recognition and modeling, object & action detection/recognition in videos, Image Analysis) and **VR/AR/DCG** and **Visual Perception** (Modeling Digital Reality, including human and dynamic scene).
 
 
 Recently I have been interested in the following topics:
 - <strong><font color='green'>World Snapshot</font></strong> - This is the research field I have pioneered (including full CV + the parts of NLP/Audio), which has expanded the boundaries of computer vision. The main focus/goal is on integrating thousands of generation/understanding/reconstruction/estimation CV tasks into a single model, just like how LLMs have contributed to NLP<sup class="footnote" data-note="More specifically, computer vision should have an emperor-level model, similar to the status of LLM in NLP: We shall hope previous visual models have been completely replaced by WSMs, and it is hoped that WSMs should receive far more citations than LLMs. After all, the field of computer vision is much larger than NLP, and it has always been a top-level research area. However, it was a little late in giving birth to the next generation of models because images are more difficult to train than text.">2</sup>. It involves the definition of the model, training, and processing of new data formats. It is a long-term project dedicated to realizing the ideal world model.
+<!--
 - <strong><font color='green'>Wave Generative Method</font></strong> - The conceptual new generation mechanism I have designed<sup class="footnote" data-note="It is mainly based on RF and parametric expression of mathematical primitives.">3</sup>. It aims to use mathematical functions to losslessly record dynamic 3D shapes, fundamentally reducing the generated string/values while maintaining the same expression ability. It is dedicated to achieving some new features that was not well accomplished by previous methods<sup class="footnote" data-note="Up until when I proposed WaveGen: 1. Some work could achieve these features to a very slight extent, but no systematic methodology could be proposed. 2. Consistency was done relatively well, but at a high cost. While WaveGen proposed three methods to enhance consistency. Most existing methods only follow one approach and are not implemented in a concise manner. Or to put it simply, the previous models basically did not have these new features that I added. These features (except for consistency) are almost unique to the Wave Model.">4</sup>: like variable FPS, variable resolution, causality, physics, consistency, training the world itself, predicting the future/past, synchronizing the real world with model's core space, and pixel-level control of the world distribution, etc. With unlimited duration, native 3D+t has already seen many other solutions, so it is not worth mentioning.
+-->
 - <strong><font color='green'>Sign Language</font></strong> - It involves many fields, such as the conversion between text/audio and movement/gestures, human body reconstruction and recognition, human pose synchronization, Pose-guided image generation, avatar reconstruction, and style transfer, etc. This topic has high technical requirements, and you must achieve a high level in all the above fields before it can be applied to sign language datasets.
 
 I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me. I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
 
 [Github](https://github.com/fangsen9000/) | [X/Twitter](https://twitter.com/SenFang01)<sup class="footnote" data-note="Paper Promotion">o</sup> | [Threads](https://www.threads.com/@senfang01)<sup class="footnote" data-note="Academic Thinking">o</sup> | [LinkedIn](https://www.linkedin.com/in/fangsen/)<sup class="footnote" data-note="General Contact Information">o</sup> | Email: fangsen2024 [at] gmail [dot] com
 
-*last updated: 2025-09-01*
+*last updated: 2026-01-16*
 
 ## News
 
@@ -90,22 +92,21 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
-**World Snapshot Model and Wave Generative Method: Unifying Digital Reality at the Pixel Level**   
+**WSM: World Snapshot Model**   
 **Sen Fang**, Dimitris N. Metaxas†  
-*Preprint*  
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot) [[Document]]()   
-<font color='green'>**Order-of-magnitude width + concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing models, thousands of times more tasks than theoretical support, and potentially 10k of times more tasks than existing CV methods. Introduce a new generative model called [WaveGen](), which conceptually/advancedly extends the existing models by three times.</font>
+<font color='green'>**Order-of-magnitude width + concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing models, thousands of times more tasks than theoretical support, and potentially 10k of times more tasks than existing CV methods.</font>
+<!-- Introduce a new generative model called [WaveGen](), which conceptually/advancedly extends the existing models by three times.-->
 
 </div></div>
 
 
-<div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
+<div class="pub-item"><img src="cover/SignX2.png"><div class="pub-content">
 
-**SignX: The Foundation Model for Sign Recognition**   
-**Sen Fang**, Chunyu Sui, Hongwei Yi, Carol Neidle, Dimitris N. Metaxas†  
-*Preprint*  
-[[Paper]](https://arxiv.org/abs/2504.16315) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)  
-<font color='green'>**Performance breakthrough:** The recognition and understanding tasks on any sign language dataset can achieve state-of-the-art results.</font>
+**SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space**   
+**Sen Fang**, Yalin Feng*, Chunyu Sui, Hongbin Zhong, Hongwei Yi, Dimitris N. Metaxas†  
+[[Paper]](https://arxiv.org/abs/2504.16315) [[Project Page]](https://signerx.github.io/SignX/)  
+<font color='green'>**Performance breakthrough:**  2026 CSLR SOTA. The recognition and understanding tasks on any sign language dataset can/will achieve state-of-the-art results.</font>
 
 </div></div>
 
@@ -113,7 +114,6 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**   
 **Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†  
-*Preprint*  
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)  
 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated by 600%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
 

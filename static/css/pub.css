@@ -10,6 +10,7 @@
   height: 150px;
   margin-right: 20px;
   flex-shrink: 0;
+  border: 1px solid black;
 }
 
 .pub-container .pub-item .pub-content {
