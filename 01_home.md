@@ -51,9 +51,9 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 
 
-<div style="margin:0;padding:0;"><span onclick="document.getElementById('selected-news').style.display='block';document.getElementById('all-news').style.display='none';this.style.fontWeight='bold';this.nextElementSibling.style.fontWeight='normal';" style="cursor:pointer;font-weight:bold;margin-right:10px;">Selected</span><span onclick="document.getElementById('all-news').style.display='block';document.getElementById('selected-news').style.display='none';this.style.fontWeight='bold';this.previousElementSibling.style.fontWeight='normal';" style="cursor:pointer;margin-right:10px;">All</span></div>
+<div class="tabs"><span class="tab active" onclick="document.getElementById('selected-news').classList.add('active');document.getElementById('all-news').classList.remove('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Selected</span>&#8204;<span class="tab" onclick="document.getElementById('all-news').classList.add('active');document.getElementById('selected-news').classList.remove('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">All</span></div>
 
-<div id="selected-news" style="display:block;height:200px;overflow:auto;background:#FFFFFF;margin-top:5px;">
+<div id="selected-news" class="tab-content news active">
 
 - **2025.3** According to the plan from a year ago, I will join [Hedra Inc.](https://www.hedra.com/) to research foundational video generation models.
 - **2024.12** An amazing day. Maybe I was inspired by God, or maybe I found my lifelong career.
@@ -62,7 +62,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 </div>
 
-<div id="all-news" style="display:none;height:200px;overflow:auto;background:#FFFFFF;margin-top:5px;">
+<div id="all-news" class="tab-content news">
 
 - **2025.9** One app was accepted by [<span style="color:rgb(204,0,0);">ICCV Demo Track</span>](https://iccv.thecvf.com/Conferences/2025/CallForDemos).
 - **2025.7** One paper was accepted by [<span style="color:rgb(204,0,0);">ICCV CV4A11y</span>](https://cv4a11y.github.io/ICCV2025/index.html).
@@ -87,8 +87,11 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 *\* Equivalent contribution, † Corresponding author*
 
 <link rel="stylesheet" href="static/css/pub.css">
-<div class="pub-container">
 
+<div class="tabs"><span class="tab active" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('pub-featured').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Representative</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('pub-generative').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">GenAI</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('pub-sign').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Sign Language</span></div>
+
+<div id="pub-featured" class="tab-content pub-tab-content active">
+<div class="pub-container">
 
 <div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
@@ -96,66 +99,74 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **Sen Fang**, Dimitris N. Metaxas†  
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot) [[Document]]()   
 <font color='green'>**Order-of-magnitude width + concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing models, thousands of times more tasks than theoretical support, and potentially 10k of times more tasks than existing CV methods.</font>
-<!-- Introduce a new generative model called [WaveGen](), which conceptually/advancedly extends the existing models by three times.-->
 
 </div></div>
 
+</div>
+</div>
 
-<div class="pub-item"><img src="cover/SignX2.png"><div class="pub-content">
-
-**SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space**   
-**Sen Fang**, Yalin Feng*, Chunyu Sui, Hongbin Zhong, Hongwei Yi, Dimitris N. Metaxas†  
-[[Paper]](https://arxiv.org/abs/2504.16315) [[Project Page]](https://signerx.github.io/SignX/)  
-<font color='green'>**Performance breakthrough:**  2026 CSLR SOTA. The recognition and understanding tasks on any sign language dataset can/will achieve state-of-the-art results.</font>
-
-</div></div>
+<div id="pub-generative" class="tab-content pub-tab-content">
+<div class="pub-container">
 
 <div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
-**StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**   
-**Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†  
-[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)  
+**StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**     
+**Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†
+[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)       
 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
 
 </div></div>
 
+</div>
+</div>
+
+<div id="pub-sign" class="tab-content pub-tab-content">
+<div class="pub-container">
+
+<div class="pub-item"><img src="cover/SignX2.png"><div class="pub-content">
+
+**SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space**    
+**Sen Fang**, Yalin Feng*, Chunyu Sui, Hongbin Zhong, Hongwei Yi, Dimitris N. Metaxas†      
+[[Paper]](https://arxiv.org/abs/2504.16315) [[Project Page]](https://signerx.github.io/SignX/)      
+<font color='green'>**Performance breakthrough:**  2026 CSLR SOTA. The recognition and understanding tasks on any sign language dataset can/will achieve state-of-the-art results.</font>
+
+</div></div>
 
 <div class="pub-item"><img src="cover/StableSigner.gif"><div class="pub-content">
 
-**Stable Signer: Hierarchical Sign Language Generative Model**   
-**Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†  
-*ICCV Demo Track*  
-[[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)  
+**Stable Signer: Hierarchical Sign Language Generative Model**      
+**Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
+*ICCV Demo Track*       
+[[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
 
 </div></div>
 
-
 <div class="pub-item"><img src="cover/SignLLM.png"><div class="pub-content">
 
-**SignLLM: Sign Language Production Large Language Models**  
-**Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian  
-*ICCVW 2025*  
-[[Paper]](https://arxiv.org/abs/2405.10718) [[Project Website]](https://signllm.github.io/) [[Prompt2Sign Dataset]](https://signllm.github.io/Prompt2Sign)    
+**SignLLM: Sign Language Production Large Language Models**     
+**Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian       
+*ICCVW 2025*        
+[[Paper]](https://arxiv.org/abs/2405.10718) [[Project Website]](https://signllm.github.io/) [[Prompt2Sign Dataset]](https://signllm.github.io/Prompt2Sign)      
 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
 
 </div></div>
-
 
 <!--
 <div class="pub-item">
 <img src="cover/SignDiff.png">
 <div class="pub-content">
 
-**SignDiff: Diffusion Models for American Sign Language Production**  
-**Sen Fang**, Chunyu Sui\*, Yanghao Zhou, Xuedong Zhang, Hongbin Zhong, Yapeng Tian†, Chen Chen†  
-*IEEE FG 2025 Workshop*  
+**SignDiff: Diffusion Models for American Sign Language Production**
+**Sen Fang**, Chunyu Sui\*, Yanghao Zhou, Xuedong Zhang, Hongbin Zhong, Yapeng Tian†, Chen Chen†
+*IEEE FG 2025 Workshop*
 [[Paper]](https://arxiv.org/abs/2308.16082) [[Project Page]](https://signdiff.github.io) [[Preprocessed Data]](https://github.com/SignDiff/Processed-Data)
 
 </div>
 </div>
 -->
 
+</div>
 </div>
 
 → [Google Scholar](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ)
