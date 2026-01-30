@@ -110,9 +110,9 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
-**StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**     
-**Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†
-[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)       
+**StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**          
+**Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†      
+[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)          
 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
 
 </div></div>
@@ -147,7 +147,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **SignLLM: Sign Language Production Large Language Models**     
 **Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian       
 *ICCVW 2025*        
-[[Paper]](https://arxiv.org/abs/2405.10718) [[Project Website]](https://signllm.github.io/) [[Prompt2Sign Dataset]](https://signllm.github.io/Prompt2Sign)      
+[[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign)      
 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
 
 </div></div>
