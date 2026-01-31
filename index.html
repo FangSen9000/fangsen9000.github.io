@@ -227,8 +227,19 @@
         });
 
 
+        // 格式化数字为简略形式 (31422 -> 31k)
+        function formatNumber(num, short = false) {
+            if (!short) return num;
+            const n = parseInt(num.replace(/,/g, ''), 10);
+            if (isNaN(n)) return num;
+            if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+            if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+            return num;
+        }
+
         // 获取 Google Scholar 引用数的函数
         // 用法: <span data-gscholar="https://scholar.google.com/citations?user=XXXXX">Loading...</span>
+        // 简略模式: <span data-gscholar="..." data-gscholar-short="true">Loading...</span>
         async function fetchCitationCounts() {
             const elements = document.querySelectorAll('[data-gscholar]');
 
@@ -241,6 +252,7 @@
 
             for (const el of elements) {
                 const scholarUrl = el.dataset.gscholar;
+                const useShort = el.dataset.gscholarShort === 'true';
                 let success = false;
 
                 for (const getProxyUrl of proxies) {
@@ -261,7 +273,7 @@
                             const hIndex = citationElements.length >= 3 ? citationElements[2].textContent : 'N/A';
                             const i10Index = citationElements.length >= 5 ? citationElements[4].textContent : 'N/A';
 
-                            el.textContent = totalCitations;
+                            el.textContent = formatNumber(totalCitations, useShort);
                             el.title = `Total Citations: ${totalCitations}, h-index: ${hIndex}, i10-index: ${i10Index}`;
 
                             // 添加点击跳转

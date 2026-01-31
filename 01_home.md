@@ -72,11 +72,11 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 - **2024.6** I got the [Best Bachelor's Thesis](https://jwc.henu.edu.cn/info/2145/8713.htm) award of [Henan University](https://en.wikipedia.org/wiki/Henan_University).
 - **2024.2** I have received the offer of dream advisor and will start my doctoral career.
 - **2023.10** An article was accepted by [<span style="color:rgb(204,0,0);">EMNLP MRL</span>](https://sigtyp.github.io/ws2023-mrl.html).
-- **2023.9** As Intern of Prof [Chen Chen](https://www.crcv.ucf.edu/chenchen/) to explore the large language model of sign language. He is a professor from UCF([<span style="color:rgb(204,0,0);">Top10 CV@CS-ranking</span>](https://csrankings.org/#/index?vision&us)), with <span data-gscholar="https://scholar.google.com/citations?user=TuEwcZ0AAAAJ">...</span> citations.
+- **2023.9** As Intern of Prof [Chen Chen](https://www.crcv.ucf.edu/chenchen/) to explore the large language model of sign language. He is a professor from UCF([<span style="color:rgb(204,0,0);">Top10 CV@CS-ranking</span>](https://csrankings.org/#/index?vision&us)), with over <span data-gscholar="https://scholar.google.com/citations?user=TuEwcZ0AAAAJ" data-gscholar-short="true">...</span> citations.
 - **2023.8** One of my articles was accepted by [<span style="color:rgb(204,0,0);">ICONIP</span>](http://www.iconip2023.org/), the flagship conference of [<span style="color:rgb(204,0,0);">APNNS</span>](https://www.apnns.org/)!
-- **2023.2** Started sign language production work under the guidance of Prof [Yapeng Tian](http://www.yapengtian.com/) from UTD, SPC/AC of Top-level conferences, such as [<span style="color:rgb(204,0,0);">CVPR</span>](https://cvpr.thecvf.com/)/[<span style="color:rgb(204,0,0);">AAAI</span>](https://aaai-23.aaai.org/), with <span data-gscholar="https://scholar.google.com/citations?user=lxCqdpoAAAAJ">...</span> citations.
+- **2023.2** Started sign language production work under the guidance of Prof [Yapeng Tian](http://www.yapengtian.com/) from UTD, SPC/AC of Top-level conferences, such as [<span style="color:rgb(204,0,0);">CVPR</span>](https://cvpr.thecvf.com/)/[<span style="color:rgb(204,0,0);">AAAI</span>](https://aaai-23.aaai.org/), with over <span data-gscholar="https://scholar.google.com/citations?user=lxCqdpoAAAAJ" data-gscholar-short="true">...</span> citations.
 - **2022.7** As a study researcher of Prof [TeikToe Teoh](https://github.com/teohteiktoe), joined NTU in Summer research.
-- **2022.6** As a student of mentor [SkyeYoung](https://github.com/SkyeYoung), joined APISIX in [<span style="color:rgb(204,0,0);">OSPP 2022</span>](https://summer-ospp.ac.cn/), who is an Apache member of the top project with over 10,000 stars.
+- **2022.6** As a student of mentor [SkyeYoung](https://github.com/SkyeYoung), joined APISIX in [<span style="color:rgb(204,0,0);">OSPP 2022</span>](https://summer-ospp.ac.cn/), who is an Apache member of the top project with <a href="https://github.com/apache/apisix"><img src="https://img.shields.io/github/stars/apache/apisix?style=social" alt="GitHub stars" style="display:inline !important; height:1em; vertical-align:text-bottom; margin:0 !important;"></a>.
 - **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
 - **2021.9** Completed 2 months of ACM training.
 
@@ -136,7 +136,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **Stable Signer: Hierarchical Sign Language Generative Model**      
 **Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
-*ICCV Demo Track*       
+*ICCV 2025 Demo Track*       
 [[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
 
