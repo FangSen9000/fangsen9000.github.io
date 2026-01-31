@@ -85,7 +85,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 ## Selected Works
 
 *\* Equivalent contribution, † Corresponding author. The following works is based on the most relevant tags, although they overlap with each other<sup class="footnote" data-note="sign language generation is classified as SL although it is also a posture generation method">o</sup>*       
-🏆 1~3x SOTA, 💥 3~10x SOTA / New Concept, 👑 over 100× leap / Paradigm shift, ♾️ 1000× / Emperor<sup class="footnote" data-note="e.g., LLM killed 900+ NLP tasks">o</sup>   
+🏆 1~3x SOTA, 💥 over 3~10x SOTA / New Concept, 👑 over 100× Leap / Paradigm Shift, ♾️ 1000× / Emperor<sup class="footnote" data-note="e.g., LLM killed 900+ NLP tasks">o</sup>   
 
 <link rel="stylesheet" href="static/css/pub.css">
 
