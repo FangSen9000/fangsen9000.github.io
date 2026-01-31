@@ -85,7 +85,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 ## Selected Works
 
 *\* Equivalent contribution, † Corresponding author. The following works is based on the most relevant tags, although they overlap with each other<sup class="footnote" data-note="sign language generation is classified as SL although it is also a posture generation method">o</sup>*       
-🏆 1~3x SOTA, 💥 over 3~10x SOTA / New Concept, 👑 over 100× Leap / Paradigm Shift, ♾️ 1000× / Emperor<sup class="footnote" data-note="e.g., LLM killed 900+ NLP tasks">o</sup>   
+🏆 1~3x SOTA, 💥 over 3~10x improvement / New Concept, 👑 Impacts 100+ Domains / Paradigm Shift, ♾️ Impacts 1000+ Domains / Paradigm Emperor<sup class="footnote" data-note="e.g., LLM killed 900+ NLP tasks">o</sup>   
 
 <link rel="stylesheet" href="static/css/pub.css">
 
@@ -99,7 +99,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **WSM: World Snapshot Model**   
 **Sen Fang**, Dimitris N. Metaxas†  
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot) [[Document]]()   
-♾️ <font color='green'>**Order-of-magnitude width + concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing models, thousands of times more tasks than theoretical support, and potentially 10k of times more tasks than existing CV methods.</font>
+♾️ <font color='green'>**Order-of-magnitude width + concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing CV models. Theoretically, supports a maximum of up to several thousand existing tasks, and potentially 10k+ newly CV tasks will be created.</font>
 
 </div></div>
 
@@ -108,6 +108,8 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div id="pub-generative" class="tab-content pub-tab-content">
 <div class="pub-container">
+
+*According to my Unified Laws, all visual tasks only require generative methods. Therefore, GenAI will be the focus of 90% of visual professionals.*
 
 <div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
