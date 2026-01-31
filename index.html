@@ -74,6 +74,9 @@
                 // Re-add header links after rendering
                 addHeaderLinks();
 
+                // Fetch citation counts for any author elements
+                fetchCitationCounts();
+
                 // Execute any scripts that were rendered in the markdown
                 const scripts = element.querySelectorAll('script');
                 scripts.forEach(oldScript => {
@@ -174,13 +177,15 @@
             // Sidebar animation
             setTimeout(() => {
                 const sidebar = document.querySelector('.sidebar');
-                sidebar.classList.add('active');
-                if (CONFIG.autoHideSidebar) {
-                    setTimeout(() => {
-                        if (!sidebar.classList.contains('locked')) {
-                            sidebar.classList.remove('active');
-                        }
-                    }, 1000);
+                if (sidebar) {
+                    sidebar.classList.add('active');
+                    if (CONFIG.autoHideSidebar) {
+                        setTimeout(() => {
+                            if (!sidebar.classList.contains('locked')) {
+                                sidebar.classList.remove('active');
+                            }
+                        }, 1000);
+                    }
                 }
             }, 100);
         });
@@ -188,20 +193,22 @@
         // Lock button functionality
         const lockButton = document.querySelector('.lock-button');
         const sidebar = document.querySelector('.sidebar');
-        
-        lockButton.addEventListener('click', function() {
-            const icon = this.querySelector('i');
-            if (icon.classList.contains('fa-lock-open')) {
-                icon.classList.remove('fa-lock-open');
-                icon.classList.add('fa-lock');
-                sidebar.classList.add('locked');
-            } else {
-                icon.classList.remove('fa-lock');
-                icon.classList.add('fa-lock-open');
-                sidebar.classList.remove('locked');
-                sidebar.classList.remove('active');
-            }
-        });
+
+        if (lockButton && sidebar) {
+            lockButton.addEventListener('click', function() {
+                const icon = this.querySelector('i');
+                if (icon.classList.contains('fa-lock-open')) {
+                    icon.classList.remove('fa-lock-open');
+                    icon.classList.add('fa-lock');
+                    sidebar.classList.add('locked');
+                } else {
+                    icon.classList.remove('fa-lock');
+                    icon.classList.add('fa-lock-open');
+                    sidebar.classList.remove('locked');
+                    sidebar.classList.remove('active');
+                }
+            });
+        }
 
         // Configuration for auto-collapse feature
         const CONFIG = {
@@ -219,6 +226,62 @@
             });
         });
 
+
+        // 获取 Google Scholar 引用数的函数
+        // 用法: <span data-gscholar="https://scholar.google.com/citations?user=XXXXX">Loading...</span>
+        async function fetchCitationCounts() {
+            const elements = document.querySelectorAll('[data-gscholar]');
+
+            // 多个代理服务备选
+            const proxies = [
+                (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+                (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`
+            ];
+
+            for (const el of elements) {
+                const scholarUrl = el.dataset.gscholar;
+                let success = false;
+
+                for (const getProxyUrl of proxies) {
+                    if (success) break;
+
+                    try {
+                        const proxyUrl = getProxyUrl(scholarUrl);
+                        const response = await fetch(proxyUrl);
+                        const html = await response.text();
+
+                        // 解析 HTML 获取引用数（在 gsc_rsb_std 类的元素中）
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(html, 'text/html');
+                        const citationElements = doc.querySelectorAll('.gsc_rsb_std');
+
+                        if (citationElements.length >= 1) {
+                            const totalCitations = citationElements[0].textContent;
+                            const hIndex = citationElements.length >= 3 ? citationElements[2].textContent : 'N/A';
+                            const i10Index = citationElements.length >= 5 ? citationElements[4].textContent : 'N/A';
+
+                            el.textContent = totalCitations;
+                            el.title = `Total Citations: ${totalCitations}, h-index: ${hIndex}, i10-index: ${i10Index}`;
+
+                            // 添加点击跳转
+                            if (!el.closest('a')) {
+                                el.style.cursor = 'pointer';
+                                el.onclick = () => window.open(scholarUrl, '_blank');
+                            }
+                            success = true;
+                        }
+                    } catch (error) {
+                        console.warn('Proxy failed, trying next...', error);
+                    }
+                }
+
+                if (!success) {
+                    el.textContent = 'N/A';
+                    console.error('All proxies failed for:', scholarUrl);
+                }
+            }
+        }
 
         // 为标题添加锚点链接的函数
         function addHeaderLinks() {
