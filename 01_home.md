@@ -113,7 +113,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
-**StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**          
+**StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**     
 **Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†      
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)          
 💥 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
