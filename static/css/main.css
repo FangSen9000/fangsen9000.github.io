@@ -685,12 +685,17 @@ footer a:hover {
 
 
 .tab-content {
-    display: none;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
     background: #FFFFFF;
     margin-top: 5px;
 }
 
 .tab-content.active {
+    visibility: visible;
+    height: auto;
+    overflow: visible;
     display: block;
 }
 

@@ -26,30 +26,23 @@
     </div>
 </section>
 
-I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/). I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of Machine Learning, mainly in terms of computer vision concepts. Before this, I had an internship or collaboration at <img src="logo/apisix.png" class="inline-logo">[Apache](https://github.com/apache), <img src="logo/NTU.png" class="inline-logo">[NTU](https://www.ntu.edu.sg/), <img src="logo/nus_short.png" class="inline-logo">[NUS](https://www.nus.edu.sg/), <img src="logo/utd.png" class="inline-logo">[UTD](https://www.utdallas.edu/), <img src="logo/UCF.svg.png" class="inline-logo">[UCF](https://www.ucf.edu), <img src="logo/hedra.svg" class="inline-logo">[Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
+I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/)<sup class="footnote" data-note="Board of Governors and Distinguished Prof. Dimitris Metaxas">o</sup>. I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of Machine Learning, mainly in terms of computer vision concepts. Before this, I had an internship or collaboration at <img src="logo/apache-apisix.png" class="inline-logo">[Apache](https://github.com/apache), <img src="logo/NTU.png" class="inline-logo">[NTU](https://www.ntu.edu.sg/), <img src="logo/nus_short.png" class="inline-logo">[NUS](https://www.nus.edu.sg/), <img src="logo/utd.png" class="inline-logo">[UTD](https://www.utdallas.edu/), <img src="logo/UCF.svg.png" class="inline-logo">[UCF](https://www.ucf.edu), <img src="logo/hedra.svg" class="inline-logo">[Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
 
-My main research field is **Computer Vision**. My research interest covers **Multimodal** ([100+ \% multimodal fusion](https://github.com/World-Snapshot/100-percent-multimodal-fusion)<sup class="footnote" data-note="I think: If we label a 123to321 type modal transformation model that has fully utilized all its neurons as having a 100% multi-modal fusion degree, then the method of recovering multiple modalities from a single modality (1to123) is what we need to consider next. Ensuring that the temporal and spatial correspondences are consistent when reading the dataset can further enhance the potential. Therefore, WSG theoretically has the potential to surpass the upper limit of existing models (if we define the upper limit of existing models as 100%).">1</sup>, Audio-Visual, Study the Essence of different Modal Representations), **AIGC** (AI-generated content, Multi-view learning, NeRF/3D), **Self-Supervised** Learning (Pose recognition and modeling, object & action detection/recognition in videos, Image Analysis) and **VR/AR/DCG** and **Visual Perception** (Modeling Digital Reality, including human and dynamic scene).
-
-
+My main research field is **Computer Vision** (3DV, Generative Method, Human Pose). 
 Recently I have been interested in the following topics:
-- <strong><font color='green'>World Snapshot</font></strong> - This is the research field I have pioneered (including full CV + the parts of NLP/Audio), which has expanded the boundaries of computer vision. The main focus/goal is on integrating thousands of generation/understanding/reconstruction/estimation CV tasks into a single model, just like how LLMs have contributed to NLP<sup class="footnote" data-note="More specifically, computer vision should have an emperor-level model, similar to the status of LLM in NLP: We shall hope previous visual models have been completely replaced by WSMs, and it is hoped that WSMs should receive far more citations than LLMs. After all, the field of computer vision is much larger than NLP, and it has always been a top-level research area. However, it was a little late in giving birth to the next generation of models because images are more difficult to train than text.">2</sup>. It involves the definition of the model, training, and processing of new data formats. It is a long-term project dedicated to realizing the ideal world model.
+- <strong><font color='green'>World Snapshot</font></strong> - This is the research field I have pioneered (including full CV + the parts of NLP/Audio), which has expanded the boundaries of computer vision. The main focus/goal is on integrating thousands of generation/understanding/reconstruction/estimation CV tasks into a single model, just like how LLMs have contributed to NLP<sup class="footnote" data-note="More specifically, computer vision should have an emperor-level model, similar to the status of LLM in NLP: We shall hope previous visual models have been completely replaced by WSMs, and it is hoped that WSMs should receive far more citations than LLMs. After all, the field of computer vision is much larger than NLP, and it has always been a top-level research area. However, it was a little late in giving birth to the next generation of models because images are more difficult to train than text.">o</sup>. It involves the definition of the model, training, and processing of new data formats. It is a long-term project dedicated to realizing the ideal world model.
 <!--
 - <strong><font color='green'>Wave Generative Method</font></strong> - The conceptual new generation mechanism I have designed<sup class="footnote" data-note="It is mainly based on RF and parametric expression of mathematical primitives.">3</sup>. It aims to use mathematical functions to losslessly record dynamic 3D shapes, fundamentally reducing the generated string/values while maintaining the same expression ability. It is dedicated to achieving some new features that was not well accomplished by previous methods<sup class="footnote" data-note="Up until when I proposed WaveGen: 1. Some work could achieve these features to a very slight extent, but no systematic methodology could be proposed. 2. Consistency was done relatively well, but at a high cost. While WaveGen proposed three methods to enhance consistency. Most existing methods only follow one approach and are not implemented in a concise manner. Or to put it simply, the previous models basically did not have these new features that I added. These features (except for consistency) are almost unique to the Wave Model.">4</sup>: like variable FPS, variable resolution, causality, physics, consistency, training the world itself, predicting the future/past, synchronizing the real world with model's core space, and pixel-level control of the world distribution, etc. With unlimited duration, native 3D+t has already seen many other solutions, so it is not worth mentioning.
 -->
 - <strong><font color='green'>Sign Language</font></strong> - It involves many fields, such as the conversion between text/audio and movement/gestures, human body reconstruction and recognition, human pose synchronization, Pose-guided image generation, avatar reconstruction, and style transfer, etc. This topic has high technical requirements, and you must achieve a high level in all the above fields before it can be applied to sign language datasets.
 
-I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me. I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
+I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me (see my <a href="#" onclick="event.preventDefault();document.querySelectorAll('.nav-page').forEach(l=>l.classList.remove('active'));document.querySelector('[data-page=\'03_blog.md\']').classList.add('active');loadMarkdownFile('03_blog.md').then(()=>{const el=document.getElementById('research-interests');if(el)el.scrollIntoView({behavior:'smooth'});})">full interests</a>). I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
 
 [Github](https://github.com/fangsen9000/) | [X/Twitter](https://twitter.com/SenFang01)<sup class="footnote" data-note="Paper Promotion">o</sup> | [Threads](https://www.threads.com/@senfang01)<sup class="footnote" data-note="Academic Thinking">o</sup> | [LinkedIn](https://www.linkedin.com/in/fangsen/)<sup class="footnote" data-note="General Contact Information">o</sup> | Email: fangsen2024 [at] gmail [dot] com
 
 *last updated: 2026-01-16*
 
 ## News
-
-<p style="background: #f0f4f8; border: 1px solid #cbd5e0; padding: 15px; border-radius: 6px; margin: 20px 0; color: #4a5568;">I no longer engage in purely NLP research without visual elements. The emperor model in the computer vision field has already been developed. Computer Vision Researchers have their own more important / stronger research.
-</p>
-
-
 
 <div class="tabs"><span class="tab active" onclick="document.getElementById('selected-news').classList.add('active');document.getElementById('all-news').classList.remove('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Selected</span>&#8204;<span class="tab" onclick="document.getElementById('all-news').classList.add('active');document.getElementById('selected-news').classList.remove('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">All</span></div>
 
@@ -210,7 +203,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
     <img src="logo/hedra.svg" width="80" height="80" alt="Hedra" />
   </a></td>
   <td align="left"><p><b>Hedra Inc.  </b> <br>
-  Video-Human Research Intern, GenAI 
+  Research Intern: GenAI, Talking-Face 
   <br>
   Mentor: <a href="https://github.com/yhw-yhw">DR. Hongwei Yi</a>
   <br>
@@ -223,7 +216,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
     <img src="logo/UCF.svg.png" alt="University of Central Florida" width="100px" height="100"/>
   </a></td>
   <td align="left"><p><b>University of Central Florida  </b> <br>
-  3DV-LLM Research Assistant, Multi-Modal
+  Research Assistant: 3DV-LLM, Multi-Modal
   <br>
   Advisor: <a href="https://www.crcv.ucf.edu/chenchen/">Prof. Chen Chen</a>
   <br>
@@ -235,7 +228,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
     <img src="logo/utd.png" alt="University of Texas at Dallas" height="100"/>
   </a></td>
   <td align="left"><p><b>University of Texas at Dallas  </b> <br>
-  Vid2Vid Research Assistant, Multi-Modal
+  Research Assistant: Vid2Vid, Multi-Modal
   <br>
   Advisor: <a href="http://www.yapengtian.com/">Prof. Yapeng Tian</a>
   <br>
@@ -247,7 +240,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
     <img src="logo/NTU.png" alt="Nanyang Technological University" height="100"/>
   </a></td>
   <td align="left"><p><b>Nanyang Technological University  </b> <br>
-  Speech DL Intern, Multi-Modal
+  Student Intern: Speech DL, Multi-Modal
   <br>
   Advisor: <a href="https://github.com/teohteiktoe">Prof. TeikToe Teoh</a>
   <br>
@@ -259,7 +252,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
     <img src="logo/apache-apisix.png" alt="APISIX, Top Level Project" width="100px" height="100"/>
   </a></td>
   <td align="left"><p><b>Apache Software Foundaiton  </b> <br>
-  Developer Intern, <a href="https://github.com/apache/apisix">APISIX</a>/<a href="https://api7.ai/">api7.ai</a>, <a href="https://news.apache.org/foundation/entry/the-apache-software-foundation-announces66">Top Level Project</a>
+  Developer Intern: <a href="https://github.com/apache/apisix">APISIX</a>/<a href="https://api7.ai/">api7.ai</a>, <a href="https://news.apache.org/foundation/entry/the-apache-software-foundation-announces66">Top Level Project</a>
   <br>
   Mentor: <a href="https://github.com/SkyeYoung">Tao Yang</a>
   <br>

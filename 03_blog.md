@@ -1,10 +1,17 @@
-I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don't really like mathematics, but I don't mind using or modifying existing formulas. I enjoy thinking about how to solve a problem using simple ideas. I spend 80% of my time thinking. 
+I am INFJ-A. I prefer intuitive, practical and non-theoretical approaches. I don't really like mathematics, but I don't mind using or modifying existing formulas. I enjoy thinking about how to solve a problem using simple ideas. I spend 80% of my time thinking per day. 
 
 <!--I tend to deliberate thoroughly first, but once I decide to start, I prioritize moving fast. I enjoy sharing knowledge and creating things. I don't like being given a set plan.-->
 
 The following are the contents that I wrote or proposed:
 
-## Research Vision 
+## Research Interests 
+
+<p style="background: #f0f4f8; border: 1px solid #cbd5e0; padding: 15px; border-radius: 6px; margin: 20px 0; color: #4a5568;">I no longer engage in purely NLP research without visual elements. The emperor model in the computer vision field has already been developed. Computer Vision Researchers have their own more important / stronger research.
+</p>
+
+My main research field is **Computer Vision**. My research interest covers **Multimodal** ([100+ \% multimodal fusion](https://github.com/World-Snapshot/100-percent-multimodal-fusion)<sup class="footnote" data-note="I think: If we label a 123to321 type modal transformation model that has fully utilized all its neurons as having a 100% multi-modal fusion degree, then the method of recovering multiple modalities from a single modality (1to123) is what we need to consider next. Ensuring that the temporal and spatial correspondences are consistent when reading the dataset can further enhance the potential. Therefore, WSG theoretically has the potential to surpass the upper limit of existing models (if we define the upper limit of existing models as 100%).">1</sup>, Audio-Visual, Study the Essence of different Modal Representations), **AIGC** (AI-generated content, Multi-view learning, NeRF/3D), **Self-Supervised** Learning (Pose recognition and modeling, object & action detection/recognition in videos, Image Analysis) and **VR/AR/DCG** and **Visual Perception** (Modeling Digital Reality, including human and dynamic scene).
+
+## Research Roadmap 
 
 For me, the most important thing at present is:
 1. In terms of breadth: Unify and expand the all research fields of CV, NLP, and Speech, which will benefit a wide range of AI research, companies, and related researchers and lead to a faster growth for the world economy. (Optimistically speaking, this growth will be more significant than LLM. This is because the Vison task is twice as extensive as NLP, and it is more directly related to the world. Moreover, the effect of one LLM + one WSM may be greater than 2.)
