@@ -473,10 +473,29 @@ footer a:hover {
     margin: 1em 0;      /* Same margin as paragraphs */
 }
 
+.icon-links a, .icon-links a:visited, .icon-links a:hover {
+    color: inherit;
+}
+
+.icon-links .footnote {
+    font-size: 0.75rem;
+    vertical-align: 1.5rem;
+}
+
+.icon-sep {
+    display: inline-block;
+    border-left: 1.5px solid currentColor;
+    height: 1em;
+    vertical-align: -0.15em;
+    margin: 0 0.3em;
+    opacity: 0.4;
+}
+
 .footnote {
     color: #3366cc;
     position: relative;
     cursor: help;
+    font-size: 0.75em;
 }
 .footnote:hover::after {
     content: attr(data-note);

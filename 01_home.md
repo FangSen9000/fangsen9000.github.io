@@ -38,9 +38,9 @@ Recently I have been interested in the following topics:
 
 I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me (see my <a href="#" onclick="event.preventDefault();document.querySelectorAll('.nav-page').forEach(l=>l.classList.remove('active'));document.querySelector('[data-page=\'03_blog.md\']').classList.add('active');loadMarkdownFile('03_blog.md').then(()=>{const el=document.getElementById('research-interests');if(el)el.scrollIntoView({behavior:'smooth'});})">full interests</a>). I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
 
-[Github](https://github.com/fangsen9000/) | [X/Twitter](https://twitter.com/SenFang01)<sup class="footnote" data-note="Paper Promotion">o</sup> | [Threads](https://www.threads.com/@senfang01)<sup class="footnote" data-note="Academic Thinking">o</sup> | [LinkedIn](https://www.linkedin.com/in/fangsen/)<sup class="footnote" data-note="General Contact Information">o</sup> | Email: fangsen2024 [at] gmail [dot] com
+<p class="icon-links" style="font-size:2em;line-height:1.8;color:purple;margin:0;"><a href="https://github.com/fangsen9000/"><i class="fa-brands fa-github"></i></a><span class="icon-sep"></span><a href="https://twitter.com/SenFang01"><i class="fa-brands fa-x-twitter"></i></a><sup class="footnote" data-note="Paper Promotion">o</sup><span class="icon-sep"></span><a href="https://www.threads.com/@senfang01"><i class="fa-brands fa-threads"></i></a><sup class="footnote" data-note="Academic Thinking">o</sup><span class="icon-sep"></span><a href="https://www.linkedin.com/in/fangsen/"><i class="fa-brands fa-linkedin"></i></a><sup class="footnote" data-note="General Contact Information">o</sup><span class="icon-sep"></span><a href="https://www.xiaohongshu.com/user/profile/671ed236000000000d026aad"><span style="display:inline-block;height:1em;width:1em;vertical-align:-0.15em;background-color:currentColor;-webkit-mask:url(logo/xiaohongshu.svg) no-repeat center/contain;mask:url(logo/xiaohongshu.svg) no-repeat center/contain;"></span></a><span class="icon-sep"></span><a href="mailto:fangsen2024@gmail.com"><i class="fa-solid fa-envelope"></i></a></p>
 
-*last updated: 2026-01-16*
+*last updated: 2026-03-31*
 
 ## News
 
