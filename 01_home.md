@@ -78,7 +78,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 ## Selected Works
 
 *\* Equivalent contribution, † Corresponding author. The following works is based on the most relevant tags, although they overlap with each other<sup class="footnote" data-note="sign language generation is classified as SL although it is also a posture generation method">o</sup>*       
-🏆 1~3x SOTA, 💥 over 3~10x improvement / New Concept, 👑 Impacts 100+ Domains / Paradigm Shift, ♾️ Impacts 1000+ Domains / Paradigm Emperor<sup class="footnote" data-note="e.g., LLM killed 900+ NLP tasks">o</sup>   
+🏆 1~3x SOTA, 🦄 over 3~10x improvement / New Concept, 🐉 Impacts 100+ Domains / Paradigm Shift, ♾️ Impacts 1000+ Domains / Paradigm Emperor<sup class="footnote" data-note="e.g., LLM killed 900+ NLP tasks">o</sup>   
 
 <link rel="stylesheet" href="static/css/pub.css">
 
@@ -109,7 +109,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **RAC: Rectified Flow Auto Coder**     
 **Sen Fang**, Yalin Feng*, Yanxin Zhang, Dimitris N. Metaxas†      
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/RAC) [[Code]](https://github.com/World-Snapshot/RAC)          
-💥 <font color='green'>**Concept breakthrough:** Make the reconstruction task a condition generation task; Make the decoder the encoder; Make the single-step decoding and encoding a multi-step decoding and encoding.</font>
+🦄 <font color='green'>**Concept breakthrough:** Make the reconstruction task a condition generation task; Make the decoder the encoder; Make the single-step decoding and encoding a multi-step decoding and encoding.</font>
 
 </div></div>
 
@@ -118,7 +118,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**     
 **Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†      
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)          
-💥 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
+🦄 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
 
 </div></div>
 
@@ -153,7 +153,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian       
 *ICCVW 2025*        
 [[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign)      
-💥 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
+🦄 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
 
 </div></div>
 
