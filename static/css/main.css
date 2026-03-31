@@ -134,6 +134,12 @@ a:has(span[style*="color"]) {
 .header-title {
     font-size: 1.5em;
     font-weight: 500;
+    text-decoration: none;
+}
+
+.header-title:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.75px;
 }
 
 .header-links {
@@ -364,6 +370,15 @@ a:has(span[style*="color"]) {
     height: auto;
     display: block;
     margin: 1em auto;
+}
+
+.markdown-section img.inline-logo, .html-section img.inline-logo {
+    height: 1.1em;
+    width: auto;
+    max-width: unset;
+    vertical-align: middle;
+    display: inline;
+    margin: 0 2px 0 0;
 }
 
 /* Demo section specific styles */
@@ -677,6 +692,64 @@ footer a:hover {
 
 .tab-content.active {
     display: block;
+}
+
+/* imgtable: used in biography for edu/experience rows */
+table.imgtable,
+table.imgtable td {
+    border: none;
+    text-align: left;
+    vertical-align: middle;
+    background: transparent;
+}
+
+table.imgtable p b,
+table.imgtable p a {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+table.imgtable td:first-child {
+    width: 110px;
+    min-width: 110px;
+    height: 110px;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+table.imgtable img {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: auto;
+    max-width: 100px;
+}
+
+/* Multi-column tab layout: add cols-2, cols-3, etc. to tab-content */
+.tab-content.cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    align-items: start;
+}
+
+.tab-content.cols-2.active {
+    display: grid;
+}
+
+.tab-content.cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    align-items: start;
+}
+
+.tab-content.cols-3.active {
+    display: grid;
+}
+
+.tab-content.cols-2 > br,
+.tab-content.cols-3 > br {
+    display: none;
 }
 
 /* News specific - with max height */

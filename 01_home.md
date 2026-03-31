@@ -26,7 +26,7 @@
     </div>
 </section>
 
-I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/). I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of Machine Learning, mainly in terms of computer vision concepts. Before this, I had an internship or collaboration at [Apache](https://github.com/apache), [NTU](https://www.ntu.edu.sg/), [NUS](https://www.nus.edu.sg/), [UTD](https://www.utdallas.edu/), [UCF](https://www.ucf.edu), [Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
+I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/). I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of Machine Learning, mainly in terms of computer vision concepts. Before this, I had an internship or collaboration at <img src="logo/apisix.png" class="inline-logo">[Apache](https://github.com/apache), <img src="logo/NTU.png" class="inline-logo">[NTU](https://www.ntu.edu.sg/), <img src="logo/nus_short.png" class="inline-logo">[NUS](https://www.nus.edu.sg/), <img src="logo/utd.png" class="inline-logo">[UTD](https://www.utdallas.edu/), <img src="logo/UCF.svg.png" class="inline-logo">[UCF](https://www.ucf.edu), <img src="logo/hedra.svg" class="inline-logo">[Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
 
 My main research field is **Computer Vision**. My research interest covers **Multimodal** ([100+ \% multimodal fusion](https://github.com/World-Snapshot/100-percent-multimodal-fusion)<sup class="footnote" data-note="I think: If we label a 123to321 type modal transformation model that has fully utilized all its neurons as having a 100% multi-modal fusion degree, then the method of recovering multiple modalities from a single modality (1to123) is what we need to consider next. Ensuring that the temporal and spatial correspondences are consistent when reading the dataset can further enhance the potential. Therefore, WSG theoretically has the potential to surpass the upper limit of existing models (if we define the upper limit of existing models as 100%).">1</sup>, Audio-Visual, Study the Essence of different Modal Representations), **AIGC** (AI-generated content, Multi-view learning, NeRF/3D), **Self-Supervised** Learning (Pose recognition and modeling, object & action detection/recognition in videos, Image Analysis) and **VR/AR/DCG** and **Visual Perception** (Modeling Digital Reality, including human and dynamic scene).
 
@@ -99,7 +99,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **WSM: World Snapshot Model**   
 **Sen Fang**, Dimitris N. Metaxas†  
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot) [[Document]]()   
-♾️ <font color='green'>**Order-of-magnitude width + concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing CV models. Theoretically, supports a maximum of up to several thousand existing tasks, and potentially 32.8k+ newly CV tasks will be created in a short time<sup class="footnote" data-note="Of course, these changes developed quietly like raindrops. LLM can do countless things, but no one has detailed its capabilities. The capabilities of WSM will not be divided either; it can perform all tasks related to vision and the world.">o</sup>.</font>
+♾️ <font color='green'>**Order-of-magnitude width + Concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing CV models. Theoretically, supports a maximum of up to several thousand existing tasks, and potentially 32.8k+ newly CV tasks will be created in a short time<sup class="footnote" data-note="Of course, these changes developed quietly like raindrops. LLM can do countless things, but no one has detailed its capabilities. The capabilities of WSM will not be divided either; it can perform all tasks related to vision and the world.">o</sup>.</font>
 
 </div></div>
 
@@ -110,6 +110,15 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <div class="pub-container">
 
 *According to my Unified Laws, all visual tasks only require generative methods. Therefore, GenAI will be the focus of 90% of visual professionals.*
+
+<div class="pub-item"><img src="cover/rac.png"><div class="pub-content">
+
+**RAC: Rectified Flow Auto Coder**     
+**Sen Fang**, Yalin Feng*, Yanxin Zhang, Dimitris N. Metaxas†      
+[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/RAC) [[Code]](https://github.com/World-Snapshot/RAC)          
+💥 <font color='green'>**Concept breakthrough:** Make the reconstruction task a condition generation task; Make the decoder the encoder; Make the single-step decoding and encoding a multi-step decoding and encoding.</font>
+
+</div></div>
 
 <div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
@@ -176,12 +185,155 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 
 
+## Experience
+
+<div class="tabs"><span class="tab active" onclick="document.querySelectorAll('.exp-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('exp-work').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Work Experience</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.exp-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('exp-edu').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Education</span></div>
+
+
+
+<div id="exp-work" class="tab-content exp-tab-content active cols-2">
+
+<!--
+<table class="imgtable"><tbody><tr><td>
+  <a href="https://www.microsoft.com/en-us/research/" target="_blank">
+    <img src="logo/msra.png" alt="MSR" width="100px" height="100"/>
+  </a></td>
+  <td align="left"><p><b>Microsoft Research  </b> <br>
+  Motion Generation Intern, 3DV, Multi-Modal
+  <br>
+  <i>Summer, 2025 (Expected) -- Winter, 2025</i> <br>
+  </p></td></tr></tbody></table>
+<br>
+-->
+<table class="imgtable"><tbody><tr><td>
+  <a href="https://www.hedra.com/" target="_blank">
+    <img src="logo/hedra.svg" width="80" height="80" alt="Hedra" />
+  </a></td>
+  <td align="left"><p><b>Hedra Inc.  </b> <br>
+  Video-Human Research Intern, GenAI 
+  <br>
+  Mentor: <a href="https://github.com/yhw-yhw">DR. Hongwei Yi</a>
+  <br>
+  <i>May, 2025 -- July, 2025</i> <br>
+  </p></td></tr></tbody></table>
+<br>
+
+<table class="imgtable"><tbody><tr><td>
+  <a href="https://www.ucf.edu" target="_blank">
+    <img src="logo/UCF.svg.png" alt="University of Central Florida" width="100px" height="100"/>
+  </a></td>
+  <td align="left"><p><b>University of Central Florida  </b> <br>
+  3DV-LLM Research Assistant, Multi-Modal
+  <br>
+  Advisor: <a href="https://www.crcv.ucf.edu/chenchen/">Prof. Chen Chen</a>
+  <br>
+  <i>Sep, 2023 -- Aug, 2024</i> <br>
+  </p></td></tr></tbody></table>
+<br>
+<table class="imgtable"><tbody><tr><td>
+  <a href="https://www.utdallas.edu/" target="_blank">
+    <img src="logo/utd.png" alt="University of Texas at Dallas" height="100"/>
+  </a></td>
+  <td align="left"><p><b>University of Texas at Dallas  </b> <br>
+  Vid2Vid Research Assistant, Multi-Modal
+  <br>
+  Advisor: <a href="http://www.yapengtian.com/">Prof. Yapeng Tian</a>
+  <br>
+  <i>Feb, 2023 -- Dec, 2023</i> <br>
+  </p></td></tr></tbody></table>
+<br>
+<table class="imgtable"><tbody><tr><td>
+  <a href="https://www.ntu.edu.sg/index" target="_blank">
+    <img src="logo/NTU.png" alt="Nanyang Technological University" height="100"/>
+  </a></td>
+  <td align="left"><p><b>Nanyang Technological University  </b> <br>
+  Speech DL Intern, Multi-Modal
+  <br>
+  Advisor: <a href="https://github.com/teohteiktoe">Prof. TeikToe Teoh</a>
+  <br>
+  <i>Jul, 2022 -- Dec, 2022</i> <br>
+  </p></td></tr></tbody></table>
+<br>
+<table class="imgtable"><tbody><tr><td>
+  <a href="https://api7.ai/" target="_blank">
+    <img src="logo/apache-apisix.png" alt="APISIX, Top Level Project" width="100px" height="100"/>
+  </a></td>
+  <td align="left"><p><b>Apache Software Foundaiton  </b> <br>
+  Developer Intern, <a href="https://github.com/apache/apisix">APISIX</a>/<a href="https://api7.ai/">api7.ai</a>, <a href="https://news.apache.org/foundation/entry/the-apache-software-foundation-announces66">Top Level Project</a>
+  <br>
+  Mentor: <a href="https://github.com/SkyeYoung">Tao Yang</a>
+  <br>
+  <i>Jun, 2022 -- Nov, 2022</i> <br>
+  </p></td></tr></tbody></table>
+
+</div>
+
+<div id="exp-edu" class="tab-content exp-tab-content cols-2">
+
+<table class="imgtable"><tbody><tr><td>
+  <a href="https://newbrunswick.rutgers.edu/" target="_blank">
+    <img src="logo/RU.svg.png" alt="Rutgers University–New Brunswick" width="100px" height="100"/>
+  </a></td>
+  <td align="left"><p><b>Rutgers University–New Brunswick  </b> <br>
+  Ph.D., Department of Computer Science
+  <br>
+  Advisor: <a href="https://people.cs.rutgers.edu/~dnm/">Prof. Dimitris N. Metaxas</a>
+  <br>
+  New Jersey (USA)
+  <br>
+  <i>Sep, 2024 -- June, 2029 (Expected)</i> <br>
+  </p></td></tr></tbody></table>
+<br>
+<table class="imgtable"><tbody><tr><td>
+  <a href="https://www.vu.edu.au/" target="_blank">
+    <img src="logo/vu.png" alt="Victoria University" width="100px" height="100"/>
+  </a></td>
+  <td align="left"><p><b>Victoria University  </b> <br>
+  B.S., Department of Information Technology
+  <br>
+  Melbourne (Australia)
+  <br>
+  <i>Sep, 2020 -- Jun, 2024</i> <br>
+  </p></td></tr></tbody></table>
+<br>
+<table class="imgtable"><tbody><tr><td>
+  <a href="http://www.henu.edu.cn/" target="_blank">
+    <img src="logo/lighthenu.png" alt="Henan University" height="100"/>
+  </a></td>
+  <td align="left"><p><b>Henan University  </b> <br>
+  B.S., Department of Computer Science and Technology
+  <br>
+  Zhengzhou (China)
+  <br>
+  <i>Sep, 2020 -- Jun, 2024</i>
+  <br>
+  </p></td></tr></tbody></table>
+
+</div>
+
 ## Talks
 
 - **Make an Appointment:** The quickest way to find me is to send me an email or remind me on X/Github/LinkedIn. Then we create a Google Calendar event.
 - **Summary:** Amazon, Swiss Television, New Scientist, Waterloo, Dicpta Inc, Mo-Sys Inc.
 
 *Including invitations I couldn't accept due to my busy schedule.*
+
+## Service
+
+- **PC Member:** IEEE FG 2026, ICONIP 2024 2026, FM&LLM&GM 2025
+- **Conference Reviewer:** NeurIPS 2024, ICML 2024, ICLR 2025, ICCV 2025, WACV 2026, ACM MM 2025-2026, IEEE FG 2025, ICONIP 2023-2024, EMNLP 2023, NAACL 2024, ACL ARR 2023-2024  
+
+## Teaching
+
+- **Spring 2026:** [01-198-323: Numerical Analysis and Computing](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-323-numerical-analysis-and-computing)
+- **Fall 2025:** [01-198-336: Principles of Information and Data Management](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-336-principles-of-information-and-data-management)
+- **Spring 2025:** [01-198-210: Data Management for Data Science](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-210-data-management-for-data-science)
+- **Fall 2024:** [01-198-352: Internet Technology](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-352-internet-technology)
+
+## Awards
+
+- **Best Bachelor's Thesis** in Henan University [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
+- **School Grant:** 2020-2021, 2023-2024
 
 <br>
 <div style="width: 420px; height: 220px; overflow: hidden; margin: 20px auto;">
