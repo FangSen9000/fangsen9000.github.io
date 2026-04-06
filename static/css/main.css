@@ -781,3 +781,22 @@ table.imgtable img {
     max-height: 300px;
     overflow: auto;
 }
+
+.venue-accent {
+    /* Legacy venue red: rgb(204, 0, 0); */
+    color: red;
+}
+
+a.venue-accent {
+    text-decoration-color: currentColor;
+}
+
+.markdown-section a.venue-accent,
+.markdown-section a.venue-accent:visited,
+.markdown-section a.venue-accent:hover,
+.html-section a.venue-accent,
+.html-section a.venue-accent:visited,
+.html-section a.venue-accent:hover {
+    color: red;
+    text-decoration-color: currentColor;
+}

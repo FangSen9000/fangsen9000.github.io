@@ -48,6 +48,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div id="selected-news" class="tab-content news active">
 
+- **2026.4** One paper was accepted by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>.
 - **2025.3** According to the plan from a year ago, I will join [Hedra Inc.](https://www.hedra.com/) to research foundational video generation models.
 - **2024.12** An amazing day. Maybe I was inspired by God, or maybe I found my lifelong career.
 - **2024.6** I got the [Best Bachelor's Thesis](https://jwc.henu.edu.cn/info/2145/8713.htm) award of [Henan University](https://en.wikipedia.org/wiki/Henan_University).
@@ -57,19 +58,20 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div id="all-news" class="tab-content news">
 
-- **2025.9** One app was accepted by [<span style="color:rgb(204,0,0);">ICCV Demo Track</span>](https://iccv.thecvf.com/Conferences/2025/CallForDemos).
-- **2025.7** One paper was accepted by [<span style="color:rgb(204,0,0);">ICCV CV4A11y</span>](https://cv4a11y.github.io/ICCV2025/index.html).
-- **2025.4** One paper was accepted by [<span style="color:rgb(204,0,0);">IEEE FG FM&LLM&GM</span>](https://sites.google.com/view/fmllmgm-fg25).
+- **2026.4** One paper was accepted by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>.
+- **2025.9** One app was accepted by <a href="https://iccv.thecvf.com/Conferences/2025/CallForDemos" class="venue-accent">ICCV Demo Track</a>.
+- **2025.7** One paper was accepted by <a href="https://cv4a11y.github.io/ICCV2025/index.html" class="venue-accent">ICCV CV4A11y</a>.
+- **2025.4** One paper was accepted by <a href="https://sites.google.com/view/fmllmgm-fg25" class="venue-accent">IEEE FG FM&LLM&GM</a>.
 - **2025.3** According to the plan from a year ago, I will join [Hedra Inc.](https://www.hedra.com/) to research foundational video generation models.
 - **2024.12** An amazing day. Maybe I was inspired by God, or maybe I found my lifelong career.
 - **2024.6** I got the [Best Bachelor's Thesis](https://jwc.henu.edu.cn/info/2145/8713.htm) award of [Henan University](https://en.wikipedia.org/wiki/Henan_University).
 - **2024.2** I have received the offer of dream advisor and will start my doctoral career.
-- **2023.10** An article was accepted by [<span style="color:rgb(204,0,0);">EMNLP MRL</span>](https://sigtyp.github.io/ws2023-mrl.html).
-- **2023.9** As Intern of Prof [Chen Chen](https://www.crcv.ucf.edu/chenchen/) to explore the large language model of sign language. He is a professor from UCF([<span style="color:rgb(204,0,0);">Top10 CV@CS-ranking</span>](https://csrankings.org/#/index?vision&us)), with over <span data-gscholar="https://scholar.google.com/citations?user=TuEwcZ0AAAAJ" data-gscholar-short="true">...</span> citations.
-- **2023.8** One of my articles was accepted by [<span style="color:rgb(204,0,0);">ICONIP</span>](http://www.iconip2023.org/), the flagship conference of [<span style="color:rgb(204,0,0);">APNNS</span>](https://www.apnns.org/)!
-- **2023.2** Started sign language production work under the guidance of Prof [Yapeng Tian](http://www.yapengtian.com/) from UTD, SPC/AC of Top-level conferences, such as [<span style="color:rgb(204,0,0);">CVPR</span>](https://cvpr.thecvf.com/)/[<span style="color:rgb(204,0,0);">AAAI</span>](https://aaai-23.aaai.org/), with over <span data-gscholar="https://scholar.google.com/citations?user=lxCqdpoAAAAJ" data-gscholar-short="true">...</span> citations.
+- **2023.10** An article was accepted by <a href="https://sigtyp.github.io/ws2023-mrl.html" class="venue-accent">EMNLP MRL</a>.
+- **2023.9** As Intern of Prof [Chen Chen](https://www.crcv.ucf.edu/chenchen/) to explore the large language model of sign language. He is a professor from UCF(<a href="https://csrankings.org/#/index?vision&us" class="venue-accent">Top10 CV@CS-ranking</a>), with over <span data-gscholar="https://scholar.google.com/citations?user=TuEwcZ0AAAAJ" data-gscholar-short="true">...</span> citations.
+- **2023.8** One of my articles was accepted by <a href="http://www.iconip2023.org/" class="venue-accent">ICONIP</a>, the flagship conference of <a href="https://www.apnns.org/" class="venue-accent">APNNS</a>!
+- **2023.2** Started sign language production work under the guidance of Prof [Yapeng Tian](http://www.yapengtian.com/) from UTD, SPC/AC of Top-level conferences, such as <a href="https://cvpr.thecvf.com/" class="venue-accent">CVPR</a>/<a href="https://aaai-23.aaai.org/" class="venue-accent">AAAI</a>, with over <span data-gscholar="https://scholar.google.com/citations?user=lxCqdpoAAAAJ" data-gscholar-short="true">...</span> citations.
 - **2022.7** As a study researcher of Prof [TeikToe Teoh](https://github.com/teohteiktoe), joined NTU in Summer research.
-- **2022.6** As a student of mentor [SkyeYoung](https://github.com/SkyeYoung), joined APISIX in [<span style="color:rgb(204,0,0);">OSPP 2022</span>](https://summer-ospp.ac.cn/), who is an Apache member of the top project with <a href="https://github.com/apache/apisix"><img src="https://img.shields.io/github/stars/apache/apisix?style=social" alt="GitHub stars" style="display:inline !important; height:1em; vertical-align:text-bottom; margin:0 !important;"></a>.
+- **2022.6** As a student of mentor [SkyeYoung](https://github.com/SkyeYoung), joined APISIX in <a href="https://summer-ospp.ac.cn/" class="venue-accent">OSPP 2022</a>, who is an Apache member of the top project with <a href="https://github.com/apache/apisix"><img src="https://img.shields.io/github/stars/apache/apisix?style=social" alt="GitHub stars" style="display:inline !important; height:1em; vertical-align:text-bottom; margin:0 !important;"></a>.
 - **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
 - **2021.9** Completed 2 months of ACM training.
 
@@ -141,7 +143,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **Stable Signer: Hierarchical Sign Language Generative Model**      
 **Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
-*ICCV 2025 Demo Track*       
+<span class="venue-accent">ICCV 2025 Demo Track</span> & <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>       
 [[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
 🏆 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
 
@@ -150,8 +152,8 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <div class="pub-item"><img src="cover/SignLLM.png"><div class="pub-content">
 
 **SignLLM: Sign Language Production Large Language Models**     
-**Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian       
-*ICCVW 2025*        
+**Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian         
+<span class="venue-accent">ICCV 2025 CV4A11y</span>        
 [[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign)      
 🦄 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
 
@@ -205,7 +207,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
   <td align="left"><p><b>Hedra Inc.  </b> <br>
   Research Intern: GenAI, Talking-Face 
   <br>
-  Mentor: <a href="https://github.com/yhw-yhw">DR. Hongwei Yi</a>
+  Mentor: <a href="https://scholar.google.com/citations?user=ocMf7fQAAAAJ">DR. Hongwei Yi</a>
   <br>
   <i>May, 2025 -- July, 2025</i> <br>
   </p></td></tr></tbody></table>
@@ -313,7 +315,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Service
 
-- **PC Member:** IEEE FG 2026, ICONIP 2024 2026, FM&LLM&GM 2025
+- **Program Chair Member:** IEEE FG 2026, ICONIP 2024 2026, FM&LLM&GM 2025, EmpAI 2026
 - **Conference Reviewer:** NeurIPS 2024, ICML 2024, ICLR 2025, ICCV 2025, WACV 2026, ACM MM 2025-2026, IEEE FG 2025, ICONIP 2023-2024, EMNLP 2023, NAACL 2024, ACL ARR 2023-2024  
 
 ## Teaching
