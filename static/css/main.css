@@ -787,8 +787,37 @@ table.imgtable img {
     color: red;
 }
 
+/* Browser translators often wrap partial text in nested elements. Keep the accent color stable. */
+.venue-accent,
+.venue-accent *,
+.venue-accent font {
+    color: red !important;
+}
+
+.special-accent,
+.special-accent *,
+.special-accent font {
+    color: red !important;
+    text-decoration: none !important;
+}
+
+.special-accent {
+    white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+
 a.venue-accent {
     text-decoration-color: currentColor;
+}
+
+a.venue-accent:not([href]) {
+    text-decoration: none;
+}
+
+a.venue-accent:not([href]) *,
+a.venue-accent:not([href]) font {
+    text-decoration: none !important;
 }
 
 .markdown-section a.venue-accent,

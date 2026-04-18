@@ -26,7 +26,8 @@
     </div>
 </section>
 
-I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/)<sup class="footnote" data-note="Board of Governors and Distinguished Prof. Dimitris Metaxas">o</sup>. I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of Machine Learning, mainly in terms of computer vision concepts. Before this, I had an internship or collaboration at <img src="logo/apache-apisix.png" class="inline-logo">[Apache](https://github.com/apache), <img src="logo/NTU.png" class="inline-logo">[NTU](https://www.ntu.edu.sg/), <img src="logo/nus_short.png" class="inline-logo">[NUS](https://www.nus.edu.sg/), <img src="logo/utd.png" class="inline-logo">[UTD](https://www.utdallas.edu/), <img src="logo/UCF.svg.png" class="inline-logo">[UCF](https://www.ucf.edu), <img src="logo/hedra.svg" class="inline-logo">[Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
+I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/)<sup class="footnote" data-note="Board of Governors and Distinguished Prof. Dimitris Metaxas">o</sup>. I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (<span class="special-accent">The Four Laws of Computer Vision</span>), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of whole Computer Vision concepts.
+Before this, I was nominated for the <span class="special-accent">ACL 2026 Best Paper Award</span>, I had an internship or collaboration at <img src="logo/apache-apisix.png" class="inline-logo">[Apache](https://github.com/apache), <img src="logo/NTU.png" class="inline-logo">[NTU](https://www.ntu.edu.sg/), <img src="logo/nus_short.png" class="inline-logo">[NUS](https://www.nus.edu.sg/), <img src="logo/utd.png" class="inline-logo">[UTD](https://www.utdallas.edu/), <img src="logo/UCF.svg.png" class="inline-logo">[UCF](https://www.ucf.edu), <img src="logo/hedra.svg" class="inline-logo">[Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
 
 My main research field is **Computer Vision** (3DV, Generative Method, Human Pose). 
 Recently I have been interested in the following topics:
@@ -48,7 +49,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div id="selected-news" class="tab-content news active">
 
-- **2026.4** One paper was accepted by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>.
+- **2026.4** One paper was accepted and nominated as the <span class="special-accent">Best Paper Award</span> by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>.
 - **2025.3** According to the plan from a year ago, I will join [Hedra Inc.](https://www.hedra.com/) to research foundational video generation models.
 - **2024.12** An amazing day. Maybe I was inspired by God, or maybe I found my lifelong career.
 - **2024.6** I got the [Best Bachelor's Thesis](https://jwc.henu.edu.cn/info/2145/8713.htm) award of [Henan University](https://en.wikipedia.org/wiki/Henan_University).
@@ -58,7 +59,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div id="all-news" class="tab-content news">
 
-- **2026.4** One paper was accepted by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>.
+- **2026.4** One paper was accepted and nominated as the <span class="special-accent">Best Paper Award</span> by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>.
 - **2025.9** One app was accepted by <a href="https://iccv.thecvf.com/Conferences/2025/CallForDemos" class="venue-accent">ICCV Demo Track</a>.
 - **2025.7** One paper was accepted by <a href="https://cv4a11y.github.io/ICCV2025/index.html" class="venue-accent">ICCV CV4A11y</a>.
 - **2025.4** One paper was accepted by <a href="https://sites.google.com/view/fmllmgm-fg25" class="venue-accent">IEEE FG FM&LLM&GM</a>.
@@ -95,6 +96,17 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **Sen Fang**, Dimitris N. Metaxas†  
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot) [[Document]]()   
 ♾️ <font color='green'>**Order-of-magnitude width + Concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing CV models. Theoretically, supports a maximum of up to several thousand existing tasks, and potentially 32.8k+ newly CV tasks will be created in a short time<sup class="footnote" data-note="Of course, these changes developed quietly like raindrops. LLM can do countless things, but no one has detailed its capabilities. The capabilities of WSM will not be divided either; it can perform all tasks related to vision and the world.">o</sup>.</font>
+
+</div></div>
+
+<div class="pub-item"><img src="cover/StableSigner.gif"><div class="pub-content">
+
+**Stable Signer: Hierarchical Sign Language Generative Model**      
+**Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
+<span class="venue-accent">ICCV 2025 Demo Track</span> & <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>       
+<span class="venue-accent">ACL 2026 Best Paper Award Nominee</span>       
+[[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
+🏆 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
 
 </div></div>
 
@@ -139,15 +151,6 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 </div></div>
 
-<div class="pub-item"><img src="cover/StableSigner.gif"><div class="pub-content">
-
-**Stable Signer: Hierarchical Sign Language Generative Model**      
-**Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
-<span class="venue-accent">ICCV 2025 Demo Track</span> & <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>       
-[[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
-🏆 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
-
-</div></div>
 
 <div class="pub-item"><img src="cover/SignLLM.png"><div class="pub-content">
 
