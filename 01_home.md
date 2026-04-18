@@ -104,7 +104,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **Stable Signer: Hierarchical Sign Language Generative Model**      
 **Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
 <span class="venue-accent">ICCV 2025 Demo Track</span> & <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>       
-<span class="venue-accent">ACL 2026 Best Paper Award Nominee</span>       
+<span class="venue-accent">ACL 2026 Best Paper Award Nominee (out of 12,148 submissions)</span>       
 [[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
 🦄 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
 
@@ -330,6 +330,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Awards
 
+- **ACL 2026 Best Paper Award Nominee** (out of 12,148 submissions)
 - **Best Bachelor's Thesis** in Henan University [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
 - **School Grant:** 2020-2021, 2023-2024
 
