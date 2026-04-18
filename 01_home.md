@@ -26,7 +26,7 @@
     </div>
 </section>
 
-I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/)<sup class="footnote" data-note="Board of Governors and Distinguished Prof. Dimitris Metaxas">o</sup>. I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (<span class="special-accent">The Four Laws of Computer Vision</span>), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of whole Computer Vision concepts.
+I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/)<sup class="footnote" data-note="Board of Governors and Distinguished Prof. Dimitris Metaxas">o</sup>. I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (<span class="special-accent">"The Four Laws of Computer Vision"</span>), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of whole Computer Vision concepts.
 Before this, I was nominated for the <span class="special-accent">ACL 2026 Best Paper Award</span>, I had an internship or collaboration at <img src="logo/apache-apisix.png" class="inline-logo">[Apache](https://github.com/apache), <img src="logo/NTU.png" class="inline-logo">[NTU](https://www.ntu.edu.sg/), <img src="logo/nus_short.png" class="inline-logo">[NUS](https://www.nus.edu.sg/), <img src="logo/utd.png" class="inline-logo">[UTD](https://www.utdallas.edu/), <img src="logo/UCF.svg.png" class="inline-logo">[UCF](https://www.ucf.edu), <img src="logo/hedra.svg" class="inline-logo">[Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
 
 My main research field is **Computer Vision** (3DV, Generative Method, Human Pose). 
@@ -106,7 +106,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <span class="venue-accent">ICCV 2025 Demo Track</span> & <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>       
 <span class="venue-accent">ACL 2026 Best Paper Award Nominee</span>       
 [[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
-🏆 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
+🦄 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
 
 </div></div>
 
@@ -156,7 +156,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **SignLLM: Sign Language Production Large Language Models**     
 **Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian         
-<span class="venue-accent">ICCV 2025 CV4A11y</span>        
+<span class="special-accent">ICCV 2025 CV4A11y</span>        
 [[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign)      
 🦄 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
 
