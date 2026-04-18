@@ -7,10 +7,52 @@
 
 .pub-container .pub-item img {
   width: 240px;
-  height: 155px;
   margin-right: 20px;
   flex-shrink: 0;
   border: 1px solid black;
+}
+
+/* Toggle image height behavior on each pub-item:
+   pub-image-auto-height-false -> fixed height
+   pub-image-auto-height-true  -> adaptive height */
+.pub-container .pub-item.pub-image-auto-height-false img {
+  height: 155px;
+}
+
+.pub-container .pub-item.pub-image-auto-height-true img {
+  height: auto;
+  /* Keep the central 145px fully visible and fade out faster toward the edges. */
+  --pub-focus-half-height: 72.5px;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.18) 0%,
+    rgba(0, 0, 0, 0.4) calc(50% - 118px),
+    rgba(0, 0, 0, 0.58) calc(50% - 94px),
+    rgba(0, 0, 0, 0.86) calc(50% - 78px),
+    rgba(0, 0, 0, 0.98) calc(50% - 74px),
+    rgba(0, 0, 0, 1) calc(50% - var(--pub-focus-half-height)),
+    rgba(0, 0, 0, 1) calc(50% + var(--pub-focus-half-height)),
+    rgba(0, 0, 0, 0.98) calc(50% + 74px),
+    rgba(0, 0, 0, 0.86) calc(50% + 78px),
+    rgba(0, 0, 0, 0.58) calc(50% + 94px),
+    rgba(0, 0, 0, 0.4) calc(50% + 118px),
+    rgba(0, 0, 0, 0.18) 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.18) 0%,
+    rgba(0, 0, 0, 0.4) calc(50% - 118px),
+    rgba(0, 0, 0, 0.58) calc(50% - 94px),
+    rgba(0, 0, 0, 0.86) calc(50% - 78px),
+    rgba(0, 0, 0, 0.98) calc(50% - 74px),
+    rgba(0, 0, 0, 1) calc(50% - var(--pub-focus-half-height)),
+    rgba(0, 0, 0, 1) calc(50% + var(--pub-focus-half-height)),
+    rgba(0, 0, 0, 0.98) calc(50% + 74px),
+    rgba(0, 0, 0, 0.86) calc(50% + 78px),
+    rgba(0, 0, 0, 0.58) calc(50% + 94px),
+    rgba(0, 0, 0, 0.4) calc(50% + 118px),
+    rgba(0, 0, 0, 0.18) 100%
+  );
 }
 
 .pub-container .pub-item .pub-content {

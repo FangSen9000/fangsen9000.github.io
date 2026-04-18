@@ -50,7 +50,7 @@ I maintain these projects:
 
 *According to my Unified Laws, all visual tasks only require generative methods. Therefore, GenAI will be the focus of 90% of visual professionals.*
 
-<div class="pub-item"><img src="cover/rac.png"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/rac.png"><div class="pub-content">
 
 **RAC: Rectified Flow Auto Coder**     
 **Sen Fang**, Yalin Feng*, Yanxin Zhang, Dimitris N. Metaxas†      
@@ -59,7 +59,7 @@ I maintain these projects:
 
 </div></div>
 
-<div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
 **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**     
 **Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†      
@@ -74,7 +74,7 @@ I maintain these projects:
 <div id="pub-sign" class="tab-content pub-tab-content">
 <div class="pub-container">
 
-<div class="pub-item"><img src="cover/SignX2.png"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/SignX2.png"><div class="pub-content">
 
 **SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space**    
 **Sen Fang**, Yalin Feng*, Chunyu Sui, Hongbin Zhong, Hongwei Yi, Dimitris N. Metaxas†      
@@ -83,7 +83,7 @@ I maintain these projects:
 
 </div></div>
 
-<div class="pub-item"><img src="cover/StableSigner.gif"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/StableSigner.gif"><div class="pub-content">
 
 **Stable Signer: Hierarchical Sign Language Generative Model**      
 **Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
@@ -93,7 +93,7 @@ I maintain these projects:
 
 </div></div>
 
-<div class="pub-item"><img src="cover/SignLLM.png"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/SignLLM.png"><div class="pub-content">
 
 **SignLLM: Sign Language Production Large Language Models**     
 **Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian       

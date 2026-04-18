@@ -90,7 +90,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <div id="pub-featured" class="tab-content pub-tab-content active">
 <div class="pub-container">
 
-<div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
 **WSM: World Snapshot Model**   
 **Sen Fang**, Dimitris N. Metaxas†  
@@ -99,14 +99,14 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 </div></div>
 
-<div class="pub-item"><img src="cover/StableSigner.gif"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-true"><img src="cover/StableSigner_v2.gif"><div class="pub-content">
 
 **Stable Signer: Hierarchical Sign Language Generative Model**      
 **Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
 <span class="venue-accent">ICCV 2025 Demo Track</span> & <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>       
 <span class="venue-accent">ACL 2026 Best Paper Award Nominee (out of 12,148 submissions)</span>       
 [[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
-🦄 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
+🏆 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
 
 </div></div>
 
@@ -118,7 +118,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 *According to my Unified Laws, all visual tasks only require generative methods. Therefore, GenAI will be the focus of 90% of visual professionals.*
 
-<div class="pub-item"><img src="cover/rac.png"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/rac.png"><div class="pub-content">
 
 **RAC: Rectified Flow Auto Coder**     
 **Sen Fang**, Yalin Feng*, Yanxin Zhang, Dimitris N. Metaxas†      
@@ -127,7 +127,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 </div></div>
 
-<div class="pub-item"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
 **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**     
 **Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†      
@@ -142,7 +142,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <div id="pub-sign" class="tab-content pub-tab-content">
 <div class="pub-container">
 
-<div class="pub-item"><img src="cover/SignX2.png"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/SignX2.png"><div class="pub-content">
 
 **SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space**    
 **Sen Fang**, Yalin Feng*, Chunyu Sui, Hongbin Zhong, Hongwei Yi, Dimitris N. Metaxas†      
@@ -152,7 +152,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 </div></div>
 
 
-<div class="pub-item"><img src="cover/SignLLM.png"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false"><img src="cover/SignLLM.png"><div class="pub-content">
 
 **SignLLM: Sign Language Production Large Language Models**     
 **Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian         
