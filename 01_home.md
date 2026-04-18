@@ -330,7 +330,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Awards
 
-- **ACL 2026 Best Paper Award Nominee** (out of 12,148 submissions)
+- **ACL 2026 Best Paper Award Nominee:** Out of 12,148 submissions. This is a highly competitive nomination for the award -- Over the recorded period from 2001 to 2025, there were 76 ACL Best Papers, and 21 of them had Chinese as the first author.
 - **Best Bachelor's Thesis** in Henan University [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
 - **School Grant:** 2020-2021, 2023-2024
 
