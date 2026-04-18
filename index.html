@@ -25,8 +25,8 @@
             <!--        
             <a href="#" class="header-link nav-page" data-page="02_bio.md">[Biography]</a>
             -->
-            <a href="#" class="header-link nav-page" data-page="03_blog.md">[Blog]</a>
-            <a href="#" class="header-link nav-page" data-page="04_misc.md">[Misc.]</a>
+            <a href="#" class="header-link nav-page" data-page="03_misc.md">[Misc.]</a>
+            <a href="#" class="header-link nav-page" data-page="04_blog.md">[Blog]</a>
             <a href="#" class="header-link nav-page" data-page="05_schedule.md">[Schedule]</a>
         </div>
     </header>
@@ -307,7 +307,7 @@
                     .replace(/[^\w\s-]/g, '') // 移除特殊字符
                     .replace(/\s+/g, '-')     // 空格替换为连字符
                     .replace(/-+/g, '-')      // 多个连字符合并为一个
-                    .trim('-');               // 移除首尾连字符
+                    .replace(/^-+|-+$/g, ''); // 移除首尾连字符
             }
 
             // 为所有标题添加ID和链接
