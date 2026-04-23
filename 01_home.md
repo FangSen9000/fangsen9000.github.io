@@ -1,7 +1,7 @@
 <!-- Teaser Section with Text Wall -->
 <section id="teaser" class="teaser-section">
     <div class="photo-container">
-        <img src="file/senfang_photo_2025-8-short.jpg" alt="photo_senfang" />
+        <img src="file/senfang_orange_big_jacket_midcamera_stable.png" alt="photo_senfang" />
     </div>
     <div class="text-wall-container">
         <div class="text-wall-background">
