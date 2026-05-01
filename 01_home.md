@@ -99,7 +99,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 **Sen Fang**, Dimitris N. Metaxas†  
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot) [[Document]]()   
 ♾️ <font color='green'>**Order-of-magnitude width + Concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing CV models. Theoretically, supports a maximum of up to several thousand existing tasks, and potentially 32.8k+ newly CV tasks will be created in a short time<sup class="footnote" data-note="Of course, these changes developed quietly like raindrops. LLM can do countless things, but no one has detailed its capabilities. The capabilities of WSM will not be divided either; it can perform all tasks related to vision and the world.">o</sup>.</font>    
-**Note:** The youngest child, although it was born first.
+**Note:** My first child, it will be remembered by history.
 
 </div></div>
 
@@ -138,6 +138,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <span class="special-accent">ICML 2026</span>        
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)          
 🦄 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
+<!--(6352/23918, 26.56%)-->
 
 </div></div>
 
@@ -147,12 +148,21 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <div id="pub-sign" class="tab-content pub-tab-content">
 <div class="pub-container">
 
+<div class="pub-item pub-image-auto-height-false"><img src="cover/background_gallery_big.gif"><div class="pub-content">
+
+**SignVerse-2M: A Two-Million-Clip Pose-Native Universe of 25+ Sign Languages**    
+**Sen Fang**, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†      
+[[Paper]]() [[Project Page]](https://signerx.github.io/SignVerse-2M/)      
+<font color='green'>**Dataset breakthrough:**  Make sign language research practical, affordable, and scalable!</font>
+
+</div></div>
+
 <div class="pub-item pub-image-auto-height-false"><img src="cover/SignX2.png"><div class="pub-content">
 
 **SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space**    
 **Sen Fang**, Yalin Feng*, Chunyu Sui, Hongbin Zhong, Hongwei Yi, Dimitris N. Metaxas†      
 [[Paper]](https://arxiv.org/abs/2504.16315) [[Project Page]](https://signerx.github.io/SignX/)      
-💥 <font color='green'>**Performance breakthrough:**  2026 CSLR SOTA. The recognition and understanding tasks on any sign language dataset can/will achieve state-of-the-art results.</font>
+💥 <font color='green'>**Performance breakthrough:**  2026 CSLR SOTA. The recognition and understanding tasks on any sign language dataset can/will achieve state-of-the-art results. Let Pose Recognition Happen in Latent Space, as well!</font>
 
 </div></div>
 
