@@ -12,6 +12,43 @@
   border: 1px solid black;
 }
 
+.pub-container .pub-item .pub-cover-overlay {
+  position: relative;
+  width: 240px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  container-type: inline-size;
+  line-height: 0;
+}
+
+.pub-container .pub-item .pub-cover-overlay img {
+  width: 100%;
+  margin-right: 0;
+}
+
+.pub-container .pub-item .pub-cover-overlay::after {
+  content: attr(data-overlay-text);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Avenir Next Rounded", "SF Pro Rounded", "Nunito", "Quicksand", "Segoe UI Rounded", sans-serif;
+  font-size: clamp(18px, 12cqw, 30px);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+
 /* Toggle image height behavior on each pub-item:
    pub-image-auto-height-false -> fixed height
    pub-image-auto-height-true  -> adaptive height */

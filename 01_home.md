@@ -107,7 +107,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **Stable Signer: Hierarchical Sign Language Generative Model**      
 **Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
-<span class="venue-accent">ICCV 2025 Demo Track</span> & <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>       
+<span class="venue-accent">ICCV 2025 Demo Track</span> and <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>       
 <span class="venue-accent">ACL 2026 Best Paper Award Nominee (out of 12,148 submissions)</span>       
 [[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
 🏆 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
@@ -148,7 +148,10 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <div id="pub-sign" class="tab-content pub-tab-content">
 <div class="pub-container">
 
-<div class="pub-item pub-image-auto-height-false"><img src="cover/background_gallery_big.gif"><div class="pub-content">
+<div class="pub-item pub-image-auto-height-false">
+<div class="pub-cover-overlay" data-overlay-text="SignVerse-2M">
+<img src="cover/background_gallery_big.gif" alt="SignVerse-2M cover">
+</div><div class="pub-content">
 
 **SignVerse-2M: A Two-Million-Clip Pose-Native Universe of 25+ Sign Languages**    
 **Sen Fang**, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†      
