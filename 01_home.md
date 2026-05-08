@@ -203,7 +203,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Experience
 
-<div class="tabs"><span class="tab active" onclick="document.querySelectorAll('.exp-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('exp-work').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Work Experience</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.exp-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('exp-edu').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Education</span></div>
+<div class="tabs"><span class="tab active" onclick="document.querySelectorAll('.exp-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('exp-work').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Work Experience</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.exp-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('exp-edu').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Education</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.exp-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('exp-lineage').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Academic Lineage</span></div>
 
 
 
@@ -290,40 +290,77 @@ I am open to academic/industrial collaborations, and please drop me an email if 
   <a href="https://newbrunswick.rutgers.edu/" target="_blank">
     <img src="logo/RU.svg.png" alt="Rutgers University–New Brunswick" width="100px" height="100"/>
   </a></td>
-  <td align="left"><p><b>Rutgers University–New Brunswick  </b> <br>
-  Ph.D., Department of Computer Science
+  <td align="left"><p><span style="color:transparent">"</span><b>Rutgers University–New Brunswick  </b><span style="color:transparent">"</span> <br>
+  <span style="color:transparent">"</span>Ph.D., Department of Computer Science<span style="color:transparent">"</span>
   <br>
-  Advisor: <a href="https://people.cs.rutgers.edu/~dnm/">Prof. Dimitris N. Metaxas</a>
+  <span style="color:transparent">"</span>Advisor: <span class="special-accent">Board of Governors and Distinguished Professor</span><span style="color:transparent">"</span>
   <br>
-  New Jersey (USA)
+  <span style="color:transparent">"</span><span class="special-accent">IEEE Fellow</span>, <span class="special-accent">Fellow AIMBE</span>, <span class="special-accent">Fellow MICCAI Society</span><span style="color:transparent">"</span>
   <br>
-  <i>Sep, 2024 -- June, 2029 (Expected)</i> <br>
+  <span style="color:transparent">"</span><a href="https://people.cs.rutgers.edu/~dnm/">Prof. Dimitris N. Metaxas</a><span style="color:transparent">"</span>
+  <br>
+  <span style="color:transparent">"</span>New Jersey (USA)<span style="color:transparent">"</span>
+  <br>
+  <span style="color:transparent">"</span><i>Sep, 2024 -- June, 2029 (Expected)</i><span style="color:transparent">"</span> <br>
   </p></td></tr></tbody></table>
 <br>
 <table class="imgtable"><tbody><tr><td>
   <a href="https://www.vu.edu.au/" target="_blank">
     <img src="logo/vu.png" alt="Victoria University" width="100px" height="100"/>
   </a></td>
-  <td align="left"><p><b>Victoria University  </b> <br>
-  B.S., Department of Information Technology
+  <td align="left"><p><span style="color:transparent">"</span><b>Victoria University  </b><span style="color:transparent">"</span> <br>
+  <span style="color:transparent">"</span>B.S., Department of Information Technology<span style="color:transparent">"</span>
   <br>
-  Melbourne (Australia)
+  <span style="color:transparent">"</span>Melbourne (Australia)<span style="color:transparent">"</span>
   <br>
-  <i>Sep, 2020 -- Jun, 2024</i> <br>
+  <span style="color:transparent">"</span><i>Sep, 2020 -- Jun, 2024</i><span style="color:transparent">"</span> <br>
   </p></td></tr></tbody></table>
 <br>
 <table class="imgtable"><tbody><tr><td>
   <a href="http://www.henu.edu.cn/" target="_blank">
     <img src="logo/lighthenu.png" alt="Henan University" height="100"/>
   </a></td>
-  <td align="left"><p><b>Henan University  </b> <br>
-  B.S., Department of Computer Science and Technology
+  <td align="left"><p><span style="color:transparent">"</span><b>Henan University  </b><span style="color:transparent">"</span> <br>
+  <span style="color:transparent">"</span>B.S., Department of Computer Science and Technology<span style="color:transparent">"</span>
   <br>
-  Zhengzhou (China)
+  <span style="color:transparent">"</span>Zhengzhou (China)<span style="color:transparent">"</span>
   <br>
-  <i>Sep, 2020 -- Jun, 2024</i>
+  <span style="color:transparent">"</span><i>Sep, 2020 -- Jun, 2024</i><span style="color:transparent">"</span>
   <br>
   </p></td></tr></tbody></table>
+
+</div>
+
+<div id="exp-lineage" class="tab-content exp-tab-content">
+
+- <a href="https://en.wikipedia.org/wiki/David_Marr_(scientist)" target="_blank"><b>David Marr</b></a> (1945–1980)<br>
+<span style="color:transparent">"</span>Ph.D. in Physiology, <a href="https://en.wikipedia.org/wiki/Trinity_College,_Cambridge" target="_blank">Trinity College, Cambridge</a>; Faculty at <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><font color='green'>Founder of computational vision; pioneered the three-level framework (computational, algorithmic, implementational) for understanding vision</font><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span>IJCAI Computers and Thought Award; the International Conference on Computer Vision (ICCV) Best Paper Award (<span class="special-accent">Marr Prize</span>) is named in his honor<span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span>Referred to by some records as the <b>father of computational vision</b><span style="color:transparent">"</span>
+
+- <a href="https://en.wikipedia.org/wiki/Shimon_Ullman" target="_blank"><b>Shimon Ullman</b></a><br>
+<span style="color:transparent">"</span>Ph.D., <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a> (1977), advised by David Marr; Professor, <a href="https://en.wikipedia.org/wiki/Weizmann_Institute_of_Science" target="_blank">Weizmann Institute of Science</a><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><font color='green'>Visual object/face recognition, visual saliency, computational models of biological vision</font><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><span class="special-accent">Member, American Academy of Arts and Sciences</span>; <span class="special-accent">Member, Israeli Academy of Sciences and Humanities</span>; Israel Prize in Computer Science (2015); David E. Rumelhart Prize (2008); Azriel Rosenfeld Lifetime Achievement Award (2019)<span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span>Lab: <a href="https://www.weizmann.ac.il/math/shimon/home" target="_blank">Ullman Lab, Weizmann Institute of Science</a><span style="color:transparent">"</span>
+
+- <a href="https://en.wikipedia.org/wiki/Demetri_Terzopoulos" target="_blank"><b>Demetri Terzopoulos</b></a><br>
+<span style="color:transparent">"</span>Ph.D. in AI, <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a> (1984), advised by Shimon Ullman; Distinguished Professor & Chancellor's Professor, <a href="https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles" target="_blank">UCLA</a><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><font color='green'>Computer graphics, computer vision, deformable models, active contours (snakes), medical imaging, artificial life</font><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><span class="special-accent">Fellow of the Royal Society (FRS)</span>; <span class="special-accent">IEEE Fellow</span>; <span class="special-accent">ACM Fellow</span>; Academy Award for Technical Achievement (2006); IEEE Computer Pioneer Award (2020)<span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span>Lab: <a href="http://gravilab.cs.ucla.edu/" target="_blank">UCLA Computer Graphics & Vision Group</a><span style="color:transparent">"</span>
+
+- <a href="https://en.wikipedia.org/wiki/Dimitris_Metaxas" target="_blank"><b>Dimitris N. Metaxas</b></a><br>
+<span style="color:transparent">"</span>Ph.D., <a href="https://en.wikipedia.org/wiki/University_of_Toronto" target="_blank">University of Toronto</a> (1992), advised by Demetri Terzopoulos; <span class="special-accent">Board of Governors and Distinguished Professor</span>, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers University</a><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><font color='green'>Computer vision, biomedical image analysis, medical image computing, deformable models</font><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><span class="special-accent">IEEE Fellow</span>; <span class="special-accent">Fellow AIMBE</span>; <span class="special-accent">Fellow MICCAI Society</span>; General Chair CVPR 2026 & ICCV 2011<span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span>Lab: <a href="https://cbim-rutgers.github.io/" target="_blank">CBIM, Rutgers University</a><span style="color:transparent">"</span>
+
+- **Sen Fang**<br>
+<span style="color:transparent">"</span>Ph.D. student, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers University</a>, advised by Prof. Dimitris N. Metaxas<span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><font color='green'>World Snapshot Model, Wave Generative Method, Sign Language, Computer Vision</font><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><span class="special-accent">ACL 2026 Best Paper Award Nominee</span><span style="color:transparent">"</span>
 
 </div>
 
