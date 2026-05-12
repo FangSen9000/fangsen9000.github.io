@@ -14,8 +14,8 @@ I maintain these projects:
 
 
 
-*\* Equivalent contribution, † Corresponding author. The following works is based on the most relevant tags, although they overlap with each other<sup class="footnote" data-note="sign language generation is classified as SL although it is also a posture generation method">o</sup>*       
-🏆 1~3x SOTA, 💥 over 3~10x improvement / New Concept, 👑 Impacts 100+ Domains / Paradigm Shift, ♾️ Impacts 1000+ Domains / Paradigm Emperor<sup class="footnote" data-note="e.g., LLM killed 900+ NLP tasks">o</sup>   
+*\* Equivalent contribution, † Corresponding author. The following works is based on the most relevant tags, although they overlap with each other<fn>sign language generation is classified as SL although it is also a posture generation method</fn>*       
+🏆 1~3x SOTA, 💥 over 3~10x improvement / New Concept, 👑 Impacts 100+ Domains / Paradigm Shift, ♾️ Impacts 1000+ Domains / Paradigm Emperor<fn>e.g., LLM killed 900+ NLP tasks</fn>   
 
 <link rel="stylesheet" href="static/css/pub.css">
 

@@ -477,7 +477,8 @@ footer a:hover {
     color: inherit;
 }
 
-.icon-links .footnote {
+.icon-links .footnote,
+.icon-links fn {
     font-size: 0.75rem;
     vertical-align: 1.5rem;
 }
@@ -491,6 +492,7 @@ footer a:hover {
     opacity: 0.4;
 }
 
+/* Old-style footnote: data-note attribute (not translatable) */
 .footnote {
     color: #3366cc;
     position: relative;
@@ -501,7 +503,8 @@ footer a:hover {
     content: attr(data-note);
     position: absolute;
     bottom: 100%;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background: #333;
     color: white;
     padding: 8px 10px;
@@ -515,15 +518,60 @@ footer a:hover {
     z-index: 1000;
     word-wrap: break-word;
 }
-
-/* 当脚注靠近右边缘时，让提示框向左显示 */
-.footnote:hover::after {
+.footnote:hover::before {
+    content: '';
+    position: absolute;
+    top: -5px;
     left: 50%;
     transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+    z-index: 1001;
 }
 
-/* 添加小三角形指向脚注 */
-.footnote:hover::before {
+/* New-style footnote: <fn> element (DOM text, translatable) */
+fn {
+    color: #3366cc;
+    position: relative;
+    cursor: help;
+    font-size: 0.75em;
+    vertical-align: super;
+    line-height: 1;
+}
+fn .fn-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+fn:hover .fn-text {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    background: #333;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 4px;
+    max-width: 300px;
+    min-width: 200px;
+    font-size: 0.9em;
+    line-height: 1.4;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+    word-wrap: break-word;
+}
+fn:hover::before {
     content: '';
     position: absolute;
     top: -5px;

@@ -80,6 +80,9 @@
                 // Fetch citation counts for any author elements
                 fetchCitationCounts();
 
+                // Initialize <fn> footnote elements
+                initFootnotes();
+
                 // Execute any scripts that were rendered in the markdown
                 const scripts = element.querySelectorAll('script');
                 scripts.forEach(oldScript => {
@@ -296,6 +299,14 @@
                     console.error('All proxies failed for:', scholarUrl);
                 }
             }
+        }
+
+        function initFootnotes() {
+            document.querySelectorAll('fn:not([data-init])').forEach(el => {
+                const text = el.textContent.trim();
+                el.setAttribute('data-init', '');
+                el.innerHTML = `<span class="fn-text">${text}</span>o`;
+            });
         }
 
         // 为标题添加锚点链接的函数
