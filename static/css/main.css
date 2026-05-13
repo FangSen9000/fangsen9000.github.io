@@ -117,7 +117,8 @@ a:has(span[style*="color"]) {
 }
 
 .header {
-    position: relative;
+    position: sticky;
+    top: 0;
     max-width: 1200px;
     margin: 0 auto;
     height: 50px;
