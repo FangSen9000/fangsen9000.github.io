@@ -1,9 +1,10 @@
 ## Community
 
 - [My Slack Channel](https://join.slack.com/t/senfanglab/shared_invite/zt-3e9y3e85d-jQu5Jt7UDYyEDfkuGCdJWA): I hope to work more closely with contributors or academic developers, perhaps this is necessary.
-- [World Snapshot Discord/QQ/WeChat](https://github.com/World-Snapshot/ControlWave/issues/2): The chat and communication community group of World Snapshot Org, mainly for users.
-- [CS MS/PhD Lab](https://github.com/CSPhDApp): 26-30 Fall PhD Application Discussion Group.
-- [HENU-CS](https://github.com/HENU-CS): Organization I initiated: Survival Handbook/Study Abroad Handbook (生存/飞跃手册) of HENU.
+- <img src="logo/WS.png" class="inline-logo">[World Snapshot Discord/QQ/WeChat](https://github.com/World-Snapshot/ControlWave/issues/2): The chat and communication community group of World Snapshot Org, mainly for users.
+- <img src="logo/signerx.png" class="inline-logo">[SignerX](https://github.com/SignerX): Create Top-level Sign Language Technology.
+- <img src="logo/EECSapp.png" class="inline-logo">[CS MS/PhD Lab](https://github.com/CSPhDApp): 26-30 Fall PhD Application Discussion Group.
+- <img src="logo/lighthenu.png" class="inline-logo">[HENU-CS](https://github.com/HENU-CS): Organization I initiated: Survival Handbook/Study Abroad Handbook (生存/飞跃手册) of HENU.
 
 
 ## Projects
