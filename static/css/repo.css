@@ -93,14 +93,83 @@
   display: block;
 }
 
+/* Toggle buttons */
+.projects-toggle {
+  display: flex;
+  margin: 16px 0 8px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  width: fit-content;
+  overflow: hidden;
+}
+
+.projects-toggle-btn {
+  background: #f6f8fa;
+  border: none;
+  border-right: 1px solid #d0d7de;
+  padding: 5px 14px;
+  font-size: 12px;
+  color: #57606a;
+  cursor: pointer;
+  line-height: 20px;
+  font-family: inherit;
+}
+
+.projects-toggle-btn:last-child {
+  border-right: none;
+}
+
+.projects-toggle-btn.active {
+  background: #fff;
+  color: #24292f;
+  font-weight: 600;
+}
+
+.projects-toggle-btn:hover:not(.active) {
+  background: #eaf5ff;
+  color: #0969da;
+}
+
+/* Flat mode: all cards merge into one continuous grid */
+.projects-container[data-view="flat"] {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 8px 0 24px;
+}
+
+.projects-container[data-view="flat"] h3 {
+  display: none;
+}
+
+.projects-container[data-view="flat"] .repo-grid {
+  display: contents;
+}
+
+/* Grouped mode: normal block layout with separate grids */
+.projects-container[data-view="grouped"] {
+  display: block;
+}
+
+.projects-container[data-view="grouped"] h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
 @media (max-width: 900px) {
   .repo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects-container[data-view="flat"] {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 580px) {
   .repo-grid {
+    grid-template-columns: 1fr;
+  }
+  .projects-container[data-view="flat"] {
     grid-template-columns: 1fr;
   }
 }

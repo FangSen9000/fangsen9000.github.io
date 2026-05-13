@@ -10,8 +10,14 @@
 
 <link rel="stylesheet" href="static/css/repo.css">
 
-### Generative Model
+<div class="projects-toggle">
+  <button class="projects-toggle-btn active" data-view="flat">All</button>
+  <button class="projects-toggle-btn" data-view="grouped">By Category</button>
+</div>
 
+<div class="projects-container" data-view="flat">
+
+<h3>Generative Model</h3>
 <div class="repo-grid">
 
 <div class="repo-card">
@@ -28,8 +34,7 @@
 
 </div>
 
-### Sign Language
-
+<h3>Sign Language</h3>
 <div class="repo-grid">
 
 <div class="repo-card">
@@ -46,8 +51,7 @@
 
 </div>
 
-### Software / Dataset
-
+<h3>Software / Dataset</h3>
 <div class="repo-grid">
 
 <div class="repo-card">
@@ -76,8 +80,7 @@
 
 </div>
 
-### Other
-
+<h3>Other</h3>
 <div class="repo-grid">
 
 <div class="repo-card">
@@ -105,6 +108,18 @@
 </div>
 
 </div>
+
+</div>
+
+<script>
+document.querySelectorAll('.projects-toggle-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.projects-toggle-btn').forEach(function(b) { b.classList.remove('active'); });
+    this.classList.add('active');
+    document.querySelector('.projects-container').dataset.view = this.dataset.view;
+  });
+});
+</script>
 
 <!--
 
