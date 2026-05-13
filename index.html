@@ -83,6 +83,9 @@
                 // Initialize <fn> footnote elements
                 initFootnotes();
 
+                // Fetch GitHub repo descriptions for repo cards
+                fetchRepoDescriptions();
+
                 // Execute any scripts that were rendered in the markdown
                 const scripts = element.querySelectorAll('script');
                 scripts.forEach(oldScript => {
@@ -307,6 +310,37 @@
                 el.setAttribute('data-init', '');
                 el.innerHTML = `<span class="fn-text">${text}</span>o`;
             });
+        }
+
+        async function fetchRepoDescriptions() {
+            const ghElements = document.querySelectorAll('.repo-card-desc[data-repo]');
+            for (const el of ghElements) {
+                const repo = el.dataset.repo;
+                try {
+                    const response = await fetch(`https://api.github.com/repos/${repo}`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        if (data.description) el.textContent = data.description;
+                    }
+                } catch (error) {
+                    console.warn(`Failed to fetch repo description for ${repo}:`, error);
+                }
+            }
+
+            const hfElements = document.querySelectorAll('.repo-card-desc[data-hf]');
+            for (const el of hfElements) {
+                const repo = el.dataset.hf;
+                try {
+                    const response = await fetch(`https://huggingface.co/api/datasets/${repo}`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        const desc = data.cardData?.pretty_name || data.description;
+                        if (desc) el.textContent = desc;
+                    }
+                } catch (error) {
+                    console.warn(`Failed to fetch HF dataset info for ${repo}:`, error);
+                }
+            }
         }
 
         // 为标题添加锚点链接的函数

@@ -5,119 +5,105 @@
 - [CS MS/PhD Lab](https://github.com/CSPhDApp): 26-30 Fall PhD Application Discussion Group.
 - [HENU-CS](https://github.com/HENU-CS): Organization I initiated: Survival Handbook/Study Abroad Handbook (生存/飞跃手册) of HENU.
 
+
 ## Projects
 
-I maintain these projects: 
-- [World Snapshot Org](https://github.com/World-Snapshot)
-- Apache Top-Level-Project: [Apache APISIX](https://github.com/apache/apisix) (15k Stars + ) | [Apache APISIX Dashboard](https://github.com/apache/apisix-dashboard)
-- Signer-X: [SignDiff](https://signdiff.github.io/) | [SignLLM](https://signllm.github.io/)
+<link rel="stylesheet" href="static/css/repo.css">
 
+### Generative Model
 
+<div class="repo-grid">
 
-*\* Equivalent contribution, † Corresponding author. The following works is based on the most relevant tags, although they overlap with each other<fn>sign language generation is classified as SL although it is also a posture generation method</fn>*       
-🏆 1~3x SOTA, 💥 over 3~10x improvement / New Concept, 👑 Impacts 100+ Domains / Paradigm Shift, ♾️ Impacts 1000+ Domains / Paradigm Emperor<fn>e.g., LLM killed 900+ NLP tasks</fn>   
-
-<link rel="stylesheet" href="static/css/pub.css">
-
-<div class="tabs"><span class="tab active" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('pub-featured').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Website</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('pub-generative').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Repo</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('pub-sign').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Patent</span></div>
-
-<div id="pub-featured" class="tab-content pub-tab-content active">
-<div class="pub-container">
-
-<table class="imgtable"><tbody><tr><td>
-  <img src="demo/apisix.png" alt="" width="180px" height="100px">&nbsp; &nbsp; &nbsp;</td>
-  <td align="left"><p><b> Apache APISIX: Full Lifecycle API Management, API Gateway, Ingress Controller, etc.
-  </b> <br>
-  Maintainer, <a href="https://news.apache.org/foundation/entry/the-apache-software-foundation-announces66">Top Level Project</a>
-  <br>
-  [<a href="https://apisix-dashboard.apiseven.com/">APISIX Dashboard Demo</a>]  [<a href="https://github.com/apache/apisix">APISIX Github</a>]  [<a href="https://github.com/apache/apisix-dashboard">APISIX Dashboard Github</a>]
-  </p></td></tr></tbody></table>
-
-<table class="imgtable"><tbody><tr><td>
-  <img src="demo/EECSLAB.jpg" alt="" width="180px" height="100px">&nbsp; &nbsp; &nbsp;</td>
-  <td align="left"><p><b>24-25Fall PhD Application Group
-  </b> <br>
-  Owener, QQ group ID: 231622772
-  <br>
-  <i>As its name suggests, it is a QQ group of over 700 PhD applicants.</i> <br>
-  </p></td></tr></tbody></table>
-
-</div>
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/World-Snapshot/StreamFlow" class="repo-card-name" target="_blank">World-Snapshot/<strong>StreamFlow</strong></a> <span class="repo-card-badge">Framework</span></div>
+<div class="repo-card-desc" data-repo="World-Snapshot/StreamFlow">[ICML 2026] The Rectified Flow Model can be accelerated by 300% – 600%, and multi-GPU acceleration has no upper limit.</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/World-Snapshot/StreamFlow?style=social" alt="stars"><img src="https://img.shields.io/github/forks/World-Snapshot/StreamFlow?style=social" alt="forks"></span></div>
 </div>
 
-<div id="pub-generative" class="tab-content pub-tab-content">
-<div class="pub-container">
-
-*According to my Unified Laws, all visual tasks only require generative methods. Therefore, GenAI will be the focus of 90% of visual professionals.*
-
-<div class="pub-item pub-image-auto-height-false"><img src="cover/rac.png"><div class="pub-content">
-
-**RAC: Rectified Flow Auto Coder**     
-**Sen Fang**, Yalin Feng*, Yanxin Zhang, Dimitris N. Metaxas†      
-[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/RAC) [[Code]](https://github.com/World-Snapshot/RAC)          
-💥 <font color='green'>**Concept breakthrough:** Make the reconstruction task a condition generation task; Make the decoder the encoder; Make the single-step decoding and encoding a multi-step decoding and encoding.</font>
-
-</div></div>
-
-<div class="pub-item pub-image-auto-height-false"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
-
-**StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**     
-**Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†      
-[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)          
-💥 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
-
-</div></div>
-
-</div>
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/World-Snapshot/RAC" class="repo-card-name" target="_blank">World-Snapshot/<strong>RAC</strong></a> <span class="repo-card-badge">Framework</span></div>
+<div class="repo-card-desc" data-repo="World-Snapshot/RAC">Rectified Flow Auto Coder</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/World-Snapshot/RAC?style=social" alt="stars"><img src="https://img.shields.io/github/forks/World-Snapshot/RAC?style=social" alt="forks"></span></div>
 </div>
 
-<div id="pub-sign" class="tab-content pub-tab-content">
-<div class="pub-container">
+</div>
 
-<div class="pub-item pub-image-auto-height-false"><img src="cover/SignX2.png"><div class="pub-content">
+### Sign Language
 
-**SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space**    
-**Sen Fang**, Yalin Feng*, Chunyu Sui, Hongbin Zhong, Hongwei Yi, Dimitris N. Metaxas†      
-[[Paper]](https://arxiv.org/abs/2504.16315) [[Project Page]](https://signerx.github.io/SignX/)      
-🏆 <font color='green'>**Performance breakthrough:**  2026 CSLR SOTA. The recognition and understanding tasks on any sign language dataset can/will achieve state-of-the-art results.</font>
+<div class="repo-grid">
 
-</div></div>
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/SignLLM/Prompt2Sign" class="repo-card-name" target="_blank">SignLLM/<strong>Prompt2Sign</strong></a> <span class="repo-card-badge">Dataset</span></div>
+<div class="repo-card-desc" data-repo="SignLLM/Prompt2Sign">[ICCV 2025 CV4A11y] The Data and Code of Prompt2Sign: A Comprehensive Multilingual Sign Language Dataset.</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/SignLLM/Prompt2Sign?style=social" alt="stars"><img src="https://img.shields.io/github/forks/SignLLM/Prompt2Sign?style=social" alt="forks"></span></div>
+</div>
 
-<div class="pub-item pub-image-auto-height-false"><img src="cover/StableSigner.gif"><div class="pub-content">
-
-**Stable Signer: Hierarchical Sign Language Generative Model**      
-**Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
-*ICCV 2025 Demo Track*       
-[[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
-🏆 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
-
-</div></div>
-
-<div class="pub-item pub-image-auto-height-false"><img src="cover/SignLLM.png"><div class="pub-content">
-
-**SignLLM: Sign Language Production Large Language Models**     
-**Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian       
-*ICCVW 2025*        
-[[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign)      
-💥 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
-
-</div></div>
-
-<!--
-<div class="pub-item">
-<img src="cover/SignDiff.png">
-<div class="pub-content">
-
-**SignDiff: Diffusion Models for American Sign Language Production**
-**Sen Fang**, Chunyu Sui\*, Yanghao Zhou, Xuedong Zhang, Hongbin Zhong, Yapeng Tian†, Chen Chen†
-*IEEE FG 2025 Workshop*
-[[Paper]](https://arxiv.org/abs/2308.16082) [[Project Page]](https://signdiff.github.io) [[Preprocessed Data]](https://github.com/SignDiff/Processed-Data)
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://huggingface.co/datasets/SignerX/SignVerse-2M" class="repo-card-name" target="_blank">SignerX/<strong>SignVerse-2M</strong></a> <span class="repo-card-badge">Dataset</span></div>
+<div class="repo-card-desc" data-hf="SignerX/SignVerse-2M">A Two-Million-Clip Pose-Native Universe of 25+ Sign Languages</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#FF9D00"></span>Dataset</span><span class="repo-badges"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FSignerX%2FSignVerse-2M&query=%24.likes&label=%E2%9D%A4&style=social" alt="likes"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FSignerX%2FSignVerse-2M&query=%24.downloads&label=%E2%AC%87&style=social" alt="downloads"></span></div>
+</div>
 
 </div>
+
+### Software / Dataset
+
+<div class="repo-grid">
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/apache/apisix" class="repo-card-name" target="_blank">apache/<strong>apisix</strong></a> <span class="repo-card-badge">Framework</span></div>
+<div class="repo-card-desc" data-repo="apache/apisix">The Cloud-Native API Gateway and AI Gateway</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#000080"></span>Lua</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/apache/apisix?style=social" alt="stars"><img src="https://img.shields.io/github/forks/apache/apisix?style=social" alt="forks"></span></div>
 </div>
--->
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/apache/apisix-dashboard" class="repo-card-name" target="_blank">apache/<strong>apisix-dashboard</strong></a> <span class="repo-card-badge">Framework</span></div>
+<div class="repo-card-desc" data-repo="apache/apisix-dashboard">Apache APISIX Dashboard</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#3178C6"></span>TypeScript</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/apache/apisix-dashboard?style=social" alt="stars"><img src="https://img.shields.io/github/forks/apache/apisix-dashboard?style=social" alt="forks"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/World-Snapshot/papers-with-code" class="repo-card-name" target="_blank">World-Snapshot/<strong>papers-with-code</strong></a> <span class="repo-card-badge">Website</span></div>
+<div class="repo-card-desc" data-repo="World-Snapshot/papers-with-code">The first reimplementation of paperswithcode website.</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/World-Snapshot/papers-with-code?style=social" alt="stars"><img src="https://img.shields.io/github/forks/World-Snapshot/papers-with-code?style=social" alt="forks"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/FangSen9000/ai-tools" class="repo-card-name" target="_blank">FangSen9000/<strong>ai-tools</strong></a> <span class="repo-card-badge">Tool</span></div>
+<div class="repo-card-desc" data-repo="FangSen9000/ai-tools">AI tools collection</div>
+<div class="repo-card-footer"><span class="repo-badges"><img src="https://img.shields.io/github/stars/FangSen9000/ai-tools?style=social" alt="stars"><img src="https://img.shields.io/github/forks/FangSen9000/ai-tools?style=social" alt="forks"></span></div>
+</div>
 
 </div>
+
+### Other
+
+<div class="repo-grid">
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/FangSen9000/proposal" class="repo-card-name" target="_blank">FangSen9000/<strong>proposal</strong></a> <span class="repo-card-badge">Document</span></div>
+<div class="repo-card-desc" data-repo="FangSen9000/proposal">Here are my experiences and proposals for open source activities, such as Google Summer of Code (GSoC) and CAS Open Source Promotion Plan (OSPP)</div>
+<div class="repo-card-footer"><span class="repo-badges"><img src="https://img.shields.io/github/stars/FangSen9000/proposal?style=social" alt="stars"><img src="https://img.shields.io/github/forks/FangSen9000/proposal?style=social" alt="forks"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/HENU-CS/SurvivalHandbook" class="repo-card-name" target="_blank">HENU-CS/<strong>SurvivalHandbook</strong></a> <span class="repo-card-badge">Guide</span></div>
+<div class="repo-card-desc" data-repo="HENU-CS/SurvivalHandbook">HENU Survival Handbook / Study Abroad Handbook （河大生存/飞跃手册）</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#e34c26"></span>HTML</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/HENU-CS/SurvivalHandbook?style=social" alt="stars"><img src="https://img.shields.io/github/forks/HENU-CS/SurvivalHandbook?style=social" alt="forks"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/FangSen9000/team1730" class="repo-card-name" target="_blank">FangSen9000/<strong>team1730</strong></a> <span class="repo-card-badge">Project</span></div>
+<div class="repo-card-desc" data-repo="FangSen9000/team1730">Project repository</div>
+<div class="repo-card-footer"><span class="repo-badges"><img src="https://img.shields.io/github/stars/FangSen9000/team1730?style=social" alt="stars"><img src="https://img.shields.io/github/forks/FangSen9000/team1730?style=social" alt="forks"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/FangSen9000/Volcano_Engine_System" class="repo-card-name" target="_blank">FangSen9000/<strong>Volcano_Engine_System</strong></a> <span class="repo-card-badge">Project</span></div>
+<div class="repo-card-desc" data-repo="FangSen9000/Volcano_Engine_System">Volcano Engine System</div>
+<div class="repo-card-footer"><span class="repo-badges"><img src="https://img.shields.io/github/stars/FangSen9000/Volcano_Engine_System?style=social" alt="stars"><img src="https://img.shields.io/github/forks/FangSen9000/Volcano_Engine_System?style=social" alt="forks"></span></div>
+</div>
+
 </div>
 
 <!--
