@@ -337,7 +337,8 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <span style="color:transparent">"</span>Ph.D. in Physiology, <a href="https://en.wikipedia.org/wiki/Trinity_College,_Cambridge" target="_blank">Trinity College, Cambridge</a>; Faculty at <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a><span style="color:transparent">"</span><br>
 <span style="color:transparent">"</span><font color='green'>Founder of computational vision; pioneered the three-level framework (computational, algorithmic, implementational) for understanding vision</font><span style="color:transparent">"</span><br>
 <span style="color:transparent">"</span>IJCAI Computers and Thought Award; the International Conference on Computer Vision (ICCV) Best Paper Award (<span class="special-accent">Marr Prize</span>) is named in his honor<span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><font color='red'>Referred to by some records as the <b>father of computational vision</b></font><span style="color:transparent">"</span>
+<span style="color:transparent">"</span><font color='red'>Referred to by some records as the <b>father of computational vision</b></font><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span>Lab: Shimon Ullman (first PhD student); Eric Grimson (was MIT president); John M. Hollerbach (CIFAR, IEEE Fellow).<span style="color:transparent">"</span>
 
 - <a href="https://en.wikipedia.org/wiki/Shimon_Ullman" target="_blank"><b>Shimon Ullman</b></a><br>
 <span style="color:transparent">"</span>Ph.D., <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a> (1977), advised by David Marr; Professor, <a href="https://en.wikipedia.org/wiki/Weizmann_Institute_of_Science" target="_blank">Weizmann Institute of Science</a>; former Professor, <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a><span style="color:transparent">"</span><br>
