@@ -14,7 +14,7 @@
 <div class="projects-toggle">
   <button class="projects-toggle-btn active" data-view="flat">All</button>
   <button class="projects-toggle-btn" data-view="grouped">By Category</button>
-</div>
+</div> <span style="vertical-align:middle;position:relative;top:5px;margin-left:1.5em;font-size:0.85em;">Indexed by the most relevant attribute of each project.</span>
 
 <div class="projects-container" data-view="flat">
 
@@ -79,6 +79,12 @@
 <div class="repo-card-footer"><span class="repo-badges"><img src="https://img.shields.io/github/stars/FangSen9000/ai-tools?style=social" alt="stars"><img src="https://img.shields.io/github/forks/FangSen9000/ai-tools?style=social" alt="forks"></span></div>
 </div>
 
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/FangSen9000/fast_dwpose" class="repo-card-name" target="_blank">FangSen9000/<strong>fast_dwpose</strong></a> <span class="repo-card-badge">Software</span></div>
+<div class="repo-card-desc" data-repo="FangSen9000/fast_dwpose">Project repository</div>
+<div class="repo-card-footer"><span class="repo-badges"><img src="https://img.shields.io/github/stars/FangSen9000/fast_dwpose?style=social" alt="stars"><img src="https://img.shields.io/github/forks/FangSen9000/fast_dwpose?style=social" alt="forks"></span></div>
+</div>
+
 </div>
 
 <h3>Other</h3>
@@ -94,12 +100,6 @@
 <div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/HENU-CS/SurvivalHandbook" class="repo-card-name" target="_blank">HENU-CS/<strong>SurvivalHandbook</strong></a> <span class="repo-card-badge">Guide</span></div>
 <div class="repo-card-desc" data-repo="HENU-CS/SurvivalHandbook">HENU Survival Handbook / Study Abroad Handbook （河大生存/飞跃手册）</div>
 <div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#e34c26"></span>HTML</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/HENU-CS/SurvivalHandbook?style=social" alt="stars"><img src="https://img.shields.io/github/forks/HENU-CS/SurvivalHandbook?style=social" alt="forks"></span></div>
-</div>
-
-<div class="repo-card">
-<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/FangSen9000/team1730" class="repo-card-name" target="_blank">FangSen9000/<strong>team1730</strong></a> <span class="repo-card-badge">Project</span></div>
-<div class="repo-card-desc" data-repo="FangSen9000/team1730">Project repository</div>
-<div class="repo-card-footer"><span class="repo-badges"><img src="https://img.shields.io/github/stars/FangSen9000/team1730?style=social" alt="stars"><img src="https://img.shields.io/github/forks/FangSen9000/team1730?style=social" alt="forks"></span></div>
 </div>
 
 <div class="repo-card">

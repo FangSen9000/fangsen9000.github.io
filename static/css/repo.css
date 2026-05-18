@@ -95,12 +95,13 @@
 
 /* Toggle buttons */
 .projects-toggle {
-  display: flex;
+  display: inline-flex;
   margin: 16px 0 8px;
   border: 1px solid #d0d7de;
   border-radius: 6px;
   width: fit-content;
   overflow: hidden;
+  vertical-align: middle;
 }
 
 .projects-toggle-btn {
