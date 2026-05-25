@@ -69,6 +69,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 - **2024.12** An amazing day. Maybe I was inspired by God, or maybe I found my lifelong career.
 - **2024.6** I got the [Best Bachelor's Thesis](https://jwc.henu.edu.cn/info/2145/8713.htm) award of [Henan University](https://en.wikipedia.org/wiki/Henan_University).
 - **2024.2** I have received the offer of dream advisor and will start my doctoral career.
+<!--
 - **2023.10** An article was accepted by <a href="https://sigtyp.github.io/ws2023-mrl.html" class="venue-accent">EMNLP MRL</a>.
 - **2023.9** As Intern of Prof [Chen Chen](https://www.crcv.ucf.edu/chenchen/) to explore the large language model of sign language. He is a professor from UCF(<a href="https://csrankings.org/#/index?vision&us" class="venue-accent">Top10 CV@CS-ranking</a>), with over <span data-gscholar="https://scholar.google.com/citations?user=TuEwcZ0AAAAJ" data-gscholar-short="true">...</span> citations.
 - **2023.8** One of my articles was accepted by <a href="http://www.iconip2023.org/" class="venue-accent">ICONIP</a>, the flagship conference of <a href="https://www.apnns.org/" class="venue-accent">APNNS</a>!
@@ -77,6 +78,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 - **2022.6** As a student of mentor [SkyeYoung](https://github.com/SkyeYoung), joined APISIX in <a href="https://summer-ospp.ac.cn/" class="venue-accent">OSPP 2022</a>, who is an Apache member of the top project with <a href="https://github.com/apache/apisix"><img src="https://img.shields.io/github/stars/apache/apisix?style=social" alt="GitHub stars" style="display:inline !important; height:1em; vertical-align:text-bottom; margin:0 !important;"></a>.
 - **2022.2** Completed 2 months of Bytedance youth-camp as a team captain.
 - **2021.9** Completed 2 months of ACM training.
+-->
 
 </div>
 
@@ -177,6 +179,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <span class="special-accent">ICCV 2025 CV4A11y</span>        
 [[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign)      
 🦄 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
+<br>**Note:** This work was reported by hundreds of media outlets and was viewed by tens of millions of people.
 
 </div></div>
 
@@ -337,7 +340,8 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <span style="color:transparent">"</span>Ph.D. in Physiology, <a href="https://en.wikipedia.org/wiki/Trinity_College,_Cambridge" target="_blank">Trinity College, Cambridge</a>; Faculty at <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a><span style="color:transparent">"</span><br>
 <span style="color:transparent">"</span><font color='green'>Founder of computational vision; pioneered the three-level framework (computational, algorithmic, implementational) for understanding vision</font><span style="color:transparent">"</span><br>
 <span style="color:transparent">"</span>IJCAI Computers and Thought Award; the International Conference on Computer Vision (ICCV) Best Paper Award (<span class="special-accent">Marr Prize</span>) is named in his honor<span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><font color='red'>Referred to by some records as the <b>father of computational vision</b></font><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span><font color='red'>Referred to by most records as the <b>father of modern computational vision</b><fn>Some historical accounts refer to Larry Roberts as the father of computer vision, but credit him primarily with initiating early machine vision through the geometric interpretation of edges, lines, and 3D structures. After his PhD work, he later transitioned away from vision research and became a pioneer of networking and ARPANET research. In contrast, David Marr introduced foundational concepts such as hierarchical visual representations, internal representations, information transformation, the primal sketch, the 2.5D sketch, and 3D model representations — terminology and ideas that continue to influence modern computer vision and embodied intelligence today. His lasting intellectual influence is reflected in ICCV’s David Marr Prize — the only best paper award across major computer vision conferences named after an individual researcher.
+</fn></font><span style="color:transparent">"</span><br>
 <span style="color:transparent">"</span>Lab: Shimon Ullman (first PhD student); Eric Grimson (was MIT president); John M. Hollerbach (CIFAR, IEEE Fellow).<span style="color:transparent">"</span>
 
 - <a href="https://en.wikipedia.org/wiki/Shimon_Ullman" target="_blank"><b>Shimon Ullman</b></a><br>
@@ -375,7 +379,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 ## Service
 
 - **Program Chair Member:** IEEE FG 2026, ICONIP 2024 2026, FM&LLM&GM 2025, EmpAI 2026
-- **Conference Reviewer:** NeurIPS 2024, ICML 2024, ICLR 2025, ICCV 2025, WACV 2026, ACM MM 2025-2026, IEEE FG 2025, ICONIP 2023-2024, EMNLP 2023, NAACL 2024, ACL ARR 2023-2024  
+- **Conference Reviewer:** NeurIPS 2024 2026, ICML 2024, ICLR 2025, ICCV 2025, WACV 2026, ACM MM 2025-2026, IEEE FG 2025, ICONIP 2023-2024, EMNLP 2023, NAACL 2024, ACL ARR 2023-2024  
 
 ## Teaching
 
@@ -388,7 +392,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 - **ACL 2026 Best Paper Award Nominee:** Out of 12,148 submissions. This is a highly competitive nomination for the award -- Over the recorded period from **2001 to 2025 whole world**, there were **76 ACL Best Papers**, and 21 of them had Chinese descent as the first author. ACL is the **1st-ranking** publication in the field of Natural Language Processing (NLP).
 - **Best Bachelor's Thesis** in Henan University [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
-- **School Grant:** 2020-2021, 2023-2024
+- **National Encouragement Scholarship<fn>Undergraduate Student during Henan University</fn>:** 2020-2021, 2023-2024
 
 <br>
 <div style="width: 420px; height: 220px; overflow: hidden; margin: 20px auto;">
