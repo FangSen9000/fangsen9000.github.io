@@ -26,7 +26,7 @@
     </div>
 </section>
 
-I'm **Sen Fang**, a second-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/)<fn>Board of Governors and Distinguished Prof. Dimitris Metaxas; IEEE Fellow, Fellow AIMBE, Fellow MICCAI Society</fn>. I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (<span class="special-accent">"The Four Laws of Computer Vision"</span>), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of whole Computer Vision concepts.
+I'm **Sen Fang**, a third-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/)<fn>Board of Governors and Distinguished Prof. Dimitris Metaxas; IEEE Fellow, Fellow AIMBE, Fellow MICCAI Society</fn>. I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (<span class="special-accent">"The Four Laws of Computer Vision"</span>), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of whole Computer Vision concepts.
 Before this, I was nominated for the <span class="special-accent">ACL 2026 Best Paper Award</span>, I had an internship or collaboration at <img src="logo/apache-apisix.png" class="inline-logo">[Apache](https://github.com/apache), <img src="logo/NTU.png" class="inline-logo">[NTU](https://www.ntu.edu.sg/), <img src="logo/nus_short.png" class="inline-logo">[NUS](https://www.nus.edu.sg/), <img src="logo/utd.png" class="inline-logo">[UTD](https://www.utdallas.edu/), <img src="logo/UCF.svg.png" class="inline-logo">[UCF](https://www.ucf.edu), <img src="logo/hedra.svg" class="inline-logo">[Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
 
 My main research field is **Computer Vision** (3DV, Generative Method, Human Pose). 
@@ -37,7 +37,7 @@ Recently I have been interested in the following topics:
 -->
 - <strong><font color='green'>Sign Language</font></strong> - It involves many fields, such as the conversion between text/audio and movement/gestures, human body reconstruction and recognition, human pose synchronization, Pose-guided image generation, avatar reconstruction, and style transfer, etc. This topic has high technical requirements, and you must achieve a high level in all the above fields before it can be applied to sign language datasets.
 
-I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me (see my <a href="#" onclick="event.preventDefault();document.querySelectorAll('.nav-page').forEach(l=>l.classList.remove('active'));document.querySelector('[data-page=\'04_blog.md\']').classList.add('active');loadMarkdownFile('04_blog.md').then(()=>{const el=document.getElementById('research-interests');if(el)el.scrollIntoView({behavior:'smooth'});})">full interests</a>). I plan to apply for the Intern position related to WSMs and WaveGen at 26 Summer.
+I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me (see my <a href="#" onclick="event.preventDefault();document.querySelectorAll('.nav-page').forEach(l=>l.classList.remove('active'));document.querySelector('[data-page=\'04_blog.md\']').classList.add('active');loadMarkdownFile('04_blog.md').then(()=>{const el=document.getElementById('research-interests');if(el)el.scrollIntoView({behavior:'smooth'});})">full interests</a>). I plan to apply for the Intern position related to World Snapshot at 27 Summer and then enter the full-time job market.
 
 <p class="icon-links" style="font-size:2em;line-height:1.8;color:purple;margin:0;"><a href="https://github.com/fangsen9000/"><i class="fa-brands fa-github"></i></a><span class="icon-sep"></span><a href="https://huggingface.co/FangSen9000/activity/all" aria-label="Hugging Face"><span style="display:inline-block;height:1em;width:1em;vertical-align:-0.15em;background-color:currentColor;-webkit-mask:url(logo/huggingface-monochrome.svg) no-repeat center/contain;mask:url(logo/huggingface-monochrome.svg) no-repeat center/contain;"></span></a><span class="icon-sep"></span><a href="https://twitter.com/SenFang01"><i class="fa-brands fa-x-twitter"></i></a><fn>Paper Promotion</fn><span class="icon-sep"></span><a href="https://www.threads.com/@senfang01"><i class="fa-brands fa-threads"></i></a><fn>Academic Thinking</fn><span class="icon-sep"></span><a href="https://www.linkedin.com/in/fangsen/"><i class="fa-brands fa-linkedin"></i></a><fn>General Contact Information</fn><span class="icon-sep"></span><a href="https://www.xiaohongshu.com/user/profile/671ed236000000000d026aad"><span style="display:inline-block;height:1em;width:1em;vertical-align:-0.15em;background-color:currentColor;-webkit-mask:url(logo/xiaohongshu.svg) no-repeat center/contain;mask:url(logo/xiaohongshu.svg) no-repeat center/contain;"></span></a><span class="icon-sep"></span><a href="mailto:fangsen2024@gmail.com"><i class="fa-solid fa-envelope"></i></a></p>
 
@@ -62,9 +62,9 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 - **2026.4** One paper was accepted by <a href="https://icml.cc/Conferences/2026" class="venue-accent">ICML 2026</a>.
 - **2026.4** One paper was accepted and nominated as the <span class="special-accent">Best Paper Award</span> by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>.
-- **2025.9** One app was accepted by <a href="https://iccv.thecvf.com/Conferences/2025/CallForDemos" class="venue-accent">ICCV Demo Track</a>.
-- **2025.7** One paper was accepted by <a href="https://cv4a11y.github.io/ICCV2025/index.html" class="venue-accent">ICCV CV4A11y</a>.
-- **2025.4** One paper was accepted by <a href="https://sites.google.com/view/fmllmgm-fg25" class="venue-accent">IEEE FG FM&LLM&GM</a>.
+- **2025.9** One app was accepted by <a href="https://iccv.thecvf.com/Conferences/2025/CallForDemos" class="venue-accent">ICCV 2025 Demo Track</a>.
+- **2025.7** One paper was accepted by <a href="https://cv4a11y.github.io/ICCV2025/index.html" class="venue-accent">ICCV 2025 CV4A11y</a>.
+- **2025.4** One paper was accepted by <a href="https://sites.google.com/view/fmllmgm-fg25" class="venue-accent">IEEE 2025 FG FM&LLM&GM</a>.
 - **2025.3** According to the plan from a year ago, I will join [Hedra Inc.](https://www.hedra.com/) to research foundational video generation models.
 - **2024.12** An amazing day. Maybe I was inspired by God, or maybe I found my lifelong career.
 - **2024.6** I got the [Best Bachelor's Thesis](https://jwc.henu.edu.cn/info/2145/8713.htm) award of [Henan University](https://en.wikipedia.org/wiki/Henan_University).
@@ -393,6 +393,21 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 - **ACL 2026 Best Paper Award Nominee:** Out of 12,148 submissions. This is a highly competitive nomination for the award -- Over the recorded period from **2001 to 2025 whole world**, there were **76 ACL Best Papers**, and 21 of them had Chinese descent as the first author. ACL is the **1st-ranking** publication in the field of Natural Language Processing (NLP).
 - **Best Bachelor's Thesis** in Henan University [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
 - **National Encouragement Scholarship<fn>Undergraduate Student during Henan University</fn>:** 2020-2021, 2023-2024
+
+## Other
+
+<details><summary>Part of My Friends (alphabetical by institution)</summary>
+
+- Georgia Tech: [Hongbin Zhong](https://rjzhb.github.io/)
+- NTU: [Yalin Feng](https://yalin-feng.github.io)
+- NVIDIA: [Yanxin Zhang](https://github.com/yanxinzhangcs)
+- Rutgers: List of My Labmates; Levi Che
+- Tsinghua, HKUST: Jiayin Zhu
+- Waterloo: Yifan Wang
+- I have guided some undergraduate students who were in lower grades than mine. I can't recall exactly how many there were, but it was more than 5 but less than 15.
+<!-- [Chunyu Sui (林奈)](https://github.com/capsfly), [Baiang Li (ztmotalee)](https://ztmotalee.github.io/), [Yangyang Wu (考拉)](https://www.linkedin.com/in/yangyang-wu-2759181b3/) -->
+
+</details>
 
 <br>
 <div style="width: 420px; height: 220px; overflow: hidden; margin: 20px auto;">
