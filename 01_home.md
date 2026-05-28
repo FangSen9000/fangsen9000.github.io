@@ -179,7 +179,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <span class="special-accent">ICCV 2025 CV4A11y</span>        
 [[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign)      
 🦄 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
-<br>**Note:** This work was reported by hundreds of media outlets and was viewed by tens of millions of people.
+<br>**Note:** This work was reported by hundreds of media outlets and was viewed by tens of millions of people, and received an exclusive interview by <a href="https://www.newscientist.com/" class="venue-accent">New Scientist</a> (5M+ followers).
 
 </div></div>
 
