@@ -360,7 +360,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <span style="color:transparent">"</span>Ph.D., <a href="https://en.wikipedia.org/wiki/University_of_Toronto" target="_blank">Toronto</a> (1992), advised by Demetri Terzopoulos; <span class="special-accent">Board of Governors and Distinguished Professor</span>, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers</a>; former Professor, <a href="https://en.wikipedia.org/wiki/University_of_Pennsylvania" target="_blank">Pennsylvania</a><span style="color:transparent">"</span><br>
 <span style="color:transparent">"</span><font color='green'>Computer vision, biomedical image analysis, medical image computing, deformable models</font><span style="color:transparent">"</span><br>
 <span style="color:transparent">"</span><span class="special-accent">IEEE Fellow</span>; <span class="special-accent">Fellow AIMBE</span>; <span class="special-accent">Fellow MICCAI Society</span>; General Chair<fn>among only five individuals to have served four or more times as General Chair in the ~40-year, ~100-person history of CVPR/ICCV</fn> of CVPR 2014, 2026 & ICCV 2011, 2031 & MICCAI 2008; Long-standing member of the <a href="https://www.thecvf.com/docs/CVPR%20ICCV%20bylaws%20final.pdf" target="_blank">CVPR/ICCV Steering Committee</a> and <a href="https://tc.computer.org/tcpami/" target="_blank">TC PAMI (IEEE Computer Society Technical Committee on Pattern Analysis and Machine Intelligence)</a><fn>TC PAMI (IEEE Computer Society Technical Committee on Pattern Analysis and Machine Intelligence) is the highest governing body in the field of computer vision. It jointly hosts the three flagship conferences CVPR, ICCV, and WACV with CVF. It oversees all six career awards and three classic paper awards, and provides technical sponsorship for international conferences such as FG, ICPR, and ACII. This essentially covers the entire system from academic evaluation to talent recognition in computer vision.</fn><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span>Lab: <a href="https://cbim-rutgers.github.io/" target="_blank">CBIM, Rutgers University</a>; Graduated 80+ Ph.D. students (1/3 are professors worldwide)<span style="color:transparent">"</span>
+<span style="color:transparent">"</span>Lab: <a href="?page=static/CBIM-Lab/people.md">CBIM, Rutgers University</a>; Graduated 80+ Ph.D. students (1/3 are professors worldwide)<span style="color:transparent">"</span>
 
 - **Sen Fang**<br>
 <span style="color:transparent">"</span>Ph.D. student, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers University</a>, advised by Prof. Dimitris N. Metaxas<span style="color:transparent">"</span><br>
@@ -401,7 +401,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 - Georgia Tech: [Hongbin Zhong](https://rjzhb.github.io/)
 - NTU: [Yalin Feng](https://yalin-feng.github.io)
 - NVIDIA: [Yanxin Zhang](https://github.com/yanxinzhangcs)
-- Rutgers: List of My Labmates; Levi Che
+- Rutgers: [List of My Labmates](?page=static/CBIM-Lab/people.md); Levi Che
 - Tsinghua, HKUST: Jiayin Zhu
 - Waterloo: Yifan Wang
 - I have guided some undergraduate students who were in lower grades than mine. I can't recall exactly how many there were, but it was more than 5 but less than 15.
