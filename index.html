@@ -67,17 +67,163 @@
             }
         });
 
-        // Load and render markdown content
-        async function loadMarkdownFile(filename) {
+        // Page loading notes:
+        // 1. Default entry: index.html -> 01_home.md
+        // 2. Local markdown:  index.html?page=03_misc.md
+        // 3. Remote markdown: index.html?page=https://.../README.md
+        // 4. GitHub blob URLs are normalized to raw.githubusercontent.com automatically.
+        const DEFAULT_PAGE = '01_home.md';
+        let currentMarkdownFile = DEFAULT_PAGE;
+
+        function isRemotePage(page) {
+            return /^https?:\/\//i.test(page);
+        }
+
+        function normalizeRemoteMarkdownUrl(url) {
             try {
+                const parsed = new URL(url);
+                if (parsed.hostname === 'github.com') {
+                    const parts = parsed.pathname.split('/').filter(Boolean);
+                    if (parts.length >= 5 && parts[2] === 'blob' && /\.md$/i.test(parts[parts.length - 1])) {
+                        const [, owner, repo, , branch, ...rest] = parts;
+                        return `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${rest.join('/')}`;
+                    }
+                }
+                return url;
+            } catch (_) {
+                return url;
+            }
+        }
+
+        function isAllowedRemoteMarkdownUrl(page) {
+            try {
+                const normalized = normalizeRemoteMarkdownUrl(page);
+                const parsed = new URL(normalized);
+                return /^https?:$/i.test(parsed.protocol) && /\.md$/i.test(parsed.pathname);
+            } catch (_) {
+                return false;
+            }
+        }
+
+        // Read ?page=... from the URL.
+        // Supported values:
+        // - relative local markdown paths inside this site
+        // - remote http(s) markdown URLs ending in .md
+        function getRequestedPage() {
+            const params = new URLSearchParams(window.location.search);
+            const page = params.get('page');
+            if (!page) return DEFAULT_PAGE;
+            if (isRemotePage(page)) {
+                return isAllowedRemoteMarkdownUrl(page) ? normalizeRemoteMarkdownUrl(page) : DEFAULT_PAGE;
+            }
+            if (page.startsWith('/') || page.startsWith('//')) {
+                return DEFAULT_PAGE;
+            }
+            if (!/\.md$/i.test(page)) {
+                return DEFAULT_PAGE;
+            }
+            return page;
+        }
+
+        function updateActiveNav(pageFile) {
+            const navLinks = document.querySelectorAll('.nav-page');
+            navLinks.forEach(link => {
+                link.classList.toggle('active', link.getAttribute('data-page') === pageFile);
+            });
+        }
+
+        function updatePageUrl(pageFile) {
+            const url = new URL(window.location.href);
+            if (pageFile === DEFAULT_PAGE) {
+                url.searchParams.delete('page');
+            } else {
+                url.searchParams.set('page', pageFile);
+            }
+            history.replaceState(null, null, `${url.pathname}${url.search}${url.hash}`);
+        }
+
+        // After rendering markdown, convert site-relative .md links into ?page=... links
+        // so they continue to open inside this single-page shell instead of leaving it.
+        // Examples:
+        // - [Note](07_notes.md) -> ?page=07_notes.md
+        // - [Remote](https://.../README.md) -> ?page=https%3A%2F%2F...%2FREADME.md
+        // - [Part](07_notes.md#part-2) keeps the hash fragment.
+        function rewriteMarkdownLinks(container, currentFile) {
+            const currentDir = isRemotePage(currentFile)
+                ? currentFile
+                : (currentFile.includes('/') ? currentFile.slice(0, currentFile.lastIndexOf('/') + 1) : '');
+            container.querySelectorAll('a[href]').forEach(link => {
+                const href = link.getAttribute('href');
+                if (!href || href.startsWith('#') || href.startsWith('?page=') || href.startsWith('mailto:') || href.startsWith('javascript:')) {
+                    return;
+                }
+                if (/^(https?:)?\/\//i.test(href) && !/\.md($|#|\?)/i.test(href)) {
+                    return;
+                }
+
+                const [pathPart, hashPart] = href.split('#', 2);
+                if (!/\.md($|\?)/i.test(pathPart)) {
+                    return;
+                }
+
+                let resolvedPath;
+                if (isRemotePage(currentFile)) {
+                    resolvedPath = normalizeRemoteMarkdownUrl(new URL(pathPart, currentDir).href);
+                } else if (isRemotePage(pathPart)) {
+                    resolvedPath = normalizeRemoteMarkdownUrl(pathPart);
+                } else {
+                    resolvedPath = new URL(pathPart, `https://local/${currentDir}`).pathname.replace(/^\/+/, '');
+                }
+
+                link.setAttribute('href', `?page=${encodeURIComponent(resolvedPath)}${hashPart ? `#${hashPart}` : ''}`);
+            });
+        }
+
+        // Load markdown text from either:
+        // - a local file in this repo, or
+        // - a remote markdown URL
+        // Remote fetch first tries direct access, then several public proxies as fallback.
+        async function fetchMarkdownContent(filename) {
+            if (!isRemotePage(filename)) {
                 const response = await fetch(filename);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                const markdown = await response.text();
+                return await response.text();
+            }
+
+            const proxies = [
+                (url) => url,
+                (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+                (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`
+            ];
+
+            let lastError = null;
+            for (const getUrl of proxies) {
+                try {
+                    const response = await fetch(getUrl(filename));
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return await response.text();
+                } catch (error) {
+                    lastError = error;
+                }
+            }
+            throw lastError || new Error('Failed to load remote markdown');
+        }
+
+        // Main render entry for the center content area.
+        // This function also rewrites markdown links so follow-up navigation stays in-template.
+        async function loadMarkdownFile(filename) {
+            try {
+                const markdown = await fetchMarkdownContent(filename);
                 const element = document.getElementById('abstract');
+                currentMarkdownFile = filename;
                 if (element) {
                     element.innerHTML = md.render(markdown);
+                    rewriteMarkdownLinks(element, filename);
                 }
                 // Re-add header links after rendering
                 addHeaderLinks();
@@ -120,12 +266,9 @@
                 link.addEventListener('click', async (e) => {
                     e.preventDefault();
 
-                    // Update active state
-                    navLinks.forEach(l => l.classList.remove('active'));
-                    link.classList.add('active');
-
-                    // Load the corresponding markdown file
                     const pageFile = link.getAttribute('data-page');
+                    updateActiveNav(pageFile);
+                    updatePageUrl(pageFile);
                     await loadMarkdownFile(pageFile);
                 });
             });
@@ -133,8 +276,9 @@
 
         // Initial content loading
         async function loadAndRenderContent() {
-            // Load default page (01_home.md)
-            await loadMarkdownFile('01_home.md');
+            const initialPage = getRequestedPage();
+            updateActiveNav(initialPage);
+            await loadMarkdownFile(initialPage);
             
             // 为标题添加锚点链接
             addHeaderLinks();
@@ -148,12 +292,12 @@
                     
                     if (targetElement) {
                         // 临时更新URL但不触发跳转
-                        history.replaceState(null, null, `#${targetId}`);
+                        history.replaceState(null, null, `${window.location.pathname}${window.location.search}#${targetId}`);
                         targetElement.scrollIntoView({ behavior: 'smooth' });
                         
                         // 延迟移除锚点，让跳转完成
                         setTimeout(() => {
-                            history.replaceState(null, null, window.location.pathname);
+                            history.replaceState(null, null, `${window.location.pathname}${window.location.search}`);
                         }, 200);
 
                         // If sidebar is not locked, hide it after navigation
