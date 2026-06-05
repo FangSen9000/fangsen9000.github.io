@@ -6,7 +6,7 @@
 
 - Computer vision, Machine Learning, Medical Image Analysis, Biomedical Image Analysis, AI
 - Recently, 2D/3D Vision Generative, Medical Imaging, Dynamical Modelling, LLM/VLM
-- The following content records 97+ PhD students.
+- The following content records <span style="color:red">97+ PhD students</span>.
 
 ### Former or current colleagues
 
