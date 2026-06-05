@@ -17,7 +17,7 @@ Source: https://web.archive.org/web/20180312062435/http://www.cdda.rutgers.edu/r
 
 Source: https://web.archive.org/web/20170925135615/http://www.cbim.rutgers.edu/people-160/alumni
 
-## Current Members
+## Current Members: PhD students and the year of enrollment
 
 - [Bingyu Xin](https://scholar.google.com/citations?user=ENG4A1gAAAAJ&hl=en) - Medical Image (2020)
 - [Gerasimos Chatzoudis](https://scholar.google.com/citations?user=9Lsgha0AAAAJ&hl=en) - Explainable AI (2022)
@@ -42,7 +42,7 @@ Source: https://web.archive.org/web/20170925135615/http://www.cbim.rutgers.edu/p
 
 Source: https://cbim-rutgers.github.io/
 
-## Alumni
+## Alumni: PhD and graduation year
 
 - [Xiaoxiao He](https://scholar.google.com/citations?user=WmK6IOEAAAAJ&hl=en) - Meta (2026)
 - [Zhaoyang Xia](https://scholar.google.com/citations?user=oaQ7CbwAAAAJ&hl=en) - Adobe (2026)
@@ -106,7 +106,7 @@ Source: https://cbim-rutgers.github.io/
 - [Rong Zhang](https://www.eng.ufl.edu/research/ai-experts/name/rong-zhang/) - Senior Lecturer University of Florida (2006)
 - [Dimitris Samaras](https://scholar.google.com/citations?user=BxbKTYkAAAAJ&hl=en) - Full Prof at SBU (2001)
 
-## Penn-era Students
+## Penn-era Students: PhD and graduation year
 
 - Zhenhua Hu - Ph.D. (2005)
 - [Albert Montillo](https://www.aamontillo.net/) - Ph.D. (2004); Associate Professor at UT Southwestern; [Google Scholar](https://scholar.google.com/citations?user=zNhYHHIAAAAJ)

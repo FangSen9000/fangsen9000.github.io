@@ -300,7 +300,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
   <br>
   <span style="color:transparent">"</span><span class="special-accent">IEEE Fellow</span>, <span class="special-accent">Fellow AIMBE</span>, <span class="special-accent">Fellow MICCAI Society</span><span style="color:transparent">"</span>
   <br>
-  <span style="color:transparent">"</span><a href="https://people.cs.rutgers.edu/~dnm/">Prof. Dimitris N. Metaxas</a><span style="color:transparent">"</span>
+  <span style="color:transparent">"</span><a href="https://people.cs.rutgers.edu/~dnm/">Prof. Dimitris N. Metaxas</a> and <a href="?page=static/CBIM-Lab/people.md">CBIM</a><span style="color:transparent">"</span>
   <br>
   <span style="color:transparent">"</span>New Jersey (USA)<span style="color:transparent">"</span>
   <br>
