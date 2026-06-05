@@ -1,13 +1,24 @@
+# DR. Dimitris Metaxas, Rutgers University, and Computational Biomedicine Imaging and Modeling (CBIM)
+
 ## Faculty
 
 ### Board of Governors and Distinguished Professor [Dimitris Metaxas](https://scholar.google.com/citations?user=a7VNhCIAAAAJ&hl=en)
 
 - Computer vision, Machine Learning, Medical Image Analysis, Biomedical Image Analysis, AI
 - Recently, 2D/3D Vision Generative, Medical Imaging, Dynamical Modelling, LLM/VLM
+- The following content records 97+ PhD students.
+
+### Former or current colleagues
+
+- **CDDA:** [Vladimir Pavlovic](https://vladimirpavlovic.org/), [Ahmed Elgammal](https://sites.rutgers.edu/ahmed-elgammal/), [Mubbasir Kapadia](https://www.cs.rutgers.edu/people/professors/details/mubbasir-kapadia), [Konstantinos Michmizos](https://combra.cs.rutgers.edu/the_pi), [Ilker Hacihaliloglu](https://sites.rutgers.edu/ilker-hacihaliloglu/people/), [Jaideep Vaidya](https://sites.rutgers.edu/jsvaidya/), [Kostas Bekris](https://pracsys.github.io/)
+- **CBIM:** [Zhen Qian](https://scholar.google.com/citations?user=9LA_2BgAAAAJ&hl=en), [Jinghao Zhou](https://scholar.google.com/citations?user=5EGYY1AAAAAJ&hl=en), [Zhiguo Li](https://scholar.google.com/citations?user=NXUOtDMAAAAJ&hl=en), [Yuchi Huang](https://scholar.google.com/citations?user=LVEmACwAAAAJ&hl=en), [Atul Kanaujia](https://scholar.google.com/citations?user=sVx8q8oAAAAJ&hl=en), [Xinyi Cui](https://www.researchgate.net/profile/Xinyi-Cui), [Fei Yang](https://scholar.google.com/citations?hl=en&user=kMFnJxgAAAAJ), [Xiaolei Huang](https://scholar.google.com/citations?user=iTtzc1UAAAAJ&hl=en), [Rong Zhang](https://www.eng.ufl.edu/research/ai-experts/name/rong-zhang/)
+
+Source: https://web.archive.org/web/20180312062435/http://www.cdda.rutgers.edu/researchteam
+
+Source: https://web.archive.org/web/20170925135615/http://www.cbim.rutgers.edu/people-160/alumni
 
 ## Current Members
 
-- [Kexin Ding](https://scholar.google.com/citations?user=srPTvV0AAAAJ&hl=en) - Current PostDoc
 - [Bingyu Xin](https://scholar.google.com/citations?user=ENG4A1gAAAAJ&hl=en) - Medical Image (2020)
 - [Gerasimos Chatzoudis](https://scholar.google.com/citations?user=9Lsgha0AAAAJ&hl=en) - Explainable AI (2022)
 - [Bangwei Guo](https://scholar.google.com/citations?user=GBbfGuUAAAAJ&hl=en) - Medical, MRI, Cardiac Imaging (2022)
@@ -24,6 +35,12 @@
 - [Quang Nguyen](https://scholar.google.com/citations?user=SUuo7U4AAAAJ) - MLLM, 3D/Video Generative (2025)
 - [Guoning Zhang](https://scholar.google.com/citations?user=yZkan2cAAAAJ) - Explainable Medical (2025)
 - [Tunyu Zhang](https://scholar.google.com/citations?user=y3st15YAAAAJ&hl=en) - LLM Diffusion, Efficiency (2025)
+
+## Postdoc
+
+- [Kexin Ding](https://scholar.google.com/citations?user=srPTvV0AAAAJ&hl=en) - Current PostDoc
+
+Source: https://cbim-rutgers.github.io/
 
 ## Alumni
 
@@ -78,11 +95,40 @@
 - Xiaoxu Wang - 2011
 - [Peng Yang](https://scholar.google.com/citations?user=pWR0AtAAAAAJ&hl=en) - Amazon (2011)
 - [Junzhou Huang](https://scholar.google.com/citations?user=X7KrguAAAAAJ&hl=en) - Full Prof at UTA (2011)
-- [Atul Kanaujia](https://scholar.google.com/citations?user=sVx8q8oAAAAJ&hl=en) - Percipient.ai (2010)
-- [Yuchi Huang](https://scholar.google.com/citations?user=LVEmACwAAAAJ&hl=en) - Ascend Learning (2010)
-- [Zhiguo Li](https://scholar.google.com/citations?user=NXUOtDMAAAAJ&hl=en) - Amazon (2010)
+- [Atul Kanaujia](https://scholar.google.com/citations?user=sVx8q8oAAAAJ&hl=en) - Percipient.ai (2009)
+- [Zhiguo Li](https://scholar.google.com/citations?user=NXUOtDMAAAAJ&hl=en) - Amazon (2009)
+- [Yuchi Huang](https://scholar.google.com/citations?user=LVEmACwAAAAJ&hl=en) - Ascend Learning (2009)
+- Zhen Qian - 2008
+- Jinghao Zhou - 2008
 - [Rui Huang](https://scholar.google.com/citations?user=t8UduWwAAAAJ&hl=en) - Full Prof at CUHK (2008)
 - [Viorel Mihalef](https://scholar.google.com/citations?user=inxtarcAAAAJ&hl=en) - Siemens Healthineers (2007)
 - [Xiaolei Huang](https://scholar.google.com/citations?user=iTtzc1UAAAAJ&hl=en) - Full Prof at Penn State University (2006)
 - [Rong Zhang](https://www.eng.ufl.edu/research/ai-experts/name/rong-zhang/) - Senior Lecturer University of Florida (2006)
 - [Dimitris Samaras](https://scholar.google.com/citations?user=BxbKTYkAAAAJ&hl=en) - Full Prof at SBU (2001)
+
+## Penn-era Students
+
+- Zhenhua Hu - Ph.D. (2005)
+- [Albert Montillo](https://www.aamontillo.net/) - Ph.D. (2004); Associate Professor at UT Southwestern; [Google Scholar](https://scholar.google.com/citations?user=zNhYHHIAAAAJ)
+- [Kyoungju Park](http://cau.ac.kr/~kjpark/) - Ph.D. (2004); Professor at Chung-Ang University
+- [Christian Vogler](https://captions.us/cms/about-us/) - Ph.D. (2003); Professor and Director of the Technology Access Program at Gallaudet University
+- Ting Chen - Ph.D. (2003)
+- Suejung Huh - Ph.D. (2002)
+- Gang Huang - Ph.D. (2002)
+- [Siome Klein Goldenstein](https://www.ic.unicamp.br/~siome/bio.shtml) - Ph.D. (2002); Associate Professor at UNICAMP; [Google Scholar](https://scholar.google.com/citations?user=6uBpaf0AAAAJ)
+- [Fred Azar](https://www.intersystems.com/br/contact/fred-azar/) - Ph.D. (2001); Analytics/AI&ML Business Development at InterSystems
+- [Idith Haber](https://lmi.bwh.harvard.edu/people/dr-idith-haber) - Ph.D. (2000); former researcher at the Laboratory of Mathematics in Imaging, Brigham and Women's Hospital / Harvard
+- [Dimitris Samaras](https://scholar.google.com/citations?user=BxbKTYkAAAAJ&hl=en) - Ph.D. (2000); Full Professor at Stony Brook University
+- Harold Sun - Ph.D. (2000); former Senior Software Engineer, Mobile Group at Roku
+- [Doug DeCarlo](https://ruccs.rutgers.edu/persci-core-faculty) - Ph.D. (1998); Rutgers University
+- Timothy N. Jones - Ph.D. (1998)
+- Janzen Lo - Ph.D. (1998)
+- [Nick Foster](https://cacm.acm.org/research/modeling-water-for-computer-animation/) - Ph.D. (1997); Senior Engineer at Pacific Data Images
+- [Jinah Park](https://cgv.kaist.ac.kr/members/professor/) - Ph.D. (1996); KAIST ICT Endowed Chair Professor
+- [Jonathan Kaye](https://www.amethyst-research.com/about_amethyst.html) - Ph.D. (1996); Director at Equipment Simulations
+- [Ioannis Kakadiaris](https://www.bioe.uh.edu/faculty/kakadiaris) - Ph.D. (1996); Hugh Roy and Lillie Cranz Cullen Distinguished University Professor at the University of Houston
+- M. Chan - Ph.D. (1995)
+
+Source: [Penn source](https://cg.cis.upenn.edu/alumniphd.html)
+
+Source: [Mathematics Genealogy Project](https://www.mathgenealogy.org/id.php?id=97072)
