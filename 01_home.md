@@ -37,7 +37,7 @@ Recently I have been interested in the following topics:
 -->
 - <strong><font color='green'>Sign Language</font></strong> - It involves many fields, such as the conversion between text/audio and movement/gestures, human body reconstruction and recognition, human pose synchronization, Pose-guided image generation, avatar reconstruction, and style transfer, etc. This topic has high technical requirements, and you must achieve a high level in all the above fields before it can be applied to sign language datasets.
 
-I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me (see my <a href="#" onclick="event.preventDefault();document.querySelectorAll('.nav-page').forEach(l=>l.classList.remove('active'));document.querySelector('[data-page=\'04_blog.md\']').classList.add('active');loadMarkdownFile('04_blog.md').then(()=>{const el=document.getElementById('research-interests');if(el)el.scrollIntoView({behavior:'smooth'});})">full interests</a>). I plan to apply for the Intern position related to World Snapshot at 27 Summer and then enter the full-time job market.
+I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me (see my <a href="?page=04_blog.md#research-interests" class="nav-section-link" data-page="04_blog.md" data-section="research-interests">full interests</a>). I plan to apply for the Intern position related to World Snapshot at 27 Summer and then enter the full-time job market.
 
 <p class="icon-links" style="font-size:2em;line-height:1.8;color:purple;margin:0;"><a href="https://github.com/fangsen9000/"><i class="fa-brands fa-github"></i></a><span class="icon-sep"></span><a href="https://scholar.google.com/citations?user=BJb9MsgAAAAJ&hl=en" aria-label="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a><span class="icon-sep"></span><a href="https://huggingface.co/FangSen9000/activity/all" aria-label="Hugging Face"><span style="display:inline-block;height:1em;width:1em;vertical-align:-0.15em;background-color:currentColor;-webkit-mask:url(logo/huggingface-monochrome.svg) no-repeat center/contain;mask:url(logo/huggingface-monochrome.svg) no-repeat center/contain;"></span></a><span class="icon-sep"></span><a href="https://twitter.com/SenFang01"><i class="fa-brands fa-x-twitter"></i></a><fn>Paper Promotion</fn><span class="icon-sep"></span><a href="https://www.threads.com/@senfang01"><i class="fa-brands fa-threads"></i></a><fn>Academic Thinking</fn><span class="icon-sep"></span><a href="https://www.linkedin.com/in/fangsen/"><i class="fa-brands fa-linkedin"></i></a><fn>General Contact Information</fn><span class="icon-sep"></span><a href="https://www.xiaohongshu.com/user/profile/671ed236000000000d026aad"><span style="display:inline-block;height:1em;width:1em;vertical-align:-0.15em;background-color:currentColor;-webkit-mask:url(logo/xiaohongshu.svg) no-repeat center/contain;mask:url(logo/xiaohongshu.svg) no-repeat center/contain;"></span></a><span class="icon-sep"></span><a href="mailto:fangsen2024@gmail.com"><i class="fa-solid fa-envelope"></i></a></p>
 
@@ -49,8 +49,8 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div id="selected-news" class="tab-content news active">
 
-- **2026.4** One paper was accepted by <a href="https://icml.cc/Conferences/2026" class="venue-accent">ICML 2026</a>.
-- **2026.4** One paper was accepted and nominated as the <span class="special-accent">Best Paper Award</span> by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>.
+- **2026.4** One paper was accepted by <a href="https://icml.cc/Conferences/2026" class="venue-accent">ICML 2026</a>, Seoul, South Korea.
+- **2026.4** One paper was accepted and nominated as the <span class="special-accent">Best Paper Award</span> by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>, San Diego, California, USA.
 - **2025.3** According to the plan from a year ago, I will join [Hedra Inc.](https://www.hedra.com/) to research foundational video generation models.
 - **2024.12** An amazing day. Maybe I was inspired by God, or maybe I found my lifelong career.
 - **2024.6** I got the [Best Bachelor's Thesis](https://jwc.henu.edu.cn/info/2145/8713.htm) award of [Henan University](https://en.wikipedia.org/wiki/Henan_University).
@@ -60,11 +60,11 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div id="all-news" class="tab-content news">
 
-- **2026.4** One paper was accepted by <a href="https://icml.cc/Conferences/2026" class="venue-accent">ICML 2026</a>.
-- **2026.4** One paper was accepted and nominated as the <span class="special-accent">Best Paper Award</span> by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>.
-- **2025.9** One app was accepted by <a href="https://iccv.thecvf.com/Conferences/2025/CallForDemos" class="venue-accent">ICCV 2025 Demo Track</a>.
-- **2025.7** One paper was accepted by <a href="https://cv4a11y.github.io/ICCV2025/index.html" class="venue-accent">ICCV 2025 CV4A11y</a>.
-- **2025.4** One paper was accepted by <a href="https://sites.google.com/view/fmllmgm-fg25" class="venue-accent">IEEE 2025 FG FM&LLM&GM</a>.
+- **2026.4** One paper was accepted by <a href="https://icml.cc/Conferences/2026" class="venue-accent">ICML 2026</a>, Seoul, South Korea.
+- **2026.4** One paper was accepted and nominated as the <span class="special-accent">Best Paper Award</span> by <a href="https://2026.aclweb.org/" class="venue-accent">ACL 2026 Main Conference</a>, San Diego, California, USA.
+- **2025.9** One app was accepted by <a href="https://iccv.thecvf.com/Conferences/2025/CallForDemos" class="venue-accent">ICCV 2025 Demo Track</a>, Honolulu, Hawaii, USA.
+- **2025.7** One paper was accepted by <a href="https://cv4a11y.github.io/ICCV2025/index.html" class="venue-accent">ICCV 2025 CV4A11y</a>, Honolulu, Hawaii, USA.
+- **2025.4** One paper was accepted by <a href="https://sites.google.com/view/fmllmgm-fg25" class="venue-accent">IEEE 2025 FG FM&LLM&GM</a>, Clearwater, Florida, USA.
 - **2025.3** According to the plan from a year ago, I will join [Hedra Inc.](https://www.hedra.com/) to research foundational video generation models.
 - **2024.12** An amazing day. Maybe I was inspired by God, or maybe I found my lifelong career.
 - **2024.6** I got the [Best Bachelor's Thesis](https://jwc.henu.edu.cn/info/2145/8713.htm) award of [Henan University](https://en.wikipedia.org/wiki/Henan_University).
@@ -109,9 +109,9 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **Stable Signer: Hierarchical Sign Language Generative Model**      
 **Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
-<span class="venue-accent">ICCV 2025 Demo Track</span> and <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>       
+<span class="venue-accent">ICCV 2025 Demo Track</span>, Honolulu, Hawaii, USA; and <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>, San Diego, California, USA       
 <span class="venue-accent">ACL 2026 Best Paper Award Nominee (out of 12,148 submissions)</span>       
-[[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025)     
+[[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025) [[Video]](https://underline.io/events/524/sessions/22811/lecture/149420-stable-signer-hierarchical-sign-language-generative-model?tab=video) [[Slides]](https://app.underline.io/downloadable_materials/lectures/149420/slideshow) [[DOI]](https://doi.org/10.48448/p61s-kc86)     
 🏆 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
 
 </div></div>
@@ -137,7 +137,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**     
 **Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†      
-<span class="special-accent">ICML 2026</span>        
+<span class="special-accent">ICML 2026</span>, Seoul, South Korea        
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)          
 🦄 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
 <!--(6352/23918, 26.56%)-->
@@ -155,9 +155,9 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <img src="cover/background_gallery_big.gif" alt="SignVerse-2M cover">
 </div><div class="pub-content">
 
-**SignVerse-2M: A Two-Million-Clip Pose-Native Universe of 25+ Sign Languages**    
+**SignVerse-2M: A Two-Million-Clip Pose-Native Universe of 55+ Sign Languages**    
 **Sen Fang**, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†      
-[[Paper]]() [[Project Page]](https://signerx.github.io/SignVerse-2M/)      
+[[Paper]](https://arxiv.org/abs/2605.01720) [[Project Page]](https://signerx.github.io/SignVerse-2M/)      
 <font color='green'>**Dataset breakthrough:**  Make sign language research practical, affordable, and scalable!</font>
 
 </div></div>
@@ -176,8 +176,8 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **SignLLM: Sign Language Production Large Language Models**     
 **Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian         
-<span class="special-accent">ICCV 2025 CV4A11y</span>        
-[[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign)      
+<span class="special-accent">ICCV 2025 CV4A11y</span>, Honolulu, Hawaii, USA        
+[[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign) [[Slides]](static/ppt/SignLLM_and_Stable_Signer.pdf)      
 🦄 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
 <br>**Note:** This work was reported by hundreds of media outlets and was viewed by tens of millions of people, and received an exclusive interview by <a href="https://www.newscientist.com/" class="venue-accent">New Scientist</a> (5M+ followers).
 
@@ -371,15 +371,36 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Talks
 
-- **Make an Appointment:** The quickest way to find me is to send me an email or remind me on X/Github/LinkedIn. Then we create a Google Calendar event.
-- **Summary:** Amazon, Swiss Television, New Scientist, Waterloo, Dicpta Inc, Mo-Sys Inc.
+- **Conversations on the Present and Future of Sign Language Generation (2024–2026)**
+  - **Summary:** Discussions with Amazon, Swiss Television, Waterloo, Dicpta Inc., and Mo-Sys Inc. on the current state, limitations, and future directions of sign language generation.
+  - **Media Coverage:** [New Scientist](https://www.newscientist.com/) (5+ million readers)
+  - **Public Reach (as of September 2024):** SignLLM received unsolicited coverage from more than 80 media outlets and independent content creators, reaching over 10 million views.
+  - [Search for "SignLLM"](https://www.bing.com/search?q=SignLLM) with Microsoft Bing
+  - [Search for "SignLLM"](https://www.google.com/search?q=SignLLM) with Google
+  - [Talk about "SignLLM"](https://chatgpt.com/) with ChatGPT
+- **Make an Appointment:** The quickest way to reach me is by email or through X, GitHub, or LinkedIn. We can then arrange a Google Calendar event.
 
-*Including invitations I couldn't accept due to my busy schedule.*
+*This record includes invitations I was unable to accept because of scheduling constraints.*
 
 ## Service
 
-- **Program Chair Member:** IEEE FG 2026, ICONIP 2024 2026, FM&LLM&GM 2025, EmpAI 2026
-- **Conference Reviewer:** NeurIPS 2024 2026, ICML 2024, ICLR 2025, ICCV 2025, WACV 2026, ACM MM 2025-2026, IEEE FG 2025, ICONIP 2023-2024, EMNLP 2023, NAACL 2024, ACL ARR 2023-2024  
+- **Program Committee Member:**
+  - IEEE International Conference on Automatic Face and Gesture Recognition (IEEE FG 2026)
+  - International Conference on Neural Information Processing (ICONIP 2024, 2026)
+  - First International Workshop on Foundation, Multimodal Large Language and Generative Models for Face and Gesture Recognition (FM&LLM&GM 2025)
+  - First International Workshop on Empathic AI: Face, Gesture, and Accessibility Technologies (EmpAI 2026)
+- **Conference Reviewer:**
+  - Conference on Neural Information Processing Systems (NeurIPS 2024, 2026)
+  - International Conference on Machine Learning (ICML 2024)
+  - International Conference on Learning Representations (ICLR 2025)
+  - IEEE/CVF International Conference on Computer Vision (ICCV 2025)
+  - IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2026)
+  - ACM International Conference on Multimedia (ACM MM 2025–2026)
+  - IEEE International Conference on Automatic Face and Gesture Recognition (IEEE FG 2025)
+  - International Conference on Neural Information Processing (ICONIP 2023–2024)
+  - Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)
+  - Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)
+  - ACL Rolling Review (ARR 2023–2024)
 
 ## Teaching
 
@@ -410,6 +431,12 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 </details>
 
 <br>
-<div style="width: 420px; height: 220px; overflow: hidden; margin: 20px auto;">
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=DVOirx5xZoatWTrQvYVH2Jzv9fHuoX_NoHOytFe_XOo&cl=ffffff&w=a"></script>
+<div class="visitor-map" data-visitor-map data-endpoint="https://fangsen-visitor-map.fangsen2024.workers.dev">
+  <div class="visitor-map-header">
+    <span>Visitors</span>
+    <span class="visitor-map-summary" data-visitor-summary>Total visits: 0 · Countries: 0</span>
+  </div>
+  <canvas class="visitor-map-canvas" data-visitor-canvas role="img" aria-label="Map of website visitors"></canvas>
+  <div class="visitor-map-tooltip" data-visitor-tooltip hidden></div>
 </div>
+<script src="./static/js/visitor-map.js"></script>

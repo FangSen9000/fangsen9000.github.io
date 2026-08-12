@@ -1,2 +1,5 @@
 index_only.html
 file/abandoned
+visitor-map-worker/node_modules/
+visitor-map-worker/.wrangler/
+visitor-map-worker/visitor-map-backup*.sql

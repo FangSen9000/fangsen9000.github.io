@@ -1,0 +1,60 @@
+.visitor-map {
+    position: relative;
+    width: min(100%, 520px);
+    margin: 20px auto;
+    padding: 12px 14px 10px;
+    border: 1px solid #c8ccd1;
+    background: #fff;
+    color: #202122;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.visitor-map-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 7px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.visitor-map-summary {
+    color: #72777d;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.visitor-map-canvas {
+    display: block;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    background: #326f93;
+    box-shadow: inset 0 0 20px rgba(8, 38, 57, 0.3);
+}
+
+.visitor-map-tooltip {
+    position: absolute;
+    z-index: 2;
+    max-width: 220px;
+    padding: 5px 7px;
+    border: 1px solid #a2a9b1;
+    background: rgba(255, 255, 255, 0.96);
+    color: #202122;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    font-size: 11px;
+    line-height: 1.35;
+    pointer-events: none;
+}
+
+@media (max-width: 480px) {
+    .visitor-map {
+        padding: 10px;
+    }
+
+    .visitor-map-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1px;
+    }
+}

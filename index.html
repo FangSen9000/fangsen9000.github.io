@@ -15,22 +15,26 @@
     <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23eef0f2'/%3E%3Ctext x='16' y='26' font-family='-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' font-size='22' font-weight='500' text-anchor='middle' fill='%23202122'%3ESF%3C/text%3E%3C/svg%3E">
     <!-- 引用独立的 CSS 文件 -->
     <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/visitor-map.css">
 </head>
 <body>
     
     <header class="header">
         <h1 class="header-title nav-page active" translate="no" data-page="01_home.md" style="cursor:pointer;">Sen Fang <span lang="zh-CN">房森</span></h1>
         <div class="header-links">
-            <a href="#" class="header-link nav-page active" data-page="01_home.md">[Home]</a>
-            <!--        
-            <a href="#" class="header-link nav-page" data-page="02_bio.md">[Biography]</a>
-            -->
-            <a href="#" class="header-link nav-page" data-page="03_misc.md">[Projects]</a>
+            <a href="#" class="header-link nav-page active" data-page="01_home.md">Home</a>
+            <span class="nav-separator">/</span>
             <!--
-            <a href="#" class="header-link nav-page" data-page="06_talks.md">[Talks]</a>
+            <a href="#" class="header-link nav-page" data-page="02_bio.md">Biography</a>
             -->
-            <a href="#" class="header-link nav-page" data-page="04_blog.md">[Blog]</a>
-            <a href="#" class="header-link nav-page" data-page="05_schedule.md">[Contact]</a>
+            <a href="#" class="header-link nav-page" data-page="03_misc.md">Projects</a>
+            <span class="nav-separator">/</span>
+            <!--
+            <a href="#" class="header-link nav-page" data-page="06_talks.md">Talks</a>
+            -->
+            <a href="#" class="header-link nav-page" data-page="04_blog.md">Blog</a>
+            <span class="nav-separator">/</span>
+            <a href="#" class="header-link nav-page" data-page="05_schedule.md">Contact</a>
         </div>
     </header>
     
@@ -140,6 +144,27 @@
                 url.searchParams.set('page', pageFile);
             }
             history.replaceState(null, null, `${url.pathname}${url.search}${url.hash}`);
+        }
+
+        async function navigateToPageSection(pageFile, sectionId) {
+            updateActiveNav(pageFile);
+            if (currentMarkdownFile !== pageFile) {
+                await loadMarkdownFile(pageFile);
+            }
+
+            const url = new URL(window.location.href);
+            if (pageFile === DEFAULT_PAGE) {
+                url.searchParams.delete('page');
+            } else {
+                url.searchParams.set('page', pageFile);
+            }
+            url.hash = sectionId;
+            history.replaceState(null, null, `${url.pathname}${url.search}${url.hash}`);
+
+            const target = document.getElementById(sectionId);
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
         }
 
         // After rendering markdown, convert site-relative .md links into ?page=... links
@@ -271,6 +296,17 @@
                     updatePageUrl(pageFile);
                     await loadMarkdownFile(pageFile);
                 });
+            });
+
+            document.addEventListener('click', (e) => {
+                const link = e.target.closest('.nav-section-link');
+                if (!link) return;
+
+                e.preventDefault();
+                navigateToPageSection(
+                    link.getAttribute('data-page'),
+                    link.getAttribute('data-section')
+                );
             });
         }
 

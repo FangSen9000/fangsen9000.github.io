@@ -1,0 +1,15 @@
+{
+  "name": "fangsen-visitor-map-worker",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create visitor-map",
+    "db:migrate:local": "wrangler d1 migrations apply visitor-map --local",
+    "db:migrate:remote": "wrangler d1 migrations apply visitor-map --remote"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

@@ -26,12 +26,14 @@ For me, the most important thing at present is:
 
 ## My: General Posts
 
+<!--
 - [《Unified Law for Visual Tasks》](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks): The Four Laws of Computer Vision. 
 
 *Note: I really like many concepts in my WSM & WaveGen, but what I like the most is this one. It makes me feel the beauty of computer vision. Because it make me know that all the tasks are actually the same task form.*
 - Open Discussion: [《Answer questions from Computer Vision researchers》](https://github.com/orgs/World-Snapshot/discussions/1)
+-->
 
-- [《The Song of Computer Vision (2026)》](): This is the content that emerged during my first epiphany. I roughly realized that we should train the world itself and redefine the definitions of all tasks. Then came a continuous 7-day or more headache and months of insomnia.
+- [《The Song of Computer Vision (2024)》](): This is the content that emerged during my first epiphany. I roughly realized that we should train the world itself and redefine the definitions of all tasks. Then came a continuous 7-day or more headache and months of insomnia.
 
 ## My: Latest Posts
 

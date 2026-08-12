@@ -6,7 +6,7 @@
 
 - Computer vision, Machine Learning, Medical Image Analysis, Biomedical Image Analysis, AI
 - Recently, 2D/3D Vision Generative, Medical Imaging, Dynamical Modelling, LLM/VLM
-- The following content records <span style="color:red">97+ PhD students</span>.
+- The following content records <span style="color:red">100+ PhD or PhD students</span>.
 
 ### Former or current colleagues
 
@@ -23,10 +23,13 @@ Source: https://web.archive.org/web/20170925135615/http://www.cbim.rutgers.edu/p
 - [Gerasimos Chatzoudis](https://scholar.google.com/citations?user=9Lsgha0AAAAJ&hl=en) - Explainable AI (2022)
 - [Bangwei Guo](https://scholar.google.com/citations?user=GBbfGuUAAAAJ&hl=en) - Medical, MRI, Cardiac Imaging (2022)
 - [Ruosong Ye](https://scholar.google.com/citations?user=9Xduz3AAAAAJ&hl=en) - Multi-LLM Collaboration, RL, Graph (2022)
+- [Hang Gao](https://scholar.google.com/citations?hl=en&user=ETFrrtIAAAAJ) - LLM, RAG, Information Retrieval (2022, joined CBIM 2025)
 - [Yang Zhou](https://scholar.google.com/citations?hl=en&user=BsQ8IUcAAAAJ&view_op=list_works&sortby=pubdate) - MLLM, Agent, Medical (2023)
 - [Difei Gu](https://scholar.google.com/citations?user=nKuyKx0AAAAJ&hl=en) - Explainable Medical (2023)
 - [Quan Dao](https://scholar.google.com/citations?user=g0RS3_kAAAAJ) - Image/Video Generation, 3D Generative (2024)
 - [Can Jin](https://scholar.google.com/citations?user=RK-8dz0AAAAJ&hl=en) - Reinforcement Learning, LLM/Vision Efficiency (2024)
+- [Mingyu Jin](https://scholar.google.com/citations?user=aYfy924AAAAJ&hl=en) - NLP, Interpretability, Sparse AutoEncoders (2024, joined CBIM 2025)
+- [Wujiang Xu](https://scholar.google.com/citations?user=cucjW6wAAAAJ) - Reinforcement Learning, LLM Agents (2024, joined CBIM 2025)
 - [Mingyu Zhao](https://scholar.google.com/citations?user=z9_Niy8AAAAJ&hl=en) - ASL (2024)
 - [Sen Fang](https://scholar.google.com/citations?user=BJb9MsgAAAAJ&hl=en) - 3DV, GenAI, ASL (2024)
 - [Wenyi Mo](https://scholar.google.com/citations?user=e3s9h8MAAAAJ) - Generative Models, MMLM, Reinforcement Learning (2025)
