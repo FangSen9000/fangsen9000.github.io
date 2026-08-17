@@ -1,41 +1,32 @@
 (() => {
-    const LAND = [
-        [[-168, 66], [-154, 58], [-140, 59], [-132, 52], [-125, 49], [-124, 40], [-117, 32], [-106, 23], [-97, 18], [-88, 19], [-83, 25], [-80, 31], [-75, 39], [-66, 45], [-58, 51], [-63, 59], [-78, 62], [-92, 74], [-119, 75], [-142, 70]],
-        [[-81, 12], [-75, 8], [-68, 10], [-61, 6], [-52, -1], [-48, -15], [-54, -27], [-60, -38], [-68, -55], [-75, -50], [-72, -34], [-76, -18]],
-        [[-53, 59], [-43, 61], [-28, 70], [-23, 80], [-44, 83], [-61, 76]],
-        [[-17, 36], [-6, 43], [10, 45], [24, 40], [34, 35], [43, 12], [51, 11], [50, -12], [40, -26], [31, -35], [18, -35], [10, -25], [2, -5], [-10, 7]],
-        [[-10, 36], [-9, 44], [2, 51], [18, 55], [31, 70], [58, 72], [83, 73], [105, 77], [137, 71], [171, 66], [180, 54], [161, 49], [146, 43], [131, 32], [121, 23], [111, 20], [104, 10], [95, 6], [84, 9], [77, 20], [67, 25], [55, 27], [45, 36], [31, 41], [22, 37], [13, 43], [3, 43]],
-        [[113, -11], [130, -11], [145, -17], [153, -28], [145, -39], [130, -35], [116, -30]],
-        [[47, -13], [51, -17], [49, -26], [44, -24]],
-        [[129, 32], [136, 35], [142, 44], [145, 40], [140, 33]],
-        [[166, -34], [178, -38], [174, -47], [166, -45]]
-    ];
-
     const state = new WeakMap();
+    const MAP = {
+        radius: 6381372,
+        meridian: 11.5,
+        minX: -20004297.151525836,
+        maxX: 20026572.39474939,
+        minY: -12671671.123330014,
+        maxY: 6930392.02513512
+    };
+    const ZOOM_LEVELS = [1, 1.6, 2.56];
 
-    function project(lon, lat, width, height) {
-        return [((lon + 180) / 360) * width, ((90 - lat) / 180) * height];
-    }
-
-    function countryName(code) {
-        if (!code) return '';
-        try {
-            return new Intl.DisplayNames([document.documentElement.lang || 'en'], { type: 'region' }).of(code);
-        } catch (_) {
-            return code;
-        }
-    }
-
-    function placeName(point) {
-        return [point.city, point.region, countryName(point.countryCode)].filter(Boolean).join(', ');
+    function project(longitude, latitude, width, height) {
+        let lon = Number(longitude);
+        const lat = Number(latitude);
+        if (-180 + MAP.meridian > lon) lon += 360;
+        const x = MAP.radius * (lon - MAP.meridian) * Math.PI / 180;
+        const y = -MAP.radius * Math.log(Math.tan((45 + .4 * lat) * Math.PI / 180)) / .8;
+        return [
+            (x - MAP.minX) / (MAP.maxX - MAP.minX) * width,
+            (y - MAP.minY) / (MAP.maxY - MAP.minY) * height
+        ];
     }
 
     function draw(widget) {
         const canvas = widget.querySelector('[data-visitor-canvas]');
         const data = state.get(widget) || { points: [] };
-        const bounds = canvas.getBoundingClientRect();
-        const width = Math.max(300, Math.round(bounds.width));
-        const height = Math.round(width / 2);
+        const width = Math.max(300, Math.round(canvas.clientWidth));
+        const height = Math.round(width * 218 / 446);
         const ratio = Math.min(window.devicePixelRatio || 1, 2);
         canvas.width = Math.round(width * ratio);
         canvas.height = Math.round(height * ratio);
@@ -43,127 +34,150 @@
         context.scale(ratio, ratio);
         context.clearRect(0, 0, width, height);
 
-        const ocean = context.createLinearGradient(0, 0, 0, height);
-        ocean.addColorStop(0, '#4c86a6');
-        ocean.addColorStop(0.52, '#326f93');
-        ocean.addColorStop(1, '#245777');
-        context.fillStyle = ocean;
-        context.fillRect(0, 0, width, height);
-
-        const oceanGlow = context.createRadialGradient(
-            width * 0.38, height * 0.32, 0,
-            width * 0.38, height * 0.32, width * 0.62
-        );
-        oceanGlow.addColorStop(0, 'rgba(213, 237, 240, 0.12)');
-        oceanGlow.addColorStop(0.58, 'rgba(102, 171, 190, 0.04)');
-        oceanGlow.addColorStop(1, 'rgba(8, 40, 61, 0.22)');
-        context.fillStyle = oceanGlow;
-        context.fillRect(0, 0, width, height);
-
-        context.lineCap = 'round';
-        for (let band = 0; band < 14; band += 1) {
-            const baseY = ((band + 0.7) / 14.5) * height;
-            context.beginPath();
-            for (let x = -12; x <= width + 12; x += 8) {
-                const wave = Math.sin(x * 0.028 + band * 1.71) * (2.2 + (band % 3));
-                const drift = Math.sin(x * 0.009 - band * 0.84) * 3.5;
-                const y = baseY + wave + drift;
-                if (x === -12) context.moveTo(x, y);
-                else context.lineTo(x, y);
-            }
-            context.strokeStyle = band % 3 === 0
-                ? 'rgba(210, 235, 239, 0.075)'
-                : 'rgba(10, 49, 72, 0.065)';
-            context.lineWidth = band % 3 === 0 ? 1.1 : 0.75;
-            context.stroke();
-        }
-
-        LAND.forEach((polygon, polygonIndex) => {
-            context.beginPath();
-            polygon.forEach(([lon, lat], index) => {
-                const [x, y] = project(lon, lat, width, height);
-                if (index === 0) context.moveTo(x, y);
-                else context.lineTo(x, y);
-            });
-            context.closePath();
-            context.strokeStyle = 'rgba(151, 205, 190, 0.28)';
-            context.lineWidth = 3;
-            context.stroke();
-            const terrain = context.createLinearGradient(0, 0, width, height);
-            terrain.addColorStop(0, polygonIndex % 2 ? '#73915d' : '#6f8b57');
-            terrain.addColorStop(0.48, polygonIndex % 2 ? '#58794b' : '#66834f');
-            terrain.addColorStop(1, '#425f3d');
-            context.fillStyle = terrain;
-            context.fill();
-            context.strokeStyle = 'rgba(223, 235, 204, 0.76)';
-            context.lineWidth = 0.8;
-            context.stroke();
-
-            context.save();
-            context.clip();
-            context.globalAlpha = 0.13;
-            context.strokeStyle = '#173b28';
-            context.lineWidth = 1;
-            for (let offset = -height; offset < width + height; offset += 15) {
-                context.beginPath();
-                context.moveTo(offset, height);
-                context.lineTo(offset + height, 0);
-                context.stroke();
-            }
-            context.restore();
-        });
-
         data.renderedPoints = data.points.map(point => {
-            const [x, y] = project(Number(point.longitude), Number(point.latitude), width, height);
-            const radius = Math.min(11, 2.5 + Math.log2(Number(point.visits) + 1) * 1.35);
+            const [x, y] = project(point.longitude, point.latitude, width, height);
+            const radius = Math.min(4, 2 + Math.floor(Math.log2(Number(point.visits) + 1) / 2));
             context.beginPath();
             context.arc(x, y, radius, 0, Math.PI * 2);
-            context.fillStyle = 'rgba(190, 36, 46, 0.68)';
+            context.fillStyle = 'rgba(255, 0, 0, .7)';
             context.fill();
-            context.strokeStyle = 'rgba(255, 255, 255, 0.9)';
-            context.lineWidth = 1;
+            context.strokeStyle = '#fff';
+            context.lineWidth = .5;
             context.stroke();
             return { ...point, x, y, radius };
         });
+        data.width = width;
+        data.height = height;
         state.set(widget, data);
+    }
+
+    function placeName(point) {
+        let country = point.countryCode || '';
+        try {
+            country = new Intl.DisplayNames(['en'], { type: 'region' }).of(country) || country;
+        } catch (_) {}
+        return [point.city, point.region, country].filter(Boolean).join(', ');
     }
 
     function showTooltip(widget, event) {
         const canvas = widget.querySelector('[data-visitor-canvas]');
         const tooltip = widget.querySelector('[data-visitor-tooltip]');
         const data = state.get(widget);
-        if (!data || !data.renderedPoints) return;
         const bounds = canvas.getBoundingClientRect();
-        const x = event.clientX - bounds.left;
-        const y = event.clientY - bounds.top;
-        const point = data.renderedPoints.find(item => Math.hypot(item.x - x, item.y - y) <= Math.max(7, item.radius + 2));
-        if (!point) {
-            tooltip.hidden = true;
-            return;
-        }
+        const x = (event.clientX - bounds.left) * data.width / bounds.width;
+        const y = (event.clientY - bounds.top) * data.height / bounds.height;
+        const point = data?.renderedPoints?.find(item => Math.hypot(item.x - x, item.y - y) <= Math.max(7, item.radius + 2));
+        if (!point) return void (tooltip.hidden = true);
         tooltip.textContent = `${placeName(point) || 'Approximate location'} · ${point.visits} ${Number(point.visits) === 1 ? 'visit' : 'visits'}`;
-        tooltip.style.left = `${Math.min(widget.clientWidth - 180, Math.max(8, x + 12))}px`;
-        tooltip.style.top = `${Math.max(36, y)}px`;
+        const widgetBounds = widget.getBoundingClientRect();
+        tooltip.style.left = `${Math.min(widget.clientWidth - 180, Math.max(8, event.clientX - widgetBounds.left + 12))}px`;
+        tooltip.style.top = `${Math.max(36, event.clientY - widgetBounds.top)}px`;
         tooltip.hidden = false;
     }
 
+    function clampPan(widget, data) {
+        const viewport = widget.querySelector('[data-visitor-viewport]');
+        const stage = widget.querySelector('[data-visitor-stage]');
+        const zoom = ZOOM_LEVELS[data.zoomIndex || 0];
+        if (zoom === 1) {
+            data.panX = 0;
+            data.panY = 0;
+            return;
+        }
+        const scaledWidth = stage.clientWidth * zoom;
+        const scaledHeight = stage.clientHeight * zoom;
+        const maxX = (scaledWidth - stage.clientWidth) / 2;
+        const minY = viewport.clientHeight - stage.offsetTop - (stage.clientHeight + scaledHeight) / 2;
+        const maxY = -stage.offsetTop + (scaledHeight - stage.clientHeight) / 2;
+        data.panX = Math.max(-maxX, Math.min(maxX, data.panX || 0));
+        data.panY = Math.max(minY, Math.min(maxY, data.panY || 0));
+    }
+
+    function applyTransform(widget, data) {
+        clampPan(widget, data);
+        const zoom = ZOOM_LEVELS[data.zoomIndex || 0];
+        widget.querySelector('[data-visitor-stage]').style.transform = `translate(${data.panX}px, ${data.panY}px) scale(${zoom})`;
+    }
+
+    function setZoom(widget, direction) {
+        const data = state.get(widget);
+        data.zoomIndex = Math.max(0, Math.min(ZOOM_LEVELS.length - 1, (data.zoomIndex || 0) + direction));
+        applyTransform(widget, data);
+        widget.querySelector('[data-visitor-zoom="in"]').disabled = data.zoomIndex === ZOOM_LEVELS.length - 1;
+        widget.querySelector('[data-visitor-zoom="out"]').disabled = data.zoomIndex === 0;
+        widget.querySelector('[data-visitor-tooltip]').hidden = true;
+        state.set(widget, data);
+    }
+
+    function enableDragging(widget, canvas) {
+        const stage = widget.querySelector('[data-visitor-stage]');
+        let drag = null;
+        canvas.addEventListener('pointerdown', event => {
+            const data = state.get(widget);
+            drag = { x: event.clientX, y: event.clientY, panX: data.panX || 0, panY: data.panY || 0 };
+            data.wasDragged = false;
+            stage.classList.add('is-dragging');
+            canvas.setPointerCapture(event.pointerId);
+        });
+        canvas.addEventListener('pointermove', event => {
+            if (!drag) return;
+            const data = state.get(widget);
+            const dx = event.clientX - drag.x;
+            const dy = event.clientY - drag.y;
+            if (Math.hypot(dx, dy) > 3) data.wasDragged = true;
+            data.panX = drag.panX + dx;
+            data.panY = drag.panY + dy;
+            applyTransform(widget, data);
+            state.set(widget, data);
+        });
+        const finish = event => {
+            if (!drag) return;
+            drag = null;
+            stage.classList.remove('is-dragging');
+            if (canvas.hasPointerCapture(event.pointerId)) canvas.releasePointerCapture(event.pointerId);
+        };
+        canvas.addEventListener('pointerup', finish);
+        canvas.addEventListener('pointercancel', finish);
+    }
+
+    function renderLocations(widget) {
+        const list = widget.querySelector('[data-visitor-location-list]');
+        list.replaceChildren();
+        const points = [...(state.get(widget)?.points || [])].sort((a, b) => Number(b.visits) - Number(a.visits));
+        points.forEach(point => {
+            const row = document.createElement('div');
+            row.className = 'visitor-map-location';
+            const location = document.createElement('span');
+            location.textContent = placeName(point) || 'Approximate location';
+            const count = document.createElement('span');
+            count.className = 'visitor-map-location-count';
+            count.textContent = `${point.visits} ${Number(point.visits) === 1 ? 'visit' : 'visits'}`;
+            row.append(location, count);
+            list.append(row);
+        });
+    }
+
     function visitorId() {
-        const key = 'visitor-map-anonymous-id';
         try {
+            const key = 'visitor-map-anonymous-id';
             let value = localStorage.getItem(key);
-            if (!value) {
-                value = crypto.randomUUID();
-                localStorage.setItem(key, value);
-            }
+            if (!value) localStorage.setItem(key, value = crypto.randomUUID());
             return value;
         } catch (_) {
             return crypto.randomUUID();
         }
     }
 
+    function ordinalDate(value) {
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return '';
+        const day = date.getUTCDate();
+        const suffix = day % 10 === 1 && day !== 11 ? 'st' : day % 10 === 2 && day !== 12 ? 'nd' : day % 10 === 3 && day !== 13 ? 'rd' : 'th';
+        return `${date.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' })}. ${day}${suffix}, ${date.getUTCFullYear()}`;
+    }
+
     async function requestStats(endpoint) {
-        const shouldRecord = navigator.doNotTrack !== '1';
-        if (shouldRecord) {
+        if (navigator.doNotTrack !== '1') {
             const response = await fetch(`${endpoint}/api/visit`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -182,32 +196,39 @@
         widget.dataset.initialized = 'true';
         const canvas = widget.querySelector('[data-visitor-canvas]');
         const summary = widget.querySelector('[data-visitor-summary]');
-        state.set(widget, { points: [] });
+        const dateRange = widget.querySelector('[data-visitor-date]');
+        state.set(widget, { points: [], zoomIndex: 0, panX: 0, panY: 0 });
         draw(widget);
         canvas.addEventListener('mousemove', event => showTooltip(widget, event));
-        canvas.addEventListener('mouseleave', () => {
-            widget.querySelector('[data-visitor-tooltip]').hidden = true;
+        canvas.addEventListener('mouseleave', () => { widget.querySelector('[data-visitor-tooltip]').hidden = true; });
+        canvas.addEventListener('click', () => {
+            const data = state.get(widget);
+            if (data.wasDragged) {
+                data.wasDragged = false;
+                return;
+            }
+            const details = widget.querySelector('[data-visitor-details]');
+            details.hidden = !details.hidden;
         });
+        enableDragging(widget, canvas);
+        widget.querySelectorAll('[data-visitor-zoom]').forEach(button => {
+            button.addEventListener('click', () => setZoom(widget, button.dataset.visitorZoom === 'in' ? 1 : -1));
+        });
+        setZoom(widget, 0);
         new ResizeObserver(() => draw(widget)).observe(canvas);
 
-        const endpoint = widget.dataset.endpoint.replace(/\/$/, '');
-        if (!endpoint) {
-            summary.textContent = 'Backend setup required';
-            return;
-        }
-
         try {
-            const result = await requestStats(endpoint);
-            state.set(widget, {
-                points: Array.isArray(result.locations) ? result.locations : []
-            });
-            const visits = Number(result.totalVisits || 0).toLocaleString();
-            const countries = Number(result.totalCountries || 0).toLocaleString();
-            summary.textContent = `Total visits: ${visits} · Countries: ${countries}`;
+            const result = await requestStats(widget.dataset.endpoint.replace(/\/$/, ''));
+            state.set(widget, { ...state.get(widget), points: Array.isArray(result.locations) ? result.locations : [] });
+            summary.textContent = `${Number(result.totalVisits || 0).toLocaleString()} Pageviews`;
+            const firstSeen = result.firstSeen || widget.dataset.startDate;
+            dateRange.textContent = firstSeen ? `${ordinalDate(firstSeen)} - ${ordinalDate(new Date())}` : '';
+            renderLocations(widget);
             draw(widget);
         } catch (error) {
             console.warn('Visitor map unavailable:', error);
             summary.textContent = 'Map temporarily unavailable';
+            dateRange.textContent = '';
         }
     }
 

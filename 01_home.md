@@ -431,12 +431,24 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 </details>
 
 <br>
-<div class="visitor-map" data-visitor-map data-endpoint="https://fangsen-visitor-map.fangsen2024.workers.dev">
+<div class="visitor-map" data-visitor-map data-start-date="2026-08-12" data-endpoint="https://fangsen-visitor-map.fangsen2024.workers.dev">
   <div class="visitor-map-header">
-    <span>Visitors</span>
-    <span class="visitor-map-summary" data-visitor-summary>Total visits: 0 · Countries: 0</span>
+    <span class="visitor-map-summary" data-visitor-summary>0 Pageviews</span>
+    <span class="visitor-map-date" data-visitor-date>Loading visitor history…</span>
   </div>
-  <canvas class="visitor-map-canvas" data-visitor-canvas role="img" aria-label="Map of website visitors"></canvas>
+  <div class="visitor-map-viewport" data-visitor-viewport>
+    <div class="visitor-map-stage" data-visitor-stage>
+      <canvas class="visitor-map-canvas" data-visitor-canvas role="img" aria-label="Map of website visitors"></canvas>
+    </div>
+    <div class="visitor-map-zoom" aria-label="Map zoom controls">
+      <button type="button" data-visitor-zoom="in" aria-label="Zoom in">+</button>
+      <button type="button" data-visitor-zoom="out" aria-label="Zoom out">−</button>
+    </div>
+  </div>
   <div class="visitor-map-tooltip" data-visitor-tooltip hidden></div>
+  <div class="visitor-map-details" data-visitor-details hidden>
+    <div class="visitor-map-details-title">Visitor locations</div>
+    <div data-visitor-location-list></div>
+  </div>
 </div>
 <script src="./static/js/visitor-map.js"></script>
