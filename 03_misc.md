@@ -13,6 +13,8 @@
 
 <link rel="stylesheet" href="static/css/repo.css">
 
+<p class="projects-summary" data-projects-summary>The projects below that I have contributed to have received <strong data-total-stars>...</strong> stars/upvotes and <strong data-total-forks>...</strong> forks.</p>
+
 <div class="projects-toggle">
   <button class="projects-toggle-btn active" data-view="flat">All</button>
   <button class="projects-toggle-btn" data-view="grouped">By Category</button>

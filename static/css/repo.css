@@ -1,3 +1,14 @@
+.projects-summary {
+  margin: -4px 0 4px;
+  color: #57606a;
+  font-size: 14px;
+}
+
+.projects-summary strong {
+  color: #24292f;
+  font-weight: 600;
+}
+
 .repo-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

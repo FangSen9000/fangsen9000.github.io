@@ -1,7 +1,7 @@
 <!-- Teaser Section with Text Wall -->
 <section id="teaser" class="teaser-section">
     <div class="photo-container">
-        <img src="file/senfang_orange_big_jacket_midcamera_stable.png" alt="photo_senfang" />
+        <img src="file/senfang_orange_big_jacket_midcamera_stable.webp" alt="photo_senfang" />
     </div>
     <div class="text-wall-container">
         <div class="text-wall-background">
@@ -27,7 +27,7 @@
 </section>
 
 I'm **Sen Fang**, a third-year Ph.D. student at [Rutgers University](https://en.wikipedia.org/wiki/Rutgers_University), supervised by [Prof. Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/)<fn>Board of Governors and Distinguished Prof. Dimitris Metaxas; IEEE Fellow, Fellow AIMBE, Fellow MICCAI Society</fn>. I proposed [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (<span class="special-accent">"The Four Laws of Computer Vision"</span>), and I am the author of [World Snapshot Model](https://world-snapshot.github.io), which have further advanced the progress of whole Computer Vision concepts.
-Before this, I was nominated for the <span class="special-accent">ACL 2026 Best Paper Award</span>, I had an internship or collaboration at <img src="logo/apache-apisix.png" class="inline-logo">[Apache](https://github.com/apache), <img src="logo/NTU.png" class="inline-logo">[NTU](https://www.ntu.edu.sg/), <img src="logo/nus_short.png" class="inline-logo">[NUS](https://www.nus.edu.sg/), <img src="logo/utd.png" class="inline-logo">[UTD](https://www.utdallas.edu/), <img src="logo/UCF.svg.png" class="inline-logo">[UCF](https://www.ucf.edu), <img src="logo/hedra.svg" class="inline-logo">[Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
+Before this, I was nominated for the <span class="special-accent">ACL 2026 Best Paper Award</span>, I had an internship or collaboration at <img src="logo/apache-apisix.webp" class="inline-logo">[Apache](https://github.com/apache), <img src="logo/NTU.webp" class="inline-logo">[NTU](https://www.ntu.edu.sg/), <img src="logo/nus_short.webp" class="inline-logo">[NUS](https://www.nus.edu.sg/), <img src="logo/utd.webp" class="inline-logo">[UTD](https://www.utdallas.edu/), <img src="logo/UCF.webp" class="inline-logo">[UCF](https://www.ucf.edu), <img src="logo/hedra.svg" class="inline-logo">[Hedra](https://www.hedra.com/) successively. I obtained a double CS B.S. degree in 2024.
 
 My main research field is **Computer Vision** (3DV, Generative Method, Human Pose). 
 Recently I have been interested in the following topics:
@@ -239,7 +239,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <table class="imgtable"><tbody><tr><td>
   <a href="https://www.ucf.edu" target="_blank">
-    <img src="logo/UCF.svg.png" alt="University of Central Florida" width="100px" height="100"/>
+    <img src="logo/UCF.webp" alt="University of Central Florida" width="100px" height="100"/>
   </a></td>
   <td align="left"><p><b>University of Central Florida  </b> <br>
   Research Assistant: 3DV-LLM, Multi-Modal
@@ -251,7 +251,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <br>
 <table class="imgtable"><tbody><tr><td>
   <a href="https://www.utdallas.edu/" target="_blank">
-    <img src="logo/utd.png" alt="University of Texas at Dallas" height="100"/>
+    <img src="logo/utd.webp" alt="University of Texas at Dallas" height="100"/>
   </a></td>
   <td align="left"><p><b>University of Texas at Dallas  </b> <br>
   Research Assistant: Vid2Vid, Multi-Modal
@@ -263,7 +263,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <br>
 <table class="imgtable"><tbody><tr><td>
   <a href="https://www.ntu.edu.sg/index" target="_blank">
-    <img src="logo/NTU.png" alt="Nanyang Technological University" height="100"/>
+    <img src="logo/NTU.webp" alt="Nanyang Technological University" height="100"/>
   </a></td>
   <td align="left"><p><b>Nanyang Technological University  </b> <br>
   Student Intern: Speech DL, Multi-Modal
@@ -275,7 +275,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <br>
 <table class="imgtable"><tbody><tr><td>
   <a href="https://api7.ai/" target="_blank">
-    <img src="logo/apache-apisix.png" alt="APISIX, Top Level Project" width="100px" height="100"/>
+    <img src="logo/apache-apisix.webp" alt="APISIX, Top Level Project" width="100px" height="100"/>
   </a></td>
   <td align="left"><p><b>Apache Software Foundaiton  </b> <br>
   Developer Intern: <a href="https://github.com/apache/apisix">APISIX</a>/<a href="https://api7.ai/">api7.ai</a>, <a href="https://news.apache.org/foundation/entry/the-apache-software-foundation-announces66">Top Level Project</a>
@@ -425,7 +425,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 - Rutgers: [List of My Labmates](?page=static/CBIM-Lab/people.md); Levi Che
 - Tsinghua, HKUST: Jiayin Zhu
 - Waterloo: Yifan Wang
-- I have guided some undergraduate students who were in lower grades than mine. I can't recall exactly how many there were, but it was more than 5 but less than 15.
+- I have guided some undergraduate students in lower grades than mine. I can't recall exactly how many there were, but it was more than 5 but less than 15.
 <!-- [Chunyu Sui (林奈)](https://github.com/capsfly), [Baiang Li (ztmotalee)](https://ztmotalee.github.io/), [Yangyang Wu (考拉)](https://www.linkedin.com/in/yangyang-wu-2759181b3/) -->
 
 </details>
@@ -451,4 +451,4 @@ I am open to academic/industrial collaborations, and please drop me an email if 
     <div data-visitor-location-list></div>
   </div>
 </div>
-<script src="./static/js/visitor-map.js"></script>
+<script data-lazy-src="./static/js/visitor-map.js"></script>

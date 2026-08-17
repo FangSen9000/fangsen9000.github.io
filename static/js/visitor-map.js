@@ -232,5 +232,10 @@
         }
     }
 
-    document.querySelectorAll('[data-visitor-map]').forEach(initialize);
+    function initializeVisitorMaps(root = document) {
+        root.querySelectorAll('[data-visitor-map]').forEach(initialize);
+    }
+
+    window.initializeVisitorMaps = initializeVisitorMaps;
+    initializeVisitorMaps();
 })();

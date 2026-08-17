@@ -6,9 +6,7 @@
     <meta name="description" content="Sen Fang: Computer Vision Scientist">
     <title>Sen Fang: Computer Vision Scientist</title>
     <script src="./static/vendor/markdown-it.min.js"></script>
-    <link rel="stylesheet" href="./static/vendor/github.min.css">
-    <script src="./static/vendor/highlight.min.js"></script>
-    <link rel="stylesheet" href="./static/vendor/all.min.css">
+    <link rel="stylesheet" href="./static/css/icons.css">
     <!-- 添加网站图标 -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23eef0f2'/%3E%3Ctext x='16' y='26' font-family='-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' font-size='22' font-weight='500' text-anchor='middle' fill='%23202122'%3ESF%3C/text%3E%3C/svg%3E">
     <!-- 为 Safari 浏览器添加图标 -->
@@ -61,14 +59,7 @@
             html: true,
             linkify: true,
             typographer: true,
-            highlight: function (str, lang) {
-                if (lang && hljs.getLanguage(lang)) {
-                    try {
-                        return hljs.highlight(str, { language: lang }).value;
-                    } catch (__) {}
-                }
-                return '';
-            }
+            highlight: () => ''
         });
 
         // Page loading notes:
@@ -78,6 +69,9 @@
         // 4. GitHub blob URLs are normalized to raw.githubusercontent.com automatically.
         const DEFAULT_PAGE = '01_home.md';
         let currentMarkdownFile = DEFAULT_PAGE;
+        const markdownCache = new Map();
+        let syntaxAssetsPromise = null;
+        let visitorMapScriptPromise = null;
 
         function isRemotePage(page) {
             return /^https?:\/\//i.test(page);
@@ -204,39 +198,163 @@
             });
         }
 
+        function prepareRenderedContent(fragment) {
+            fragment.querySelectorAll('img').forEach(img => {
+                img.loading = 'lazy';
+                img.decoding = 'async';
+                if (img.closest('.tab-content:not(.active)') && img.hasAttribute('src')) {
+                    img.dataset.src = img.getAttribute('src');
+                    img.dataset.loadWhen = 'tab';
+                    img.removeAttribute('src');
+                } else if (img.closest('.pub-container, .exp-tab-content') && img.hasAttribute('src')) {
+                    img.dataset.src = img.getAttribute('src');
+                    img.dataset.loadWhen = 'viewport';
+                    img.removeAttribute('src');
+                }
+            });
+        }
+
+        function activateDeferredImages(root = document) {
+            root.querySelectorAll('.tab-content.active img[data-load-when="tab"]').forEach(img => {
+                img.src = img.dataset.src;
+                delete img.dataset.src;
+                delete img.dataset.loadWhen;
+            });
+        }
+
+        function initializeViewportImages(root) {
+            const images = root.querySelectorAll('img[data-load-when="viewport"]');
+            if (!images.length) return;
+            const load = img => {
+                img.src = img.dataset.src;
+                delete img.dataset.src;
+                delete img.dataset.loadWhen;
+            };
+            if (!('IntersectionObserver' in window)) {
+                images.forEach(load);
+                return;
+            }
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    observer.unobserve(entry.target);
+                    load(entry.target);
+                });
+            }, { rootMargin: '300px 0px' });
+            images.forEach(img => observer.observe(img));
+        }
+
+        function loadStylesheet(href) {
+            if (document.querySelector(`link[href="${href}"]`)) return Promise.resolve();
+            return new Promise((resolve, reject) => {
+                const link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = href;
+                link.onload = resolve;
+                link.onerror = reject;
+                document.head.appendChild(link);
+            });
+        }
+
+        function loadScript(src) {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                script.src = src;
+                script.onload = resolve;
+                script.onerror = reject;
+                document.head.appendChild(script);
+            });
+        }
+
+        async function initializeCodeHighlighting(root) {
+            const blocks = root.querySelectorAll('pre code');
+            if (!blocks.length) return;
+            syntaxAssetsPromise ||= Promise.all([
+                loadStylesheet('./static/vendor/github.min.css'),
+                loadScript('./static/vendor/highlight.min.js')
+            ]);
+            try {
+                await syntaxAssetsPromise;
+                blocks.forEach(block => window.hljs?.highlightElement(block));
+            } catch (error) {
+                console.warn('Syntax highlighting unavailable:', error);
+            }
+        }
+
+        function ensureVisitorMapScript(src) {
+            if (window.initializeVisitorMaps) return Promise.resolve();
+            visitorMapScriptPromise ||= loadScript(src);
+            return visitorMapScriptPromise;
+        }
+
+        function initializeLazyComponents(root) {
+            const widget = root.querySelector('[data-visitor-map]');
+            const script = root.querySelector('script[data-lazy-src]');
+            if (!widget || !script) return;
+            const activate = async () => {
+                widget.classList.add('is-ready');
+                try {
+                    await ensureVisitorMapScript(script.dataset.lazySrc);
+                    window.initializeVisitorMaps?.(root);
+                } catch (error) {
+                    console.warn('Visitor map unavailable:', error);
+                }
+            };
+            if (!('IntersectionObserver' in window)) {
+                activate();
+                return;
+            }
+            const observer = new IntersectionObserver(entries => {
+                if (!entries.some(entry => entry.isIntersecting)) return;
+                observer.disconnect();
+                activate();
+            }, { rootMargin: '300px 0px' });
+            observer.observe(widget);
+        }
+
         // Load markdown text from either:
         // - a local file in this repo, or
         // - a remote markdown URL
         // Remote fetch first tries direct access, then several public proxies as fallback.
         async function fetchMarkdownContent(filename) {
-            if (!isRemotePage(filename)) {
-                const response = await fetch(filename);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                return await response.text();
-            }
-
-            const proxies = [
-                (url) => url,
-                (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
-                (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-                (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`
-            ];
-
-            let lastError = null;
-            for (const getUrl of proxies) {
-                try {
-                    const response = await fetch(getUrl(filename));
+            if (markdownCache.has(filename)) return markdownCache.get(filename);
+            const request = (async () => {
+                if (!isRemotePage(filename)) {
+                    const response = await fetch(filename);
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
-                    return await response.text();
-                } catch (error) {
-                    lastError = error;
+                    return response.text();
                 }
+
+                const proxies = [
+                    (url) => url,
+                    (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+                    (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                    (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`
+                ];
+
+                let lastError = null;
+                for (const getUrl of proxies) {
+                    try {
+                        const response = await fetch(getUrl(filename));
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.text();
+                    } catch (error) {
+                        lastError = error;
+                    }
+                }
+                throw lastError || new Error('Failed to load remote markdown');
+            })();
+            markdownCache.set(filename, request);
+            try {
+                return await request;
+            } catch (error) {
+                markdownCache.delete(filename);
+                throw error;
             }
-            throw lastError || new Error('Failed to load remote markdown');
         }
 
         // Main render entry for the center content area.
@@ -247,8 +365,13 @@
                 const element = document.getElementById('abstract');
                 currentMarkdownFile = filename;
                 if (element) {
-                    element.innerHTML = md.render(markdown);
+                    const template = document.createElement('template');
+                    template.innerHTML = md.render(markdown);
+                    prepareRenderedContent(template.content);
+                    element.replaceChildren(template.content);
                     rewriteMarkdownLinks(element, filename);
+                    activateDeferredImages(element);
+                    initializeViewportImages(element);
                 }
                 // Re-add header links after rendering
                 addHeaderLinks();
@@ -262,8 +385,12 @@
                 // Fetch GitHub repo descriptions for repo cards
                 fetchRepoDescriptions();
 
+                // Load optional code and visitor-map assets only when needed
+                initializeCodeHighlighting(element);
+                initializeLazyComponents(element);
+
                 // Execute any scripts that were rendered in the markdown
-                const scripts = element.querySelectorAll('script');
+                const scripts = element.querySelectorAll('script:not([data-lazy-src])');
                 scripts.forEach(oldScript => {
                     const newScript = document.createElement('script');
                     // Copy all attributes
@@ -296,9 +423,15 @@
                     updatePageUrl(pageFile);
                     await loadMarkdownFile(pageFile);
                 });
+                link.addEventListener('mouseenter', () => {
+                    fetchMarkdownContent(link.getAttribute('data-page')).catch(() => {});
+                }, { once: true });
             });
 
             document.addEventListener('click', (e) => {
+                if (e.target.closest('.tab')) {
+                    requestAnimationFrame(() => activateDeferredImages(document));
+                }
                 const link = e.target.closest('.nav-section-link');
                 if (!link) return;
 
@@ -315,9 +448,6 @@
             const initialPage = getRequestedPage();
             updateActiveNav(initialPage);
             await loadMarkdownFile(initialPage);
-            
-            // 为标题添加锚点链接
-            addHeaderLinks();
 
             // Smooth scrolling for sidebar navigation
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -497,34 +627,92 @@
             });
         }
 
-        async function fetchRepoDescriptions() {
-            const ghElements = document.querySelectorAll('.repo-card-desc[data-repo]');
-            for (const el of ghElements) {
-                const repo = el.dataset.repo;
-                try {
-                    const response = await fetch(`https://api.github.com/repos/${repo}`);
-                    if (response.ok) {
-                        const data = await response.json();
-                        if (data.description) el.textContent = data.description;
-                    }
-                } catch (error) {
-                    console.warn(`Failed to fetch repo description for ${repo}:`, error);
-                }
+        const PROJECT_CACHE_KEY = 'project-metadata-cache-v1';
+        const PROJECT_CACHE_TTL = 6 * 60 * 60 * 1000;
+
+        function readProjectCache() {
+            try {
+                return JSON.parse(localStorage.getItem(PROJECT_CACHE_KEY)) || {};
+            } catch (error) {
+                return {};
+            }
+        }
+
+        function writeProjectCache(cache) {
+            try {
+                localStorage.setItem(PROJECT_CACHE_KEY, JSON.stringify(cache));
+            } catch (error) {
+                // The page still works when storage is disabled or full.
+            }
+        }
+
+        async function fetchProjectMetadata(cache, cacheId, url, normalize) {
+            const cached = cache[cacheId];
+            if (cached && Date.now() - cached.updatedAt < PROJECT_CACHE_TTL) {
+                return cached;
             }
 
-            const hfElements = document.querySelectorAll('.repo-card-desc[data-hf]');
-            for (const el of hfElements) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const metadata = {
+                    ...normalize(await response.json()),
+                    updatedAt: Date.now()
+                };
+                cache[cacheId] = metadata;
+                writeProjectCache(cache);
+                return metadata;
+            } catch (error) {
+                if (cached) return cached;
+                console.warn(`Failed to fetch project metadata for ${cacheId}:`, error);
+                return null;
+            }
+        }
+
+        async function fetchRepoDescriptions() {
+            const summary = document.querySelector('[data-projects-summary]');
+            const cache = readProjectCache();
+            const githubTasks = Array.from(document.querySelectorAll('.repo-card-desc[data-repo]')).map(async el => {
+                const repo = el.dataset.repo;
+                const metadata = await fetchProjectMetadata(
+                    cache,
+                    `github:${repo}`,
+                    `https://api.github.com/repos/${repo}`,
+                    data => ({
+                        description: data.description || '',
+                        stars: Number(data.stargazers_count) || 0,
+                        forks: Number(data.forks_count) || 0
+                    })
+                );
+                if (metadata?.description) el.textContent = metadata.description;
+                return metadata;
+            });
+
+            const huggingFaceTasks = Array.from(document.querySelectorAll('.repo-card-desc[data-hf]')).map(async el => {
                 const repo = el.dataset.hf;
-                try {
-                    const response = await fetch(`https://huggingface.co/api/datasets/${repo}`);
-                    if (response.ok) {
-                        const data = await response.json();
-                        const desc = data.cardData?.pretty_name || data.description;
-                        if (desc) el.textContent = desc;
-                    }
-                } catch (error) {
-                    console.warn(`Failed to fetch HF dataset info for ${repo}:`, error);
-                }
+                const metadata = await fetchProjectMetadata(
+                    cache,
+                    `huggingface:${repo}`,
+                    `https://huggingface.co/api/datasets/${repo}`,
+                    data => ({
+                        description: data.cardData?.pretty_name || data.description || '',
+                        stars: Number(data.likes) || 0,
+                        forks: 0
+                    })
+                );
+                if (metadata?.description) el.textContent = metadata.description;
+                return metadata;
+            });
+            const projectStats = (await Promise.all([...githubTasks, ...huggingFaceTasks])).filter(Boolean);
+
+            if (summary && projectStats.length) {
+                const totals = projectStats.reduce((sum, project) => ({
+                    stars: sum.stars + project.stars,
+                    forks: sum.forks + project.forks
+                }), { stars: 0, forks: 0 });
+                const formatThousands = value => `${(Math.ceil(value / 10) / 100).toFixed(2)}k`;
+                summary.querySelector('[data-total-stars]').textContent = formatThousands(totals.stars);
+                summary.querySelector('[data-total-forks]').textContent = formatThousands(totals.forks);
             }
         }
 
@@ -544,6 +732,7 @@
             const headers = document.querySelectorAll('.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6, .html-section h1, .html-section h2, .html-section h3, .html-section h4, .html-section h5, .html-section h6');
             
             headers.forEach(header => {
+                if (header.querySelector(':scope > a.header-link')) return;
                 const text = header.textContent;
                 const slug = generateSlug(text);
                 

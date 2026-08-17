@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Site Brands";
+    src: url("../webfonts/fa-brands-site.woff2") format("woff2");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Site Solid";
+    src: url("../webfonts/fa-solid-site.woff2") format("woff2");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.fa-brands,
+.fa-solid {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa-brands {
+    font-family: "Site Brands";
+    font-weight: 400;
+}
+
+.fa-solid {
+    font-family: "Site Solid";
+    font-weight: 900;
+}
+
+.fa-github::before { content: "\f09b"; }
+.fa-google-scholar::before { content: "\e63b"; }
+.fa-linkedin::before { content: "\f08c"; }
+.fa-threads::before { content: "\e618"; }
+.fa-x-twitter::before { content: "\e61b"; }
+.fa-envelope::before { content: "\f0e0"; }
+.fa-lock::before { content: "\f023"; }
+.fa-lock-open::before { content: "\f3c1"; }

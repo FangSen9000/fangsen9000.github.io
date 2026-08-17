@@ -55,7 +55,14 @@
     left: 0;
     transform-origin: center;
     transition: transform 180ms ease;
-    background: #2d78ad url('../img/visitor-map-world.svg') center / 100% 100% no-repeat;
+    background: #2d78ad;
+}
+
+.visitor-map.is-ready .visitor-map-stage {
+    background-image: url('../img/visitor-map-world.svg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .visitor-map-stage.is-dragging {
