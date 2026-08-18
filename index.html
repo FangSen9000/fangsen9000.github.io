@@ -623,7 +623,7 @@
             document.querySelectorAll('fn:not([data-init])').forEach(el => {
                 const text = el.textContent.trim();
                 el.setAttribute('data-init', '');
-                el.innerHTML = `<span class="fn-text">${text}</span>o`;
+                el.innerHTML = `<span class="fn-text">${text}</span>`;
             });
         }
 

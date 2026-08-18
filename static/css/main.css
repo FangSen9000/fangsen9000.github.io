@@ -553,10 +553,20 @@ footer a:hover {
 fn {
     color: #3366cc;
     position: relative;
+    display: inline-block;
     cursor: help;
     font-size: 0.75em;
-    vertical-align: super;
+    vertical-align: baseline;
+    line-height: 0;
+}
+fn::after {
+    content: 'o';
+    display: inline-block;
     line-height: 1;
+    transform: translateY(-0.45em);
+}
+.icon-links fn::after {
+    transform: none;
 }
 fn .fn-text {
     position: absolute;
