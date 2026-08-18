@@ -408,11 +408,11 @@ As the largest field of AI, computer vision has the world's largest community of
 
 <details><summary>Part of My Friends (alphabetical by institution)</summary>
 
-- Georgia Tech: [Hongbin Zhong](https://rjzhb.github.io/)
+- Georgia Tech/Together AI: [Hongbin Zhong](https://rjzhb.github.io/)
 - NTU: [Yalin Feng](https://yalin-feng.github.io)
-- NVIDIA: [Yanxin Zhang](https://github.com/yanxinzhangcs)
+- UW-Madison/NVIDIA: [Yanxin Zhang](https://github.com/yanxinzhangcs)
 - Rutgers: [List of My Labmates](?page=static/CBIM-Lab/people.md); Levi Che
-- HKUST: Jiayin Zhu
+- Tsinghua/HKUST: Jiayin Zhu
 - Waterloo: Yifan Wang
 - I have guided some undergraduate students in lower grades than mine. I can't recall exactly how many there were, but it was more than 5 but less than 15.
 <!-- [Chunyu Sui (林奈)](https://github.com/capsfly), [Baiang Li (ztmotalee)](https://ztmotalee.github.io/), [Yangyang Wu (考拉)](https://www.linkedin.com/in/yangyang-wu-2759181b3/) -->
