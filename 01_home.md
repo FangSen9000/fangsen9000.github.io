@@ -332,7 +332,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <div id="exp-lineage" class="tab-content exp-tab-content">
 
-As the largest field of AI, computer vision has the world's largest community of practitioners and exerts a profound influence on modern society. Since David Marr defined modern computer vision, a large part of the field has been extended, passed down, and expanded from generation to generation, especially by his doctoral students. For details, see the <a href="https://en.wikipedia.org/wiki/Computer_vision#History" target="_blank">history of computer vision on Wikipedia</a>. The academic forebears of our lab played a substantial role in this process, and not only after works such as CNNs, GANs, and AlexNet emerged in the 2010s.
+As the largest field of AI, computer vision has the world's largest community of AI practitioners and exerts a profound influence on modern society. Since David Marr defined modern computer vision, a large part of the field has been extended, passed down, and expanded from generation to generation, especially by his doctoral students. For details, see the <a href="https://en.wikipedia.org/wiki/Computer_vision#History" target="_blank">history of computer vision on Wikipedia</a>. The academic forebears of our lab played a substantial role in this process, and not only after works such as CNNs, GANs, and AlexNet emerged in the 2010s.
 
 - <a href="https://en.wikipedia.org/wiki/David_Marr_(scientist)" target="_blank"><b>David Marr</b></a> (1945–1980)<br>
 <span style="color:transparent">"</span>Ph.D. in Physiology, <a href="https://en.wikipedia.org/wiki/Trinity_College,_Cambridge" target="_blank">Trinity College, Cambridge</a>; Faculty at <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a><span style="color:transparent">"</span><br>
@@ -363,6 +363,7 @@ As the largest field of AI, computer vision has the world's largest community of
 - **Sen Fang**<br>
 <span style="color:transparent">"</span>Ph.D. student, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers University</a>, advised by Prof. Dimitris N. Metaxas<span style="color:transparent">"</span><br>
 <span style="color:transparent">"</span><font color='green'>Computer Vision, World Snapshot Model, Sign Language</font><span style="color:transparent">"</span><br>
+<span style="color:transparent">"</span>Computer Vision’s Unifier After the Field’s Half-Century Expansion<span style="color:transparent">"</span><br>
 <span style="color:transparent">"</span><span class="special-accent">ACL 2026 Best Paper Award Nominee</span><span style="color:transparent">"</span>
 
 </div>
