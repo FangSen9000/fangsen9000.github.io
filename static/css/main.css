@@ -343,6 +343,12 @@ a:has(span[style*="color"]) {
     line-height: 1.6;
 }
 
+/* Restore the indentation removed by the global reset for Markdown blockquotes. */
+.markdown-section blockquote,
+.html-section blockquote {
+    margin: 1em 0 1em 2em;
+}
+
 /* Markdown section links - use standard link blue */
 .markdown-section a, .html-section a {
     color: #0000EE;  /* Standard link blue */
