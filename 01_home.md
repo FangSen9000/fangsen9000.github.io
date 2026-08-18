@@ -289,43 +289,33 @@ I am open to academic/industrial collaborations, and please drop me an email if 
   <a href="https://newbrunswick.rutgers.edu/" target="_blank">
     <img src="logo/RU.svg.png" alt="Rutgers University–New Brunswick" width="100px" height="100"/>
   </a></td>
-  <td align="left"><p><span style="color:transparent">"</span><b>Rutgers University–New Brunswick  </b><span style="color:transparent">"</span> <br>
-  <span style="color:transparent">"</span>Ph.D., Department of Computer Science<span style="color:transparent">"</span>
-  <br>
-  <span style="color:transparent">"</span>Advisor: <span class="special-accent">Board of Governors and Distinguished Professor</span><span style="color:transparent">"</span>
-  <br>
-  <span style="color:transparent">"</span><span class="special-accent">IEEE Fellow</span>, <span class="special-accent">Fellow AIMBE</span>, <span class="special-accent">Fellow MICCAI Society</span><span style="color:transparent">"</span>
-  <br>
-  <span style="color:transparent">"</span><a href="https://people.cs.rutgers.edu/~dnm/">Prof. Dimitris N. Metaxas</a> and <a href="?page=static/CBIM-Lab/people.md">CBIM</a><span style="color:transparent">"</span>
-  <br>
-  <span style="color:transparent">"</span>New Jersey (USA)<span style="color:transparent">"</span>
-  <br>
-  <span style="color:transparent">"</span><i>Sep, 2024 -- June, 2029 (Expected)</i><span style="color:transparent">"</span> <br>
+  <td align="left"><p><span class="translation-line"><b>Rutgers University–New Brunswick  </b></span>
+  <span class="translation-line">Ph.D., Department of Computer Science</span>
+  <span class="translation-line">Advisor: <span class="special-accent">Board of Governors and Distinguished Professor</span></span>
+  <span class="translation-line"><span class="special-accent">IEEE Fellow</span>, <span class="special-accent">Fellow AIMBE</span>, <span class="special-accent">Fellow MICCAI Society</span></span>
+  <span class="translation-line"><a href="https://people.cs.rutgers.edu/~dnm/">Prof. Dimitris N. Metaxas</a> and <a href="?page=static/CBIM-Lab/people.md">CBIM</a></span>
+  <span class="translation-line">New Jersey (USA)</span>
+  <span class="translation-line"><i>Sep, 2024 -- June, 2029 (Expected)</i></span>
   </p></td></tr></tbody></table>
 <br>
 <table class="imgtable"><tbody><tr><td>
   <a href="https://www.vu.edu.au/" target="_blank">
     <img src="logo/vu.png" alt="Victoria University" width="100px" height="100"/>
   </a></td>
-  <td align="left"><p><span style="color:transparent">"</span><b>Victoria University  </b><span style="color:transparent">"</span> <br>
-  <span style="color:transparent">"</span>B.S., Department of Information Technology<span style="color:transparent">"</span>
-  <br>
-  <span style="color:transparent">"</span>Melbourne (Australia)<span style="color:transparent">"</span>
-  <br>
-  <span style="color:transparent">"</span><i>Sep, 2020 -- Jun, 2024</i><span style="color:transparent">"</span> <br>
+  <td align="left"><p><span class="translation-line"><b>Victoria University  </b></span>
+  <span class="translation-line">B.S., Department of Information Technology</span>
+  <span class="translation-line">Melbourne (Australia)</span>
+  <span class="translation-line"><i>Sep, 2020 -- Jun, 2024</i></span>
   </p></td></tr></tbody></table>
 <br>
 <table class="imgtable"><tbody><tr><td>
   <a href="http://www.henu.edu.cn/" target="_blank">
     <img src="logo/lighthenu.png" alt="Henan University" height="100"/>
   </a></td>
-  <td align="left"><p><span style="color:transparent">"</span><b>Henan University  </b><span style="color:transparent">"</span> <br>
-  <span style="color:transparent">"</span>B.S., Department of Computer Science and Technology<span style="color:transparent">"</span>
-  <br>
-  <span style="color:transparent">"</span>Zhengzhou (China)<span style="color:transparent">"</span>
-  <br>
-  <span style="color:transparent">"</span><i>Sep, 2020 -- Jun, 2024</i><span style="color:transparent">"</span>
-  <br>
+  <td align="left"><p><span class="translation-line"><b>Henan University  </b></span>
+  <span class="translation-line">B.S., Department of Computer Science and Technology</span>
+  <span class="translation-line">Zhengzhou (China)</span>
+  <span class="translation-line"><i>Sep, 2020 -- Jun, 2024</i></span>
   </p></td></tr></tbody></table>
 
 </div>
@@ -335,36 +325,36 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 As the largest field of AI, computer vision has the world's largest community of AI practitioners and exerts a profound influence on modern society. Since David Marr defined modern computer vision, a large part of the field has been extended, passed down, and expanded from generation to generation, especially by his doctoral students. For details, see the <a href="https://en.wikipedia.org/wiki/Computer_vision#History" target="_blank">history of computer vision on Wikipedia</a>. The academic forebears of our lab played a substantial role in this process, and not only after works such as CNNs, GANs, and AlexNet emerged in the 2010s.
 
 - <a href="https://en.wikipedia.org/wiki/David_Marr_(scientist)" target="_blank"><b>David Marr</b></a> (1945–1980)<br>
-<span style="color:transparent">"</span>Ph.D. in Physiology, <a href="https://en.wikipedia.org/wiki/Trinity_College,_Cambridge" target="_blank">Trinity College, Cambridge</a>; Faculty at <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><font color='green'>Founder of computational vision; pioneered the three-level framework (computational, algorithmic, implementational) for understanding vision</font><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span>IJCAI Computers and Thought Award; the International Conference on Computer Vision (ICCV) Best Paper Award (<span class="special-accent">Marr Prize</span>) is named in his honor<span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><font color='red'>Referred to by most records as the <b>Father of Computational Vision</b><fn>Some historical accounts refer to Larry Roberts as the father of computer vision, but credit him primarily with initiating early machine vision through the geometric interpretation of edges, lines, and 3D structures. After his PhD work, he later transitioned away from vision research and became a pioneer of networking and ARPANET research. In contrast, David Marr introduced foundational concepts such as hierarchical visual representations, internal representations, information transformation, the primal sketch, the 2.5D sketch, and 3D model representations — terminology and ideas that continue to influence modern computer vision and embodied intelligence today. His lasting intellectual influence is reflected in ICCV’s David Marr Prize — the only best paper award across major computer vision conferences named after an individual researcher.
-</fn></font><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span>Lab: Shimon Ullman (first PhD student); Eric Grimson (was MIT president); John M. Hollerbach (CIFAR, IEEE Fellow).<span style="color:transparent">"</span>
+<span class="translation-line">Ph.D. in Physiology, <a href="https://en.wikipedia.org/wiki/Trinity_College,_Cambridge" target="_blank">Trinity College, Cambridge</a>; Faculty at <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a></span>
+<span class="translation-line"><font color='green'>Founder of computational vision; pioneered the three-level framework (computational, algorithmic, implementational) for understanding vision</font></span>
+<span class="translation-line">IJCAI Computers and Thought Award; the International Conference on Computer Vision (ICCV) Best Paper Award (<span class="special-accent">Marr Prize</span>) is named in his honor</span>
+<span class="translation-line"><font color='red'>Referred to by most records as the <b>Father of Computational Vision</b><fn>Some historical accounts refer to Larry Roberts as the father of computer vision, but credit him primarily with initiating early machine vision through the geometric interpretation of edges, lines, and 3D structures. After his PhD work, he later transitioned away from vision research and became a pioneer of networking and ARPANET research. In contrast, David Marr introduced foundational concepts such as hierarchical visual representations, internal representations, information transformation, the primal sketch, the 2.5D sketch, and 3D model representations — terminology and ideas that continue to influence modern computer vision and embodied intelligence today. His lasting intellectual influence is reflected in ICCV’s David Marr Prize — the only best paper award across major computer vision conferences named after an individual researcher.
+</fn></font></span>
+<span class="translation-line">Lab: Shimon Ullman (first PhD student); Eric Grimson (was MIT president); John M. Hollerbach (CIFAR, IEEE Fellow).</span>
 
 - <a href="https://en.wikipedia.org/wiki/Shimon_Ullman" target="_blank"><b>Shimon Ullman</b></a><br>
-<span style="color:transparent">"</span>Ph.D., <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a> (1977), advised by David Marr; Professor, <a href="https://en.wikipedia.org/wiki/Weizmann_Institute_of_Science" target="_blank">Weizmann Institute of Science</a>; former Professor, <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><font color='green'>Visual object/face recognition, visual saliency, computational models of biological vision</font><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><span class="special-accent">Member, American Academy of Arts and Sciences</span>; <span class="special-accent">Member, Israeli Academy of Sciences and Humanities</span>; <span class="special-accent">Fellow, Cognitive Science Society</span>; Israel Prize in Computer Science (2015); David E. Rumelhart Prize (2008); Azriel Rosenfeld Lifetime Achievement Award (2019); One of the early founders of ICCV<fn>General Chair of 2th-ICCV 1988 and CVPR 2026 (honorable).</fn><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span>Lab: <a href="https://www.weizmann.ac.il/math/shimon/home" target="_blank">Ullman Lab, Weizmann Institute of Science</a>; Graduated 33+ Ph.D. and 51+ M.S. students<span style="color:transparent">"</span>
+<span class="translation-line">Ph.D., <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a> (1977), advised by David Marr; Professor, <a href="https://en.wikipedia.org/wiki/Weizmann_Institute_of_Science" target="_blank">Weizmann Institute of Science</a>; former Professor, <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a></span>
+<span class="translation-line"><font color='green'>Visual object/face recognition, visual saliency, computational models of biological vision</font></span>
+<span class="translation-line"><span class="special-accent">Member, American Academy of Arts and Sciences</span>; <span class="special-accent">Member, Israeli Academy of Sciences and Humanities</span>; <span class="special-accent">Fellow, Cognitive Science Society</span>; Israel Prize in Computer Science (2015); David E. Rumelhart Prize (2008); Azriel Rosenfeld Lifetime Achievement Award (2019); One of the early founders of ICCV<fn>General Chair of 2th-ICCV 1988 and CVPR 2026 (honorable).</fn></span>
+<span class="translation-line">Lab: <a href="https://www.weizmann.ac.il/math/shimon/home" target="_blank">Ullman Lab, Weizmann Institute of Science</a>; Graduated 33+ Ph.D. and 51+ M.S. students</span>
 
 - <a href="https://en.wikipedia.org/wiki/Demetri_Terzopoulos" target="_blank"><b>Demetri Terzopoulos</b></a><br>
-<span style="color:transparent">"</span>Ph.D. in AI, <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a> (1984), advised by Shimon Ullman; Distinguished & Chancellor's Professor, <a href="https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles" target="_blank">UCLA</a>; former Professor, <a href="https://en.wikipedia.org/wiki/University_of_Toronto" target="_blank">University of Toronto</a> & <a href="https://en.wikipedia.org/wiki/New_York_University" target="_blank">NYU</a><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><font color='green'>Computer graphics, computer vision, deformable models, active contours (snakes), medical imaging, artificial life</font><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><span class="special-accent">Fellow of the Royal Society (FRS)</span>; <span class="special-accent">Fellow of the Royal Society of Canada (FRSC)</span>; <span class="special-accent">IEEE Fellow</span>; <span class="special-accent">ACM Fellow</span>; Academy Award for Technical Achievement (2006); IEEE Computer Pioneer Award (2020); Helmholtz Prize (ICCV Test of Time Award, 2013); Inaugural Marr Prize (ICCV Best Paper Award, 1987)<span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span>Lab: <a href="http://gravilab.cs.ucla.edu/" target="_blank">UCLA Computer Graphics & Vision Group</a>; Graduated 50+ Ph.D. and 130+ M.S. students; advised 200+ students and postdoctoral scholars in total<span style="color:transparent">"</span>
+<span class="translation-line">Ph.D. in AI, <a href="https://en.wikipedia.org/wiki/MIT" target="_blank">MIT</a> (1984), advised by Shimon Ullman; Distinguished & Chancellor's Professor, <a href="https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles" target="_blank">UCLA</a>; former Professor, <a href="https://en.wikipedia.org/wiki/University_of_Toronto" target="_blank">University of Toronto</a> & <a href="https://en.wikipedia.org/wiki/New_York_University" target="_blank">NYU</a></span>
+<span class="translation-line"><font color='green'>Computer graphics, computer vision, deformable models, active contours (snakes), medical imaging, artificial life</font></span>
+<span class="translation-line"><span class="special-accent">Fellow of the Royal Society (FRS)</span>; <span class="special-accent">Fellow of the Royal Society of Canada (FRSC)</span>; <span class="special-accent">IEEE Fellow</span>; <span class="special-accent">ACM Fellow</span>; Academy Award for Technical Achievement (2006); IEEE Computer Pioneer Award (2020); Helmholtz Prize (ICCV Test of Time Award, 2013); Inaugural Marr Prize (ICCV Best Paper Award, 1987)</span>
+<span class="translation-line">Lab: <a href="http://gravilab.cs.ucla.edu/" target="_blank">UCLA Computer Graphics & Vision Group</a>; Graduated 50+ Ph.D. and 130+ M.S. students; advised 200+ students and postdoctoral scholars in total</span>
 
 - <a href="https://en.wikipedia.org/wiki/Dimitris_Metaxas" target="_blank"><b>Dimitris N. Metaxas</b></a><br>
-<span style="color:transparent">"</span>Ph.D., <a href="https://en.wikipedia.org/wiki/University_of_Toronto" target="_blank">Toronto</a> (1992), advised by Demetri Terzopoulos; <span class="special-accent">Board of Governors and Distinguished Professor</span>, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers</a>; former Professor, <a href="https://en.wikipedia.org/wiki/University_of_Pennsylvania" target="_blank">Pennsylvania</a><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><font color='green'>Computer vision, biomedical image analysis, medical image computing, deformable models</font><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><span class="special-accent">IEEE Fellow</span>; <span class="special-accent">Fellow AIMBE</span>; <span class="special-accent">Fellow MICCAI Society</span>; General Chair<fn>among only five individuals to have served four or more times as General Chair in the ~40-year, ~100-person history of CVPR/ICCV</fn> of CVPR 2014, 2026 & ICCV 2011, 2031 & MICCAI 2008; Long-standing member of the <a href="https://www.thecvf.com/docs/CVPR%20ICCV%20bylaws%20final.pdf" target="_blank">CVPR/ICCV Steering Committee</a> and <a href="https://tc.computer.org/tcpami/" target="_blank">TC PAMI (IEEE Computer Society Technical Committee on Pattern Analysis and Machine Intelligence)</a><fn>TC PAMI (IEEE Computer Society Technical Committee on Pattern Analysis and Machine Intelligence) is the highest governing body in the field of computer vision. It jointly hosts the three flagship conferences CVPR, ICCV, and WACV with CVF. It oversees all six career awards and three classic paper awards, and provides technical sponsorship for international conferences such as FG, ICPR, and ACII. This essentially covers the entire system from academic evaluation to talent recognition in computer vision.</fn><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span>Lab: <a href="?page=static/CBIM-Lab/people.md">CBIM, Rutgers University</a>; Graduated 80+ Ph.D. students (1/3 are professors worldwide)<span style="color:transparent">"</span>
+<span class="translation-line">Ph.D., <a href="https://en.wikipedia.org/wiki/University_of_Toronto" target="_blank">Toronto</a> (1992), advised by Demetri Terzopoulos; <span class="special-accent">Board of Governors and Distinguished Professor</span>, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers</a>; former Professor, <a href="https://en.wikipedia.org/wiki/University_of_Pennsylvania" target="_blank">Pennsylvania</a></span>
+<span class="translation-line"><font color='green'>Computer vision, biomedical image analysis, medical image computing, deformable models</font></span>
+<span class="translation-line"><span class="special-accent">IEEE Fellow</span>; <span class="special-accent">Fellow AIMBE</span>; <span class="special-accent">Fellow MICCAI Society</span>; General Chair<fn>among only five individuals to have served four or more times as General Chair in the ~40-year, ~100-person history of CVPR/ICCV</fn> of CVPR 2014, 2026 & ICCV 2011, 2031 & MICCAI 2008; Long-standing member of the <a href="https://www.thecvf.com/docs/CVPR%20ICCV%20bylaws%20final.pdf" target="_blank">CVPR/ICCV Steering Committee</a> and <a href="https://tc.computer.org/tcpami/" target="_blank">TC PAMI (IEEE Computer Society Technical Committee on Pattern Analysis and Machine Intelligence)</a><fn>TC PAMI (IEEE Computer Society Technical Committee on Pattern Analysis and Machine Intelligence) is the highest governing body in the field of computer vision. It jointly hosts the three flagship conferences CVPR, ICCV, and WACV with CVF. It oversees all six career awards and three classic paper awards, and provides technical sponsorship for international conferences such as FG, ICPR, and ACII. This essentially covers the entire system from academic evaluation to talent recognition in computer vision.</fn></span>
+<span class="translation-line">Lab: <a href="?page=static/CBIM-Lab/people.md">CBIM, Rutgers University</a>; Graduated 80+ Ph.D. students (1/3 are professors worldwide)</span>
 
 - **Sen Fang**<br>
-<span style="color:transparent">"</span>Ph.D. student, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers University</a>, advised by Prof. Dimitris N. Metaxas<span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><font color='green'>Computer Vision, World Snapshot Model, Sign Language</font><span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span>Computer Vision’s Unifier After the Field’s Half-Century Expansion<span style="color:transparent">"</span><br>
-<span style="color:transparent">"</span><span class="special-accent">ACL 2026 Best Paper Award Nominee</span><span style="color:transparent">"</span>
+<span class="translation-line">Ph.D. student, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers University</a>, advised by Prof. Dimitris N. Metaxas</span>
+<span class="translation-line"><font color='green'>Computer Vision, World Snapshot Model, Sign Language</font></span>
+<span class="translation-line">Computer Vision’s Unifier After the Field’s Half-Century Expansion</span>
+<span class="translation-line"><span class="special-accent">ACL 2026 Best Paper Award Nominee</span></span>
 
 </div>
 

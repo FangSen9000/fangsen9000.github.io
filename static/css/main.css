@@ -882,6 +882,12 @@ table.imgtable img {
     overflow-wrap: break-word;
 }
 
+.translation-line {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
 a.venue-accent {
     text-decoration-color: currentColor;
 }
