@@ -198,7 +198,33 @@
             });
         }
 
+        function preparePublicationTranslationLines(root) {
+            root.querySelectorAll('.pub-container p').forEach(paragraph => {
+                if (paragraph.querySelector(':scope > .translation-line')) return;
+
+                const lines = [];
+                let line = document.createElement('span');
+                line.className = 'translation-line';
+
+                Array.from(paragraph.childNodes).forEach(node => {
+                    if (node.nodeName === 'BR') {
+                        lines.push(line);
+                        line = document.createElement('span');
+                        line.className = 'translation-line';
+                    } else {
+                        line.appendChild(node);
+                    }
+                });
+
+                if (line.hasChildNodes() || lines.length === 0) {
+                    lines.push(line);
+                }
+                paragraph.replaceChildren(...lines);
+            });
+        }
+
         function prepareRenderedContent(fragment) {
+            preparePublicationTranslationLines(fragment);
             fragment.querySelectorAll('img').forEach(img => {
                 img.loading = 'lazy';
                 img.decoding = 'async';

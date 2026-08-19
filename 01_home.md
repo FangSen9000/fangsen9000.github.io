@@ -86,15 +86,17 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 <link rel="stylesheet" href="static/css/pub.css">
 
-<div class="tabs"><span class="tab active" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('pub-featured').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Representative Works</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('pub-generative').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Generative AI</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.getElementById('pub-sign').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Sign Language</span></div>
+<div class="tabs"><span class="tab active" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.querySelectorAll('.pub-all-heading').forEach(e=>e.hidden=true);document.getElementById('pub-featured').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Representative Works</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.querySelectorAll('.pub-all-heading').forEach(e=>e.hidden=true);document.getElementById('pub-generative').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Generative AI</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.querySelectorAll('.pub-all-heading').forEach(e=>e.hidden=true);document.getElementById('pub-sign').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Sign Language</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.add('active'));document.querySelectorAll('.pub-all-heading').forEach(e=>e.hidden=false);this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">All</span></div>
 
 <div id="pub-featured" class="tab-content pub-tab-content active">
+<div class="pub-all-heading" hidden>Representative Works</div>
 <div class="pub-container">
 
 <div class="pub-item pub-image-auto-height-false"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
 
 **Unified Law for Visual Tasks (The Four Laws of Computer Vision)**   
 **Sen Fang**, Dimitris N. Metaxas†  
+<span class="special-accent">Technical Report, arXiv, 2026</span><br>
 [[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot) [[Document]]()   
 ♾️ <font color='green'>**Order-of-magnitude width + Concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing CV models. Theoretically, supports a maximum of up to several thousand existing tasks, and potentially 32.8k+ newly CV tasks will be created in a short time<fn>Of course, these changes developed quietly like raindrops. LLM can do countless things, but no one has detailed its capabilities. The capabilities of WSM will not be divided either; it can perform all tasks related to vision and the world.</fn>.</font>    
 **Note:** My first child, it will be remembered by history.
@@ -116,15 +118,16 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 </div>
 
 <div id="pub-generative" class="tab-content pub-tab-content">
+<div class="pub-all-heading" hidden>Generative AI</div>
 <div class="pub-container">
 
 *According to my Unified Laws, all visual tasks only require generative methods. Therefore, GenAI will be the focus of 90% of visual professionals.*
-
 <div class="pub-item pub-image-auto-height-false"><img src="cover/rac.png"><div class="pub-content">
 
 **RAC: Rectified Flow Auto Coder**     
 **Sen Fang**, Yalin Feng*, Yanxin Zhang, Dimitris N. Metaxas†      
-[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/RAC) [[Code]](https://github.com/World-Snapshot/RAC)          
+<span class="special-accent">Technical Report, arXiv, 2026</span><br>
+[[Paper]](https://arxiv.org/abs/2603.05925) [[Project Page]](https://world-snapshot.github.io/RAC) [[Code]](https://github.com/World-Snapshot/RAC)<br>
 🦄 <font color='green'>**Concept breakthrough:** Make the reconstruction task a condition generation task; Make the decoder the encoder; Make the single-step decoding and encoding a multi-step decoding and encoding.</font>
 
 </div></div>
@@ -144,6 +147,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 </div>
 
 <div id="pub-sign" class="tab-content pub-tab-content">
+<div class="pub-all-heading" hidden>Sign Language</div>
 <div class="pub-container">
 
 <div class="pub-item pub-image-auto-height-false">
@@ -153,6 +157,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **SignVerse-2M: A Two-Million-Clip Pose-Native Universe of 55+ Sign Languages**    
 **Sen Fang**, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†      
+<span class="special-accent">Technical Report, arXiv, 2026</span><br>
 [[Paper]](https://arxiv.org/abs/2605.01720) [[Project Page]](https://signerx.github.io/SignVerse-2M/)      
 <font color='green'>**Dataset breakthrough:**  Make sign language research practical, affordable, and scalable!</font>
 
@@ -162,6 +167,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 **SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space**    
 **Sen Fang**, Yalin Feng*, Chunyu Sui, Hongbin Zhong, Hongwei Yi, Dimitris N. Metaxas†      
+<span class="special-accent">Technical Report, arXiv, 2026</span><br>
 [[Paper]](https://arxiv.org/abs/2504.16315) [[Project Page]](https://signerx.github.io/SignX/)      
 💥 <font color='green'>**Performance breakthrough:**  2026 CSLR SOTA. The recognition and understanding tasks on any sign language dataset can/will achieve state-of-the-art results. Let Pose Recognition Happen in Latent Space, as well!</font>
 
