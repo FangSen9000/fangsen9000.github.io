@@ -92,7 +92,7 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 <div class="pub-all-heading" hidden>Representative Works</div>
 <div class="pub-container">
 
-<div class="pub-item pub-image-auto-height-false"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
+<div class="pub-item"><img src="cover/Unified_Law_Figure1.png"><div class="pub-content">
 
 **Unified Law for Visual Tasks (The Four Laws of Computer Vision)**   
 **Sen Fang**, Dimitris N. Metaxas†  
