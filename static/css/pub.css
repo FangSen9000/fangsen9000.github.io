@@ -80,6 +80,11 @@
   --chip-color: #52606d;
   --chip-bg: #fff;
   --chip-border: #d5dce3;
+  font-size: 11px;
+}
+
+.pub-legend-authorship .pub-legend-symbol {
+  font-size: 12px;
 }
 
 .pub-legend-line-break {

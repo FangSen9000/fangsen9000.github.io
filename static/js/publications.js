@@ -7,10 +7,10 @@
     { symbol: '💥', label: '1–3× Improvement over SOTA', className: 'pub-legend-impact-1' },
     { symbol: '🦄', label: 'over 3~10x SOTA / New Concept', className: 'pub-legend-impact-2' },
     { symbol: '🏆', label: 'Paper Award', className: 'pub-legend-award' },
-    { symbol: '🐉', label: 'Impacts 100+ Domains / Paradigm Shift', className: 'pub-legend-impact-3' },
+    { symbol: '🐉', label: 'Impacts 100+ Areas / Paradigm Shift', className: 'pub-legend-impact-3' },
     {
       symbol: '♾️',
-      label: 'Impacts 1000+ Domains / Paradigm Emperor',
+      label: 'Impacts 1000+ Areas / Paradigm Emperor',
       className: 'pub-legend-impact-4',
       footnote: 'e.g., LLM killed 900+ NLP tasks'
     },
