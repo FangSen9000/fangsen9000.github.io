@@ -268,22 +268,22 @@ As the largest field of AI, computer vision has the world's largest community of
 ## Service
 
 - **Program Committee Member:**
-  - IEEE International Conference on Automatic Face and Gesture Recognition (IEEE FG 2026)
-  - International Conference on Neural Information Processing (ICONIP 2024, 2026)
-  - First International Workshop on Foundation, Multimodal Large Language and Generative Models for Face and Gesture Recognition (FM&LLM&GM 2025)
-  - First International Workshop on Empathic AI: Face, Gesture, and Accessibility Technologies (EmpAI 2026)
+  - IEEE International Conference on Automatic Face and Gesture Recognition (IEEE FG [2026](https://fg2026.ieee-biometrics.org/))
+  - International Conference on Neural Information Processing (ICONIP [2024](https://iconip2024.org/), [2026](https://iconip2026.org/))
+  - First International Workshop on Foundation, Multimodal Large Language and Generative Models for Face and Gesture Recognition (FM&LLM&GM [2025](https://sites.google.com/view/fmllmgm-fg25/))
+  - First International Workshop on Empathic AI: Face, Gesture, and Accessibility Technologies (EmpAI [2026](https://empai26.vercel.app/))
 - **Conference Reviewer:**
-  - Conference on Neural Information Processing Systems (NeurIPS 2024, 2026)
-  - International Conference on Machine Learning (ICML 2024)
-  - International Conference on Learning Representations (ICLR 2025, 2027)
-  - IEEE/CVF International Conference on Computer Vision (ICCV 2025)
-  - IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2026)
-  - ACM International Conference on Multimedia (ACM MM 2025–2026)
-  - IEEE International Conference on Automatic Face and Gesture Recognition (IEEE FG 2025)
-  - International Conference on Neural Information Processing (ICONIP 2023–2024)
-  - Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)
-  - Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)
-  - ACL Rolling Review (ARR 2023–2024)
+  - Conference on Neural Information Processing Systems (NeurIPS [2024](https://neurips.cc/Conferences/2024), [2026](https://neurips.cc/Conferences/2026))
+  - International Conference on Machine Learning (ICML [2024](https://icml.cc/Conferences/2024))
+  - International Conference on Learning Representations (ICLR [2025](https://iclr.cc/Conferences/2025), [2027](https://iclr.cc/Conferences/2027))
+  - IEEE/CVF International Conference on Computer Vision (ICCV [2025](https://iccv.thecvf.com/Conferences/2025))
+  - IEEE/CVF Winter Conference on Applications of Computer Vision (WACV [2026](https://wacv.thecvf.com/Conferences/2026))
+  - ACM International Conference on Multimedia (ACM MM [2025](https://acmmm2025.org/)–[2026](https://2026.acmmm.org/))
+  - IEEE International Conference on Automatic Face and Gesture Recognition (IEEE FG [2025](https://fg2025.ieee-biometrics.org/))
+  - International Conference on Neural Information Processing (ICONIP 2023–[2024](https://iconip2024.org/))
+  - Conference on Empirical Methods in Natural Language Processing (EMNLP [2023](https://2023.emnlp.org/))
+  - Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL [2024](https://2024.naacl.org/))
+  - ACL Rolling Review (ARR [2023](https://openreview.net/group?id=aclweb.org/ACL/ARR/2023)–[2024](https://openreview.net/group?id=aclweb.org/ACL/ARR/2024))
 
 ## Teaching
 
