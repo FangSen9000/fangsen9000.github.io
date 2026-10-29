@@ -29,6 +29,13 @@
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "keywords": [
+        "Unified Laws of AI<fn>Another well-known law of AI is the Scaling Law.</fn>",
+        "World Snapshot Model",
+        "World Models",
+        "Any-Modality-to-Any-Modality Transformation",
+        "Generative Modeling Architecture"
+      ],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2511.22009" },
         { "label": "Project Page", "url": "https://world-snapshot.github.io/StreamFlow/" },
@@ -60,6 +67,7 @@
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"venue-accent\">ICCV 2025 Demo Track</span>, Honolulu, Hawaii, USA; and <span class=\"venue-accent\">ACL 2026 Main Conference (Oral)</span>, San Diego, California, USA<br><span class=\"venue-accent\">ACL 2026 Best Paper Award Nominee (out of 12,148 submissions)</span>",
+      "keywords": ["Diffusion Transformer (DiT)", "Video Generation", "Human Motion Generation", "Diffusion Models", "Hierarchical Generation"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2512.04048" },
         { "label": "Project Page", "url": "https://stablesigner.github.io/" },
@@ -90,6 +98,7 @@
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "keywords": ["4D Avatars", "Gaussian Splatting", "Neural Rendering", "Deformable Primitives", "Real-Time Rendering"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2610.24926" },
         { "label": "Project Page", "url": "https://signerx.github.io/Stable-Signer-V3/" },
@@ -118,6 +127,7 @@
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "keywords": ["Rectified Flow", "Flow Matching", "Autoencoders", "Image Reconstruction", "Latent Representation"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2603.05925" },
         { "label": "Project Page", "url": "https://world-snapshot.github.io/RAC" },
@@ -146,6 +156,7 @@
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">ICML 2026</span>, Seoul, South Korea",
+      "keywords": ["Rectified Flow", "Flow Matching", "Inference Acceleration", "Training-Free Acceleration", "Real-Time Generation"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2511.22009" },
         { "label": "Project Page", "url": "https://world-snapshot.github.io/StreamFlow/" },
@@ -174,6 +185,7 @@
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "keywords": ["Large-Scale Dataset", "Human Pose", "Motion Data", "Data Scaling", "Pose-Native Learning"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2605.01720" },
         { "label": "Project Page", "url": "https://signerx.github.io/SignVerse-2M/" }
@@ -203,6 +215,7 @@
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "keywords": ["Continuous Recognition", "Pose-Rich Latent Space", "Video Understanding", "Temporal Modeling"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2504.16315" },
         { "label": "Project Page", "url": "https://signerx.github.io/SignX/" }
@@ -232,6 +245,7 @@
         { "name": "Yapeng Tian" }
       ],
       "publication": "<span class=\"special-accent\">ICCV 2025 CV4A11y</span>, Honolulu, Hawaii, USA",
+      "keywords": ["Large Language Models", "Prompt-to-Motion", "Human Motion Generation", "Multilingual Generation"],
       "links": [
         { "label": "Paper", "url": "https://arxiv.org/abs/2405.10718" },
         { "label": "Project Page", "url": "https://signllm.github.io/" },

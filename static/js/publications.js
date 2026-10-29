@@ -73,6 +73,14 @@
     }).join(' ');
   }
 
+  function renderKeywords(keywords, md) {
+    if (!Array.isArray(keywords) || !keywords.length) return '';
+    const items = keywords
+      .map(keyword => `<span class="pub-keyword">${renderInline(keyword, md)}</span>`)
+      .join('');
+    return `<div class="pub-keywords" aria-label="Keywords">${items}</div>`;
+  }
+
   function renderCover(cover) {
     const image = `<img src="${escapeHtml(cover.src)}" alt="${escapeHtml(cover.alt || '')}">`;
     if (!cover.overlayText) return image;
@@ -113,6 +121,7 @@
           <div class="pub-links">${renderLinks(publication.links || [])}</div>
           ${highlight}
           ${note}
+          ${renderKeywords(publication.keywords, md)}
         </div>
       </div>`;
   }
