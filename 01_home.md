@@ -246,7 +246,7 @@ As the largest field of AI, computer vision has the world's largest community of
 
 - **Sen Fang**<br>
 <span class="translation-line">Ph.D. student, <a href="https://en.wikipedia.org/wiki/Rutgers_University" target="_blank">Rutgers University</a>, advised by Prof. Dimitris N. Metaxas</span>
-<span class="translation-line"><font color='green'>Computer Vision, World Snapshot Model, Sign Language</font></span>
+<span class="translation-line"><font color='green'>Computer Vision, World Snapshot Model, Sign Language, Deformable Models</font></span>
 <span class="translation-line">Computer Vision’s Unifier After the Field’s Half-Century Expansion</span>
 <span class="translation-line"><span class="special-accent">ACL 2026 Best Paper Award Nominee</span></span>
 
