@@ -149,7 +149,11 @@
   margin: 0;
 }
 
-.pub-container .pub-item + .pub-item {
+.pub-container .pub-item[hidden] {
+  display: none;
+}
+
+.pub-container .pub-item:not([hidden]) ~ .pub-item:not([hidden]) {
   margin-top: 42px;
 }
 
@@ -300,12 +304,13 @@
   height: 1.1em;
   max-width: 27px;
   min-height: 0;
-  margin-right: 3px;
+  margin-left: 5px;
+  margin-right: 0;
   padding: 0 5px;
   gap: 0;
   overflow: visible;
   line-height: 1;
-  vertical-align: -0.08em;
+  vertical-align: middle;
   white-space: nowrap;
   cursor: help;
 }

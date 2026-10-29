@@ -85,11 +85,11 @@
       : publication.cover.height === 'fixed'
         ? ' pub-image-auto-height-false'
         : '';
-    const icon = publication.highlight?.icon
-      ? `${renderHighlightBadge(publication.highlight.icon)} `
+    const titleBadge = publication.highlight?.icon
+      ? renderHighlightBadge(publication.highlight.icon)
       : '';
     const highlight = publication.highlight?.text
-      ? `<div class="pub-highlight">${icon}${renderInline(publication.highlight.text, md)}</div>`
+      ? `<div class="pub-highlight">${renderInline(publication.highlight.text, md)}</div>`
       : '';
     const note = publication.note
       ? `<div class="pub-note"><strong>Note:</strong> ${renderInline(publication.note, md)}</div>`
@@ -100,7 +100,7 @@
         data-primary-category="${escapeHtml(publication.primaryCategory)}">
         ${renderCover(publication.cover)}
         <div class="pub-content">
-          <div class="pub-title"><strong>${escapeHtml(publication.title)}</strong></div>
+          <div class="pub-title"><strong>${escapeHtml(publication.title)}</strong>${titleBadge}</div>
           <div class="pub-authors">${renderAuthors(publication.authors)}</div>
           <div class="pub-venue">${publication.publication || ''}</div>
           <div class="pub-links">${renderLinks(publication.links || [])}</div>
