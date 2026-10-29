@@ -3,25 +3,24 @@
     <div class="photo-container">
         <img src="file/senfang_orange_big_jacket_midcamera_stable.webp" alt="photo_senfang" />
     </div>
-    <div class="text-wall-container">
-        <div class="text-wall-background">
-                Requirements for implementing an ideal world model: 1. Encode all information to the boundary. 2. Conform to conformal symmetry. Follow this rule, flattens the world into a two-dimensional space, and visual generation is almost lossless world generation.
-                Definition of an ideal world model: 1. Spatial sequence 2. Time sequence 3. Dense representation 4. Semantic instances 5. World core 6. Physical constraint 7. RIVE, Reasonable, Interpretable, Visualizable, and Editable. 8. Bidirectional training and inference 9. All living animals have posture information.
-                The method to make vision models understand physics is to create a core space and implement constraints within it.
-                Ideal world models possess conformal symmetry, e.g., representing data positions as "relative positions", allowing the core space to have tremendous freedom and robustness. Eg, this can solve the fixed resolution problem in ViT and aligns with human intuition.
-                Adding high-dimensional features/the complexity of the latent space manifold itself (using WSG), and reducing the actual distribution of the latent space (based on flow models or physically consistent data) all contribute to semantic consistency.
-                The key to the wave-based model is using waves to record spatial information to create multi-perspective consistency, human id consistency and behavior consistency.
-                The coordinates of a moving camera are one of the key pieces of information that help the model understand the world. Observing the world while moving is like querying a high-dimensional manifold, similar to how Earth is a sphere rather than a flat plane. Conventional generative models are equivalent to generating from a fixed perspective.
-                The principle of least action is the underlying principle of the world and can explain all known physical systems. Therefore, as long as we conform to the principle of least action, we hold the key to making models understand physics.
-                The breaking and merging of waves can represent a cup shattering or cars colliding, representing moments of sudden change in otherwise smoothly evolving systems. This is the final mile that visual models need to complete.
-                WaveGen is a type of wave-based model that, just as waves on the surface are driven by ocean currents below, is based on flow models. The World Snapshot Model is an ideal world model implemented through WaveGen. ControlWave utilizes the data characteristics of the world model itself to control the world.
-                All the pixels of our work exhibit wave-particle duality. In the field of world snapshots, waves represent reconstruction, time-space, order and existence, while particles represent generation, rendering, understanding and cognition.
-                In Computer Vision before WSM be proposed, all estimation tasks can be regarded as deriving WSG from images, all conditional generation tasks can be seen as generating WSG with fixed partial results, and all reconstruction tasks can be considered as obtaining WSG sets through known images.
-                The latent space of WaveGen has the characteristics of being Reasonable, Interpretable, Visualizable, and Editable. Unlike all the previous works: the parameter latent space of previous models only has the simplest I/O interface.
+    <div class="text-wall-container" data-text-wall>
+        <div class="teaser-intro" data-teaser-intro>
+            <p>
+            <span class="translation-line"><strong>Sen Fang</strong></span>
+            <span class="translation-line"><strong>Computer Vision’s Unifier After the Field’s Half-Century Expansion</strong></span>
+            <span class="translation-line"><strong>The Author of <em>Unified Law for Visual Tasks</em> (The Four Laws of Computer Vision)</strong></span>
+            <span class="translation-line"><strong>An Academic Descendant of David Marr</strong></span>
+            <span class="translation-line"><strong>The Researcher Who Unified and Expanded Thousands of Computer Vision Tasks</strong></span>
+            <span class="translation-line"><strong>He Unified, Expanded, and Saved Computer Vision.</strong></span>
+            </p>
         </div>
-        <a href="https://world-snapshot.github.io/doc/index.html?page=S6_materials/02_guideline.md#tldr-of-project-page" class="text-wall-triangle" target="_blank">▼</a>
-        <div class="name-outline">
-            <span>Sen Fang</span>
+        <div class="text-wall-banner" data-text-wall-banner>
+            <div class="text-wall-background" data-text-wall-content></div>
+            <button type="button" class="text-wall-close" data-text-wall-close aria-label="Close the text wall" title="Close the text wall">×</button>
+            <a class="text-wall-triangle" data-text-wall-link target="_blank" aria-label="Read the World Snapshot guidelines">▼</a>
+            <div class="name-outline">
+                <span data-text-wall-name>Sen Fang</span>
+            </div>
         </div>
     </div>
 </section>

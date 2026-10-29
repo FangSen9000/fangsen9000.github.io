@@ -6,6 +6,7 @@
     <meta name="description" content="Sen Fang: Computer Vision Scientist">
     <title>Sen Fang: Computer Vision Scientist</title>
     <script src="./static/vendor/markdown-it.min.js"></script>
+    <script defer src="./static/js/text-wall.js"></script>
     <script defer src="./static/js/publications.js"></script>
     <link rel="stylesheet" href="./static/css/icons.css">
     <!-- 添加网站图标 -->
@@ -396,6 +397,9 @@
                     template.innerHTML = md.render(markdown);
                     prepareRenderedContent(template.content);
                     element.replaceChildren(template.content);
+                    if (typeof window.initializeTextWalls === 'function') {
+                        await window.initializeTextWalls(element);
+                    }
                     if (typeof window.initializePublications === 'function') {
                         await window.initializePublications(element, md);
                         element.querySelectorAll('[data-publications]').forEach(prepareRenderedContent);
