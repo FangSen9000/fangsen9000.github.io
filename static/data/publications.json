@@ -44,7 +44,7 @@
       ],
       "highlight": {
         "icon": "♾️",
-        "text": "**Order-of-magnitude width + Concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports thousands more tasks than existing computer vision models and can create over 40 million<fn>Assuming at least 80 visual modalities and allowing any modality at each of the four positions in a three-step task, the number of possible task combinations is 80⁴ = 40,960,000. Because the output of one task can become the input of another, longer task chains continue to expand this number.</fn> new computer vision tasks, with virtually unlimited room to grow<fn>Of course, these changes developed quietly like raindrops. LLM can do countless things, but no one has detailed its capabilities. The capabilities of WSM will not be divided either; it can perform all tasks related to vision and the world.</fn>."
+        "text": "**Order-of-magnitude width + Concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which unifies thousands of existing computer vision tasks, supports thousands of additional tasks beyond those currently defined, and can create over 40 million<fn>Assuming at least 80 visual modalities and allowing any modality at each of the four positions in a three-step task, the number of possible task combinations is 80⁴ = 40,960,000. Because the output of one task can become the input of another, longer task chains continue to expand this number.</fn> new computer vision tasks, with virtually unlimited room to grow<fn>Of course, these changes developed quietly like raindrops. LLM can do countless things, but no one has detailed its capabilities. The capabilities of WSM will not be divided either; it can perform all tasks related to vision and the world.</fn>."
       },
       "note": "My first child, it will be remembered by history.",
       "cover": {
@@ -124,6 +124,11 @@
         { "name": "Sen Fang" },
         { "name": "Yalin Feng", "marker": "*" },
         { "name": "Yanxin Zhang" },
+        { "name": "Yihao Quan" },
+        { "name": "Juyi Lin" },
+        { "name": "Yifan Shen" },
+        { "name": "Ziwei Dong" },
+        { "name": "Sisong Bei" },
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
@@ -182,6 +187,7 @@
         { "name": "Sen Fang" },
         { "name": "Hongbin Zhong" },
         { "name": "Yanxin Zhang" },
+        { "name": "Liwei Che" },
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
