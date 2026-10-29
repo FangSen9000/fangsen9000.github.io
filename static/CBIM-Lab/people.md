@@ -19,7 +19,6 @@ Source: https://web.archive.org/web/20170925135615/http://www.cbim.rutgers.edu/p
 
 ## Current Members: PhD students and the year of enrollment
 
-- [Bingyu Xin](https://scholar.google.com/citations?user=ENG4A1gAAAAJ&hl=en) - Medical Image (2020)
 - [Gerasimos Chatzoudis](https://scholar.google.com/citations?user=9Lsgha0AAAAJ&hl=en) - Explainable AI (2022)
 - [Bangwei Guo](https://scholar.google.com/citations?user=GBbfGuUAAAAJ&hl=en) - Medical, MRI, Cardiac Imaging (2022)
 - [Ruosong Ye](https://scholar.google.com/citations?user=9Xduz3AAAAAJ&hl=en) - Multi-LLM Collaboration, RL, Graph (2022)
@@ -29,6 +28,7 @@ Source: https://web.archive.org/web/20170925135615/http://www.cbim.rutgers.edu/p
 - [Quan Dao](https://scholar.google.com/citations?user=g0RS3_kAAAAJ) - Image/Video Generation, 3D Generative (2024)
 - [Can Jin](https://scholar.google.com/citations?user=RK-8dz0AAAAJ&hl=en) - Reinforcement Learning, LLM/Vision Efficiency (2024)
 - [Mingyu Jin](https://scholar.google.com/citations?user=aYfy924AAAAJ&hl=en) - NLP, Interpretability, Sparse AutoEncoders (2024, joined CBIM 2025)
+- [Xi Zhu](https://scholar.google.com/citations?user=_Ev2VPoAAAAJ&hl=en) - Recommendation GNN LLM Agent (2024, joined CBIM 2025)
 - [Wujiang Xu](https://scholar.google.com/citations?user=cucjW6wAAAAJ) - Reinforcement Learning, LLM Agents (2024, joined CBIM 2025)
 - [Mingyu Zhao](https://scholar.google.com/citations?user=z9_Niy8AAAAJ&hl=en) - ASL (2024)
 - [Sen Fang](https://scholar.google.com/citations?user=BJb9MsgAAAAJ&hl=en) - 3DV, GenAI, ASL (2024)
@@ -41,12 +41,11 @@ Source: https://web.archive.org/web/20170925135615/http://www.cbim.rutgers.edu/p
 
 ## Postdoc
 
-- [Kexin Ding](https://scholar.google.com/citations?user=srPTvV0AAAAJ&hl=en) - Current PostDoc
-
-Source: https://cbim-rutgers.github.io/
+- [Kexin Ding](https://scholar.google.com/citations?user=srPTvV0AAAAJ&hl=en) - Ex PostDoc
 
 ## Alumni: PhD and graduation year
 
+- [Bingyu Xin](https://scholar.google.com/citations?user=ENG4A1gAAAAJ&hl=en) - Medical Image (2020)
 - [Xiaoxiao He](https://scholar.google.com/citations?user=WmK6IOEAAAAJ&hl=en) - Meta (2026)
 - [Zhaoyang Xia](https://scholar.google.com/citations?user=oaQ7CbwAAAAJ&hl=en) - Adobe (2026)
 - [Konstantinos Dafnis](https://scholar.google.com/citations?user=Eqlr77IAAAAJ&hl=en) - 2026

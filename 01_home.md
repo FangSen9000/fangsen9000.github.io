@@ -33,7 +33,7 @@ My main research field is **Computer Vision** (3DV, Generative Method, Human Pos
 - <strong><font color='green'>World Snapshot</font></strong> - This is the research field I have pioneered (including full CV + the parts of NLP/Audio), which has expanded the boundaries of computer vision. The main focus/goal is on integrating thousands of generation/understanding/reconstruction/estimation CV tasks into a single model, just like how LLMs have contributed to NLP<fn>More specifically, computer vision should have an emperor-level model, similar to the status of LLM in NLP: We shall hope previous visual models have been completely replaced by WSMs, and it is hoped that WSMs should receive far more citations than LLMs. After all, the field of computer vision is much larger than NLP, and it has always been a top-level research area. However, it was a little late in giving birth to the next generation of models because images are more difficult to train than text.</fn>. It involves the definition of the model, training, and processing of new data formats. It is a long-term project dedicated to realizing the ideal world model.
 - <strong><font color='green'>Sign Language</font></strong> - It involves many fields, such as the conversion between text/audio and movement/gestures, human body reconstruction and recognition, human pose synchronization, Pose-guided image generation, avatar reconstruction, and style transfer, etc. This topic has high technical requirements, and you must achieve a high level in all the above fields before it can be applied to sign language datasets.
 
-I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me (see my <a href="?page=04_blog.md#research-interests" class="nav-section-link" data-page="04_blog.md" data-section="research-interests">full interests</a>). I plan to apply for the Intern position related to World Snapshot at 27 Summer and then enter the full-time job market.
+I am open to academic/industrial collaborations, and please drop me an email if you are interested in collaborating with me (see my <a href="?page=04_blog.md#research-interests" class="nav-section-link" data-page="04_blog.md" data-section="research-interests">full interests</a>). I plan to apply for the Intern position related to World Snapshot at 27 Summer (Lasting for 3 months or 6 to 9 months, 6 to 9 months option is better.) and then enter the full-time job market at 2028 Jan.
 
 <p class="icon-links" style="font-size:2em;line-height:1.8;color:purple;margin:0;"><a href="https://github.com/fangsen9000/"><i class="fa-brands fa-github"></i></a><span class="icon-sep"></span><a href="https://scholar.google.com/citations?user=BJb9MsgAAAAJ&hl=en" aria-label="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a><span class="icon-sep"></span><a href="https://huggingface.co/FangSen9000/activity/all" aria-label="Hugging Face"><span style="display:inline-block;height:1em;width:1em;vertical-align:-0.15em;background-color:currentColor;-webkit-mask:url(logo/huggingface-monochrome.svg) no-repeat center/contain;mask:url(logo/huggingface-monochrome.svg) no-repeat center/contain;"></span></a><span class="icon-sep"></span><a href="https://twitter.com/SenFang01"><i class="fa-brands fa-x-twitter"></i></a><fn>Paper Promotion</fn><span class="icon-sep"></span><a href="https://www.threads.com/@senfang01"><i class="fa-brands fa-threads"></i></a><fn>Academic Thinking</fn><span class="icon-sep"></span><a href="https://www.linkedin.com/in/fangsen/"><i class="fa-brands fa-linkedin"></i></a><fn>General Contact Information</fn><span class="icon-sep"></span><a href="https://www.xiaohongshu.com/user/profile/671ed236000000000d026aad"><span style="display:inline-block;height:1em;width:1em;vertical-align:-0.15em;background-color:currentColor;-webkit-mask:url(logo/xiaohongshu.svg) no-repeat center/contain;mask:url(logo/xiaohongshu.svg) no-repeat center/contain;"></span></a><span class="icon-sep"></span><a href="mailto:fangsen2024@gmail.com"><i class="fa-solid fa-envelope"></i></a></p>
 
@@ -80,126 +80,14 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Selected Works
 
-*\* Equivalent contribution, † Corresponding author. The following works is based on the most relevant tags, although they overlap with each other<fn>sign language generation is classified as SL although it is also a posture generation method</fn>*       
+*\* Equivalent contribution, † Corresponding author.*       
 💥 1~3x SOTA, 🦄 over 3~10x SOTA / New Concept, 🐉 Impacts 100+ Domains / Paradigm Shift, ♾️ Impacts 1000+ Domains / Paradigm Emperor<fn>e.g., LLM killed 900+ NLP tasks</fn>   
 🏆 Paper Award
 
 <link rel="stylesheet" href="static/css/pub.css">
 
-<div class="tabs"><span class="tab active" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.querySelectorAll('.pub-all-heading').forEach(e=>e.hidden=true);document.getElementById('pub-featured').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Representative Works</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.querySelectorAll('.pub-all-heading').forEach(e=>e.hidden=true);document.getElementById('pub-generative').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Generative AI</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.remove('active'));document.querySelectorAll('.pub-all-heading').forEach(e=>e.hidden=true);document.getElementById('pub-sign').classList.add('active');this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">Sign Language</span>&#8204;<span class="tab" onclick="document.querySelectorAll('.pub-tab-content').forEach(e=>e.classList.add('active'));document.querySelectorAll('.pub-all-heading').forEach(e=>e.hidden=false);this.parentElement.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));this.classList.add('active');">All</span></div>
-
-<div id="pub-featured" class="tab-content pub-tab-content active">
-<div class="pub-all-heading" hidden>Representative Works</div>
-<div class="pub-container">
-
-<div class="pub-item"><img src="cover/Unified_Law_Figure1.png"><div class="pub-content">
-
-**Unified Law for Visual Tasks (The Four Laws of Computer Vision)**   
-**Sen Fang**, Dimitris N. Metaxas†  
-<span class="special-accent">Technical Report, arXiv, 2026</span><br>
-[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot) [[Document]]()   
-♾️ <font color='green'>**Order-of-magnitude width + Concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing CV models. Theoretically, supports a maximum of up to several thousand existing tasks, and potentially 32.8k+ newly CV tasks will be created in a short time<fn>Of course, these changes developed quietly like raindrops. LLM can do countless things, but no one has detailed its capabilities. The capabilities of WSM will not be divided either; it can perform all tasks related to vision and the world.</fn>.</font>    
-**Note:** My first child, it will be remembered by history.
-
-</div></div>
-
-<div class="pub-item pub-image-auto-height-true"><img src="cover/StableSigner_v2.gif"><div class="pub-content">
-
-**Stable Signer: Hierarchical Sign Language Generative Model**      
-**Sen Fang**, Yalin Feng*, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†        
-<span class="venue-accent">ICCV 2025 Demo Track</span>, Honolulu, Hawaii, USA; and <span class="venue-accent">ACL 2026 Main Conference (Oral)</span>, San Diego, California, USA       
-<span class="venue-accent">ACL 2026 Best Paper Award Nominee (out of 12,148 submissions)</span>       
-[[Paper]](https://arxiv.org/abs/2512.04048) [[Project Page]](https://stablesigner.github.io/) [[Data]](https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025) [[Oral Video]](https://underline.io/events/524/sessions/22811/lecture/149420-stable-signer-hierarchical-sign-language-generative-model?tab=video) [[Slides]](https://app.underline.io/downloadable_materials/lectures/149420/slideshow) [[Oral DOI]](https://doi.org/10.48448/p61s-kc86)     
-🏆 <font color='green'>**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%.</font>
-
-</div></div>
-
-</div>
-</div>
-
-<div id="pub-generative" class="tab-content pub-tab-content">
-<div class="pub-all-heading" hidden>Generative AI</div>
-<div class="pub-container">
-
-*According to my Unified Laws, all visual tasks only require generative methods. Therefore, GenAI will be the focus of 90% of visual professionals.*
-<div class="pub-item pub-image-auto-height-false"><img src="cover/rac.png"><div class="pub-content">
-
-**RAC: Rectified Flow Auto Coder**     
-**Sen Fang**, Yalin Feng*, Yanxin Zhang, Dimitris N. Metaxas†      
-<span class="special-accent">Technical Report, arXiv, 2026</span><br>
-[[Paper]](https://arxiv.org/abs/2603.05925) [[Project Page]](https://world-snapshot.github.io/RAC) [[Code]](https://github.com/World-Snapshot/RAC)<br>
-🦄 <font color='green'>**Concept breakthrough:** Make the reconstruction task a condition generation task; Make the decoder the encoder; Make the single-step decoding and encoding a multi-step decoding and encoding.</font>
-
-</div></div>
-
-<div class="pub-item pub-image-auto-height-false"><img src="cover/StreamFlow_teaser.gif"><div class="pub-content">
-
-**StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation**     
-**Sen Fang**, Hongbin Zhong*, Yalin Feng, Dimitris N. Metaxas†      
-<span class="special-accent">ICML 2026</span>, Seoul, South Korea        
-[[Paper]](https://arxiv.org/abs/2511.22009) [[Project Page]](https://world-snapshot.github.io/StreamFlow/) [[Code]](https://github.com/World-Snapshot/StreamFlow)          
-🦄 <font color='green'>**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%.</font>
-<!--(6352/23918, 26.56%)-->
-
-</div></div>
-
-</div>
-</div>
-
-<div id="pub-sign" class="tab-content pub-tab-content">
-<div class="pub-all-heading" hidden>Sign Language</div>
-<div class="pub-container">
-
-<div class="pub-item pub-image-auto-height-false">
-<div class="pub-cover-overlay" data-overlay-text="SignVerse-2M">
-<img src="cover/background_gallery_big.gif" alt="SignVerse-2M cover">
-</div><div class="pub-content">
-
-**SignVerse-2M: A Two-Million-Clip Pose-Native Universe of 55+ Sign Languages**    
-**Sen Fang**, Hongbin Zhong, Yanxin Zhang, Dimitris N. Metaxas†      
-<span class="special-accent">Technical Report, arXiv, 2026</span><br>
-[[Paper]](https://arxiv.org/abs/2605.01720) [[Project Page]](https://signerx.github.io/SignVerse-2M/)      
-<font color='green'>**Dataset breakthrough:**  Make sign language research practical, affordable, and scalable!</font>
-
-</div></div>
-
-<div class="pub-item pub-image-auto-height-false"><img src="cover/SignX2.png"><div class="pub-content">
-
-**SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space**    
-**Sen Fang**, Yalin Feng*, Chunyu Sui, Hongbin Zhong, Hongwei Yi, Dimitris N. Metaxas†      
-<span class="special-accent">Technical Report, arXiv, 2026</span><br>
-[[Paper]](https://arxiv.org/abs/2504.16315) [[Project Page]](https://signerx.github.io/SignX/)      
-💥 <font color='green'>**Performance breakthrough:**  2026 CSLR SOTA. The recognition and understanding tasks on any sign language dataset can/will achieve state-of-the-art results. Let Pose Recognition Happen in Latent Space, as well!</font>
-
-</div></div>
-
-
-<div class="pub-item pub-image-auto-height-false"><img src="cover/SignLLM.png"><div class="pub-content">
-
-**SignLLM: Sign Language Production Large Language Models**     
-**Sen Fang**, Chen Chen†, Lei Wang, Ce Zheng, Chunyu Sui, Yapeng Tian         
-<span class="special-accent">ICCV 2025 CV4A11y</span>, Honolulu, Hawaii, USA        
-[[Paper]](https://arxiv.org/abs/2405.10718) [[Project Page]](https://signllm.github.io/) [[Data]](https://signllm.github.io/Prompt2Sign) [[Slides]](static/ppt/SignLLM_and_Stable_Signer.pdf)      
-🦄 <font color='green'>**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times.</font>
-<br>**Note:** This work was reported by hundreds of media outlets and was viewed by tens of millions of people, and received an exclusive interview by <a href="https://www.newscientist.com/" class="venue-accent">New Scientist</a> (5M+ followers).
-
-</div></div>
-
-<!--
-<div class="pub-item">
-<img src="cover/SignDiff.png">
-<div class="pub-content">
-
-**SignDiff: Diffusion Models for American Sign Language Production**
-**Sen Fang**, Chunyu Sui\*, Yanghao Zhou, Xuedong Zhang, Hongbin Zhong, Yapeng Tian†, Chen Chen†
-*IEEE FG 2025 Workshop*
-[[Paper]](https://arxiv.org/abs/2308.16082) [[Project Page]](https://signdiff.github.io) [[Preprocessed Data]](https://github.com/SignDiff/Processed-Data)
-
-</div>
-</div>
--->
-
-</div>
+<div data-publications aria-live="polite">
+Loading publications…
 </div>
 
 → [Google Scholar](https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ)
@@ -387,7 +275,7 @@ As the largest field of AI, computer vision has the world's largest community of
 - **Conference Reviewer:**
   - Conference on Neural Information Processing Systems (NeurIPS 2024, 2026)
   - International Conference on Machine Learning (ICML 2024)
-  - International Conference on Learning Representations (ICLR 2025)
+  - International Conference on Learning Representations (ICLR 2025, 2027)
   - IEEE/CVF International Conference on Computer Vision (ICCV 2025)
   - IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2026)
   - ACM International Conference on Multimedia (ACM MM 2025–2026)
@@ -399,6 +287,7 @@ As the largest field of AI, computer vision has the world's largest community of
 
 ## Teaching
 
+- **Fall 2026:** [01-198-334: Introduction to Imaging and Multimedia](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-334-introduction-to-imaging-and-multimedia)
 - **Spring 2026:** [01-198-323: Numerical Analysis and Computing](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-323-numerical-analysis-and-computing)
 - **Fall 2025:** [01-198-336: Principles of Information and Data Management](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-336-principles-of-information-and-data-management)
 - **Spring 2025:** [01-198-210: Data Management for Data Science](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-210-data-management-for-data-science)
@@ -406,8 +295,9 @@ As the largest field of AI, computer vision has the world's largest community of
 
 ## Awards
 
-- **ACL 2026 Best Paper Award Nominee:** Out of 12,148 submissions. This is a highly competitive nomination for the award -- Over the recorded period from **2001 to 2025 whole world**, there were **76 ACL Best Papers**, and 21 of them had Chinese descent as the first author. ACL is the **1st-ranking** publication in the field of Natural Language Processing (NLP).
-- **Best Bachelor's Thesis** in Henan University (out of 700 submissions, roughly) [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
+- <strong><span class="special-accent">ACL 2026 Best Paper Award Nominee:</span></strong> Out of 12,148 submissions. This is a highly competitive nomination for the award -- Over the recorded period from **2001 to 2025 whole world**, there were **76 ACL Best Papers**, and 21 of them had Chinese descent as the first author. ACL is the **1st-ranking** publication in the field of Natural Language Processing (NLP).
+- <strong><span class="special-accent">Henan Provincial Best Thesis Award Nominee</span></strong> (home to ~100 million people)
+- <strong><span class="special-accent">Best Thesis Award</span></strong> in Henan University (out of 8,560 graduates) [[News]](https://jwc.henu.edu.cn/info/2145/8713.htm)  
 - **National Encouragement Scholarship<fn>Undergraduate Student during Henan University</fn>:** 2020-2021, 2023-2024
 
 ## Other

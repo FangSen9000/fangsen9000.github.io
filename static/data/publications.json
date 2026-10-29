@@ -1,0 +1,253 @@
+{
+  "tabs": [
+    {
+      "id": "representative",
+      "label": "Representative Works",
+      "heading": "Representative Works"
+    },
+    {
+      "id": "generative-ai",
+      "label": "Generative AI",
+      "heading": "Generative AI",
+      "intro": "*According to my Unified Laws, all visual tasks only require generative methods. Therefore, GenAI will be the focus of 90% of visual professionals.*"
+    },
+    {
+      "id": "sign-language",
+      "label": "Sign Language",
+      "heading": "Sign Language"
+    }
+  ],
+  "publications": [
+    {
+      "id": "unified-law",
+      "tags": ["representative", "generative-ai"],
+      "primaryCategory": "representative",
+      "date": "2027-01-01",
+      "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
+      "authors": [
+        { "name": "Sen Fang", "self": true },
+        { "name": "Dimitris N. Metaxas", "marker": "†" }
+      ],
+      "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "links": [
+        { "label": "Paper", "url": "https://arxiv.org/abs/2511.22009" },
+        { "label": "Project Page", "url": "https://world-snapshot.github.io/StreamFlow/" },
+        { "label": "Code", "url": "https://github.com/World-Snapshot" },
+        { "label": "Document", "url": "" }
+      ],
+      "highlight": {
+        "icon": "♾️",
+        "text": "**Order-of-magnitude width + Concept breakthrough:** Propose [WSM](https://github.com/World-Snapshot/StreamFlow) and [Unified Law for Visual Tasks](https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks) (The Four Laws of Computer Vision), which supports hundreds of times more tasks than existing CV models. Theoretically, supports a maximum of up to several thousand existing tasks, and potentially 32.8k+ newly CV tasks will be created in a short time<fn>Of course, these changes developed quietly like raindrops. LLM can do countless things, but no one has detailed its capabilities. The capabilities of WSM will not be divided either; it can perform all tasks related to vision and the world.</fn>."
+      },
+      "note": "My first child, it will be remembered by history.",
+      "cover": {
+        "src": "cover/Unified_Law_Figure1.png",
+        "alt": "Unified Law for Visual Tasks",
+        "height": "default"
+      }
+    },
+    {
+      "id": "stable-signer",
+      "tags": ["representative", "generative-ai", "sign-language"],
+      "primaryCategory": "representative",
+      "date": "2025-12-03",
+      "title": "Stable Signer: Hierarchical Sign Language Generative Model",
+      "authors": [
+        { "name": "Sen Fang", "self": true },
+        { "name": "Yalin Feng", "marker": "*" },
+        { "name": "Hongbin Zhong" },
+        { "name": "Yanxin Zhang" },
+        { "name": "Dimitris N. Metaxas", "marker": "†" }
+      ],
+      "publication": "<span class=\"venue-accent\">ICCV 2025 Demo Track</span>, Honolulu, Hawaii, USA; and <span class=\"venue-accent\">ACL 2026 Main Conference (Oral)</span>, San Diego, California, USA<br><span class=\"venue-accent\">ACL 2026 Best Paper Award Nominee (out of 12,148 submissions)</span>",
+      "links": [
+        { "label": "Paper", "url": "https://arxiv.org/abs/2512.04048" },
+        { "label": "Project Page", "url": "https://stablesigner.github.io/" },
+        { "label": "Data", "url": "https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025" },
+        { "label": "Oral Video", "url": "https://underline.io/events/524/sessions/22811/lecture/149420-stable-signer-hierarchical-sign-language-generative-model?tab=video" },
+        { "label": "Slides", "url": "https://app.underline.io/downloadable_materials/lectures/149420/slideshow" },
+        { "label": "Oral DOI", "url": "https://doi.org/10.48448/p61s-kc86" }
+      ],
+      "highlight": {
+        "icon": "🏆",
+        "text": "**Significant performance breakthrough:** Outperforms contemporary state-of-the-art generation methods by 48.6%."
+      },
+      "cover": {
+        "src": "cover/StableSigner_v2.gif",
+        "alt": "Stable Signer",
+        "height": "auto"
+      }
+    },
+    {
+      "id": "stable-signer-v3",
+      "tags": ["generative-ai", "sign-language"],
+      "primaryCategory": "sign-language",
+      "date": "2026-10-18",
+      "title": "Stable Signer V3: 4D Deformable Primitive Splatting Is All You Need for Sign Language Production",
+      "authors": [
+        { "name": "Sen Fang", "self": true },
+        { "name": "Liwei Che" },
+        { "name": "Dimitris N. Metaxas" }
+      ],
+      "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "links": [
+        { "label": "Paper", "url": "https://arxiv.org/abs/2610.24926" },
+        { "label": "Project Page", "url": "https://signerx.github.io/Stable-Signer-V3/" },
+        { "label": "Code", "url": "https://github.com/SignerX/Stable-Signer-V3" }
+      ],
+      "highlight": {
+        "icon": "🦄",
+        "text": "**High-resolution avatar breakthrough:** Introduces 4D Deformable Primitive Splatting for interactive sign language avatars, reducing facial geometry error by 71.4%, body-boundary error by 35.1%, and high-resolution RGB reconstruction error by 24.2%, while retaining interactive streaming."
+      },
+      "cover": {
+        "src": "cover/StableSignerV3.png",
+        "alt": "Stable Signer V3",
+        "height": "default"
+      }
+    },
+    {
+      "id": "rac",
+      "tags": ["generative-ai"],
+      "primaryCategory": "generative-ai",
+      "date": "2026-03-06",
+      "title": "RAC: Rectified Flow Auto Coder",
+      "authors": [
+        { "name": "Sen Fang", "self": true },
+        { "name": "Yalin Feng", "marker": "*" },
+        { "name": "Yanxin Zhang" },
+        { "name": "Dimitris N. Metaxas", "marker": "†" }
+      ],
+      "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "links": [
+        { "label": "Paper", "url": "https://arxiv.org/abs/2603.05925" },
+        { "label": "Project Page", "url": "https://world-snapshot.github.io/RAC" },
+        { "label": "Code", "url": "https://github.com/World-Snapshot/RAC" }
+      ],
+      "highlight": {
+        "icon": "🦄",
+        "text": "**Concept breakthrough:** Make the reconstruction task a condition generation task; Make the decoder the encoder; Make the single-step decoding and encoding a multi-step decoding and encoding."
+      },
+      "cover": {
+        "src": "cover/rac.png",
+        "alt": "RAC",
+        "height": "fixed"
+      }
+    },
+    {
+      "id": "streamflow",
+      "tags": ["generative-ai"],
+      "primaryCategory": "generative-ai",
+      "date": "2025-11-27",
+      "title": "StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation",
+      "authors": [
+        { "name": "Sen Fang", "self": true },
+        { "name": "Hongbin Zhong", "marker": "*" },
+        { "name": "Yalin Feng" },
+        { "name": "Dimitris N. Metaxas", "marker": "†" }
+      ],
+      "publication": "<span class=\"special-accent\">ICML 2026</span>, Seoul, South Korea",
+      "links": [
+        { "label": "Paper", "url": "https://arxiv.org/abs/2511.22009" },
+        { "label": "Project Page", "url": "https://world-snapshot.github.io/StreamFlow/" },
+        { "label": "Code", "url": "https://github.com/World-Snapshot/StreamFlow" }
+      ],
+      "highlight": {
+        "icon": "🦄",
+        "text": "**Order-of-magnitude performance breakthrough:** The generation speed of Rectified Flow has been accelerated up to 611%, while the universal training-free Flow acceleration methods during the same period only increased by 18% or 30%."
+      },
+      "cover": {
+        "src": "cover/StreamFlow_teaser.gif",
+        "alt": "StreamFlow",
+        "height": "fixed"
+      }
+    },
+    {
+      "id": "signverse-2m",
+      "tags": ["sign-language"],
+      "primaryCategory": "sign-language",
+      "date": "2026-05-03",
+      "title": "SignVerse-2M: A Two-Million-Clip Pose-Native Universe of 55+ Sign Languages",
+      "authors": [
+        { "name": "Sen Fang", "self": true },
+        { "name": "Hongbin Zhong" },
+        { "name": "Yanxin Zhang" },
+        { "name": "Dimitris N. Metaxas", "marker": "†" }
+      ],
+      "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "links": [
+        { "label": "Paper", "url": "https://arxiv.org/abs/2605.01720" },
+        { "label": "Project Page", "url": "https://signerx.github.io/SignVerse-2M/" }
+      ],
+      "highlight": {
+        "text": "**Dataset breakthrough:** Make sign language research practical, affordable, and scalable!"
+      },
+      "cover": {
+        "src": "cover/background_gallery_big.gif",
+        "alt": "SignVerse-2M",
+        "height": "fixed",
+        "overlayText": "SignVerse-2M"
+      }
+    },
+    {
+      "id": "signx",
+      "tags": ["sign-language"],
+      "primaryCategory": "sign-language",
+      "date": "2025-04-22",
+      "title": "SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space",
+      "authors": [
+        { "name": "Sen Fang", "self": true },
+        { "name": "Yalin Feng", "marker": "*" },
+        { "name": "Chunyu Sui" },
+        { "name": "Hongbin Zhong" },
+        { "name": "Hongwei Yi" },
+        { "name": "Dimitris N. Metaxas", "marker": "†" }
+      ],
+      "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
+      "links": [
+        { "label": "Paper", "url": "https://arxiv.org/abs/2504.16315" },
+        { "label": "Project Page", "url": "https://signerx.github.io/SignX/" }
+      ],
+      "highlight": {
+        "icon": "💥",
+        "text": "**Performance breakthrough:** 2026 CSLR SOTA. The recognition and understanding tasks on any sign language dataset can/will achieve state-of-the-art results. Let Pose Recognition Happen in Latent Space, as well!"
+      },
+      "cover": {
+        "src": "cover/SignX2.png",
+        "alt": "SignX",
+        "height": "fixed"
+      }
+    },
+    {
+      "id": "signllm",
+      "tags": ["generative-ai", "sign-language"],
+      "primaryCategory": "sign-language",
+      "date": "2024-05-17",
+      "title": "SignLLM: Sign Language Production Large Language Models",
+      "authors": [
+        { "name": "Sen Fang", "self": true },
+        { "name": "Chen Chen", "marker": "†" },
+        { "name": "Lei Wang" },
+        { "name": "Ce Zheng" },
+        { "name": "Chunyu Sui" },
+        { "name": "Yapeng Tian" }
+      ],
+      "publication": "<span class=\"special-accent\">ICCV 2025 CV4A11y</span>, Honolulu, Hawaii, USA",
+      "links": [
+        { "label": "Paper", "url": "https://arxiv.org/abs/2405.10718" },
+        { "label": "Project Page", "url": "https://signllm.github.io/" },
+        { "label": "Data", "url": "https://signllm.github.io/Prompt2Sign" },
+        { "label": "Slides", "url": "static/ppt/SignLLM_and_Stable_Signer.pdf" }
+      ],
+      "highlight": {
+        "icon": "🦄",
+        "text": "**Order-of-magnitude width breakthrough:** The single model supports the generation of 8 types of sign languages, and the number of SLP tasks it supports has increased by eight times."
+      },
+      "note": "This work was reported by hundreds of media outlets and was viewed by tens of millions of people, and received an exclusive interview by [New Scientist](https://www.newscientist.com/) (5M+ followers).",
+      "cover": {
+        "src": "cover/SignLLM.png",
+        "alt": "SignLLM",
+        "height": "fixed"
+      }
+    }
+  ]
+}
