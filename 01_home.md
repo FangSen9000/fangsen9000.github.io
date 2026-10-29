@@ -80,11 +80,12 @@ I am open to academic/industrial collaborations, and please drop me an email if 
 
 ## Selected Works
 
-*\* Equivalent contribution, † Corresponding author.*       
-💥 1~3x SOTA, 🦄 over 3~10x SOTA / New Concept, 🐉 Impacts 100+ Domains / Paradigm Shift, ♾️ Impacts 1000+ Domains / Paradigm Emperor<fn>e.g., LLM killed 900+ NLP tasks</fn>   
-🏆 Paper Award
-
 <link rel="stylesheet" href="static/css/pub.css">
+
+<div class="pub-legend" aria-label="Publication symbols">
+  <button class="pub-legend-close" type="button" aria-label="Hide publication symbols" title="Hide" onclick="this.parentElement.hidden = true">×</button>
+  <span class="pub-legend-items" data-publication-legend></span>
+</div>
 
 <div data-publications aria-live="polite">
 Loading publications…

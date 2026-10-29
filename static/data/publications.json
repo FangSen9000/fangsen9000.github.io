@@ -25,7 +25,7 @@
       "date": "2027-01-01",
       "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
       "authors": [
-        { "name": "Sen Fang", "self": true },
+        { "name": "Sen Fang" },
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
@@ -53,7 +53,7 @@
       "date": "2025-12-03",
       "title": "Stable Signer: Hierarchical Sign Language Generative Model",
       "authors": [
-        { "name": "Sen Fang", "self": true },
+        { "name": "Sen Fang" },
         { "name": "Yalin Feng", "marker": "*" },
         { "name": "Hongbin Zhong" },
         { "name": "Yanxin Zhang" },
@@ -85,9 +85,9 @@
       "date": "2026-10-18",
       "title": "Stable Signer V3: 4D Deformable Primitive Splatting Is All You Need for Sign Language Production",
       "authors": [
-        { "name": "Sen Fang", "self": true },
+        { "name": "Sen Fang" },
         { "name": "Liwei Che" },
-        { "name": "Dimitris N. Metaxas" }
+        { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
       "links": [
@@ -112,7 +112,7 @@
       "date": "2026-03-06",
       "title": "RAC: Rectified Flow Auto Coder",
       "authors": [
-        { "name": "Sen Fang", "self": true },
+        { "name": "Sen Fang" },
         { "name": "Yalin Feng", "marker": "*" },
         { "name": "Yanxin Zhang" },
         { "name": "Dimitris N. Metaxas", "marker": "†" }
@@ -140,7 +140,7 @@
       "date": "2025-11-27",
       "title": "StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified Flow Generation",
       "authors": [
-        { "name": "Sen Fang", "self": true },
+        { "name": "Sen Fang" },
         { "name": "Hongbin Zhong", "marker": "*" },
         { "name": "Yalin Feng" },
         { "name": "Dimitris N. Metaxas", "marker": "†" }
@@ -168,7 +168,7 @@
       "date": "2026-05-03",
       "title": "SignVerse-2M: A Two-Million-Clip Pose-Native Universe of 55+ Sign Languages",
       "authors": [
-        { "name": "Sen Fang", "self": true },
+        { "name": "Sen Fang" },
         { "name": "Hongbin Zhong" },
         { "name": "Yanxin Zhang" },
         { "name": "Dimitris N. Metaxas", "marker": "†" }
@@ -195,7 +195,7 @@
       "date": "2025-04-22",
       "title": "SignX: Continuous Sign Recognition in Compact Pose-Rich Latent Space",
       "authors": [
-        { "name": "Sen Fang", "self": true },
+        { "name": "Sen Fang" },
         { "name": "Yalin Feng", "marker": "*" },
         { "name": "Chunyu Sui" },
         { "name": "Hongbin Zhong" },
@@ -224,7 +224,7 @@
       "date": "2024-05-17",
       "title": "SignLLM: Sign Language Production Large Language Models",
       "authors": [
-        { "name": "Sen Fang", "self": true },
+        { "name": "Sen Fang" },
         { "name": "Chen Chen", "marker": "†" },
         { "name": "Lei Wang" },
         { "name": "Ce Zheng" },

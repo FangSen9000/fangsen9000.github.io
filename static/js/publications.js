@@ -2,6 +2,24 @@
   'use strict';
 
   const DATA_URL = 'static/data/publications.json';
+  const SELF_AUTHOR_NAMES = new Set(['sen fang']);
+  const PUBLICATION_BADGES = [
+    { symbol: '💥', label: '1–3× Improvement over SOTA', className: 'pub-legend-impact-1' },
+    { symbol: '🦄', label: 'over 3~10x SOTA / New Concept', className: 'pub-legend-impact-2' },
+    { symbol: '🏆', label: 'Paper Award', className: 'pub-legend-award' },
+    { symbol: '🐉', label: 'Impacts 100+ Domains / Paradigm Shift', className: 'pub-legend-impact-3' },
+    {
+      symbol: '♾️',
+      label: 'Impacts 1000+ Domains / Paradigm Emperor',
+      className: 'pub-legend-impact-4',
+      footnote: 'e.g., LLM killed 900+ NLP tasks'
+    },
+    { symbol: '*', label: 'Equal contribution', className: 'pub-legend-authorship', breakBefore: true },
+    { symbol: '†', label: 'Corresponding author', className: 'pub-legend-authorship' }
+  ];
+  const PUBLICATION_BADGE_BY_SYMBOL = new Map(
+    PUBLICATION_BADGES.map(badge => [badge.symbol, badge])
+  );
   let publicationDataPromise;
 
   function escapeHtml(value) {
@@ -17,11 +35,34 @@
     return markdown ? md.renderInline(markdown) : '';
   }
 
+  function renderLegendBadge(badge) {
+    const footnote = badge.footnote ? `<fn>${escapeHtml(badge.footnote)}</fn>` : '';
+    return `<span class="pub-legend-chip ${escapeHtml(badge.className)}"><span class="pub-legend-symbol">${escapeHtml(badge.symbol)}</span> ${escapeHtml(badge.label)}${footnote}</span>`;
+  }
+
+  function renderPublicationLegend(root) {
+    root.innerHTML = PUBLICATION_BADGES.map(badge => {
+      const lineBreak = badge.breakBefore
+        ? '<span class="pub-legend-line-break" aria-hidden="true"></span>'
+        : '';
+      return lineBreak + renderLegendBadge(badge);
+    }).join('');
+  }
+
+  function renderHighlightBadge(icon) {
+    const badge = PUBLICATION_BADGE_BY_SYMBOL.get(icon);
+    if (!badge) return `<span class="pub-highlight-icon">${escapeHtml(icon)}</span>`;
+    return `<span class="pub-legend-chip pub-highlight-badge ${escapeHtml(badge.className)}" tabindex="0" aria-label="${escapeHtml(badge.label)}"><span class="pub-legend-symbol">${escapeHtml(badge.symbol)}</span><span class="pub-highlight-badge-label">${escapeHtml(badge.label)}</span></span>`;
+  }
+
   function renderAuthors(authors) {
     return authors.map(author => {
       const name = escapeHtml(author.name);
       const marker = escapeHtml(author.marker || '');
-      return author.self ? `<strong>${name}</strong>${marker}` : `${name}${marker}`;
+      const isSelf = author.self || SELF_AUTHOR_NAMES.has(String(author.name).trim().toLowerCase());
+      const authorName = isSelf ? `<strong>${name}</strong>` : name;
+      const authorClass = isSelf ? 'pub-author-self' : 'pub-author-other';
+      return `<span class="pub-author ${authorClass}">${authorName}${marker}</span>`;
     }).join(', ');
   }
 
@@ -45,7 +86,7 @@
         ? ' pub-image-auto-height-false'
         : '';
     const icon = publication.highlight?.icon
-      ? `<span class="pub-highlight-icon">${escapeHtml(publication.highlight.icon)}</span> `
+      ? `${renderHighlightBadge(publication.highlight.icon)} `
       : '';
     const highlight = publication.highlight?.text
       ? `<div class="pub-highlight">${icon}${renderInline(publication.highlight.text, md)}</div>`
@@ -136,6 +177,7 @@
   }
 
   async function initializePublications(container, md) {
+    container.querySelectorAll('[data-publication-legend]').forEach(renderPublicationLegend);
     const browsers = container.querySelectorAll('[data-publications]');
     if (!browsers.length) return;
 
