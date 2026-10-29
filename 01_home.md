@@ -118,7 +118,7 @@ Loading publications…
   <a href="https://www.hedra.com/" target="_blank">
     <img src="logo/hedra.svg" width="80" height="80" alt="Hedra" />
   </a></td>
-  <td align="left"><p><b>Hedra Inc.  </b> <br>
+  <td align="left"><p><span class="experience-entry-title"><b>Hedra Inc.</b></span>
   Research Intern: GenAI, Talking-Face 
   <br>
   Mentor: <a href="https://scholar.google.com/citations?user=ocMf7fQAAAAJ">DR. Hongwei Yi</a>
@@ -131,7 +131,7 @@ Loading publications…
   <a href="https://www.ucf.edu" target="_blank">
     <img src="logo/UCF.webp" alt="University of Central Florida" width="100px" height="100"/>
   </a></td>
-  <td align="left"><p><b>University of Central Florida  </b> <br>
+  <td align="left"><p><span class="experience-entry-title"><b>University of Central Florida</b></span>
   Research Assistant: 3DV-LLM, Multi-Modal
   <br>
   Advisor: <a href="https://www.crcv.ucf.edu/chenchen/">Prof. Chen Chen</a>
@@ -143,7 +143,7 @@ Loading publications…
   <a href="https://www.utdallas.edu/" target="_blank">
     <img src="logo/utd.webp" alt="University of Texas at Dallas" height="100"/>
   </a></td>
-  <td align="left"><p><b>University of Texas at Dallas  </b> <br>
+  <td align="left"><p><span class="experience-entry-title"><b>University of Texas at Dallas</b></span>
   Research Assistant: Vid2Vid, Multi-Modal
   <br>
   Advisor: <a href="http://www.yapengtian.com/">Prof. Yapeng Tian</a>
@@ -155,7 +155,7 @@ Loading publications…
   <a href="https://www.ntu.edu.sg/index" target="_blank">
     <img src="logo/NTU.webp" alt="Nanyang Technological University" height="100"/>
   </a></td>
-  <td align="left"><p><b>Nanyang Technological University  </b> <br>
+  <td align="left"><p><span class="experience-entry-title"><b>Nanyang Technological University</b></span>
   Student Intern: Speech DL, Multi-Modal
   <br>
   Advisor: <a href="https://github.com/teohteiktoe">Prof. TeikToe Teoh</a>
@@ -167,7 +167,7 @@ Loading publications…
   <a href="https://api7.ai/" target="_blank">
     <img src="logo/apache-apisix.webp" alt="APISIX, Top Level Project" width="100px" height="100"/>
   </a></td>
-  <td align="left"><p><b>Apache Software Foundaiton  </b> <br>
+  <td align="left"><p><span class="experience-entry-title"><b>Apache Software Foundaiton</b></span>
   Developer Intern: <a href="https://github.com/apache/apisix">APISIX</a>/<a href="https://api7.ai/">api7.ai</a>, <a href="https://news.apache.org/foundation/entry/the-apache-software-foundation-announces66">Top Level Project</a>
   <br>
   Mentor: <a href="https://github.com/SkyeYoung">Tao Yang</a>
@@ -183,7 +183,7 @@ Loading publications…
   <a href="https://newbrunswick.rutgers.edu/" target="_blank">
     <img src="logo/RU.svg.png" alt="Rutgers University–New Brunswick" width="100px" height="100"/>
   </a></td>
-  <td align="left"><p><span class="translation-line"><b>Rutgers University–New Brunswick  </b></span>
+  <td align="left"><p><span class="translation-line experience-entry-title"><b>Rutgers University–New Brunswick</b></span>
   <span class="translation-line">Ph.D., Department of Computer Science</span>
   <span class="translation-line">Advisor: <span class="special-accent">Board of Governors and Distinguished Professor</span></span>
   <span class="translation-line"><span class="special-accent">IEEE Fellow</span>, <span class="special-accent">Fellow AIMBE</span>, <span class="special-accent">Fellow MICCAI Society</span></span>
@@ -196,7 +196,7 @@ Loading publications…
   <a href="https://www.vu.edu.au/" target="_blank">
     <img src="logo/vu.png" alt="Victoria University" width="100px" height="100"/>
   </a></td>
-  <td align="left"><p><span class="translation-line"><b>Victoria University  </b></span>
+  <td align="left"><p><span class="translation-line experience-entry-title"><b>Victoria University</b></span>
   <span class="translation-line">B.S., Department of Information Technology</span>
   <span class="translation-line">Melbourne (Australia)</span>
   <span class="translation-line"><i>Sep, 2020 -- Jun, 2024</i></span>
@@ -206,7 +206,7 @@ Loading publications…
   <a href="http://www.henu.edu.cn/" target="_blank">
     <img src="logo/lighthenu.png" alt="Henan University" height="100"/>
   </a></td>
-  <td align="left"><p><span class="translation-line"><b>Henan University  </b></span>
+  <td align="left"><p><span class="translation-line experience-entry-title"><b>Henan University</b></span>
   <span class="translation-line">B.S., Department of Computer Science and Technology</span>
   <span class="translation-line">Zhengzhou (China)</span>
   <span class="translation-line"><i>Sep, 2020 -- Jun, 2024</i></span>
