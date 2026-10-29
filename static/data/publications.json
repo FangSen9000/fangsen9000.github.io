@@ -130,7 +130,7 @@
       "cover": {
         "src": "cover/rac.png",
         "alt": "RAC",
-        "height": "fixed"
+        "height": "default"
       }
     },
     {
@@ -158,7 +158,7 @@
       "cover": {
         "src": "cover/StreamFlow_teaser.gif",
         "alt": "StreamFlow",
-        "height": "fixed"
+        "height": "default"
       }
     },
     {
@@ -184,7 +184,7 @@
       "cover": {
         "src": "cover/background_gallery_big.gif",
         "alt": "SignVerse-2M",
-        "height": "fixed",
+        "height": "default",
         "overlayText": "SignVerse-2M"
       }
     },
@@ -214,7 +214,7 @@
       "cover": {
         "src": "cover/SignX2.png",
         "alt": "SignX",
-        "height": "fixed"
+        "height": "default"
       }
     },
     {
@@ -246,7 +246,7 @@
       "cover": {
         "src": "cover/SignLLM.png",
         "alt": "SignLLM",
-        "height": "fixed"
+        "height": "default"
       }
     }
   ]
