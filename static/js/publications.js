@@ -83,8 +83,11 @@
 
   function renderCover(cover) {
     const image = `<img src="${escapeHtml(cover.src)}" alt="${escapeHtml(cover.alt || '')}">`;
-    if (!cover.overlayText) return image;
-    return `<div class="pub-cover-overlay" data-overlay-text="${escapeHtml(cover.overlayText)}">${image}</div>`;
+    const visual = cover.overlayText
+      ? `<div class="pub-cover-overlay" data-overlay-text="${escapeHtml(cover.overlayText)}">${image}</div>`
+      : image;
+    if (!cover.caption) return visual;
+    return `<figure class="pub-cover-figure">${visual}<figcaption class="pub-cover-caption"><strong>Fig.</strong> ${escapeHtml(cover.caption)}</figcaption></figure>`;
   }
 
   function renderPublication(publication, md) {

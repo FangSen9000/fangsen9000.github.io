@@ -6,6 +6,11 @@
       "heading": "Representative Works"
     },
     {
+      "id": "patents",
+      "label": "Patents",
+      "heading": "Patents"
+    },
+    {
       "id": "generative-ai",
       "label": "Generative AI",
       "heading": "Generative AI",
@@ -26,6 +31,14 @@
       "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
       "authors": [
         { "name": "Sen Fang" },
+        { "name": "Yalin Feng" },
+        { "name": "Yancheng Zhang" },
+        { "name": "Yanxin Zhang" },
+        { "name": "Zonglin Lyu" },
+        { "name": "Hongbin Zhong" },
+        { "name": "Liwei Che" },
+        { "name": "Rui Wu" },
+        { "name": "Chen Chen" },
         { "name": "Dimitris N. Metaxas", "marker": "†" }
       ],
       "publication": "<span class=\"special-accent\">Technical Report, arXiv, 2026</span>",
@@ -39,9 +52,9 @@
         "So Extensive It Took Two Years to Finish"
       ],
       "links": [
-        { "label": "Paper", "url": "https://arxiv.org/abs/2511.22009" },
-        { "label": "Project Page", "url": "https://world-snapshot.github.io/StreamFlow/" },
-        { "label": "Code", "url": "https://github.com/World-Snapshot" },
+        { "label": "Paper", "url": "" },
+        { "label": "Project Page", "url": "" },
+        { "label": "Code", "url": "" },
         { "label": "Document", "url": "" }
       ],
       "highlight": {
@@ -52,6 +65,31 @@
       "cover": {
         "src": "cover/Unified_Law_Figure1.png",
         "alt": "Unified Law for Visual Tasks",
+        "height": "default"
+      }
+    },
+    {
+      "id": "unified-world-model-tunnelnet-patent",
+      "tags": ["representative", "patents"],
+      "primaryCategory": "representative",
+      "date": "2026-11",
+      "title": "UNIFIED WORLD MODEL/TUNNELNET",
+      "authors": [
+        { "name": "Sen Fang" },
+        { "name": "Dimitris N. Metaxas" }
+      ],
+      "publication": "<span class=\"special-accent\">U.S. Patent Pending</span>",
+      "keywords": ["Unified World Model", "TunnelingNet", "Computer Vision", "Deep Tunneling Learning", "World Models"],
+      "links": [],
+      "highlight": {
+        "icon": "♾️",
+        "text": "**Super Visual/World Intelligence:** The first ever to enable ultra-large-scale transformation from any visual modality to any visual modality, and from any visual modality to any non-visual modality; arbitrary visual perception; exponential visual expansion; and exponentially scalable visual chains. The first emergence of chain-of-thought in a pure vision model."
+      },
+      "note": "**International priority position:** When properly claimed under the Paris Convention or PCT, this US filing gives corresponding international filings an earlier priority position than subsequent filings by others in participating jurisdictions.",
+      "cover": {
+        "src": "wsg_task_graph_v3.png",
+        "alt": "Computer Vision Tree for Unified World Model and TunnelNet",
+        "caption": "The Tree of Computer Vision",
         "height": "default"
       }
     },

@@ -24,6 +24,7 @@ Source: https://web.archive.org/web/20170925135615/http://www.cbim.rutgers.edu/p
 - [Ruosong Ye](https://scholar.google.com/citations?user=9Xduz3AAAAAJ&hl=en) - Multi-LLM Collaboration, RL, Graph (2022)
 - [Hang Gao](https://scholar.google.com/citations?hl=en&user=ETFrrtIAAAAJ) - LLM, RAG, Information Retrieval (2022, joined CBIM 2025)
 - [Yang Zhou](https://scholar.google.com/citations?hl=en&user=BsQ8IUcAAAAJ&view_op=list_works&sortby=pubdate) - MLLM, Agent, Medical (2023)
+- [Shuhang Lin](https://scholar.google.com/citations?user=enLfKaMAAAAJ&hl=en) - NLP, LLM Agents, Reasoning (2023, joined CBIM 2026)
 - [Difei Gu](https://scholar.google.com/citations?user=nKuyKx0AAAAJ&hl=en) - Explainable Medical (2023)
 - [Quan Dao](https://scholar.google.com/citations?user=g0RS3_kAAAAJ) - Image/Video Generation, 3D Generative (2024)
 - [Can Jin](https://scholar.google.com/citations?user=RK-8dz0AAAAJ&hl=en) - Reinforcement Learning, LLM/Vision Efficiency (2024)
@@ -50,7 +51,7 @@ Source: https://web.archive.org/web/20170925135615/http://www.cbim.rutgers.edu/p
 - [Zhaoyang Xia](https://scholar.google.com/citations?user=oaQ7CbwAAAAJ&hl=en) - Adobe (2026)
 - [Konstantinos Dafnis](https://scholar.google.com/citations?user=Eqlr77IAAAAJ&hl=en) - 2026
 - [Anastasis Stathopoulos](https://scholar.google.com/citations?user=FdaFVdcAAAAJ&hl=en) - Meta FAIR (2025)
-- [Zhenting Wang](https://scholar.google.com/citations?user=QSYVbj8AAAAJ&hl=en) - Accenture (2025)
+- [Zhenting Wang](https://scholar.google.com/citations?user=QSYVbj8AAAAJ&hl=en) - Research Scientist at MBZUAI IFM; co-advised by Shiqing Ma and Dimitris Metaxas (2025)
 - [Yunhe Gao](https://scholar.google.com/citations?user=TOsFPu4AAAAJ&hl=en) - Postdoc at Stanford (2025)
 - [Meng Ye](https://scholar.google.com/citations?user=iYBbF7QAAAAJ&hl=en) - Assistant Prof at UTA (2025)
 - [Qilong Zhangli](https://scholar.google.com/citations?user=sLxp0xAAAAAJ&hl=zh-CN) - Meta (2025)

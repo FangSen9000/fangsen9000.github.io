@@ -17,6 +17,7 @@
 当前可用标签来自文件顶部的 `tabs`：
 
 - `representative`：Representative Works
+- `patents`：Patents
 - `generative-ai`：Generative AI
 - `sign-language`：Sign Language
 
@@ -32,6 +33,6 @@
 - `links`：按钮列表；每项包含 `label` 和 `url`。
 - `highlight`：绿色描述；`icon` 可选，`text` 支持 Markdown。
 - `note`：可选的 Note 内容，支持 Markdown。
-- `cover`：封面；`height` 可用 `default`、`fixed` 或 `auto`，`overlayText` 可选。
+- `cover`：封面；`height` 可用 `default`、`fixed` 或 `auto`，`overlayText` 和 `caption` 可选。
 
 “All” 根据 `primaryCategory` 展示论文，因此多标签论文只会出现在其唯一归属分组中。

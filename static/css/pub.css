@@ -169,6 +169,26 @@
   border: 1px solid black;
 }
 
+.pub-container .pub-item .pub-cover-figure {
+  width: 240px;
+  margin: 0 20px 0 0;
+  flex-shrink: 0;
+}
+
+.pub-container .pub-item .pub-cover-figure img,
+.pub-container .pub-item .pub-cover-figure .pub-cover-overlay {
+  width: 100%;
+  margin: 0;
+}
+
+.pub-container .pub-item .pub-cover-caption {
+  margin: 4px 0 0;
+  color: #555;
+  font-size: 0.9em;
+  line-height: 1.25;
+  text-align: center;
+}
+
 .pub-container .pub-item .pub-cover-overlay {
   position: relative;
   width: 240px;
