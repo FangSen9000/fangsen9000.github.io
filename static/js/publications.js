@@ -155,13 +155,18 @@
       tab.setAttribute('aria-selected', String(tab.dataset.pubTab === selectedId));
     });
     root.querySelectorAll('[data-pub-panel]').forEach(panel => {
-      panel.classList.toggle('active', showAll || panel.dataset.pubPanel === selectedId);
-      const heading = panel.querySelector('.pub-all-heading');
-      if (heading) heading.hidden = !showAll;
-      panel.querySelectorAll('[data-publication-id]').forEach(publication => {
+      const publications = [...panel.querySelectorAll('[data-publication-id]')];
+      publications.forEach(publication => {
         publication.hidden = showAll
           && publication.dataset.primaryCategory !== panel.dataset.pubPanel;
       });
+      const hasVisiblePublications = publications.some(publication => !publication.hidden);
+      panel.classList.toggle(
+        'active',
+        showAll ? hasVisiblePublications : panel.dataset.pubPanel === selectedId
+      );
+      const heading = panel.querySelector('.pub-all-heading');
+      if (heading) heading.hidden = !showAll || !hasVisiblePublications;
     });
     requestAnimationFrame(() => {
       if (typeof window.activateDeferredImages === 'function') {
