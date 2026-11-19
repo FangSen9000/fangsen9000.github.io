@@ -52,10 +52,15 @@
         "So Extensive It Took Two Years to Finish"
       ],
       "links": [
-        { "label": "Paper", "url": "" },
-        { "label": "Project Page", "url": "" },
-        { "label": "Code", "url": "" },
-        { "label": "Document", "url": "" }
+        { "label": "Paper", "url": "https://arxiv.org/abs/2611.24917" },
+        { "label": "Project Page", "url": "https://world-snapshot.github.io/WSMs/" },
+        { "label": "WSMs Code", "url": "https://github.com/World-Snapshot/WSMs" },
+        { "label": "ControlWorld", "url": "https://github.com/World-Snapshot/ControlWorld" },
+        { "label": "Document", "url": "https://world-snapshot.github.io/doc/index.html" },
+        { "label": "Huggingface Model", "url": "https://huggingface.co/World-Snapshot/WSM_v1" },
+        { "label": "Live Demo", "url": "https://huggingface.co/spaces/FangSen9000/WSM-ControlWorld" },
+        { "label": "PyPI", "url": "https://github.com/World-Snapshot/WSMs#installation" },
+        { "label": "WSMPipeline", "url": "https://github.com/World-Snapshot/WSMs#inference" }
       ],
       "highlight": {
         "icon": "♾️",
@@ -87,7 +92,7 @@
       },
       "note": "**International priority position:** When properly claimed under the Paris Convention or PCT, this US filing gives corresponding international filings an earlier priority position than subsequent filings by others in participating jurisdictions.",
       "cover": {
-        "src": "wsg_task_graph_v3.png",
+        "src": "cover/wsg_task_graph_v3.png",
         "alt": "Computer Vision Tree for Unified World Model and TunnelNet",
         "caption": "The Tree of Computer Vision",
         "height": "default"
