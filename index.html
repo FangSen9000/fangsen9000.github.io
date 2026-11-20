@@ -728,24 +728,31 @@
                     })
                 );
                 if (metadata?.description) el.textContent = metadata.description;
-                return metadata;
+                return metadata ? { ...metadata, led: !el.hasAttribute('data-contributed-only') } : null;
             });
 
-            const huggingFaceTasks = Array.from(document.querySelectorAll('.repo-card-desc[data-hf]')).map(async el => {
-                const repo = el.dataset.hf;
-                const metadata = await fetchProjectMetadata(
-                    cache,
-                    `huggingface:${repo}`,
-                    `https://huggingface.co/api/datasets/${repo}`,
-                    data => ({
-                        description: data.cardData?.pretty_name || data.description || '',
-                        stars: Number(data.likes) || 0,
-                        forks: 0
-                    })
-                );
-                if (metadata?.description) el.textContent = metadata.description;
-                return metadata;
-            });
+            const huggingFaceSources = [
+                { selector: '.repo-card-desc[data-hf]', datasetKey: 'hf', apiType: 'datasets', cacheType: 'dataset' },
+                { selector: '.repo-card-desc[data-hf-model]', datasetKey: 'hfModel', apiType: 'models', cacheType: 'model' },
+                { selector: '.repo-card-desc[data-hf-space]', datasetKey: 'hfSpace', apiType: 'spaces', cacheType: 'space' }
+            ];
+            const huggingFaceTasks = huggingFaceSources.flatMap(source =>
+                Array.from(document.querySelectorAll(source.selector)).map(async el => {
+                    const repo = el.dataset[source.datasetKey];
+                    const metadata = await fetchProjectMetadata(
+                        cache,
+                        `huggingface-${source.cacheType}:${repo}`,
+                        `https://huggingface.co/api/${source.apiType}/${repo}`,
+                        data => ({
+                            description: data.cardData?.pretty_name || data.cardData?.short_description || data.description || '',
+                            stars: Number(data.likes) || 0,
+                            forks: 0
+                        })
+                    );
+                    if (metadata?.description) el.textContent = metadata.description;
+                    return metadata ? { ...metadata, led: !el.hasAttribute('data-contributed-only') } : null;
+                })
+            );
             const projectStats = (await Promise.all([...githubTasks, ...huggingFaceTasks])).filter(Boolean);
 
             if (summary && projectStats.length) {
@@ -753,7 +760,13 @@
                     stars: sum.stars + project.stars,
                     forks: sum.forks + project.forks
                 }), { stars: 0, forks: 0 });
+                const ledTotals = projectStats.filter(project => project.led).reduce((sum, project) => ({
+                    stars: sum.stars + project.stars,
+                    forks: sum.forks + project.forks
+                }), { stars: 0, forks: 0 });
                 const formatThousands = value => `${(Math.ceil(value / 10) / 100).toFixed(2)}k`;
+                summary.querySelector('[data-led-stars]').textContent = formatThousands(ledTotals.stars);
+                summary.querySelector('[data-led-forks]').textContent = formatThousands(ledTotals.forks);
                 summary.querySelector('[data-total-stars]').textContent = formatThousands(totals.stars);
                 summary.querySelector('[data-total-forks]').textContent = formatThousands(totals.forks);
             }

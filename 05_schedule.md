@@ -1,11 +1,17 @@
 ## Make an Appointment
 
+I prefer to directly schedule a [Google Calendar](https://calendar.google.com/calendar) event for me (fangsen2024 AT gmail dot com). You can check the available times above and then make the arrangement directly. If they don't suit you, I can modify the times or decline the request.
+
+<!-- Previous appointment interface and wording, retained for possible reuse:
+
 Generally speaking, the time that can be clicked on is the time that can be scheduled for a meeting.
 
 <div class="calendly-inline-widget" data-url="https://calendly.com/sf895-scarletmail/30min" style="min-width:320px;height:700px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
 Of course, actually I prefer to directly schedule a [Google Calendar](https://calendar.google.com/calendar) event for me (fangsen2024 AT gmail dot com). You can check the available times above and then make the arrangement directly. If they don't suit you, I can modify the times or decline the request.
+
+-->
 
 
 <!--

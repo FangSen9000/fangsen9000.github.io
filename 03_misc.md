@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="static/css/repo.css">
 
-<p class="projects-summary" data-projects-summary>The projects below that I have contributed to have received <strong data-total-stars>...</strong> stars/upvotes and <strong data-total-forks>...</strong> forks.</p>
+<p class="projects-summary" data-projects-summary>The repositories I have created or led have received <strong data-led-stars>...</strong> stars/upvotes and <strong data-led-forks>...</strong> forks. The projects below that I have contributed to have received <strong data-total-stars>...</strong> stars/upvotes and <strong data-total-forks>...</strong> forks.</p>
 
 <div class="projects-toggle">
   <button class="projects-toggle-btn active" data-view="flat">All</button>
@@ -23,6 +23,53 @@
 </div> <span style="vertical-align:middle;position:relative;top:5px;margin-left:1.5em;font-size:0.85em;">Indexed by the most relevant attribute of each project.</span>
 
 <div class="projects-container" data-view="flat">
+
+<h3>World Snapshot Models (WSMs)</h3>
+<div class="repo-grid">
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/World-Snapshot/WSMs" class="repo-card-name" target="_blank">World-Snapshot/<strong>WSMs</strong></a> <span class="repo-card-badge">Model System</span></div>
+<div class="repo-card-desc" data-repo="World-Snapshot/WSMs">The official code of World Snapshot Models, including training, inference, evaluation, and data pipelines.</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#DA5B0B"></span>Jupyter Notebook</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/World-Snapshot/WSMs?style=social" alt="stars"><img src="https://img.shields.io/github/forks/World-Snapshot/WSMs?style=social" alt="forks"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://huggingface.co/World-Snapshot/WSM_v1" class="repo-card-name" target="_blank">World-Snapshot/<strong>WSM_v1</strong></a> <span class="repo-card-badge">Model</span></div>
+<div class="repo-card-desc" data-hf-model="World-Snapshot/WSM_v1">The released WSM v1 (Augustus) model weights, task tunnels, and training states.</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#FFD21E"></span>Model</span><span class="repo-badges"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FWorld-Snapshot%2FWSM_v1&query=%24.likes&label=%E2%9D%A4&style=social" alt="likes"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FWorld-Snapshot%2FWSM_v1&query=%24.downloads&label=%E2%AC%87&style=social" alt="downloads"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/World-Snapshot/ControlWorld" class="repo-card-name" target="_blank">World-Snapshot/<strong>ControlWorld</strong></a> <span class="repo-card-badge">WebUI</span></div>
+<div class="repo-card-desc" data-repo="World-Snapshot/ControlWorld">The reference WebUI for WSM task selection, training, control, and inference.</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/World-Snapshot/ControlWorld?style=social" alt="stars"><img src="https://img.shields.io/github/forks/World-Snapshot/ControlWorld?style=social" alt="forks"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://huggingface.co/spaces/FangSen9000/WSM-ControlWorld" class="repo-card-name" target="_blank">FangSen9000/<strong>WSM-ControlWorld</strong></a> <span class="repo-card-badge">Live Demo</span></div>
+<div class="repo-card-desc" data-hf-space="FangSen9000/WSM-ControlWorld">An interactive online demonstration of WSM through the ControlWorld interface.</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#FFD21E"></span>Hugging Face Space</span><span class="repo-badges"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fspaces%2FFangSen9000%2FWSM-ControlWorld&query=%24.likes&label=%E2%9D%A4&style=social" alt="likes"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/World-Snapshot/wsg" class="repo-card-name" target="_blank">World-Snapshot/<strong>wsg</strong></a> <span class="repo-card-badge">Data Format</span></div>
+<div class="repo-card-desc" data-repo="World-Snapshot/wsg">World Snapshot Graphics (WSG/WSV), the unified world-frame data format and its tools.</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/World-Snapshot/wsg?style=social" alt="stars"><img src="https://img.shields.io/github/forks/World-Snapshot/wsg?style=social" alt="forks"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://world-snapshot.github.io/doc/" class="repo-card-name" target="_blank">World-Snapshot/<strong>Documentation</strong></a> <span class="repo-card-badge">Documentation</span></div>
+<div class="repo-card-desc" data-repo="World-Snapshot/doc">Documentation for World Snapshot Models, WSG, pipelines, methods, and tutorials.</div>
+<div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#e34c26"></span>HTML</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/World-Snapshot/doc?style=social" alt="stars"><img src="https://img.shields.io/github/forks/World-Snapshot/doc?style=social" alt="forks"></span></div>
+</div>
+
+<div class="repo-card">
+<div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks" class="repo-card-name" target="_blank">World-Snapshot/<strong>Unified-Law-for-Visual-Tasks</strong></a> <span class="repo-card-badge">Tutorial</span></div>
+<div class="repo-card-desc" data-repo="World-Snapshot/Unified-Law-for-Visual-Tasks">The tutorial of Unified Law for Visual Tasks, also known as The Four Laws of Computer Vision.</div>
+<div class="repo-card-footer"><span class="repo-badges"><img src="https://img.shields.io/github/stars/World-Snapshot/Unified-Law-for-Visual-Tasks?style=social" alt="stars"><img src="https://img.shields.io/github/forks/World-Snapshot/Unified-Law-for-Visual-Tasks?style=social" alt="forks"></span></div>
+</div>
+
+</div>
 
 <h3>Generative Model</h3>
 <div class="repo-grid">
@@ -63,13 +110,13 @@
 
 <div class="repo-card">
 <div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/apache/apisix" class="repo-card-name" target="_blank">apache/<strong>apisix</strong></a> <span class="repo-card-badge">Framework</span></div>
-<div class="repo-card-desc" data-repo="apache/apisix">The Cloud-Native API Gateway and AI Gateway</div>
+<div class="repo-card-desc" data-repo="apache/apisix" data-contributed-only>The Cloud-Native API Gateway and AI Gateway</div>
 <div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#000080"></span>Lua</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/apache/apisix?style=social" alt="stars"><img src="https://img.shields.io/github/forks/apache/apisix?style=social" alt="forks"></span></div>
 </div>
 
 <div class="repo-card">
 <div class="repo-card-header"><svg class="repo-card-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg> <a href="https://github.com/apache/apisix-dashboard" class="repo-card-name" target="_blank">apache/<strong>apisix-dashboard</strong></a> <span class="repo-card-badge">Framework</span></div>
-<div class="repo-card-desc" data-repo="apache/apisix-dashboard">Apache APISIX Dashboard</div>
+<div class="repo-card-desc" data-repo="apache/apisix-dashboard" data-contributed-only>Apache APISIX Dashboard</div>
 <div class="repo-card-footer"><span class="repo-lang"><span class="repo-lang-dot" style="background:#3178C6"></span>TypeScript</span><span class="repo-badges"><img src="https://img.shields.io/github/stars/apache/apisix-dashboard?style=social" alt="stars"><img src="https://img.shields.io/github/forks/apache/apisix-dashboard?style=social" alt="forks"></span></div>
 </div>
 
