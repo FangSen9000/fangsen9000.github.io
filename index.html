@@ -169,12 +169,20 @@
         // - [Note](07_notes.md) -> ?page=07_notes.md
         // - [Remote](https://.../README.md) -> ?page=https%3A%2F%2F...%2FREADME.md
         // - [Part](07_notes.md#part-2) keeps the hash fragment.
+        function skipsMarkdownRendering(link) {
+            return link?.getAttribute('data-render-markdown') === 'false';
+        }
+
         function rewriteMarkdownLinks(container, currentFile) {
             const currentDir = isRemotePage(currentFile)
                 ? currentFile
                 : (currentFile.includes('/') ? currentFile.slice(0, currentFile.lastIndexOf('/') + 1) : '');
             container.querySelectorAll('a[href]').forEach(link => {
                 const href = link.getAttribute('href');
+                // Explicit opt-out for links that must follow normal browser navigation.
+                if (skipsMarkdownRendering(link)) {
+                    return;
+                }
                 if (!href || href.startsWith('#') || href.startsWith('?page=') || href.startsWith('mailto:') || href.startsWith('javascript:')) {
                     return;
                 }
