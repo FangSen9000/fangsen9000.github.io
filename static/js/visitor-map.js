@@ -143,7 +143,10 @@
     function renderLocations(widget) {
         const list = widget.querySelector('[data-visitor-location-list]');
         list.replaceChildren();
-        const points = [...(state.get(widget)?.points || [])].sort((a, b) => Number(b.visits) - Number(a.visits));
+        const points = [...(state.get(widget)?.points || [])].sort((a, b) => {
+            const newestFirst = Date.parse(b.lastSeen || '') - Date.parse(a.lastSeen || '');
+            return Number.isNaN(newestFirst) ? 0 : newestFirst;
+        });
         points.forEach(point => {
             const row = document.createElement('div');
             row.className = 'visitor-map-location';

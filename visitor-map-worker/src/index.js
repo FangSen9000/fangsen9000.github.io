@@ -74,9 +74,9 @@ async function getStats(env) {
             FROM locations
         `),
         env.DB.prepare(`
-            SELECT country_code, region, city, latitude, longitude, visits
+            SELECT country_code, region, city, latitude, longitude, visits, last_seen
             FROM locations
-            ORDER BY visits DESC, last_seen DESC
+            ORDER BY last_seen DESC
             LIMIT 1000
         `)
     ]);
@@ -90,7 +90,8 @@ async function getStats(env) {
             city: row.city,
             latitude: Number(row.latitude),
             longitude: Number(row.longitude),
-            visits: Number(row.visits)
+            visits: Number(row.visits),
+            lastSeen: row.last_seen
         }))
     };
 }
